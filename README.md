@@ -77,6 +77,42 @@ Register a raw source in the log:
 python3 scripts/wiki_tools.py register-source raw/inbox/example.md --title "Example Source"
 ```
 
+Transcribe the newest podcast episode from feeds declared in `rss.md`:
+
+```bash
+/root/.openclaw/.venv/bin/python scripts/podcast_transcriber.py run
+```
+
+Install the local Whisper dependency in `.venv`:
+
+```bash
+/root/.openclaw/.venv/bin/pip install faster-whisper
+```
+
+Preview which episodes would be processed:
+
+```bash
+/root/.openclaw/.venv/bin/python scripts/podcast_transcriber.py run --dry-run --max-new-per-feed 3
+```
+
+Install an `openclaw` cron job for periodic podcast transcription:
+
+```bash
+bash scripts/install_openclaw_podcast_cron.sh
+```
+
+Example `rss.md`:
+
+```markdown
+# 小宇宙
+* https://feed.xyzfm.space/r8t44lmvu99m
+* 另一个播客 https://feed.xyzfm.space/example-feed-id
+
+# Twitter
+* 某个账号 https://rss.example.com/twitter/user.xml
+// 这一行会被忽略
+```
+
 ## Suggested ingest loop
 
 - Read the raw source.
@@ -93,3 +129,8 @@ python3 scripts/wiki_tools.py register-source raw/inbox/example.md --title "Exam
 - `index.md` is for navigation.
 - `log.md` is append-only operational history.
 - The LLM should prefer updating existing pages over creating duplicates.
+- Podcast transcripts are written directly under `raw/` as `小宇宙+标题+日期.md`.
+- Processed podcast episode GUIDs are tracked in `raw/processed/podcast_transcriptions.json`.
+- The transcriber uses local `faster-whisper` on CPU (`small` + `int8` by default), so it does not require an API key.
+- Episode audio is downloaded to a temporary file under `/tmp` for transcription and removed immediately after the run.
+- `rss.md` supports multiple headings, inline labels, blank lines, comment lines, and duplicate URLs. Unsupported feed kinds such as Twitter are skipped instead of failing the whole run.
