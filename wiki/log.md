@@ -13,3 +13,22 @@ Append-only operational history for ingest, query, and lint work.
 - Captured the X post and gist as a local raw source note.
 - Added a source note, a concept page, and a synthesis page.
 - Anchored the repository's operating model to the persistent-wiki pattern.
+
+## [2026-04-07] ingest | Xiaoyuzhou transcript on OpenClaw and AI work
+
+- Ingested the podcast transcript into a durable source note.
+- Added concept pages for `Programming Eats Knowledge Work` and `AI-Native Microteams`.
+- Added an analysis page connecting agent workflows to career strategy.
+
+## [2026-04-10] ingest | OpenAI harness engineering and automated research
+
+- Ingested two new Xiaoyuzhou transcripts covering OpenAI's no-human-code workflow and Jakub Pachocki's automated researcher roadmap.
+- Added concept pages for `Harness Engineering` and `Automated Researchers`.
+- Added an analysis page connecting coding automation to research automation.
+- Updated existing concept and overview pages to reflect the broader autonomy arc and current inbox backlog.
+
+## [2026-04-10] structure | Modular AI entrypoints
+
+- Added synthesis hubs for `AI News`, `AI Technologies`, and `AI Equities`.
+- Updated the overview to encourage routing future ingest through topic modules first.
+- Established a cleaner split between news flow, technical abstractions, and public-market/company tracking.

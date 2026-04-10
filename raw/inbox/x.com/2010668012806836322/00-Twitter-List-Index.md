@@ -1,0 +1,91 @@
+# Twitter List
+
+Source: http://localhost:1200/twitter/list/2010668012806836322
+Retrieved: 2026-04-10T13:30:58.499Z
+
+## Tweets (84)
+
+- [note紹介記事になります。 ルメンタムを含む光接続の4選です。 是非、読んでみてください。 https://note....](001-パウロ-note紹介記事になります。 ルメンタムを含む光接続の4選です。 是非、読んでみてください。 htt.md) — @パウロ, 2026-04-10 13:24
+- [BREAKING: US gas prices officially post their largest monthl...](002-The Kobeissi Letter-BREAKING- US gas prices officially post their larg.md) — @The Kobeissi Letter, 2026-04-10 13:19
+- [RT Wall Street Horizon: Q1 reporting season kicks off next w...](003-Daily Chartbook-RT Wall Street Horizon- Q1 reporting season kicks.md) — @Daily Chartbook, 2026-04-10 12:49
+- [RT @ISABELNET_SA: 🇺🇸 Sentiment US retail investors grew a ...](004-Daily Chartbook-RT @ISABELNET_SA- 🇺🇸 Sentiment US retail investo.md) — @Daily Chartbook, 2026-04-10 12:42
+- [刚刚公布的美国3月CPI数据，广义CPI符合预期核心CPI同比环比略低于预期。如下午聊到的：数据符合预期或者略低于预期，...](005-qinbafrank-刚刚公布的美国3月CPI数据，广义CPI符合预期核心CPI同比环比略低于预期。如下午聊到的：数据符合.md) — @qinbafrank, 2026-04-10 12:39
+- [BREAKING: US energy inflation surged +10.9% in March 2026 am...](006-The Kobeissi Letter-BREAKING- US energy inflation surged +10.9% in Mar.md) — @The Kobeissi Letter, 2026-04-10 12:35
+- [BREAKING: March CPI inflation RISES to 3.3%, below expectati...](007-The Kobeissi Letter-BREAKING- March CPI inflation RISES to 3.3%, below.md) — @The Kobeissi Letter, 2026-04-10 12:33
+- [RT あるふぁ: 👇](008-パウロ-RT あるふぁ- 👇.md) — @パウロ, 2026-04-10 12:15
+- ["Shipments of defense-related capital goods surged 26.1% YoY...](009-Daily Chartbook--Shipments of defense-related capital goods surged.md) — @Daily Chartbook, 2026-04-10 12:01
+- [爆裂増産の影響はしっかり出ていますね 本当に見極めが大事](010-パウロ-爆裂増産の影響はしっかり出ていますね 本当に見極めが大事.md) — @パウロ, 2026-04-10 11:32
+- [US sector PMIs: "March data pointed to higher levels of busi...](011-Daily Chartbook-US sector PMIs- -March data pointed to higher leve.md) — @Daily Chartbook, 2026-04-10 11:30
+- [Unitreeから年俸2億人民元（約3000万ドル）で引き抜く！！ なんだってー](012-パウロ-Unitreeから年俸2億人民元（約3000万ドル）で引き抜く！！ なんだってー.md) — @パウロ, 2026-04-10 11:13
+- ["Earnings momentum has tilted in favor of the US over the pa...](013-Daily Chartbook--Earnings momentum has tilted in favor of the US o.md) — @Daily Chartbook, 2026-04-10 11:01
+- ["A valuation discount Europe enjoyed is vanishing fast, with...](014-Daily Chartbook--A valuation discount Europe enjoyed is vanishing.md) — @Daily Chartbook, 2026-04-10 10:30
+- [RT @4th_skywalker: 最強のが最強 弱いのは弱い](015-パウロ-RT @4th_skywalker- 最強のが最強 弱いのは弱い.md) — @パウロ, 2026-04-10 10:28
+- [Claudeなんとかが出るたびにソフトウェア企業に恐怖が襲う 識者が大丈夫だと言っても、どんどん新しいClaudeなんと...](016-パウロ-Claudeなんとかが出るたびにソフトウェア企業に恐怖が襲う 識者が大丈夫だと言っても、どんどん新し.md) — @パウロ, 2026-04-10 10:26
+- [Semis' relative outperformance over the past year is the lar...](017-Daily Chartbook-Semis' relative outperformance over the past year.md) — @Daily Chartbook, 2026-04-10 09:59
+- [RT ゆきママ: 欧州株は上がってるけど、米国株は横ばい…週末の米イラン競技待ちですね。 ・再びBrent97ドル台 ・...](018-パウロ-RT ゆきママ- 欧州株は上がってるけど、米国株は横ばい…週末の米イラン競技待ちですね。 ・再びBr.md) — @パウロ, 2026-04-10 09:48
+- [TSMC こうなるよね SoICも来るか Aletheia Capital、$TSMの目標株価を500ドルから600ドル...](019-パウロ-TSMC こうなるよね SoICも来るか Aletheia Capital、$TSMの目標株価を50.md) — @パウロ, 2026-04-10 09:48
+- [RT Shen: 停戦と共に半導体買い・SaaS売りのチンパン・ペアトレードが再び加速した。](020-パウロ-RT Shen- 停戦と共に半導体買い・SaaS売りのチンパン・ペアトレードが再び加速した。.md) — @パウロ, 2026-04-10 09:45
+- ["The spread of the dealer gamma length up 5% vs down 5% is t...](021-Daily Chartbook--The spread of the dealer gamma length up 5% vs do.md) — @Daily Chartbook, 2026-04-10 09:29
+- [緊急でメンバーシップ向けに投稿しました。 是非、読んでみてください。 https://note.com/paul1211...](022-パウロ-緊急でメンバーシップ向けに投稿しました。 是非、読んでみてください。 https-note.co.md) — @パウロ, 2026-04-10 09:09
+- ["We estimate the systematic community is still short -$37bn ...](023-Daily Chartbook--We estimate the systematic community is still sho.md) — @Daily Chartbook, 2026-04-10 09:01
+- [RT BKLZ〜雰囲気投資家の矜持〜: 各AIモデルの性能とか比べる話題に入りたいなら課金しないと議論の仲間には入れれま...](024-パウロ-RT BKLZ〜雰囲気投資家の矜持〜- 各AIモデルの性能とか比べる話題に入りたいなら課金しないと議.md) — @パウロ, 2026-04-10 08:39
+- [<br><img width="1024" height="742" style="" src="https://pbs...](025-パウロ--br-img width=-1024- height=-742- style=- src=-h.md) — @パウロ, 2026-04-10 08:36
+- ["Dollar-denominated reserves - ie central bank holdings - ad...](026-Daily Chartbook--Dollar-denominated reserves - ie central bank hol.md) — @Daily Chartbook, 2026-04-10 08:31
+- [Thank you for your brilliant analysis! Even though March isn...](027-パウロ-Thank you for your brilliant analysis! Even though.md) — @パウロ, 2026-04-10 08:18
+- [RT ゆきママ: GMOクリック証券は日本株の取引手数料が完全無料でトレードにはもってこいなので、持ってない方はぜひ。 ...](028-パウロ-RT ゆきママ- GMOクリック証券は日本株の取引手数料が完全無料でトレードにはもってこいなので、持.md) — @パウロ, 2026-04-10 08:12
+- [Corporate profits. "Record-high despite elevated/rising cost...](029-Daily Chartbook-Corporate profits. -Record-high despite elevated-r.md) — @Daily Chartbook, 2026-04-10 08:00
+- [三井金属、日東紡強いっ そして右下にっ！](030-パウロ-三井金属、日東紡強いっ そして右下にっ！.md) — @パウロ, 2026-04-10 08:00
+- [今晚市场的焦点自然是3月美国cpi数据，3月通胀数据爆应是在意料之中，核心是爆的程度，就是偏离一致性预期的程度。如果cp...](031-qinbafrank-今晚市场的焦点自然是3月美国cpi数据，3月通胀数据爆应是在意料之中，核心是爆的程度，就是偏离一致性.md) — @qinbafrank, 2026-04-10 07:25
+- [ルメンタムCEO マイケル•ホールストン 2027年は売り切れ 2028年もこのまま行けば売り切れの可能性 https:...](032-パウロ-ルメンタムCEO マイケル•ホールストン 2027年は売り切れ 2028年もこのまま行けば売り切れの.md) — @パウロ, 2026-04-10 06:42
+- [良い的中率になってきた 日々調査してきたので本当に嬉しい](033-パウロ-良い的中率になってきた 日々調査してきたので本当に嬉しい.md) — @パウロ, 2026-04-10 06:36
+- [本日爆上げで年初来高値 隠れたAI銘柄である富士紡について解説しています 彼らの猫の肉球のようなソフトパッドで綺麗にウェ...](034-パウロ-本日爆上げで年初来高値 隠れたAI銘柄である富士紡について解説しています 彼らの猫の肉球のようなソフ.md) — @パウロ, 2026-04-10 06:35
+- [TSMCよりグロースしていない企業はグロースと呼ばないで頂きたいですね 名ばかりグロース企業が多すぎる 東証グロースで年...](035-パウロ-TSMCよりグロースしていない企業はグロースと呼ばないで頂きたいですね 名ばかりグロース企業が多すぎ.md) — @パウロ, 2026-04-10 06:31
+- [RT Ben Pouladian: Lumentum CEO Michael Hurlston in Japan thi...](036-パウロ-RT Ben Pouladian- Lumentum CEO Michael Hurlston in.md) — @パウロ, 2026-04-10 06:10
+- [RT BKLZ〜雰囲気投資家の矜持〜: ポジショントークですが 俺は🇯🇵5802住友電工が🇺🇸外人さんにバレるの...](037-パウロ-RT BKLZ〜雰囲気投資家の矜持〜- ポジショントークですが 俺は🇯🇵5802住友電工が🇺�.md) — @パウロ, 2026-04-10 06:06
+- [えへへへ 当たり もう少し少ないと思ったけど](038-パウロ-えへへへ 当たり もう少し少ないと思ったけど.md) — @パウロ, 2026-04-10 05:36
+- [TSMC 強いね お祭り継続](039-パウロ-TSMC 強いね お祭り継続.md) — @パウロ, 2026-04-10 05:35
+- [TSMC 3月売り上げ 415B NTD 強い 前年同月比45%増 AI実需継続っ](040-パウロ-TSMC 3月売り上げ 415B NTD 強い 前年同月比45%増 AI実需継続っ.md) — @パウロ, 2026-04-10 05:35
+- [RT BKLZ〜雰囲気投資家の矜持〜: こうやってみると引用の精工技研も日東紡も美しいカップ セットアップですねー 他フ...](041-パウロ-RT BKLZ〜雰囲気投資家の矜持〜- こうやってみると引用の精工技研も日東紡も美しいカップ セット.md) — @パウロ, 2026-04-10 04:22
+- [RT @4th_skywalker: ごちゃごちゃ言ってないで さっさとKOKUSAIかってねとけ](042-パウロ-RT @4th_skywalker- ごちゃごちゃ言ってないで さっさとKOKUSAIかってねとけ.md) — @パウロ, 2026-04-10 04:20
+- [昇竜拳 うおおおおおお KOKUSAI NANDだぁー](043-パウロ-昇竜拳 うおおおおおお KOKUSAI NANDだぁー.md) — @パウロ, 2026-04-10 04:17
+- [本日爆上げの日東紡をはじめ AIサーバーで使われる基板を中心にピックアップした紹介記事になっています 各企業の技術的な堀...](044-パウロ-本日爆上げの日東紡をはじめ AIサーバーで使われる基板を中心にピックアップした紹介記事になっています.md) — @パウロ, 2026-04-10 04:12
+- [こちらありがとうございます 私は2番ですっ](045-パウロ-こちらありがとうございます 私は2番ですっ.md) — @パウロ, 2026-04-10 04:10
+- [こちら投票ありがとうございます 私も日東紡だと思っています 海外勢はQの意見が多いです 結果はどうなるかっ](046-パウロ-こちら投票ありがとうございます 私も日東紡だと思っています 海外勢はQの意見が多いです 結果はどうな.md) — @パウロ, 2026-04-10 04:08
+- [日東紡つよすぎー](047-パウロ-日東紡つよすぎー.md) — @パウロ, 2026-04-10 04:00
+- [Insiders have not turned bearish despite the Iran War: 26.4%...](048-The Kobeissi Letter-Insiders have not turned bearish despite the Iran.md) — @The Kobeissi Letter, 2026-04-10 03:58
+- [与此同时coinbase的老板光头哥号召清晰法案是时候通过了（虽然之前他反对关于禁止被动生息的条款），Robinhood...](049-qinbafrank-与此同时coinbase的老板光头哥号召清晰法案是时候通过了（虽然之前他反对关于禁止被动生息的条款）.md) — @qinbafrank, 2026-04-10 03:55
+- [ありがとうございます ちゃんとスポット市場を活用するのが肝要です あそこはあそこ](050-パウロ-ありがとうございます ちゃんとスポット市場を活用するのが肝要です あそこはあそこ.md) — @パウロ, 2026-04-10 03:51
+- [ありがとうございますっ イビデンはGPUとインテル復活の両輪ですっ](051-パウロ-ありがとうございますっ イビデンはGPUとインテル復活の両輪ですっ.md) — @パウロ, 2026-04-10 03:47
+- [RT @4th_skywalker: KOKUSAIはガチでうらないほうがいい これまだ初動ですらない可能性ある 数万い...](052-パウロ-RT @4th_skywalker- KOKUSAIはガチでうらないほうがいい これまだ初動ですらな.md) — @パウロ, 2026-04-10 03:45
+- [精工技研っ 本当に毎日ワイのnoteデイ こんなことがあるのかっ](053-パウロ-精工技研っ 本当に毎日ワイのnoteデイ こんなことがあるのかっ.md) — @パウロ, 2026-04-10 03:42
+- [Authropic的新模型“Mythos”这么强么，以至于要让贝森特与鲍威尔同时紧急召见华尔街六大行CEO，警告Anth...](054-qinbafrank-Authropic的新模型“Mythos”这么强么，以至于要让贝森特与鲍威尔同时紧急召见华尔街六大行.md) — @qinbafrank, 2026-04-10 02:30
+- [Global dealmaking is exceptionally strong: Global M&A transa...](055-The Kobeissi Letter-Global dealmaking is exceptionally strong- Global.md) — @The Kobeissi Letter, 2026-04-10 01:48
+- [スクリーンもキター](056-パウロ-スクリーンもキター.md) — @パウロ, 2026-04-10 01:45
+- [こちらもキター](057-パウロ-こちらもキター.md) — @パウロ, 2026-04-10 00:59
+- [きたー](058-パウロ-きたー.md) — @パウロ, 2026-04-10 00:58
+- [5 of Thursday's best charts and insights: https://www.dailyc...](059-Daily Chartbook-5 of Thursday's best charts and insights- https.md) — @Daily Chartbook, 2026-04-10 00:54
+- [BREAKING: The Bank of Japan's total assets fell -$98 billion...](060-The Kobeissi Letter-BREAKING- The Bank of Japan's total assets fell -$.md) — @The Kobeissi Letter, 2026-04-10 00:41
+- [KOKUSAIっ](061-パウロ-KOKUSAIっ.md) — @パウロ, 2026-04-10 00:32
+- [今日もワイのnoteデイ?](062-パウロ-今日もワイのnoteデイ.md) — @パウロ, 2026-04-10 00:27
+- [氷河期世代の生き残り勢も円で貯金のみが多数派なんですよね 本当に残酷だ これから20年後 70歳前後で3000万円とかあ...](063-パウロ-氷河期世代の生き残り勢も円で貯金のみが多数派なんですよね 本当に残酷だ これから20年後 70歳前後.md) — @パウロ, 2026-04-09 23:55
+- [RT @4th_skywalker:](064-パウロ-RT @4th_skywalker.md) — @パウロ, 2026-04-09 23:53
+- [結局のところ大規模に増産出来るのはSamsungとCXMTのみですね この2社もHBMで忙しい AIデータセンターがDR...](065-パウロ-結局のところ大規模に増産出来るのはSamsungとCXMTのみですね この2社もHBMで忙しい AI.md) — @パウロ, 2026-04-09 23:52
+- [SK HynixのDRAM増産はこの15Xによるプラス5万枚/月 全部HBMに吸収される](066-パウロ-SK HynixのDRAM増産はこの15Xによるプラス5万枚-月 全部HBMに吸収される.md) — @パウロ, 2026-04-09 23:51
+- [RT BKLZ〜雰囲気投資家の矜持〜: 暴落は買い向かう必要ない、フォロースルーデー後から買いに行けばいい というよく見...](067-パウロ-RT BKLZ〜雰囲気投資家の矜持〜- 暴落は買い向かう必要ない、フォロースルーデー後から買いに行け.md) — @パウロ, 2026-04-09 23:49
+- [RT ゆきママ: 企業の収益が強いので、ずっとブル（強気）で行くべきだと思います。 弱気派はノイズだと思います。しっかり...](068-パウロ-RT ゆきママ- 企業の収益が強いので、ずっとブル（強気）で行くべきだと思います。 弱気派はノイズだ.md) — @パウロ, 2026-04-09 23:42
+- [RT Jukan: SK Hynix Begins Full-Scale HBM4 DRAM Production at...](069-パウロ-RT Jukan- SK Hynix Begins Full-Scale HBM4 DRAM Pro.md) — @パウロ, 2026-04-09 23:42
+- [これこれ メモリーが空前のブーム - 26年 SKハイニックス、MS・Googleの営業利益を上回る](070-パウロ-これこれ メモリーが空前のブーム - 26年 SKハイニックス、MS・Googleの営業利益を上回る.md) — @パウロ, 2026-04-09 23:41
+- [RT ゆきママ: はい。やはり暴落時に手仕舞いするのは得策ではないと思います。 暴落時に買い増しをして、握って握らないと...](071-パウロ-RT ゆきママ- はい。やはり暴落時に手仕舞いするのは得策ではないと思います。 暴落時に買い増しをし.md) — @パウロ, 2026-04-09 23:39
+- [まぁ OpenAIと同様にBroadcomでしょうね 結局のところGPUはNvidia AI ASICはBroadcom...](072-パウロ-まぁ OpenAIと同様にBroadcomでしょうね 結局のところGPUはNvidia AI ASI.md) — @パウロ, 2026-04-09 23:35
+- [うおっ Anthropic 独自のAIチップ開発へ https://www.reuters.com/business/a...](073-パウロ-うおっ Anthropic 独自のAIチップ開発へ https-www.reuters.com.md) — @パウロ, 2026-04-09 23:34
+- [RT ANDY @毎月分配投信という出口戦略😎アクティブ投信×松井証券最強コラボ: $NVDA エヌビディアの動きが ...](074-パウロ-RT ANDY @毎月分配投信という出口戦略😎アクティブ投信×松井証券最強コラボ- $NVDA エ.md) — @パウロ, 2026-04-09 23:29
+- [$QQQ 底部反弹近10%，即使人有在3月10日满仓做空，到现在+0.4%。 哦，你怎么知道做空的不会在底部平仓？我觉得...](075-投资TALK君-$QQQ 底部反弹近10%，即使人有在3月10日满仓做空，到现在+0.4%。 哦，你怎么知道做空的不.md) — @投资TALK君, 2026-04-09 23:15
+- [RT やす 🇺🇸 ベンチャーキャピタル: そういえば、昨晩はテキサスといったら【Texas Roadhouse】に行...](076-パウロ-RT やす 🇺🇸 ベンチャーキャピタル- そういえば、昨晩はテキサスといったら【Texas Ro.md) — @パウロ, 2026-04-09 23:11
+- [BREAKING: President Trump says Iran is doing a “very poor jo...](077-The Kobeissi Letter-BREAKING- President Trump says Iran is doing a “ve.md) — @The Kobeissi Letter, 2026-04-09 22:58
+- [光接続に特化したファウンダリを知っていますか、タワーセミコンダクタです どこの企業の光半導体でも彼らのファブを使うはずで...](078-パウロ-光接続に特化したファウンダリを知っていますか、タワーセミコンダクタです どこの企業の光半導体でも彼ら.md) — @パウロ, 2026-04-09 22:57
+- [US equity positioning has fallen to historically low levels:...](079-The Kobeissi Letter-US equity positioning has fallen to historically l.md) — @The Kobeissi Letter, 2026-04-09 22:39
+- [スマホとPCに固執した企業は 年率3割で売り上げが下がるのであった 残念](080-パウロ-スマホとPCに固執した企業は 年率3割で売り上げが下がるのであった 残念.md) — @パウロ, 2026-04-09 22:39
+- [TSMCの月次が上に跳ねれば加速ですかね K型半導体市況の影響はいかに](081-パウロ-TSMCの月次が上に跳ねれば加速ですかね K型半導体市況の影響はいかに.md) — @パウロ, 2026-04-09 22:33
+- [TSMC 3月売り上げは？ NTD](082-パウロ-TSMC 3月売り上げは？ NTD.md) — @パウロ, 2026-04-09 22:09
+- [RT 🌿 lithos: The same goes for immersion lithography export...](083-パウロ-RT 🌿 lithos- The same goes for immersion lithogra.md) — @パウロ, 2026-04-09 16:18
+- [RT Daily Chartbook: Global M&A: "Transaction values of about...](084-Daily Chartbook-RT Daily Chartbook- Global M&A- -Transaction value.md) — @Daily Chartbook, 2026-04-09 12:01
