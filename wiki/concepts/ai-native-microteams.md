@@ -32,6 +32,11 @@ organizational overhead.
 AI 原生微团队是指规模很小的人类团队，通过协调更多智能体，以更低的组织开销完
 成软件和运营工作。
 
+## Source Files
+
+- [小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md](<../../raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md>)
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+
 ## Key Points
 - Small teams avoid the coordination drag and emotional alignment costs common
   in larger organizations.

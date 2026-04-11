@@ -36,6 +36,15 @@ research automation.
 的模式不只是模型发布节奏，而是它如何把前沿能力持续转成面向开发者的操作系统，包
 括 Codex、harness engineering 和更长周期的研究自动化。
 
+## Source Files
+
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+- [004-OpenAI Developers-Build macOS apps with our Codex plugin.md](<../../raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md>)
+- [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>)
+- [044-OpenAI Developers-Codex brings your work context together so you can.md](<../../raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md>)
+- [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>)
+
 ## Key Points
 - OpenAI's engineering story in this repo is increasingly about orchestrating
   agents, not only improving chat UX.
@@ -61,7 +70,7 @@ research automation.
   research automation roadmap.
 - [[X List - AI Builders and Model Platforms]]: builder-facing packaging and
   Codex distribution signals.
-- `raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md`:
+- [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>):
   builder comparison indicating practical trust in Codex workflows.
 
 - [[OpenAI Harness Engineering and Million-Line Agentic Software]]：工作流与
@@ -70,7 +79,7 @@ research automation.
   研究自动化路线图。
 - [[X List - AI Builders and Model Platforms]]：面向 builder 的包装和 Codex 分发
   信号。
-- `raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md`：
+- [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>)：
   体现 builder 对 Codex 工作流实际信任度的比较样本。
 
 ## Connections

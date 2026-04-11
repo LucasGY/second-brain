@@ -30,6 +30,12 @@ surface integration.
 Gemini 功能、Google Finance、媒体生成，以及其他强调分发的产品。更持久的信号
 是产品覆盖面和表面集成能力。
 
+## Source Files
+
+- [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>)
+- [044-Demis Hassabis-RT Nick Fox- The new AI-powered Google Finance is.md](<../../raw/inbox/x.com/2010668465980424307/044-Demis Hassabis-RT Nick Fox- The new AI-powered Google Finance is.md>)
+- [015-Google-RT Google DeepMind- Gemma 4 punches above its weig.md](<../../raw/inbox/x.com/2010668465980424307/015-Google-RT Google DeepMind- Gemma 4 punches above its weig.md>)
+
 ## Key Points
 - Google-related X posts show breadth more than depth: many launches, many
   surfaces, many user-facing entrypoints.

@@ -73,6 +73,11 @@ make intermediate choices, and pursue a goal over much longer intervals.
 - 自治能力越强，治理、监控和成功定义的清晰度就越重要。
 - 研究自动化比编码自动化更难验证，因为反馈回路更慢，目标也往往不够精确。
 
+## Source Files
+
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+
 ## Evidence
 - [OpenAI Harness Engineering and Million-Line Agentic Software](../sources/2026-04-09-openai-harness-engineering.md):
   concrete workflow for turning agents into software producers.

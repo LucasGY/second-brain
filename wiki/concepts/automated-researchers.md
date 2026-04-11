@@ -29,6 +29,10 @@ horizons with less explicit human instruction.
 自动化研究员是超越单点技术辅助的 AI 系统。它们能够在更长时间跨度内持续推进有
 意义的研究工作，而且需要更少的显式人工指令。
 
+## Source Files
+
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+
 ## Key Points
 - The key variable is autonomy, not just intelligence in short benchmarks:
   stronger systems can handle vaguer goals and maintain useful work over longer

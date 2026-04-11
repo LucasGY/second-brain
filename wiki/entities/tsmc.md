@@ -34,6 +34,13 @@ TSMC 是当前原始抓取流里最清晰的公司级需求信号之一。反复
 件事：强劲月度营收、市场对 AI 驱动扩产的信心，以及对先进封装和基础设施瓶颈的
 持续关注。
 
+## Source Files
+
+- [040-パウロ-TSMC 3月売り上げ 415B NTD 強い 前年同月比45%増 AI実需継続っ.md](<../../raw/inbox/x.com/2010668012806836322/040-パウロ-TSMC 3月売り上げ 415B NTD 強い 前年同月比45%増 AI実需継続っ.md>)
+- [019-パウロ-TSMC こうなるよね SoICも来るか Aletheia Capital、$TSMの目標株価を50.md](<../../raw/inbox/x.com/2010668012806836322/019-パウロ-TSMC こうなるよね SoICも来るか Aletheia Capital、$TSMの目標株価を50.md>)
+- [027-パウロ-Thank you for your brilliant analysis! Even though.md](<../../raw/inbox/x.com/2010668012806836322/027-パウロ-Thank you for your brilliant analysis! Even though.md>)
+- [039-パウロ-TSMC 強いね お祭り継続.md](<../../raw/inbox/x.com/2010668012806836322/039-パウロ-TSMC 強いね お祭り継続.md>)
+
 ## Key Points
 - TSMC is treated as a direct operational proxy for AI demand.
 - Posts repeatedly connect TSMC to packaging, SoIC, N3, and other capacity

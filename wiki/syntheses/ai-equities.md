@@ -44,6 +44,10 @@ cross-links from technical changes to market implications.
 - 收入被 AI 需求显著塑造的供应商和赋能者。
 - 半导体、云、数据基础设施和 agent software 等主题篮子。
 
+## Source Files
+
+- [00-Twitter-List-Index.md](<../../raw/inbox/x.com/2010668012806836322/00-Twitter-List-Index.md>)
+
 ## Current State
 - The inbox already contains likely equity-relevant fragments, especially in
   the `x.com` captures, but they have not yet been normalized into source

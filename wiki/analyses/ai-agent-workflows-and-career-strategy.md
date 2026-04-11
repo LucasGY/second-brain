@@ -64,6 +64,10 @@ between product thinking, operations, and implementation.
 - 用自建工具替代 SaaS 会带来隐藏的维护负担。
 - 高度依赖智能体的工作流会放大信任、可审计性和清晰边界的重要性。
 
+## Source Files
+
+- [小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md](<../../raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md>)
+
 ## Evidence
 - [Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work](../sources/2026-04-07-peter-yang-openclaw-future-of-work.md):
   provides examples spanning OpenClaw, vibe coding, SaaS replacement, and

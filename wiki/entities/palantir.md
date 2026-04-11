@@ -30,6 +30,12 @@ software benchmarking alone.
 策敏感性的国防与国家安全叙事标的。这一点很重要，因为市场常常不是只用普通软件公
 司比较框架给它定价，而是会把政治站位、国家需求和战略位置一起计入。
 
+## Source Files
+
+- [017-The Kobeissi Letter-BREAKING- President Trump says “Palantir has prove.md](<../../raw/inbox/x.com/2010668012806836322/017-The Kobeissi Letter-BREAKING- President Trump says “Palantir has prove.md>)
+- [015-qinbafrank-川普力挺Pltr，难道彼得泰尔私下跟川普勾兑了🤔.md](<../../raw/inbox/x.com/2010668012806836322/015-qinbafrank-川普力挺Pltr，难道彼得泰尔私下跟川普勾兑了🤔.md>)
+- [075-投资TALK君-$QQQ 底部反弹近10%，即使人有在3月10日满仓做空，到现在+0.4%。 哦，你怎么知道做空的不.md](<../../raw/inbox/x.com/2010668012806836322/075-投资TALK君-$QQQ 底部反弹近10%，即使人有在3月10日满仓做空，到现在+0.4%。 哦，你怎么知道做空的不.md>)
+
 ## Key Points
 - The current raw feed links Palantir to explicit political endorsement and
   defense capability rhetoric.

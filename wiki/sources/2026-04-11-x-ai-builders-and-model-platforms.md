@@ -41,6 +41,16 @@ about Anthropic reliability, model choice, and agent memory.
 流定位、Google 在 Gemini 与产品更新上的节奏，以及 builder 社群对 Anthropic
 稳定性、模型选择和智能体记忆问题的持续讨论。
 
+## Source Files
+
+- [00-Twitter-List-Index.md](<../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md>)
+- [004-OpenAI Developers-Build macOS apps with our Codex plugin.md](<../../raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md>)
+- [044-OpenAI Developers-Codex brings your work context together so you can.md](<../../raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md>)
+- [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>)
+- [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>)
+- [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>)
+- [012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md](<../../raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md>)
+
 ## Key Points
 - OpenAI-related posts repeatedly position Codex as a workflow layer, not just a
   model endpoint: plugin support, work-context management, and team-oriented
@@ -75,30 +85,30 @@ about Anthropic reliability, model choice, and agent memory.
 ## Evidence
 - [AI builders X list index](../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md):
   grouped capture across OpenAI, Google, Anthropic, and builders.
-- `raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md`:
+- [004-OpenAI Developers-Build macOS apps with our Codex plugin.md](<../../raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md>):
   Codex plugin distribution example.
-- `raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md`:
+- [044-OpenAI Developers-Codex brings your work context together so you can.md](<../../raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md>):
   Codex framed as work-context and prioritization tooling.
-- `raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md`:
+- [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>):
   adoption-linked pricing signal.
-- `raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md`:
+- [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>):
   builder testimonial comparing Codex favorably in real CLI use.
-- `raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md`:
+- [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>):
   example of Gemini capability rollout inside Google's broader product surface.
-- `raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md`:
+- [012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md](<../../raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md>):
   practitioner complaint about Anthropic behavior.
 
 - [AI builder X 列表索引](../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md)：
   横跨 OpenAI、Google、Anthropic 和 builder 社群的聚合抓取。
-- `raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md`：
+- [004-OpenAI Developers-Build macOS apps with our Codex plugin.md](<../../raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md>)：
   Codex 插件分发的样本。
-- `raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md`：
+- [044-OpenAI Developers-Codex brings your work context together so you can.md](<../../raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md>)：
   把 Codex 表述为工作上下文与优先级工具。
-- `raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md`：
+- [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>)：
   与采用度相关的定价信号。
-- `raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md`：
+- [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>)：
   Gemini 能力被嵌入 Google 产品面的例子。
-- `raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md`：
+- [012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md](<../../raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md>)：
   对 Anthropic 行为的实践者抱怨。
 
 ## Connections

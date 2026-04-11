@@ -34,6 +34,12 @@ knowledge work start to look like programmable workflows.
 这个概念延展了“软件吞噬世界”的老说法：当编程被抽象成与智能体的自然语言交互
 后，许多知识工作开始看起来像可编程的工作流。
 
+## Source Files
+
+- [小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md](<../../raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md>)
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+
 ## Key Points
 - The important abstraction shift is not just faster coding, but broader
   conversion of office work into agent-executable tasks.

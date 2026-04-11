@@ -66,6 +66,13 @@ techniques, and the abstractions that make them operational.
 - 当技术变化开始变成可投资叙事或行业信号时，再把上市公司层面的含义移到
   [[AI Equities]]。
 
+## Source Files
+
+- [小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md](<../../raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md>)
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+- [00-Twitter-List-Index.md](<../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md>)
+
 ## Open Questions
 - Which technical themes deserve standalone concept pages next?
 - How should we separate real workflow primitives from vendor packaging or

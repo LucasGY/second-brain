@@ -32,6 +32,10 @@ different human role centered on orchestration and review.
 码”约束，倒逼出以智能体为先的软件工程基础设施，最终带来了非常大的代码产出，并
 把人的角色更多转向编排和审查。
 
+## Source Files
+
+- [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
+
 ## Key Points
 - Ryan Lopopolo frames "harness engineering" as the design of environments,
   tools, and guardrails that let agents do real development work instead of
@@ -62,12 +66,12 @@ different human role centered on orchestration and review.
 
 ## Evidence
 - Raw transcript:
-  `raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md`
+  [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
 - Show title: `跨国串门儿计划`
 - Published: `2026-04-09`
 
 - 原始转录：
-  `raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md`
+  [小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md](<../../raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md>)
 - 节目名：`跨国串门儿计划`
 - 发布时间：`2026-04-09`
 

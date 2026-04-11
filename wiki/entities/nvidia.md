@@ -32,6 +32,11 @@ capacity across the broader supply chain.
 它们反复暗示的结构却很一致：GPU 需求会牵引存储、光模块、基板、封装和晶圆代工等
 整条供应链。
 
+## Source Files
+
+- [018-パウロ-Nvidia, Broadcom, AMD, TSMC 戻ってきた感じですかね.md](<../../raw/inbox/x.com/2010668012806836322/018-パウロ-Nvidia, Broadcom, AMD, TSMC 戻ってきた感じですかね.md>)
+- [006-パウロ-光もメモリもガラスクロスもイビデンの基板も結局革ジャンが買い占めしてるんだよー そしてGPUは3年半.md](<../../raw/inbox/x.com/2010668012806836322/006-パウロ-光もメモリもガラスクロスもイビデンの基板も結局革ジャンが買い占めしてるんだよー そしてGPUは3年半.md>)
+
 ## Key Points
 - NVIDIA matters here less as a standalone company story and more as the force
   that shapes the rest of the infrastructure stack.

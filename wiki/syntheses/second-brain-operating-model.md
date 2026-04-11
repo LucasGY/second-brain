@@ -52,6 +52,10 @@ This repository implements the LLM Wiki pattern as a local markdown workflow:
 - 重复提问的成本会降低，因为 wiki 已经被预先组织好。
 - 整个维护过程在 git 中是显式且可审查的。
 
+## Source Files
+
+- [2026-04-04-karpathy-llm-wiki-links.md](<../../raw/inbox/2026-04-04-karpathy-llm-wiki-links.md>)
+
 ## Connections
 - [[LLM Wiki Pattern]]: upstream conceptual model.
 - [[Karpathy - LLM Wiki Pattern]]: primary seed source for this repo.

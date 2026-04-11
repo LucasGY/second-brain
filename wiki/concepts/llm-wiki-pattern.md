@@ -28,6 +28,10 @@ incrementally as new information arrives.
 LLM Wiki 模式把知识库视为一种持久化的“编译产物”：原始材料被摄入一次，整理成
 Markdown 页面，并在新信息出现时持续做增量更新。
 
+## Source Files
+
+- [2026-04-04-karpathy-llm-wiki-links.md](<../../raw/inbox/2026-04-04-karpathy-llm-wiki-links.md>)
+
 ## Key Points
 - It is an alternative to pure query-time RAG.
 - The wiki compounds because knowledge is stored in reusable, linked pages.

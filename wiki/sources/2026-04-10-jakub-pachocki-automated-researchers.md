@@ -31,6 +31,10 @@ scientific problem solving.
 型进步不应主要靠聊天质量来衡量，而应更多看它在编程、数学和科学问题求解上的自治
 能力是否持续提高。
 
+## Source Files
+
+- [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
+
 ## Key Points
 - Jakub distinguishes a "research intern" system from a full automated
   researcher mainly by autonomy: how long it can work independently and how
@@ -59,12 +63,12 @@ scientific problem solving.
 
 ## Evidence
 - Raw transcript:
-  `raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md`
+  [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
 - Show title: `跨国串门儿计划`
 - Published: `2026-04-10`
 
 - 原始转录：
-  `raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md`
+  [小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md](<../../raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md>)
 - 节目名：`跨国串门儿计划`
 - 发布时间：`2026-04-10`
 
