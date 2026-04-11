@@ -90,6 +90,51 @@ One short paragraph that explains the page.
 - ...
 ```
 
+For dynamic synthesis pages, prefer a more operational structure:
+
+```md
+# Dynamic Topic
+
+## Summary
+One short paragraph.
+一段简短摘要。
+
+## Situation Assessment
+- Main directional judgment.
+- Main directional judgment in Chinese.
+
+## Situation Summary
+### Platform / Company / Theme A
+- What matters now.
+- 现在重要的点。
+
+## Active Threads
+### Thread Name
+Short framing paragraph.
+简短说明。
+
+- Signals:
+  - recent signal
+  - 最近信号
+- Watch:
+  - what would change the assessment
+  - 哪个变化会改变当前判断
+- Likelihood / Impact / Next milestone:
+  - medium / high / specific next checkpoint
+  - 中 / 高 / 下一个具体检查点
+
+## Top Events
+- highest-signal developments worth preserving
+- 最值得保留的高信号动态
+
+## Connections
+- ...
+- ...
+```
+
+The goal is not to copy a news dashboard, but to compress noisy updates into
+durable threads, signals, decision points, and next checkpoints.
+
 ## Bilingual policy
 
 - Wiki display content should be bilingual by default.
@@ -136,6 +181,26 @@ One short paragraph that explains the page.
 - If a raw feed repeatedly mentions named companies, products, people, or
   organizations, those patterns should eventually surface under
   `wiki/entities/` when the references become durable.
+
+## Structured synthesis rules
+
+- For fast-moving topics, separate stable assessment from raw event flow.
+- Prefer a small number of active threads over long unordered bullet dumps.
+- Each thread should answer:
+  - what is happening,
+  - what signals support it,
+  - what to watch next,
+  - what event would change the judgment.
+- Use evidence strength implicitly through wording such as strong, moderate,
+  tentative rather than bluffing certainty.
+- Keep top-event sections selective. They should be the highest-signal items,
+  not a full activity log.
+- When possible, group summaries by actor, company, platform, or market role so
+  the reader can quickly scan who sees the situation how.
+- Prefer explicit next milestones and decision points over vague "monitor this"
+  wording.
+- If a page becomes too event-heavy, split durable background into entity or
+  concept pages and keep the synthesis page focused on situation tracking.
 
 ### Ingest
 

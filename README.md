@@ -1,6 +1,8 @@
 # second-brain
 
 A practical "LLM wiki" second brain based on Karpathy's persistent-wiki pattern.
+A bilingual knowledge base is the default display format: English appears first,
+with the corresponding Chinese directly below it.
 
 This repository turns the idea into a local markdown-first workflow:
 
@@ -50,37 +52,37 @@ persistent, interlinked wiki that gets richer over time.
 Rebuild the content index:
 
 ```bash
-python3 scripts/wiki_tools.py rebuild-index
+/root/.openclaw/.venv/bin/python scripts/wiki_tools.py rebuild-index
 ```
 
 Run a health check:
 
 ```bash
-python3 scripts/wiki_tools.py lint
+/root/.openclaw/.venv/bin/python scripts/wiki_tools.py lint
 ```
 
 Search wiki pages:
 
 ```bash
-python3 scripts/wiki_tools.py search "your query"
+/root/.openclaw/.venv/bin/python scripts/wiki_tools.py search "your query"
 ```
 
 Append a log entry:
 
 ```bash
-python3 scripts/wiki_tools.py log ingest "Source title" --details "Created source page and updated overview."
+/root/.openclaw/.venv/bin/python scripts/wiki_tools.py log ingest "Source title" --details "Created source page and updated overview."
 ```
 
 Register a raw source in the log:
 
 ```bash
-python3 scripts/wiki_tools.py register-source raw/inbox/example.md --title "Example Source"
+/root/.openclaw/.venv/bin/python scripts/wiki_tools.py register-source raw/inbox/example.md --title "Example Source"
 ```
 
-Transcribe the newest podcast episode from feeds declared in `rss.md`:
+Sync feeds declared in `rss.md` into `raw/inbox/`:
 
 ```bash
-/root/.openclaw/.venv/bin/python scripts/podcast_transcriber.py run
+/root/.openclaw/.venv/bin/python /root/.openclaw/everything-clipper/bin/rss-sync --rss /root/.openclaw/second-brain/rss.md
 ```
 
 Install the local Whisper dependency in `.venv`:
@@ -89,13 +91,13 @@ Install the local Whisper dependency in `.venv`:
 /root/.openclaw/.venv/bin/pip install faster-whisper
 ```
 
-Preview which episodes would be processed:
+Preview which feed commands would run:
 
 ```bash
-/root/.openclaw/.venv/bin/python scripts/podcast_transcriber.py run --dry-run --max-new-per-feed 3
+/root/.openclaw/.venv/bin/python /root/.openclaw/everything-clipper/bin/rss-sync --rss /root/.openclaw/second-brain/rss.md --dry-run --max-new-per-feed 3
 ```
 
-Install an `openclaw` cron job for periodic podcast transcription:
+Install an `openclaw` cron job for periodic RSS sync:
 
 ```bash
 bash scripts/install_openclaw_podcast_cron.sh
@@ -126,11 +128,15 @@ Example `rss.md`:
 
 - Raw files are source-of-truth inputs and should stay immutable.
 - The wiki is allowed to evolve aggressively as new evidence arrives.
+- Wiki pages should default to bilingual display with English first and Chinese
+  immediately below it.
 - `index.md` is for navigation.
 - `log.md` is append-only operational history.
 - The LLM should prefer updating existing pages over creating duplicates.
-- Podcast transcripts are written directly under `raw/` as `小宇宙+标题+日期.md`.
+- Podcast transcripts are written under `raw/inbox/` as `小宇宙+标题+日期.md`.
+- `x.com` list captures are written under `raw/inbox/x.com/<feed>/`.
 - Processed podcast episode GUIDs are tracked in `raw/processed/podcast_transcriptions.json`.
 - The transcriber uses local `faster-whisper` on CPU (`small` + `int8` by default), so it does not require an API key.
 - Episode audio is downloaded to a temporary file under `/tmp` for transcription and removed immediately after the run.
-- `rss.md` supports multiple headings, inline labels, blank lines, comment lines, and duplicate URLs. Unsupported feed kinds such as Twitter are skipped instead of failing the whole run.
+- `rss.md` supports multiple headings, inline labels, blank lines, comment lines, and duplicate URLs.
+- `rss-sync` dispatches `小宇宙` feeds to `podcast-transcriber` and `x.com` feeds to `twitter-list`.

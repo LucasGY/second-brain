@@ -42,3 +42,7 @@ Append-only operational history for ingest, query, and lint work.
 - Grouped two high-volume `raw/inbox/x.com/` feeds into durable bilingual source notes instead of leaving them as raw captures only.
 - Added first entity pages for `OpenAI`, `Google`, `Anthropic`, `TSMC`, and `NVIDIA`.
 - Updated AI news, technologies, equities, and overview pages so X-derived material now participates in the wiki graph.
+
+## [2026-04-11] ingest | Thread-based synthesis structure
+
+- Updated AGENTS.md with operational synthesis rules inspired by https://skill.capduck.com and rewrote wiki/syntheses/ai-news.md around situation assessment, active threads, signals, watchpoints, and next milestones.

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/root/.openclaw/.venv/bin/python
 """Fetch podcast RSS entries, transcribe audio streams, and save raw markdown sources."""
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw"
+INBOX_DIR = RAW_DIR / "inbox"
 STATE_PATH = RAW_DIR / "processed" / "podcast_transcriptions.json"
 RSS_PATH = ROOT / "rss.md"
 
@@ -297,6 +298,7 @@ def podcast_entries(feed: dict[str, str]) -> list[dict[str, object]]:
 
 
 def download_audio_to_temp(audio_url: str, suffix: str) -> pathlib.Path:
+    print(f"Downloading audio stream: {audio_url}", flush=True)
     request = urllib.request.Request(audio_url, headers={"User-Agent": USER_AGENT})
     with tempfile.NamedTemporaryFile(prefix="podcast-", suffix=suffix, delete=False) as handle:
         with urllib.request.urlopen(request, timeout=600) as response:
@@ -323,7 +325,12 @@ def transcribe_with_faster_whisper(audio_url: str, audio_suffix: str) -> str:
 
     audio_path = download_audio_to_temp(audio_url, audio_suffix)
     try:
+        print(
+            f"Loading faster-whisper model={model_name} device=cpu compute_type={compute_type}",
+            flush=True,
+        )
         model = WhisperModel(model_name, device="cpu", compute_type=compute_type)
+        print("Starting transcription", flush=True)
         segments, _info = model.transcribe(
             str(audio_path),
             language=language,
@@ -333,6 +340,7 @@ def transcribe_with_faster_whisper(audio_url: str, audio_suffix: str) -> str:
         transcript = "\n\n".join(text_parts).strip()
         if not transcript:
             raise RuntimeError("faster-whisper returned no transcript text.")
+        print(f"Transcription completed, chars={len(transcript)}", flush=True)
         return transcript
     finally:
         audio_path.unlink(missing_ok=True)
@@ -401,19 +409,38 @@ def build_markdown(entry: dict[str, object], transcript: str, backend: str) -> s
 
 def output_path_for_entry(entry: dict[str, object]) -> pathlib.Path:
     filename = f"{entry['source_name']}+{safe_name(str(entry['title']))}+{entry['pub_date_iso']}.md"
-    return RAW_DIR / filename
+    return INBOX_DIR / filename
 
 
-def process_entry(entry: dict[str, object], state: dict[str, dict[str, object]], dry_run: bool) -> pathlib.Path | None:
+def process_entry(
+    entry: dict[str, object],
+    state: dict[str, dict[str, object]],
+    dry_run: bool,
+    include_existing: bool,
+) -> pathlib.Path | None:
     output_path = output_path_for_entry(entry)
     if dry_run:
         print(f"[dry-run] {output_path.relative_to(ROOT)}")
         return output_path
 
+    if output_path.exists() and not include_existing:
+        print(f"Markdown already exists, skipping: {output_path.relative_to(ROOT)}", flush=True)
+        state["processed"][str(entry["guid"])] = {
+            "title": entry["title"],
+            "published": entry["pub_date_iso"],
+            "output_path": output_path.relative_to(ROOT).as_posix(),
+            "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        }
+        save_state(state)
+        return output_path
+
+    print(f"Processing episode: {entry['title']}", flush=True)
     transcript, backend = transcribe_audio(
         str(entry["audio_url"]),
         str(entry["audio_suffix"]),
     )
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Writing markdown: {output_path.relative_to(ROOT)}", flush=True)
     output_path.write_text(
         build_markdown(entry, transcript, backend),
         encoding="utf-8",
@@ -465,7 +492,7 @@ def run(args: argparse.Namespace) -> int:
 
         for entry in pending_entries:
             try:
-                result = process_entry(entry, state, args.dry_run)
+                result = process_entry(entry, state, args.dry_run, args.include_existing)
             except Exception as exc:  # noqa: BLE001
                 print(f"Failed to process '{entry['title']}': {exc}", file=sys.stderr)
                 continue
