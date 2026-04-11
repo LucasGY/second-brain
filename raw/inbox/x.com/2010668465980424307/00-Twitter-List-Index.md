@@ -1,14 +1,17 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-11T11:53:33.686Z
+Retrieved: 2026-04-11T12:53:40.227Z
 
-## Tweets (169)
+## Tweets (172)
 
+- [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
 - [This is so awesome! When I was a kid, when the Apollo missio...](2026-04-11-2042819001815126233-Jeff Dean-This is so awesome! When I was a kid, when the Apollo mission were still relativ.md) — @Jeff Dean, 2026-04-11 04:16
+- [RT アヤーン: OpenClaw now has end-to-end testing for Telegram 👀...](2026-04-11-2042917149484724545-Peter Steinberger 🦞-RT アヤーン- OpenClaw now has end-to-end testing for Telegram 👀 Uses the brand new Telegram bot-to-bot communication m.md) — @Peter Steinberger 🦞, 2026-04-11 03:41
 - [<br><img width=\"2048\" height=\"1187\" style=\"\" src=\"htt...](2026-04-11-2042793664947081398-Peter Steinberger 🦞-br-img width=-2048- height=-1187- style=- src=-https-pbs.twimg.com-media-HF.md) — @Peter Steinberger 🦞, 2026-04-11 02:35
 - [RT Ms. Dei®️: Yet another inspiration to women in STEM. Chri...](2026-04-11-2042821001176928726-Jeff Dean-RT Ms. Dei®️- Yet another inspiration to women in STEM. Christina Koch is her na.md) — @Jeff Dean, 2026-04-11 00:29
 - [RT Google Earth: Welcome home 🩵](2026-04-11-2042815366855049271-Jeff Dean-RT Google Earth- Welcome home 🩵.md) — @Jeff Dean, 2026-04-11 00:27
+- [RT Thomas Ricouard: We're preparing an Intel release for the...](2026-04-10-2042921069569298574-Peter Steinberger 🦞-RT Thomas Ricouard- We're preparing an Intel release for the Codex App and I'm looking for people on Intel Mac willing to tes.md) — @Peter Steinberger 🦞, 2026-04-10 23:26
 - [I wrote this early this morning and I wasn't sure if I would...](2026-04-10-2042738954550603884-Sam Altman-I wrote this early this morning and I wasn't sure if I would actually publish it.md) — @Sam Altman, 2026-04-10 22:58
 - [RT Felipe Coury 🦀: Codex CLI 0.119.0 is out and I'm excited...](2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md) — @Peter Steinberger 🦞, 2026-04-10 22:53
 - [RT Armin Ronacher ⇌: This time around at @aiDotEngineer I wa...](2026-04-10-2042792226720223524-Peter Steinberger 🦞-RT Armin Ronacher ⇌- This time around at @aiDotEngineer I was lucky to do someth.md) — @Peter Steinberger 🦞, 2026-04-10 21:08
