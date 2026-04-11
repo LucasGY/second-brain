@@ -1,10 +1,16 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-11T17:53:32.457Z
+Retrieved: 2026-04-11T18:59:46.664Z
 
-## Tweets (273)
+## Tweets (280)
 
+- [BREAKING: Initial details are emerging as the US and Iran co...](2026-04-11-2043039378067591627-The Kobeissi Letter-BREAKING- Initial details are emerging as the US and Iran conduct their first direct meeting since 1979. Details include- 1. T.md) — @The Kobeissi Letter, 2026-04-11 18:52
+- [BREAKING: The US has discussed unfreezing Iran’s overseas as...](2026-04-11-2043026609108598818-The Kobeissi Letter-BREAKING- The US has discussed unfreezing Iran’s overseas assets, including $6 billion held in Qatar, with Pakistani mediato.md) — @The Kobeissi Letter, 2026-04-11 18:01
+- [BREAKING: Another round of negotiations between the US and I...](2026-04-11-2043011259231015063-The Kobeissi Letter-BREAKING- Another round of negotiations between the US and Iran will be held tonight or tomorrow in Pakistan, per Iranian stat.md) — @The Kobeissi Letter, 2026-04-11 17:00
+- [最近两份美联储研报 1. 关税对通胀影响：0.8%，去掉关税，核心PCE是2.2% 2. 劳动力非农增速26年常态可能接...](2026-04-11-2043008168138092889-投资TALK君-最近两份美联储研报 1. 关税对通胀影响：0.8%，去掉关税，核心PCE是2.2% 2. 劳动力非农增速26年常态可能接.md) — @投资TALK君, 2026-04-11 16:47
+- [BREAKING: US-Iran negotiations in Pakistan have hit a “stale...](2026-04-11-2043007695817441519-The Kobeissi Letter-BREAKING- US-Iran negotiations in Pakistan have hit a “stalemate” over the control of the Strait of Hormuz, per FT.md) — @The Kobeissi Letter, 2026-04-11 16:46
+- [RT Geiger Capital: The train is out of control… The first 6 ...](2026-04-11-2043001556531056957-3X Long Labubu-RT Geiger Capital- The train is out of control… The first 6 months of FY 2026 produced a deficit of $1.17 Trillion. The simple re.md) — @3X Long Labubu, 2026-04-11 15:18
 - [BREAKING: Iran’s President Pezeshkian releases a statement a...](2026-04-11-2042985144609284154-The Kobeissi Letter-BREAKING- Iran’s President Pezeshkian releases a statement as in-person talks between the US and Iran begin in Pakistan- “.md) — @The Kobeissi Letter, 2026-04-11 15:16
 - [\"April historically marks a transition in investor behavior...](2026-04-11-2042981128705884264-Daily Chartbook-April historically marks a transition in investor behavior, and we are seeing early signs of that shift- -Citadel Rubner.md) — @Daily Chartbook, 2026-04-11 15:00
 - [日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のらりくらりボッタくるマイン...](2026-04-11-2042979404876517376-パウロ-日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のら.md) — @パウロ, 2026-04-11 14:53
@@ -36,6 +42,7 @@ Retrieved: 2026-04-11T17:53:32.457Z
 - [AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官の存在意義は無かった...](2026-04-11-2042928395223470161-パウロ-AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官.md) — @パウロ, 2026-04-11 11:30
 - [RT ちほうのいんちょう: 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくってるから強いのかも...](2026-04-11-2042969262088949811-パウロ-RT ちほうのいんちょう- 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくっ.md) — @パウロ, 2026-04-11 11:26
 - [RT ゆきママ: 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を押し目でしっかり...](2026-04-11-2042930790796046396-パウロ-RT ゆきママ- 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を.md) — @パウロ, 2026-04-11 11:15
+- [RT Brian Sozzi: Tech stock valuations have compressed from a...](2026-04-11-2043018362192540126-投资TALK君-RT Brian Sozzi- Tech stock valuations have compressed from a 40x PE ratio to 20x, and we are now back at levels last seen before the AI bo.md) — @投资TALK君, 2026-04-11 11:13
 - [\"We continue to see an uptick in the share of CPI component...](2026-04-11-2042920621454094451-Daily Chartbook-We continue to see an uptick in the share of CPI components running above 2%. Unlike previous months, however, this increase is in.md) — @Daily Chartbook, 2026-04-11 11:00
 - [すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを構築](2026-04-11-2042917682459349223-パウロ-すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを.md) — @パウロ, 2026-04-11 10:48
 - [噂 https://note.com/paul1211/n/n0f3c365a6eeb](2026-04-11-2042914864872776158-パウロ-噂 https-note.com-paul1211-n-n0f3c365a6eeb.md) — @パウロ, 2026-04-11 10:37
