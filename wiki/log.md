@@ -32,3 +32,7 @@ Append-only operational history for ingest, query, and lint work.
 - Added synthesis hubs for `AI News`, `AI Technologies`, and `AI Equities`.
 - Updated the overview to encourage routing future ingest through topic modules first.
 - Established a cleaner split between news flow, technical abstractions, and public-market/company tracking.
+
+## [2026-04-11] note | Bilingual wiki rollout
+
+- Updated AGENTS.md to require bilingual pages with English first and Chinese below. Updated scripts/wiki_tools.py so index and search consume summary_en/summary_zh. Converted existing wiki pages to bilingual display format and rebuilt wiki/index.md. Ran lint: no broken wikilinks and no orphan pages; remaining lint items are uncatalogued raw sources in raw/inbox/.

@@ -49,11 +49,14 @@ Use YAML frontmatter on wiki pages when possible:
 ```yaml
 ---
 title: Example Page
+title_zh: 示例页面
 type: concept
 status: active
 created: 2026-04-06
 updated: 2026-04-06
 source_count: 2
+summary_en: One short paragraph that explains the page.
+summary_zh: 一段简短中文摘要，和英文内容对应。
 source_files:
   - raw/inbox/example-source.md
 wiki_links:
@@ -67,20 +70,55 @@ Then use this body structure when it fits:
 # Example Page
 
 ## Summary
+### English
 One short paragraph that explains the page.
 
+### 中文
+一段简短中文摘要，和英文内容对应。
+
 ## Key Points
+### English
+- ...
+
+### 中文
 - ...
 
 ## Evidence
+### English
 - [Source Name](../sources/source-name.md): what it supports
 
+### 中文
+- [Source Name](../sources/source-name.md): 这条证据支持什么
+
 ## Connections
+### English
 - [[Related Page]]: why it matters
 
+### 中文
+- [[Related Page]]: 这个连接为什么重要
+
 ## Open Questions
+### English
+- ...
+
+### 中文
 - ...
 ```
+
+## Bilingual policy
+
+- Wiki display content should be bilingual by default.
+- Keep English first and Chinese immediately below it in the same section.
+- Preserve one canonical page title for filenames, frontmatter `title`, `#`
+  headings, and wikilinks. English is the default canonical title unless there
+  is a strong reason to do otherwise.
+- Add `title_zh` when a stable Chinese title exists.
+- Add `summary_en` and `summary_zh` in frontmatter whenever practical so
+  generated indexes can stay bilingual.
+- English and Chinese should be semantically aligned. Translate the meaning,
+  not necessarily the sentence shape.
+- When updating an existing page, keep both languages in sync instead of only
+  editing one half.
 
 ## Wiki link rules
 
@@ -103,7 +141,7 @@ One short paragraph that explains the page.
 When given a new raw source:
 
 1. Read the source from `raw/inbox/` or `raw/processed/`.
-2. Create or update a source note in `wiki/sources/`.
+2. Create or update a bilingual source note in `wiki/sources/`.
 3. Update any impacted concept, entity, analysis, synthesis, or overview pages.
 4. Add missing wiki links and surface contradictions.
 5. Rebuild `wiki/index.md`.
@@ -116,8 +154,8 @@ When answering a question:
 1. Read `wiki/index.md` first.
 2. Open only the relevant wiki pages.
 3. Synthesize an answer grounded in the wiki.
-4. If the answer creates durable knowledge, save it under `wiki/analyses/` or
-   `wiki/syntheses/`.
+4. If the answer creates durable knowledge, save it as bilingual content under
+   `wiki/analyses/` or `wiki/syntheses/`.
 5. Rebuild the index if new pages were added.
 6. Append a `query` log entry when the result is saved into the wiki.
 
@@ -141,6 +179,8 @@ manually and fix them in the wiki.
 - Distinguish facts, interpretations, and open questions.
 - Note contradictions explicitly.
 - Keep summaries compact and cumulative.
+- Keep English and Chinese sections meaningfully aligned.
+- Prefer natural Chinese over literal word-for-word translation.
 - Prefer many small edits across the wiki over siloed one-off notes.
 - Every meaningful ingest should update more than one place when warranted.
 
