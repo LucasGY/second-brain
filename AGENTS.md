@@ -136,6 +136,17 @@ One short paragraph that explains the page.
 
 ## Allowed operations
 
+## Coverage rule
+
+- Raw markdown in `raw/inbox/` is backlog, not knowledge completion.
+- Important raw markdown should be absorbed into the wiki through source notes,
+  syntheses, concepts, entities, or analyses.
+- High-volume feeds such as `raw/inbox/x.com/` should usually be normalized as
+  grouped source notes or thematic summaries, not left as raw captures only.
+- If a raw feed repeatedly mentions named companies, products, people, or
+  organizations, those patterns should eventually surface under
+  `wiki/entities/` when the references become durable.
+
 ### Ingest
 
 When given a new raw source:
@@ -144,8 +155,10 @@ When given a new raw source:
 2. Create or update a bilingual source note in `wiki/sources/`.
 3. Update any impacted concept, entity, analysis, synthesis, or overview pages.
 4. Add missing wiki links and surface contradictions.
-5. Rebuild `wiki/index.md`.
-6. Append a log entry to `wiki/log.md`.
+5. If the source is part of a high-volume feed, prefer grouping it into a
+   durable source note instead of creating one wiki page per fragment.
+6. Rebuild `wiki/index.md`.
+7. Append a log entry to `wiki/log.md`.
 
 ### Query
 

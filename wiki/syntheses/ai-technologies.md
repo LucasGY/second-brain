@@ -5,13 +5,14 @@ type: synthesis
 status: active
 created: 2026-04-10
 updated: 2026-04-11
-source_count: 3
+source_count: 4
 summary_en: This module tracks durable technical ideas, mechanisms, and workflow patterns across AI systems.
 summary_zh: 这个模块追踪 AI 系统中的持久技术概念、机制和工作流模式。
 source_files:
   - raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md
   - raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md
   - raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md
+  - raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md
 wiki_links:
   - Harness Engineering
   - Automated Researchers
@@ -19,6 +20,7 @@ wiki_links:
   - From Coding Automation to Research Automation
   - AI News
   - AI Equities
+  - X List - AI Builders and Model Platforms
 ---
 
 # AI Technologies
@@ -41,6 +43,10 @@ techniques, and the abstractions that make them operational.
   programmable workflows.
 - [[From Coding Automation to Research Automation]]: capability ladder linking
   engineering automation to scientific automation.
+- [[X List - AI Builders and Model Platforms]]: high-noise but useful builder
+  signal layer around Codex, Gemini, and Anthropic behavior.
+- [[OpenAI]]: concrete workflow-product layer connecting tools, context, and
+  execution currently appears through Codex-related material.
 
 ### 中文
 - [[Harness Engineering]]：为可靠智能体执行而设计环境。

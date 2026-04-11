@@ -36,3 +36,9 @@ Append-only operational history for ingest, query, and lint work.
 ## [2026-04-11] note | Bilingual wiki rollout
 
 - Updated AGENTS.md to require bilingual pages with English first and Chinese below. Updated scripts/wiki_tools.py so index and search consume summary_en/summary_zh. Converted existing wiki pages to bilingual display format and rebuilt wiki/index.md. Ran lint: no broken wikilinks and no orphan pages; remaining lint items are uncatalogued raw sources in raw/inbox/.
+
+## [2026-04-11] ingest | X feed normalization into sources and entities
+
+- Grouped two high-volume `raw/inbox/x.com/` feeds into durable bilingual source notes instead of leaving them as raw captures only.
+- Added first entity pages for `OpenAI`, `Google`, `Anthropic`, `TSMC`, and `NVIDIA`.
+- Updated AI news, technologies, equities, and overview pages so X-derived material now participates in the wiki graph.

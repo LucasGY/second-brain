@@ -5,19 +5,24 @@ type: synthesis
 status: active
 created: 2026-04-10
 updated: 2026-04-11
-source_count: 3
+source_count: 4
 summary_en: This page is the modular entrypoint for time-sensitive AI developments before they split into narrower pages.
 summary_zh: 这个页面是时间敏感型 AI 动态的模块入口，在拆分成更窄页面之前先在这里汇总。
 source_files:
   - raw/inbox/小宇宙+#487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南+2026-04-07.md
   - raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md
   - raw/inbox/小宇宙+#493.OpenAI 首席科学家：从自动化研究员到科学发现与AGI 蓝图+2026-04-10.md
+  - raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md
 wiki_links:
   - AI Technologies
   - AI Equities
   - Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work
   - OpenAI Harness Engineering and Million-Line Agentic Software
   - Jakub Pachocki on Automated Researchers, Scientific Discovery, and AGI
+  - X List - AI Builders and Model Platforms
+  - OpenAI
+  - Google
+  - Anthropic
 ---
 
 # AI News
@@ -41,6 +46,8 @@ concept or entity pages.
   "research intern" systems to more autonomous researchers.
 - AI-native work: small teams with strong agent workflows are becoming a
   recurring organizational theme rather than a one-off anecdote.
+- Builder-platform competition: X captures now add a live signal layer around
+  Codex adoption, Gemini rollout, and Anthropic reliability concerns.
 
 ### 中文
 - OpenAI 工作流演进：内部实验正在从简单编码辅助，转向带 harness 的多智能体软件
@@ -58,6 +65,10 @@ concept or entity pages.
   engineering operations update.
 - [[Jakub Pachocki on Automated Researchers, Scientific Discovery, and AGI]]:
   research roadmap and governance implications.
+- [[X List - AI Builders and Model Platforms]]: grouped X capture for product
+  rollout and builder sentiment across OpenAI, Google, and Anthropic.
+- [[OpenAI]]: builder workflow product signals now recur through its Codex
+  surface.
 
 ### 中文
 - [[Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work]]：

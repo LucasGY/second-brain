@@ -5,12 +5,19 @@ type: synthesis
 status: active
 created: 2026-04-10
 updated: 2026-04-11
-source_count: 0
+source_count: 1
 summary_en: This module is the entrypoint for AI-related public equities, sectors, and company narratives.
 summary_zh: 这个模块是 AI 相关上市公司、板块和公司叙事的入口页。
+source_files:
+  - raw/inbox/x.com/2010668012806836322/00-Twitter-List-Index.md
 wiki_links:
   - AI News
   - AI Technologies
+  - X List - AI Equities and Macro Flow
+  - TSMC
+  - NVIDIA
+  - Palantir
+  - Anthropic
 ---
 
 # AI Equities
@@ -43,12 +50,15 @@ cross-links from technical changes to market implications.
 - The inbox already contains likely equity-relevant fragments, especially in
   the `x.com` captures, but they have not yet been normalized into source
   notes.
-- No individual company pages exist yet under `wiki/entities/`.
+- The first grouped X source note now normalizes that flow into a durable page.
+- Early entity coverage now exists for `TSMC`, `NVIDIA`, `Palantir`, and
+  `Anthropic`.
 
 ### 中文
 - inbox 里已经有一些可能与股票相关的碎片，特别是 `x.com` 抓取内容，但还没有被
   标准化成来源页。
-- `wiki/entities/` 下还没有任何单独公司页面。
+- 第一批聚合 X 来源页已经把这类流标准化为持久页面。
+- 目前已建立 `TSMC`、`NVIDIA`、`Palantir` 和 `Anthropic` 的初步实体页。
 
 ## Suggested Next Structure
 ### English
@@ -68,10 +78,14 @@ cross-links from technical changes to market implications.
 ### English
 - [[AI News]]: upstream event flow and announcements.
 - [[AI Technologies]]: technical changes that may affect company narratives.
+- [[X List - AI Equities and Macro Flow]]: grouped raw-feed bridge into durable
+  equity knowledge.
 
 ### 中文
 - [[AI News]]：上游事件流和公告。
 - [[AI Technologies]]：可能改变公司叙事的技术变化。
+- [[X List - AI Equities and Macro Flow]]：把原始信息流桥接成持久股票知识的聚合
+  来源页。
 
 ## Open Questions
 ### English
