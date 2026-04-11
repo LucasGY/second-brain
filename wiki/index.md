@@ -30,11 +30,11 @@ _来源_
   This transcript captures a Chinese adaptation of an a16z conversation about OpenClaw, coding agents, vibe coding, and AI-native work.
   这份转录记录了一次对 a16z 对话的中文改编，主题包括 OpenClaw、编程智能体、vibe coding 和 AI-native 工作方式。
 - [X List - AI Builders and Model Platforms](sources/2026-04-11-x-ai-builders-and-model-platforms.md)
-  This grouped source note summarizes an X list centered on Codex, Google model/product updates, Anthropic discussion, and builder workflows.
-  这个聚合来源页总结了一组以 Codex、Google 模型与产品更新、Anthropic 讨论和 builder 工作流为中心的 X 列表抓取。
+  This grouped source note summarizes an X list centered on Codex packaging, Google product-surface rollouts, Anthropic discussion, and builder workflow signals.
+  这个聚合来源页总结了一组以 Codex 包装、Google 产品面 rollout、Anthropic 讨论和 builder 工作流信号为主的 X 列表抓取。
 - [X List - AI Equities and Macro Flow](sources/2026-04-10-x-ai-equities-and-macro-flow.md)
-  This grouped source note summarizes an X list focused on AI equities, semiconductors, and macro market positioning.
-  这个聚合来源页总结了一组以 AI 股票、半导体和宏观市场仓位为主的 X 列表抓取。
+  This grouped source note summarizes an X list focused on AI equities, semiconductors, memory, and macro market positioning.
+  这个聚合来源页总结了一组以 AI 股票、半导体、存储链和宏观市场仓位为主的 X 列表抓取。
 
 ## Entities
 
@@ -47,14 +47,17 @@ _实体_
   Google appears mainly as a distributor of AI capabilities across broad product surfaces rather than through a single narrow model story.
   Google 在这里主要表现为一个把 AI 能力分发到广泛产品面的平台，而不是只靠单一模型故事存在。
 - [NVIDIA](entities/nvidia.md)
-  NVIDIA appears as the central demand anchor for the AI semiconductor narrative surrounding chips, memory, optics, and packaging.
-  在围绕芯片、存储、光模块和封装的 AI 半导体叙事中，NVIDIA 是最核心的需求锚点。
+  NVIDIA appears as the central demand anchor for the AI semiconductor narrative surrounding chips, memory, optics, packaging, and adjacent infrastructure layers.
+  在围绕芯片、存储、光模块、封装和相邻基础设施层的 AI 半导体叙事中，NVIDIA 是最核心的需求锚点。
 - [OpenAI](entities/openai.md)
   OpenAI appears in the wiki as both a frontier model lab and an operator of builder-facing workflows such as Codex and harnessed agent engineering.
   在这个 wiki 里，OpenAI 同时被视为前沿模型实验室，以及 Codex 和 harnessed agent engineering 这类 builder 工作流的运营者。
 - [Palantir](entities/palantir.md)
   Palantir appears in the raw market feed through a political-defense narrative that shapes the stock's perceived upside and protection.
   在原始市场信息流里，Palantir 主要通过一种政治与国防叙事出现，这会影响市场对其上行空间和保护性的理解。
+- [SK Hynix](entities/sk-hynix.md)
+  SK Hynix appears as the clearest memory-side beneficiary of the AI infrastructure boom, especially through HBM and DRAM capacity absorption.
+  SK 海力士在这个仓库里是 AI 基础设施繁荣中最清晰的存储侧受益者，尤其体现在 HBM 和 DRAM 产能吸收上。
 - [TSMC](entities/tsmc.md)
   TSMC is emerging as a central readout for AI demand, advanced packaging expansion, and semiconductor supply constraints.
   TSMC 正在成为 AI 需求、先进封装扩张和半导体供给约束的核心观察点。

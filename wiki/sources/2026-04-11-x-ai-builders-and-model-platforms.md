@@ -5,14 +5,16 @@ type: source
 status: active
 created: 2026-04-11
 updated: 2026-04-11
-source_count: 7
-summary_en: This grouped source note summarizes an X list centered on Codex, Google model/product updates, Anthropic discussion, and builder workflows.
-summary_zh: 这个聚合来源页总结了一组以 Codex、Google 模型与产品更新、Anthropic 讨论和 builder 工作流为中心的 X 列表抓取。
+source_count: 9
+summary_en: This grouped source note summarizes an X list centered on Codex packaging, Google product-surface rollouts, Anthropic discussion, and builder workflow signals.
+summary_zh: 这个聚合来源页总结了一组以 Codex 包装、Google 产品面 rollout、Anthropic 讨论和 builder 工作流信号为主的 X 列表抓取。
 source_files:
   - raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md
   - raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md
   - raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md
   - raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md
+  - raw/inbox/x.com/2010668465980424307/2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md
+  - raw/inbox/x.com/2010668465980424307/2026-04-10-2042738954550603884-Sam Altman-I wrote this early this morning and I wasn't sure if I would actually publish it.md
   - raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md
   - raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md
   - raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md
@@ -34,12 +36,15 @@ This grouped source note summarizes an X list focused on AI builders, model
 platforms, and agent tooling. The durable signal is not any single post, but a
 cluster of recurring themes: Codex distribution and workflow positioning,
 Google's pace of Gemini and product updates, and a live builder conversation
-about Anthropic reliability, model choice, and agent memory.
+about Anthropic reliability, model choice, and agent memory. The newest
+increment adds a clearer productization signal: Codex CLI workflow polish is
+itself becoming part of the story.
 
 这个聚合来源页总结了一组聚焦 AI builder、模型平台和智能体工具链的 X 列表抓
 取。真正有价值的不是某一条单独帖子，而是一组反复出现的主题：Codex 的分发与工作
 流定位、Google 在 Gemini 与产品更新上的节奏，以及 builder 社群对 Anthropic
-稳定性、模型选择和智能体记忆问题的持续讨论。
+稳定性、模型选择和智能体记忆问题的持续讨论。最近一批增量又补强了一个信号：
+Codex CLI 本身的工作流打磨，已经开始成为故事的一部分。
 
 ## Source Files
 
@@ -47,6 +52,8 @@ about Anthropic reliability, model choice, and agent memory.
 - [004-OpenAI Developers-Build macOS apps with our Codex plugin.md](<../../raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md>)
 - [044-OpenAI Developers-Codex brings your work context together so you can.md](<../../raw/inbox/x.com/2010668465980424307/044-OpenAI Developers-Codex brings your work context together so you can.md>)
 - [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>)
+- [2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md](<../../raw/inbox/x.com/2010668465980424307/2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md>)
+- [2026-04-10-2042738954550603884-Sam Altman-I wrote this early this morning and I wasn't sure if I would actually publish it.md](<../../raw/inbox/x.com/2010668465980424307/2026-04-10-2042738954550603884-Sam Altman-I wrote this early this morning and I wasn't sure if I would actually publish it.md>)
 - [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>)
 - [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>)
 - [012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md](<../../raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md>)
@@ -58,6 +65,9 @@ about Anthropic reliability, model choice, and agent memory.
 - Independent builder praise in the feed strengthens the signal that Codex is
   being evaluated as a serious execution tool, not merely as an announcement
   object.
+- Codex CLI feature talk now includes operational UX details such as markdown
+  export and terminal compatibility, which suggests workflow polish is part of
+  the product edge rather than an afterthought.
 - Sam Altman's posts suggest Codex demand is strong enough to affect packaging
   and pricing decisions, which is operationally relevant even if the posts are
   promotional.
@@ -74,6 +84,8 @@ about Anthropic reliability, model choice, and agent memory.
   支持、工作上下文管理、以及面向团队的 builder 实践被一起提及。
 - Sam Altman 的帖子说明 Codex 的需求已经强到会影响套餐和定价决策；即便这些内
   容带有宣传成分，它在运营层面仍然有参考价值。
+- 围绕 Codex CLI 的讨论已经开始落到 markdown 导出、终端兼容性这类操作细节，
+  说明工作流打磨本身正在成为产品优势的一部分。
 - 与 Google 相关的帖子显示的是一种宽产品策略，而不是单一 AI 功能：Gemini 的媒
   体生成、可视化能力和 Google Finance 更新，都说明 Google 正在把 AI 嵌入现有
   产品表面。
@@ -91,6 +103,8 @@ about Anthropic reliability, model choice, and agent memory.
   Codex framed as work-context and prioritization tooling.
 - [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>):
   adoption-linked pricing signal.
+- [2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md](<../../raw/inbox/x.com/2010668465980424307/2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md>):
+  concrete evidence that Codex workflow polish is shipping as product detail.
 - [032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md](<../../raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md>):
   builder testimonial comparing Codex favorably in real CLI use.
 - [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>):
@@ -106,6 +120,8 @@ about Anthropic reliability, model choice, and agent memory.
   把 Codex 表述为工作上下文与优先级工具。
 - [011-Sam Altman-It is very nice to see Codex getting so much love.md](<../../raw/inbox/x.com/2010668465980424307/011-Sam Altman-It is very nice to see Codex getting so much love.md>)：
   与采用度相关的定价信号。
+- [2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md](<../../raw/inbox/x.com/2010668465980424307/2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md>)：
+  说明 Codex 的工作流打磨已经以具体产品细节形式发布出来。
 - [022-Google-RT Google Gemini- Rolling out today, you can creat.md](<../../raw/inbox/x.com/2010668465980424307/022-Google-RT Google Gemini- Rolling out today, you can creat.md>)：
   Gemini 能力被嵌入 Google 产品面的例子。
 - [012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md](<../../raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md>)：

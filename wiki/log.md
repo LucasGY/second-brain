@@ -46,3 +46,11 @@ Append-only operational history for ingest, query, and lint work.
 ## [2026-04-11] ingest | Thread-based synthesis structure
 
 - Updated AGENTS.md with operational synthesis rules inspired by https://skill.capduck.com and rewrote wiki/syntheses/ai-news.md around situation assessment, active threads, signals, watchpoints, and next milestones.
+
+## [2026-04-11] ingest | Thread-based synthesis rollout
+
+- Extended the operational synthesis structure from AI News to AI Technologies and AI Equities, using situation assessment, actor summaries, active threads, signals, watchpoints, and next milestones as the default shape for dynamic module pages.
+
+## [2026-04-11] ingest | X memory and builder synthesis update
+
+- Extended grouped X source notes with recent builder and equities increments, added SK Hynix entity, and updated AI Equities / AI Technologies to reflect Codex CLI workflow polish plus memory-HBM bottleneck signals.
