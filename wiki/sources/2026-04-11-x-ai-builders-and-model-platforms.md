@@ -26,22 +26,22 @@ wiki_links:
 
 # X List - AI Builders and Model Platforms
 
+_X 列表：AI Builder 生态与模型平台_
+
+
 ## Summary
-### English
 This grouped source note summarizes an X list focused on AI builders, model
 platforms, and agent tooling. The durable signal is not any single post, but a
 cluster of recurring themes: Codex distribution and workflow positioning,
 Google's pace of Gemini and product updates, and a live builder conversation
 about Anthropic reliability, model choice, and agent memory.
 
-### 中文
 这个聚合来源页总结了一组聚焦 AI builder、模型平台和智能体工具链的 X 列表抓
 取。真正有价值的不是某一条单独帖子，而是一组反复出现的主题：Codex 的分发与工作
 流定位、Google 在 Gemini 与产品更新上的节奏，以及 builder 社群对 Anthropic
 稳定性、模型选择和智能体记忆问题的持续讨论。
 
 ## Key Points
-### English
 - OpenAI-related posts repeatedly position Codex as a workflow layer, not just a
   model endpoint: plugin support, work-context management, and team-oriented
   builder practices show up together.
@@ -60,7 +60,6 @@ about Anthropic reliability, model choice, and agent memory.
 - The list is high-noise, but it is still useful as a map of what active
   builders are testing, praising, and distrusting right now.
 
-### 中文
 - 与 OpenAI 相关的帖子反复把 Codex 定位成“工作流层”，而不只是模型接口：插件
   支持、工作上下文管理、以及面向团队的 builder 实践被一起提及。
 - Sam Altman 的帖子说明 Codex 的需求已经强到会影响套餐和定价决策；即便这些内
@@ -74,7 +73,6 @@ about Anthropic reliability, model choice, and agent memory.
   和不信任什么。
 
 ## Evidence
-### English
 - [AI builders X list index](../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md):
   grouped capture across OpenAI, Google, Anthropic, and builders.
 - `raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md`:
@@ -90,7 +88,6 @@ about Anthropic reliability, model choice, and agent memory.
 - `raw/inbox/x.com/2010668465980424307/012-Peter Steinberger 🦞-Anthropic's randoms system prompt blockers are get.md`:
   practitioner complaint about Anthropic behavior.
 
-### 中文
 - [AI builder X 列表索引](../../raw/inbox/x.com/2010668465980424307/00-Twitter-List-Index.md)：
   横跨 OpenAI、Google、Anthropic 和 builder 社群的聚合抓取。
 - `raw/inbox/x.com/2010668465980424307/004-OpenAI Developers-Build macOS apps with our Codex plugin.md`：
@@ -105,7 +102,6 @@ about Anthropic reliability, model choice, and agent memory.
   对 Anthropic 行为的实践者抱怨。
 
 ## Connections
-### English
 - [[AI News]]: event flow and product release surface.
 - [[AI Technologies]]: where the durable workflow and platform abstractions
   belong.
@@ -116,7 +112,6 @@ about Anthropic reliability, model choice, and agent memory.
 - [[Anthropic]]: reliability concerns appear indirectly through builder
   discussion.
 
-### 中文
 - [[AI News]]：事件流和产品发布面的入口。
 - [[AI Technologies]]：更持久的工作流与平台抽象应该归到这里。
 - [[OpenAI]]：这组列表里最强的平台信号。
@@ -124,12 +119,10 @@ about Anthropic reliability, model choice, and agent memory.
 - [[Anthropic]]：可靠性顾虑通过 builder 讨论间接浮现。
 
 ## Open Questions
-### English
 - Which builder signals in this feed are durable enough to keep, versus just
   transient product hype?
 - Should Codex-specific workflow material eventually split into its own concept
   page later, or remain nested under OpenAI?
 
-### 中文
 - 这组流里的哪些 builder 信号足够持久，值得保留，哪些只是短期产品 hype？
 - 未来是否应该把 Codex 相关工作流内容拆成独立概念页，还是继续放在 OpenAI 下？

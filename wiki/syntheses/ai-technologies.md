@@ -25,18 +25,18 @@ wiki_links:
 
 # AI Technologies
 
+_AI 技术_
+
+
 ## Summary
-### English
 This module tracks technical ideas, mechanisms, and workflow patterns in AI:
 models, agent systems, evaluation methods, orchestration patterns, safety
 techniques, and the abstractions that make them operational.
 
-### 中文
 这个模块追踪 AI 中的技术概念、机制和工作流模式，包括模型、智能体系统、评估方
 法、编排模式、安全技术，以及让它们真正可操作的抽象层。
 
 ## Current Topics
-### English
 - [[Harness Engineering]]: environment design for reliable agent execution.
 - [[Automated Researchers]]: longer-horizon autonomy for research tasks.
 - [[Programming Eats Knowledge Work]]: abstraction shift turning more work into
@@ -48,7 +48,6 @@ techniques, and the abstractions that make them operational.
 - [[OpenAI]]: concrete workflow-product layer connecting tools, context, and
   execution currently appears through Codex-related material.
 
-### 中文
 - [[Harness Engineering]]：为可靠智能体执行而设计环境。
 - [[Automated Researchers]]：面向研究任务的更长周期自治能力。
 - [[Programming Eats Knowledge Work]]：把更多工作转成可编程工作流的抽象转变。
@@ -56,25 +55,21 @@ techniques, and the abstractions that make them operational.
   能力阶梯。
 
 ## Organizing Principle
-### English
 - Put durable technical abstractions here.
 - Keep company-specific announcements in [[AI News]] unless they teach a
   reusable technical pattern.
 - Move public-company implications to [[AI Equities]] when the technical change
   becomes investable narrative or sector signal.
 
-### 中文
 - 持久的技术抽象放在这里。
 - 公司特定公告默认放在 [[AI News]]，除非它们揭示了可复用的技术模式。
 - 当技术变化开始变成可投资叙事或行业信号时，再把上市公司层面的含义移到
   [[AI Equities]]。
 
 ## Open Questions
-### English
 - Which technical themes deserve standalone concept pages next?
 - How should we separate real workflow primitives from vendor packaging or
   marketing language?
 
-### 中文
 - 接下来哪些技术主题值得拆成独立概念页？
 - 我们该如何区分真正的工作流原语与厂商包装或营销语言？

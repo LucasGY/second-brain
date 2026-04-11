@@ -20,20 +20,17 @@ wiki_links:
 # Palantir
 
 ## Summary
-### English
 Palantir shows up in this repository less as a generic enterprise software name
 and more as a policy-sensitive defense and national-security narrative. That
 matters because market participants often price the company through political
 alignment, state demand, and strategic positioning rather than through normal
 software benchmarking alone.
 
-### 中文
 在这个仓库里，Palantir 出现得并不像一个普通企业软件公司，反而更像一个带有政
 策敏感性的国防与国家安全叙事标的。这一点很重要，因为市场常常不是只用普通软件公
 司比较框架给它定价，而是会把政治站位、国家需求和战略位置一起计入。
 
 ## Key Points
-### English
 - The current raw feed links Palantir to explicit political endorsement and
   defense capability rhetoric.
 - This kind of narrative can change both retail enthusiasm and perceived policy
@@ -41,22 +38,17 @@ software benchmarking alone.
 - The repo should treat Palantir as an AI-adjacent equities story shaped by
   state alignment, not just by product growth.
 
-### 中文
 - 当前原始流把 Palantir 和明确的政治背书、国防能力表述连接在一起。
 - 这种叙事会同时影响散户热情和市场对其政策下行保护的理解。
 - 这个仓库应该把 Palantir 视为一种“受国家对齐影响的 AI 邻接股票叙事”，而不只
   是产品增长故事。
 
 ## Evidence
-### English
 - [[X List - AI Equities and Macro Flow]]: grouped market-flow source note.
 
-### 中文
 - [[X List - AI Equities and Macro Flow]]：聚合市场流来源页。
 
 ## Connections
-### English
 - [[AI Equities]]: company-level and thematic market implications.
 
-### 中文
 - [[AI Equities]]：公司层面和主题层面的市场含义。

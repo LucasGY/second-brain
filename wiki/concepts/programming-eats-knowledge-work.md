@@ -23,18 +23,18 @@ wiki_links:
 
 # Programming Eats Knowledge Work
 
+_编程吞噬知识工作_
+
+
 ## Summary
-### English
 This concept extends the old "software eats the world" framing: when coding is
 abstracted into natural-language interaction with agents, many forms of
 knowledge work start to look like programmable workflows.
 
-### 中文
 这个概念延展了“软件吞噬世界”的老说法：当编程被抽象成与智能体的自然语言交互
 后，许多知识工作开始看起来像可编程的工作流。
 
 ## Key Points
-### English
 - The important abstraction shift is not just faster coding, but broader
   conversion of office work into agent-executable tasks.
 - Documents, slides, analysis, lightweight design, and operations increasingly
@@ -47,7 +47,6 @@ knowledge work start to look like programmable workflows.
   broader shift toward automation of research, documentation, and internal
   organizational processes.
 
-### 中文
 - 关键的抽象变化不只是写代码更快，而是更广泛的办公室工作正在被转成可由智能体执
   行的任务。
 - 文档、幻灯片、分析、轻设计和运营工作，越来越多地变成与模型进行结构化交互后的输
@@ -58,7 +57,6 @@ knowledge work start to look like programmable workflows.
   时覆盖研究、文档和组织内部流程。
 
 ## Evidence
-### English
 - [Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work](../sources/2026-04-07-peter-yang-openclaw-future-of-work.md):
   source note for the claim and surrounding examples.
 - [OpenAI Harness Engineering and Million-Line Agentic Software](../sources/2026-04-09-openai-harness-engineering.md):
@@ -66,7 +64,6 @@ knowledge work start to look like programmable workflows.
 - [Jakub Pachocki on Automated Researchers, Scientific Discovery, and AGI](../sources/2026-04-10-jakub-pachocki-automated-researchers.md):
   extends the argument from coding workflows to longer-horizon research work.
 
-### 中文
 - [Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work](../sources/2026-04-07-peter-yang-openclaw-future-of-work.md)：
   这个主张及其例子的来源页。
 - [OpenAI Harness Engineering and Million-Line Agentic Software](../sources/2026-04-09-openai-harness-engineering.md)：
@@ -75,7 +72,6 @@ knowledge work start to look like programmable workflows.
   把论点从编码工作流延展到更长周期的研究工作。
 
 ## Connections
-### English
 - [[Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work]]: source note anchoring the claim in a concrete conversation.
 - [[AI-Native Microteams]]: smaller teams become viable when more work is agent-executable.
 - [[AI Agent Workflows and Career Strategy]]: practical implications for work and career choices.
@@ -83,7 +79,6 @@ knowledge work start to look like programmable workflows.
 - [[Automated Researchers]]: frontier version of the same logic applied to science and discovery.
 - [[From Coding Automation to Research Automation]]: ties the engineering and research stories together.
 
-### 中文
 - [[Peter Yang on OpenClaw, AI Coding, and the Future of Knowledge Work]]：把这
   个主张锚定在具体对话里的来源页。
 - [[AI-Native Microteams]]：当更多工作可由智能体执行时，小团队就更可行。
@@ -94,10 +89,8 @@ knowledge work start to look like programmable workflows.
   起。
 
 ## Open Questions
-### English
 - Which categories of knowledge work resist this abstraction the longest?
 - What verification patterns are required once more work is expressed through agents?
 
-### 中文
 - 哪些知识工作类别会最晚被这种抽象方式改造？
 - 当更多工作通过智能体表达后，需要什么样的验证模式？

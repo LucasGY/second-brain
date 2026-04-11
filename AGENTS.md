@@ -70,38 +70,23 @@ Then use this body structure when it fits:
 # Example Page
 
 ## Summary
-### English
 One short paragraph that explains the page.
-
-### 中文
 一段简短中文摘要，和英文内容对应。
 
 ## Key Points
-### English
 - ...
-
-### 中文
 - ...
 
 ## Evidence
-### English
 - [Source Name](../sources/source-name.md): what it supports
-
-### 中文
 - [Source Name](../sources/source-name.md): 这条证据支持什么
 
 ## Connections
-### English
 - [[Related Page]]: why it matters
-
-### 中文
 - [[Related Page]]: 这个连接为什么重要
 
 ## Open Questions
-### English
 - ...
-
-### 中文
 - ...
 ```
 
@@ -109,6 +94,11 @@ One short paragraph that explains the page.
 
 - Wiki display content should be bilingual by default.
 - Keep English first and Chinese immediately below it in the same section.
+- Do not add explicit language markers such as `English`, `中文`, `EN`, or
+  `CN` inside normal page content unless they are actually necessary for
+  disambiguation.
+- Prefer clean visual stacking: one English paragraph or list, then the
+  corresponding Chinese paragraph or list directly beneath it.
 - Preserve one canonical page title for filenames, frontmatter `title`, `#`
   headings, and wikilinks. English is the default canonical title unless there
   is a strong reason to do otherwise.
@@ -194,6 +184,7 @@ manually and fix them in the wiki.
 - Keep summaries compact and cumulative.
 - Keep English and Chinese sections meaningfully aligned.
 - Prefer natural Chinese over literal word-for-word translation.
+- Prefer readable bilingual layout over visibly labeled translation blocks.
 - Prefer many small edits across the wiki over siloed one-off notes.
 - Every meaningful ingest should update more than one place when warranted.
 

@@ -19,20 +19,20 @@ wiki_links:
 
 # OpenAI Harness Engineering and Million-Line Agentic Software
 
+_OpenAI 的 Harness Engineering 与百万行智能体软件_
+
+
 ## Summary
-### English
 This transcript describes an OpenAI Frontier workflow where a small team used
 an extreme "no human code" constraint to force the creation of agent-first
 software engineering infrastructure, yielding very large code output and a
 different human role centered on orchestration and review.
 
-### 中文
 这份转录描述了 OpenAI Frontier 的一种工作流：一个小团队通过极端的“人不写代
 码”约束，倒逼出以智能体为先的软件工程基础设施，最终带来了非常大的代码产出，并
 把人的角色更多转向编排和审查。
 
 ## Key Points
-### English
 - Ryan Lopopolo frames "harness engineering" as the design of environments,
   tools, and guardrails that let agents do real development work instead of
   acting as autocomplete.
@@ -49,7 +49,6 @@ different human role centered on orchestration and review.
   right, with Symphony and Elixir/BEAM used as examples of choosing tools that
   fit agent supervision and long-running process management.
 
-### 中文
 - Ryan Lopopolo 把 “harness engineering” 定义为：设计环境、工具和护栏，让智
   能体能做真正的开发工作，而不是只做自动补全。
 - 据称，一个三人团队在工作流从直接写代码转向系统级委派后，大约五个月内产出了超
@@ -62,20 +61,17 @@ different human role centered on orchestration and review.
   选择适合监督智能体和管理长生命周期进程的工具。
 
 ## Evidence
-### English
 - Raw transcript:
   `raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md`
 - Show title: `跨国串门儿计划`
 - Published: `2026-04-09`
 
-### 中文
 - 原始转录：
   `raw/inbox/小宇宙+#492.OpenAI 内部实验揭秘：不亲手写一行代码，5个月如何产出百万行代码？+2026-04-09.md`
 - 节目名：`跨国串门儿计划`
 - 发布时间：`2026-04-09`
 
 ## Connections
-### English
 - [[Harness Engineering]]: core abstraction introduced by the episode.
 - [[Programming Eats Knowledge Work]]: extends the claim from general knowledge
   work into full software-production systems.
@@ -84,7 +80,6 @@ different human role centered on orchestration and review.
 - [[From Coding Automation to Research Automation]]: coding automation becomes
   one end of a broader autonomy spectrum.
 
-### 中文
 - [[Harness Engineering]]：这期内容提出的核心抽象。
 - [[Programming Eats Knowledge Work]]：把“知识工作可编程化”的主张推进到完整软件
   生产系统。
@@ -93,7 +88,6 @@ different human role centered on orchestration and review.
   光谱中。
 
 ## Open Questions
-### English
 - How much of the reported output is durable maintainable software versus cheap
   exploratory generation?
 - Which review and testing patterns are needed before post-merge review is safe
@@ -101,7 +95,6 @@ different human role centered on orchestration and review.
 - When does internalizing dependencies reduce risk versus quietly creating new
   maintenance burden?
 
-### 中文
 - 报道中的产出里，有多少是可持续维护的软件，又有多少只是廉价的探索性生成？
 - 如果不是 frontier 团队，想安全采用 merge 后审查，需要什么样的 review 和测试模
   式？

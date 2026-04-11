@@ -26,20 +26,17 @@ wiki_links:
 # OpenAI
 
 ## Summary
-### English
 OpenAI appears in this wiki as both a frontier research lab and a workflow
 operator. The durable pattern is not just model release cadence, but the way
 the organization keeps turning frontier capability into developer-facing
 operating systems such as Codex, harness engineering, and longer-horizon
 research automation.
 
-### 中文
 在这个 wiki 里，OpenAI 不只是前沿研究实验室，也是一家工作流运营者。更持久
 的模式不只是模型发布节奏，而是它如何把前沿能力持续转成面向开发者的操作系统，包
 括 Codex、harness engineering 和更长周期的研究自动化。
 
 ## Key Points
-### English
 - OpenAI's engineering story in this repo is increasingly about orchestrating
   agents, not only improving chat UX.
 - Codex-related X posts suggest the company is packaging workflow, context, and
@@ -49,7 +46,6 @@ research automation.
 - The Jakub Pachocki interview pushes the company narrative beyond coding toward
   automated research and scientific discovery.
 
-### 中文
 - 在这个仓库里，OpenAI 的工程故事越来越多是“如何编排智能体”，而不只是改进聊
   天体验。
 - 与 Codex 相关的 X 帖子说明，公司正在围绕 builder 需求去包装工作流、上下文和
@@ -59,7 +55,6 @@ research automation.
 - Jakub Pachocki 的访谈则把这家公司叙事从编码推进到了自动化研究和科学发现。
 
 ## Evidence
-### English
 - [[OpenAI Harness Engineering and Million-Line Agentic Software]]: workflow
   and harness design.
 - [[Jakub Pachocki on Automated Researchers, Scientific Discovery, and AGI]]:
@@ -69,7 +64,6 @@ research automation.
 - `raw/inbox/x.com/2010668465980424307/032-Peter Steinberger 🦞-RT Christopher Charles- If you have been using Cla.md`:
   builder comparison indicating practical trust in Codex workflows.
 
-### 中文
 - [[OpenAI Harness Engineering and Million-Line Agentic Software]]：工作流与
   harness 设计。
 - [[Jakub Pachocki on Automated Researchers, Scientific Discovery, and AGI]]：
@@ -80,10 +74,8 @@ research automation.
   体现 builder 对 Codex 工作流实际信任度的比较样本。
 
 ## Connections
-### English
 - [[AI News]]: current event flow around products and positioning.
 - [[AI Technologies]]: technical and workflow abstractions linked to OpenAI.
 
-### 中文
 - [[AI News]]：围绕 OpenAI 的当前事件流和产品定位。
 - [[AI Technologies]]：与 OpenAI 相关的技术和工作流抽象。
