@@ -1,11 +1,13 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-11T14:53:40.222Z
+Retrieved: 2026-04-11T15:53:38.468Z
 
-## Tweets (172)
+## Tweets (174)
 
 - [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
+- [RT Beff (e/acc): When you've been too locked in on Claude an...](2026-04-11-2042974452716032020-Peter Steinberger 🦞-RT Beff (e-acc)- When you've been too locked in on Claude and finally try out GPT 5.4 high for a coding task only to realize .md) — @Peter Steinberger 🦞, 2026-04-11 07:10
+- [RT Guillermo Rauch: 🦞 + ▲](2026-04-11-2042960750629581213-Peter Steinberger 🦞-RT Guillermo Rauch- 🦞 + ▲.md) — @Peter Steinberger 🦞, 2026-04-11 04:36
 - [This is so awesome! When I was a kid, when the Apollo missio...](2026-04-11-2042819001815126233-Jeff Dean-This is so awesome! When I was a kid, when the Apollo mission were still relativ.md) — @Jeff Dean, 2026-04-11 04:16
 - [RT アヤーン: OpenClaw now has end-to-end testing for Telegram 👀...](2026-04-11-2042917149484724545-Peter Steinberger 🦞-RT アヤーン- OpenClaw now has end-to-end testing for Telegram 👀 Uses the brand new Telegram bot-to-bot communication m.md) — @Peter Steinberger 🦞, 2026-04-11 03:41
 - [<br><img width=\"2048\" height=\"1187\" style=\"\" src=\"htt...](2026-04-11-2042793664947081398-Peter Steinberger 🦞-br-img width=-2048- height=-1187- style=- src=-https-pbs.twimg.com-media-HF.md) — @Peter Steinberger 🦞, 2026-04-11 02:35

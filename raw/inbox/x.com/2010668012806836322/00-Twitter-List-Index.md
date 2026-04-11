@@ -1,14 +1,40 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-11T14:53:40.965Z
+Retrieved: 2026-04-11T15:53:39.864Z
 
-## Tweets (247)
+## Tweets (273)
 
+- [BREAKING: Iran’s President Pezeshkian releases a statement a...](2026-04-11-2042985144609284154-The Kobeissi Letter-BREAKING- Iran’s President Pezeshkian releases a statement as in-person talks between the US and Iran begin in Pakistan- “.md) — @The Kobeissi Letter, 2026-04-11 15:16
+- [\"April historically marks a transition in investor behavior...](2026-04-11-2042981128705884264-Daily Chartbook-April historically marks a transition in investor behavior, and we are seeing early signs of that shift- -Citadel Rubner.md) — @Daily Chartbook, 2026-04-11 15:00
+- [日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のらりくらりボッタくるマイン...](2026-04-11-2042979404876517376-パウロ-日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のら.md) — @パウロ, 2026-04-11 14:53
+- [日本の光関係の素材、部品に世界が注目してますよ](2026-04-11-2042978438580179450-パウロ-日本の光関係の素材、部品に世界が注目してますよ.md) — @パウロ, 2026-04-11 14:49
+- [RT Adam Kobeissi: This chart says it all: US tech valuations...](2026-04-11-2042977939029905520-The Kobeissi Letter-RT Adam Kobeissi- This chart says it all- US tech valuations have compressed from 40x to 20x Forward P-E in weeks. Tech valuat.md) — @The Kobeissi Letter, 2026-04-11 14:46
+- [教育関係者って点数ばかり気にしてその本質が見えてないですよね 科挙の仕組みとして、有能な人材をフィルターする仕組みが現在...](2026-04-11-2042976142798524848-パウロ-教育関係者って点数ばかり気にしてその本質が見えてないですよね 科挙の仕組みとして、有能な人材をフ.md) — @パウロ, 2026-04-11 14:40
+- [AIが一瞬で解ける問題において 鉛筆と謎のヒアリング器具でフィルターをかける 優位差があったとしてそれが何になるんですか...](2026-04-11-2042975079311843798-パウロ-AIが一瞬で解ける問題において 鉛筆と謎のヒアリング器具でフィルターをかける 優位差があったとしてそ.md) — @パウロ, 2026-04-11 14:36
+- [\"Technology sector insiders keep buying (The chart shows th...](2026-04-11-2042966273978491291-Daily Chartbook-Technology sector insiders keep buying (The chart shows the total number of corporate insiders of companies covered by the XLK ETF.md) — @Daily Chartbook, 2026-04-11 14:01
+- [日本の材料メーカー、部品メーカー 下請け根性から脱却しつつある 元来とんでもない技術力を持っている 自信を持って値上げを...](2026-04-11-2042965238925156477-パウロ-日本の材料メーカー、部品メーカー 下請け根性から脱却しつつある 元来とんでもない技術力を持ってい.md) — @パウロ, 2026-04-11 13:57
+- [RT りゅんぽん2: 船株と同じ 大相場ｸﾙ━━(ﾟ∀ﾟ)━━??](2026-04-11-2042967216531144787-パウロ-RT りゅんぽん2- 船株と同じ 大相場ｸﾙ━━(ﾟ∀ﾟ)━━.md) — @パウロ, 2026-04-11 13:57
+- [BREAKING: Iran has formally submitted its four \"red lines\"...](2026-04-11-2042965064026669094-The Kobeissi Letter-BREAKING- Iran has formally submitted its four -red lines- for peace talks with the US today, per Iranian state TV- 1. Authori.md) — @The Kobeissi Letter, 2026-04-11 13:56
+- [味の素は革ジャンにABFとMSGをセット販売すれば良いかもね😂](2026-04-11-2042964462723043761-パウロ-味の素は革ジャンにABFとMSGをセット販売すれば良いかもね😂.md) — @パウロ, 2026-04-11 13:54
+- [RT @4th_skywalker: 長く持つための 「ロング」ポジションなのである 長く持つほど買い持ちが有利になるの...](2026-04-11-2042963746554032301-パウロ-RT @4th_skywalker- 長く持つための 「ロング」ポジションなのである 長く持つほど買い持ちが有利になるので .md) — @パウロ, 2026-04-11 13:51
+- [というかABFは昔からもっと値上げ出来たんだけどね](2026-04-11-2042963589334753750-パウロ-というかABFは昔からもっと値上げ出来たんだけどね.md) — @パウロ, 2026-04-11 13:50
+- [世界の皆様が嫌っているMSGがAIの素のABFなんだよなぁ](2026-04-11-2042963222588985655-パウロ-世界の皆様が嫌っているMSGがAIの素のABFなんだよなぁ.md) — @パウロ, 2026-04-11 13:49
+- [さぁ世界が注目する味の素ビルドアップフィルム ABFを細部まで解説したnoteです 是非、読んでくださいね 簡単には真似...](2026-04-11-2042962935669231923-パウロ-さぁ世界が注目する味の素ビルドアップフィルム ABFを細部まで解説したnoteです 是非、読んでくださいね .md) — @パウロ, 2026-04-11 13:48
+- [味の素来るね 海外でめちゃくちゃ話題になってる 餃子とABFそしてMSGのストーリーも完璧だ](2026-04-11-2042962028290281620-パウロ-味の素来るね 海外でめちゃくちゃ話題になってる 餃子とABFそしてMSGのストーリーも完璧だ.md) — @パウロ, 2026-04-11 13:44
+- [海外の方々からPCヲチの記事 ボロカスに言われてる そりゃそうだ Intelの提灯記事書きすぎて、真実が何かわからんよう...](2026-04-11-2042960450548305943-パウロ-海外の方々からPCヲチの記事 ボロカスに言われてる そりゃそうだ Intelの提灯記事書きすぎて、真実が何か.md) — @パウロ, 2026-04-11 13:38
+- [思考(Reasoning)のためのkvキャッシュは全部HBMに保存出来るとでも思っているのだろうか 数億人が使っているの...](2026-04-11-2042957698778743218-パウロ-思考(Reasoning)のためのkvキャッシュは全部HBMに保存出来るとでも思っているのだろうか 数億人が使ってい.md) — @パウロ, 2026-04-11 13:27
+- [BREAKING: Trilateral talks between the US, Iran, and Pakista...](2026-04-11-2042953631276691718-The Kobeissi Letter-BREAKING- Trilateral talks between the US, Iran, and Pakistan have officially begun in Pakistan. US delegation includes JD Van.md) — @The Kobeissi Letter, 2026-04-11 13:11
+- [RT ぷにょ: 日本の某銘柄が特にカタリストもなく2ヶ月で倍以上になっちゃって先週カバーしてるアナリストと喋ったら、「s...](2026-04-11-2042958911683362849-パウロ-RT ぷにょ- 日本の某銘柄が特にカタリストもなく2ヶ月で倍以上になっちゃって先週カバーしてるアナリス.md) — @パウロ, 2026-04-11 13:08
+- [BREAKING: President Trump says the US has now begun the proc...](2026-04-11-2042951697090171159-The Kobeissi Letter-BREAKING- President Trump says the US has now begun the process of clearing out mines from the Strait of Hormuz. Several US Na.md) — @The Kobeissi Letter, 2026-04-11 13:03
+- [\"The Vix volatility index is back to its February level bel...](2026-04-11-2042951425185952190-Daily Chartbook-The Vix volatility index is back to its February level below 20, while multi-asset measures like SocGen's Sentiment Indicator have.md) — @Daily Chartbook, 2026-04-11 13:02
+- [ちなみにE-glassとNE-glassの価格差は顧客にもよりますが、倍近く違います](2026-04-11-2042950146502332436-パウロ-ちなみにE-glassとNE-glassの価格差は顧客にもよりますが、倍近く違います.md) — @パウロ, 2026-04-11 12:57
 - [AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴史から800V直...](2026-04-11-2042948283023380729-パウロ-AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴.md) — @パウロ, 2026-04-11 12:50
 - [日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出現：産業調査によ...](2026-04-11-2042941797039771837-パウロ-日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出.md) — @パウロ, 2026-04-11 12:24
 - [\"Tariffs implemented through November of 2025 can explain t...](2026-04-11-2042936033247961464-Daily Chartbook-Tariffs implemented through November of 2025 can explain the entirety of excess inflation in the core goods category and contribut.md) — @Daily Chartbook, 2026-04-11 12:01
+- [RT 泥女医: チラホラ法律の素人が介入すれば裁判がめちゃくちゃになると言ってる人がいますけど、医学の素人が医療を裁いて...](2026-04-11-2042970638697271329-パウロ-RT 泥女医- チラホラ法律の素人が介入すれば裁判がめちゃくちゃになると言ってる人がいますけど、医学.md) — @パウロ, 2026-04-11 11:35
 - [AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官の存在意義は無かった...](2026-04-11-2042928395223470161-パウロ-AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官.md) — @パウロ, 2026-04-11 11:30
+- [RT ちほうのいんちょう: 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくってるから強いのかも...](2026-04-11-2042969262088949811-パウロ-RT ちほうのいんちょう- 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくっ.md) — @パウロ, 2026-04-11 11:26
 - [RT ゆきママ: 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を押し目でしっかり...](2026-04-11-2042930790796046396-パウロ-RT ゆきママ- 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を.md) — @パウロ, 2026-04-11 11:15
 - [\"We continue to see an uptick in the share of CPI component...](2026-04-11-2042920621454094451-Daily Chartbook-We continue to see an uptick in the share of CPI components running above 2%. Unlike previous months, however, this increase is in.md) — @Daily Chartbook, 2026-04-11 11:00
 - [すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを構築](2026-04-11-2042917682459349223-パウロ-すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを.md) — @パウロ, 2026-04-11 10:48
