@@ -1,10 +1,15 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-11T20:36:43.036Z
+Retrieved: 2026-04-11T21:36:47.097Z
 
-## Tweets (280)
+## Tweets (285)
 
+- [Healthcare is carrying US job growth more than ever: The num...](2026-04-11-2043071338810872238-The Kobeissi Letter-Healthcare is carrying US job growth more than ever- The number of healthcare workers has surged +84% since 1996, far outpacin.md) — @The Kobeissi Letter, 2026-04-11 20:59
+- [RT BRICS News: JUST IN: Strait of Hormuz remains a major obs...](2026-04-11-2043063813398814864-投资TALK君-RT BRICS News- JUST IN- Strait of Hormuz remains a major obstacle in US-Iran talks, with the US demanding immediate reopening and Iran ins.md) — @投资TALK君, 2026-04-11 20:28
+- [BREAKING: The US, Iran, and Pakistan have begun a new round ...](2026-04-11-2043059370246717567-The Kobeissi Letter-BREAKING- The US, Iran, and Pakistan have begun a new round of trilateral talks, extending the first direct talks between the .md) — @The Kobeissi Letter, 2026-04-11 20:11
+- [The US Dollar continues to lose market share: The US Dollar ...](2026-04-11-2043052757272400128-The Kobeissi Letter-The US Dollar continues to lose market share- The US Dollar now represents ~46% of global FX and gold reserves, the lowest in .md) — @The Kobeissi Letter, 2026-04-11 19:45
+- [really cool website](2026-04-11-2043043669297762639-3X Long Labubu-really cool website.md) — @3X Long Labubu, 2026-04-11 19:09
 - [BREAKING: Initial details are emerging as the US and Iran co...](2026-04-11-2043039378067591627-The Kobeissi Letter-BREAKING- Initial details are emerging as the US and Iran conduct their first direct meeting since 1979. Details include- 1. T.md) — @The Kobeissi Letter, 2026-04-11 18:52
 - [BREAKING: The US has discussed unfreezing Iran’s overseas as...](2026-04-11-2043026609108598818-The Kobeissi Letter-BREAKING- The US has discussed unfreezing Iran’s overseas assets, including $6 billion held in Qatar, with Pakistani mediato.md) — @The Kobeissi Letter, 2026-04-11 18:01
 - [BREAKING: Another round of negotiations between the US and I...](2026-04-11-2043011259231015063-The Kobeissi Letter-BREAKING- Another round of negotiations between the US and Iran will be held tonight or tomorrow in Pakistan, per Iranian stat.md) — @The Kobeissi Letter, 2026-04-11 17:00

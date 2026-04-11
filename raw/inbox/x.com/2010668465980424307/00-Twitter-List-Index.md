@@ -1,9 +1,9 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-11T20:36:42.342Z
+Retrieved: 2026-04-11T21:36:45.651Z
 
-## Tweets (174)
+## Tweets (175)
 
 - [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
 - [RT Beff (e/acc): When you've been too locked in on Claude an...](2026-04-11-2042974452716032020-Peter Steinberger 🦞-RT Beff (e-acc)- When you've been too locked in on Claude and finally try out GPT 5.4 high for a coding task only to realize .md) — @Peter Steinberger 🦞, 2026-04-11 07:10
@@ -45,6 +45,7 @@ Retrieved: 2026-04-11T20:36:42.342Z
 - [RT Alexey Pelykh: So @AnthorpicAI went pedal-to-the-metal on...](014-Peter Steinberger 🦞-RT Alexey Pelykh- So @AnthorpicAI went pedal-to-th.md) — @Peter Steinberger 🦞, 2026-04-10 09:20
 - [RT How To AI: 🚨 MIT just dropped a technique that makes Cha...](008-Christian Szegedy-RT How To AI- 🚨 MIT just dropped a technique that.md) — @Christian Szegedy, 2026-04-10 08:42
 - [RT How To AI: 🚨 MIT just dropped a technique that makes Cha...](015-Christian Szegedy-RT How To AI- 🚨 MIT just dropped a technique that.md) — @Christian Szegedy, 2026-04-10 08:42
+- [RT Romain Huet: We recorded a Web Dev Challenge with three t...](2026-04-10-2043060944553808218-OpenAI Developers-RT Romain Huet- We recorded a Web Dev Challenge with three teams building apps with Codex in 4 hours! 🎬 Loved the creative en.md) — @OpenAI Developers, 2026-04-10 03:16
 - [Build macOS apps with our Codex plugin:](004-OpenAI Developers-Build macOS apps with our Codex plugin.md) — @OpenAI Developers, 2026-04-09 22:30
 - [Build macOS apps with our Codex plugin:](009-OpenAI Developers-Build macOS apps with our Codex plugin.md) — @OpenAI Developers, 2026-04-09 22:30
 - [Build macOS apps with our Codex plugin:](016-OpenAI Developers-Build macOS apps with our Codex plugin.md) — @OpenAI Developers, 2026-04-09 22:30
