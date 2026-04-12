@@ -1,9 +1,9 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T03:52:13.594Z
+Retrieved: 2026-04-12T04:54:33.168Z
 
-## Tweets (180)
+## Tweets (186)
 
 - [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
 - [there's a turbotax connector in Claude Code now, so glad I p...](2026-04-12-2043138221836746762-Thariq-there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭.md) — @Thariq, 2026-04-12 01:24
@@ -15,6 +15,12 @@ Retrieved: 2026-04-12T03:52:13.594Z
 - [This is so awesome! When I was a kid, when the Apollo missio...](2026-04-11-2042819001815126233-Jeff Dean-This is so awesome! When I was a kid, when the Apollo mission were still relativ.md) — @Jeff Dean, 2026-04-11 04:16
 - [RT アヤーン: OpenClaw now has end-to-end testing for Telegram 👀...](2026-04-11-2042917149484724545-Peter Steinberger 🦞-RT アヤーン- OpenClaw now has end-to-end testing for Telegram 👀 Uses the brand new Telegram bot-to-bot communication m.md) — @Peter Steinberger 🦞, 2026-04-11 03:41
 - [<br><img width=\"2048\" height=\"1187\" style=\"\" src=\"htt...](2026-04-11-2042793664947081398-Peter Steinberger 🦞-br-img width=-2048- height=-1187- style=- src=-https-pbs.twimg.com-media-HF.md) — @Peter Steinberger 🦞, 2026-04-11 02:35
+- [Re 🔗 Codex CLI: https://developers.openai.com/codex/cli](2026-04-11-2042780056804811115-OpenAI-Re 🔗 Codex CLI- https-developers.openai.com-codex-cli.md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 Atlas: https://chatgpt.com/atlas](2026-04-11-2042780058075672703-OpenAI-Re 🔗 Atlas- https-chatgpt.com-atlas.md) — @OpenAI, 2026-04-11 01:41
+- [Re The security and privacy of your information are a top pr...](2026-04-11-2042780059363336237-OpenAI-Re The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when iss.md) — @OpenAI, 2026-04-11 01:41
+- [We recently identified a security issue involving the third-...](2026-04-11-2042780052669239782-OpenAI-We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We .md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 ChatGPT Desktop: https://chatgpt.com/download/](2026-04-11-2042780054015611373-OpenAI-Re 🔗 ChatGPT Desktop- https-chatgpt.com-download.md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 Codex App: https://chatgpt.com/codex/](2026-04-11-2042780055559114993-OpenAI-Re 🔗 Codex App- https-chatgpt.com-codex.md) — @OpenAI, 2026-04-11 01:41
 - [RT Ms. Dei®️: Yet another inspiration to women in STEM. Chri...](2026-04-11-2042821001176928726-Jeff Dean-RT Ms. Dei®️- Yet another inspiration to women in STEM. Christina Koch is her na.md) — @Jeff Dean, 2026-04-11 00:29
 - [RT Google Earth: Welcome home 🩵](2026-04-11-2042815366855049271-Jeff Dean-RT Google Earth- Welcome home 🩵.md) — @Jeff Dean, 2026-04-11 00:27
 - [RT Thomas Ricouard: We're preparing an Intel release for the...](2026-04-10-2042921069569298574-Peter Steinberger 🦞-RT Thomas Ricouard- We're preparing an Intel release for the Codex App and I'm looking for people on Intel Mac willing to tes.md) — @Peter Steinberger 🦞, 2026-04-10 23:26

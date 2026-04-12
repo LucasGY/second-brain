@@ -1,10 +1,21 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T03:52:14.540Z
+Retrieved: 2026-04-12T04:54:35.865Z
 
-## Tweets (297)
+## Tweets (310)
 
+- [伊朗那边的态度，如果你感兴趣听的话](2026-04-12-2043186621743263932-投资TALK君-伊朗那边的态度，如果你感兴趣听的话.md) — @投资TALK君, 2026-04-12 04:37
+- [PrisonのCEOが言っています 真剣ですっ](2026-04-12-2043186305543364619-パウロ-PrisonのCEOが言っています 真剣ですっ.md) — @パウロ, 2026-04-12 04:35
+- [ラピダスはまだまだ挑戦の段階なので、取り扱う意味はないと思います 大胆な試みで日本人としては応援したいですが、成功する確...](2026-04-12-2043179913956700504-パウロ-ラピダスはまだまだ挑戦の段階なので、取り扱う意味はないと思います 大胆な試みで日本人としては応援.md) — @パウロ, 2026-04-12 04:10
+- [Oh, we’re still at the \"dreaming\" stage, are we? Not even ...](2026-04-12-2043179208428654902-パウロ-Oh, we’re still at the -dreaming- stage, are we- Not even a prototype to show for it. How adorable. Let’s be real, this is light-years bey.md) — @パウロ, 2026-04-12 04:07
+- [言えないんだろうなぁ](2026-04-12-2043175103299756073-パウロ-言えないんだろうなぁ.md) — @パウロ, 2026-04-12 03:51
+- [Peace talks appear to have come to a screeching halt. JD Van...](2026-04-12-2043169737207845017-The Kobeissi Letter-Peace talks appear to have come to a screeching halt. JD Vance just announced that the US delegation is leaving Pakistan with .md) — @The Kobeissi Letter, 2026-04-12 03:30
+- [这个时候再来看看朝鲜战争停战谈判简史，相信感受会更多。当然历史大背景完全不一样，但可以来参考和借鉴。🤔](2026-04-12-2043166947513401579-qinbafrank-这个时候再来看看朝鲜战争停战谈判简史，相信感受会更多。当然历史大背景完全不一样，但可以来参.md) — @qinbafrank, 2026-04-12 03:18
+- [送4个3个月的Claude（84加币）都送不出去，留言区有人要吗？😂](2026-04-12-2043165309108908138-投资TALK君-送4个3个月的Claude（84加币）都送不出去，留言区有人要吗？😂.md) — @投资TALK君, 2026-04-12 03:12
+- [えっ MLCCやガラスクロス、シャント抵抗の中国製があるんですか 是非、教えてください どこのメーカーですか](2026-04-12-2043163620704756185-パウロ-えっ MLCCやガラスクロス、シャント抵抗の中国製があるんですか 是非、教えてください どこのメーカーで.md) — @パウロ, 2026-04-12 03:05
+- [BREAKING: Vice President JD Vance on failed talks with Iran:...](2026-04-12-2043163446318113258-The Kobeissi Letter-BREAKING- Vice President JD Vance on failed talks with Iran- -We are leaving here with a very simple proposal, our final and b.md) — @The Kobeissi Letter, 2026-04-12 03:05
+- [ありがとうございます ABFはかなり前から指摘していました 王将の餃子によって一時期はやられましたが、ついに来ますっ](2026-04-12-2043162422190670181-パウロ-ありがとうございます ABFはかなり前から指摘していました 王将の餃子によって一時期はやられましたが.md) — @パウロ, 2026-04-12 03:00
 - [Bitcoin is down sharply on failed US-Iran talks. It's going ...](2026-04-12-2043157110444134412-The Kobeissi Letter-Bitcoin is down sharply on failed US-Iran talks. It's going to be a busy week ahead.md) — @The Kobeissi Letter, 2026-04-12 02:39
 - [BREAKING: Details emerge regarding failed talks between the ...](2026-04-12-2043154354627072026-The Kobeissi Letter-BREAKING- Details emerge regarding failed talks between the US and Iran as negotiations end with no deal. Details include- 1. .md) — @The Kobeissi Letter, 2026-04-12 02:28
 - [BREAKING: JD Vance announces US-Iran talks have ended after ...](2026-04-12-2043152806341755076-The Kobeissi Letter-BREAKING- JD Vance announces US-Iran talks have ended after 21 hours without an agreement, which is -bad news for Iran, much m.md) — @The Kobeissi Letter, 2026-04-12 02:22
@@ -12,10 +23,12 @@ Retrieved: 2026-04-12T03:52:14.540Z
 - [Cracks in the US private credit market are widening: Investo...](2026-04-12-2043142306576969785-The Kobeissi Letter-Cracks in the US private credit market are widening- Investors requested a record -$14.0 billion in redemptions from private c.md) — @The Kobeissi Letter, 2026-04-12 01:41
 - [刚刚的消息：谈判没有谈妥](2026-04-12-2043140582659199236-投资TALK君-刚刚的消息：谈判没有谈妥.md) — @投资TALK君, 2026-04-12 01:34
 - [BREAKING: The delinquency rate on Commercial Mortgage-Backed...](2026-04-12-2043129220251963522-The Kobeissi Letter-BREAKING- The delinquency rate on Commercial Mortgage-Backed Securities (CMBS) for offices surged +51 basis points in March, t.md) — @The Kobeissi Letter, 2026-04-12 00:49
+- [RT ゆきママ: 俺たちのBKLZニキ、トレンド入りです。 エロ動画のおじさんじゃなかったんだ…と思ったあなた！ぜひこの...](2026-04-12-2043186673836867823-パウロ-RT ゆきママ- 俺たちのBKLZニキ、トレンド入りです。 エロ動画のおじさんじゃなかったんだ…と思ったあな.md) — @パウロ, 2026-04-12 00:08
 - [The US debt crisis is heading into uncharted territory: The ...](2026-04-11-2043116133876990337-The Kobeissi Letter-The US debt crisis is heading into uncharted territory- The US government spent 18 cents of every Dollar of revenue on interes.md) — @The Kobeissi Letter, 2026-04-11 23:57
 - [微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL里）和新产品...](2026-04-11-2043103174274486644-投资TALK君-微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL.md) — @投资TALK君, 2026-04-11 23:05
 - [The top 20% of Americans now own the majority of US real est...](2026-04-11-2043101286019498021-The Kobeissi Letter-The top 20% of Americans now own the majority of US real estate- The top 1% of US earners hold a record $6.1 trillion in real .md) — @The Kobeissi Letter, 2026-04-11 22:58
 - [Americans increasingly expect unemployment to rise: The perc...](2026-04-11-2043086697093595274-The Kobeissi Letter-Americans increasingly expect unemployment to rise- The perceived probability among US consumers that the unemployment rate wi.md) — @The Kobeissi Letter, 2026-04-11 22:00
+- [RT 八木 翼: Re 味の素はメインが食品なので、売り上げで見るとAI関連が大したことなく見えるのが味噌ですよね。 売...](2026-04-11-2043162986853101898-パウロ-RT 八木 翼- Re 味の素はメインが食品なので、売り上げで見るとAI関連が大したことなく見えるのが味噌で.md) — @パウロ, 2026-04-11 21:57
 - [RT BRICS News: Re High-level direct negotiations between the...](2026-04-11-2043086963016626280-投资TALK君-RT BRICS News- Re High-level direct negotiations between the United States and Iran grew tense on Saturday in Pakistan's capital. The high.md) — @投资TALK君, 2026-04-11 21:47
 - [Healthcare is carrying US job growth more than ever: The num...](2026-04-11-2043071338810872238-The Kobeissi Letter-Healthcare is carrying US job growth more than ever- The number of healthcare workers has surged +84% since 1996, far outpacin.md) — @The Kobeissi Letter, 2026-04-11 20:59
 - [RT BRICS News: JUST IN: Strait of Hormuz remains a major obs...](2026-04-11-2043063813398814864-投资TALK君-RT BRICS News- JUST IN- Strait of Hormuz remains a major obstacle in US-Iran talks, with the US demanding immediate reopening and Iran ins.md) — @投资TALK君, 2026-04-11 20:28
