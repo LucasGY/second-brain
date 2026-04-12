@@ -1,10 +1,11 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-11T23:36:38.946Z
+Retrieved: 2026-04-12T00:36:56.333Z
 
-## Tweets (175)
+## Tweets (176)
 
+- [RT Tibo: Hi! Getting a lot of questions on Pro plan rate lim...](2026-04-11-2043088430763250067-OpenAI-RT Tibo- Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things- - Your Pro $100 plan includes at leas.md) — @OpenAI, 2026-04-11 21:14
 - [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
 - [RT Beff (e/acc): When you've been too locked in on Claude an...](2026-04-11-2042974452716032020-Peter Steinberger 🦞-RT Beff (e-acc)- When you've been too locked in on Claude and finally try out GPT 5.4 high for a coding task only to realize .md) — @Peter Steinberger 🦞, 2026-04-11 07:10
 - [RT Guillermo Rauch: 🦞 + ▲](2026-04-11-2042960750629581213-Peter Steinberger 🦞-RT Guillermo Rauch- 🦞 + ▲.md) — @Peter Steinberger 🦞, 2026-04-11 04:36

@@ -1,10 +1,15 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-11T23:36:39.248Z
+Retrieved: 2026-04-12T00:36:57.640Z
 
-## Tweets (285)
+## Tweets (290)
 
+- [The US debt crisis is heading into uncharted territory: The ...](2026-04-11-2043116133876990337-The Kobeissi Letter-The US debt crisis is heading into uncharted territory- The US government spent 18 cents of every Dollar of revenue on interes.md) — @The Kobeissi Letter, 2026-04-11 23:57
+- [微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL里）和新产品...](2026-04-11-2043103174274486644-投资TALK君-微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL.md) — @投资TALK君, 2026-04-11 23:05
+- [The top 20% of Americans now own the majority of US real est...](2026-04-11-2043101286019498021-The Kobeissi Letter-The top 20% of Americans now own the majority of US real estate- The top 1% of US earners hold a record $6.1 trillion in real .md) — @The Kobeissi Letter, 2026-04-11 22:58
+- [Americans increasingly expect unemployment to rise: The perc...](2026-04-11-2043086697093595274-The Kobeissi Letter-Americans increasingly expect unemployment to rise- The perceived probability among US consumers that the unemployment rate wi.md) — @The Kobeissi Letter, 2026-04-11 22:00
+- [RT BRICS News: Re High-level direct negotiations between the...](2026-04-11-2043086963016626280-投资TALK君-RT BRICS News- Re High-level direct negotiations between the United States and Iran grew tense on Saturday in Pakistan's capital. The high.md) — @投资TALK君, 2026-04-11 21:47
 - [Healthcare is carrying US job growth more than ever: The num...](2026-04-11-2043071338810872238-The Kobeissi Letter-Healthcare is carrying US job growth more than ever- The number of healthcare workers has surged +84% since 1996, far outpacin.md) — @The Kobeissi Letter, 2026-04-11 20:59
 - [RT BRICS News: JUST IN: Strait of Hormuz remains a major obs...](2026-04-11-2043063813398814864-投资TALK君-RT BRICS News- JUST IN- Strait of Hormuz remains a major obstacle in US-Iran talks, with the US demanding immediate reopening and Iran ins.md) — @投资TALK君, 2026-04-11 20:28
 - [BREAKING: The US, Iran, and Pakistan have begun a new round ...](2026-04-11-2043059370246717567-The Kobeissi Letter-BREAKING- The US, Iran, and Pakistan have begun a new round of trilateral talks, extending the first direct talks between the .md) — @The Kobeissi Letter, 2026-04-11 20:11
