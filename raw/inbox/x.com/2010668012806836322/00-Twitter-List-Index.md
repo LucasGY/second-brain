@@ -1,15 +1,29 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T15:51:31.224Z
+Retrieved: 2026-04-12T17:00:54.614Z
 
-## Tweets (342)
+## Tweets (358)
 
+- [Talk about a turn of events: President Trump just announced ...](2026-04-12-2043370141845438481-The Kobeissi Letter-Talk about a turn of events- President Trump just announced that the US itself will now begin blocking the Strait of Hormuz. E.md) — @The Kobeissi Letter, 2026-04-12 16:46
+- [RT Diyas.Σίσυφος(embracing bubble): Helium never a issue](2026-04-12-2043367515078942970-3X Long Labubu-RT Diyas.Σίσυφος(embracing bubble)- Helium never a issue.md) — @3X Long Labubu, 2026-04-12 16:31
+- [RT Chips & Wafers: Taiwan Helium Imports shifting from Qatar...](2026-04-12-2043367531302601124-パウロ-RT Chips & Wafers- Taiwan Helium Imports shifting from Qatar to the USA.md) — @パウロ, 2026-04-12 16:17
+- [这次BNN Chain Super Meetup会有很多BNB生态里的潜力项目到场，看看都有什么新布局和新动作！ 多谢@...](2026-04-12-2043358712702890136-qinbafrank-这次BNN Chain Super Meetup会有很多BNB生态里的潜力项目到场，看看都有什么新布局和新动作！ 多谢@pearbinan.md) — @qinbafrank, 2026-04-12 16:00
+- [このメモリ不足で、最悪ストライキになったら、もっと混乱しそうですね もちろんストライキになればSK HynixとMicr...](2026-04-12-2043351755443028325-パウロ-このメモリ不足で、最悪ストライキになったら、もっと混乱しそうですね もちろんストライキになればSK .md) — @パウロ, 2026-04-12 15:33
+- [市場の予想通りにSamsung電子が利益を上げ 12%で合意すると 2026年 5000万円 2027年 5500万円 ...](2026-04-12-2043351179909079110-パウロ-市場の予想通りにSamsung電子が利益を上げ 12%で合意すると 2026年 5000万円 2027年 5500万円 2028年 6000万円 みた.md) — @パウロ, 2026-04-12 15:30
+- [SK Hynixは既に営業利益の10%をボーナスの原資にしましたが、日本企業も労働組合設ける、もしくは強固にして、ストラ...](2026-04-12-2043348926108209340-パウロ-SK Hynixは既に営業利益の10%をボーナスの原資にしましたが、日本企業も労働組合設ける、もしくは強固に.md) — @パウロ, 2026-04-12 15:22
+- [たぶん15%はないけど、SK Hynixよりかは上いくと思うので、12%ぐらいですかね そしたら、平均5300万円ぐらい...](2026-04-12-2043347829234843927-パウロ-たぶん15%はないけど、SK Hynixよりかは上いくと思うので、12%ぐらいですかね そしたら、平均5300万円ぐらい.md) — @パウロ, 2026-04-12 15:17
+- [いやー、Samsung電子の新入社員になれば、5000万円のボーナスですか 本当にメモリの時代ですね](2026-04-12-2043347327914787254-パウロ-いやー、Samsung電子の新入社員になれば、5000万円のボーナスですか 本当にメモリの時代ですね.md) — @パウロ, 2026-04-12 15:15
+- [これはやばい 日本円で6600万円のボーナス😂 労使交渉が決裂する中、労組側はさらに要求水準を高めた形です。これは、S...](2026-04-12-2043347103221751927-パウロ-これはやばい 日本円で6600万円のボーナス😂 労使交渉が決裂する中、労組側はさらに要求水準を高めた形.md) — @パウロ, 2026-04-12 15:14
+- [RT @Biz_zatukora: 明日下がる？ 知らんよ。 今月7000万近く上がってんだから 数日でその半分が没収さ...](2026-04-12-2043346646470480383-パウロ-RT @Biz_zatukora- 明日下がる？ 知らんよ。 今月7000万近く上がってんだから 数日でその半分が没収されても仕.md) — @パウロ, 2026-04-12 15:12
+- [Post the Iranian war, my most concern is around AI capex fla...](2026-04-12-2043346577918730272-3X Long Labubu-Post the Iranian war, my most concern is around AI capex flatten or reduction for efficiency. It’d tank Semi but make CSPs attrac.md) — @3X Long Labubu, 2026-04-12 15:12
+- [Unfortunately Chamath was right, this is a tech industry wid...](2026-04-12-2043342063459356946-3X Long Labubu-Unfortunately Chamath was right, this is a tech industry wide issue not only to engineers but also to all XFN roles such as PM, dat.md) — @3X Long Labubu, 2026-04-12 14:54
 - [PRESIDENT TRUMP ON OIL AND GAS PRICES: \"The price of oil an...](2026-04-12-2043336658926411864-The Kobeissi Letter-PRESIDENT TRUMP ON OIL AND GAS PRICES- -The price of oil and gas could be lower before the midterm elections, or maybe a littl.md) — @The Kobeissi Letter, 2026-04-12 14:33
 - [BREAKING: US oil prices are now expected to surge above $115...](2026-04-12-2043334214225936569-The Kobeissi Letter-BREAKING- US oil prices are now expected to surge above $115-barrel this month as US-Iran talks fail and President Trump annou.md) — @The Kobeissi Letter, 2026-04-12 14:23
 - [川普出手了，美国封锁海峡禁止向伊朗付费的船只通过，是一记妙招么？刚刚川普发文说，美伊会谈进行得不错，大部分议题都达成了共...](2026-04-12-2043326170750701849-qinbafrank-川普出手了，美国封锁海峡禁止向伊朗付费的船只通过，是一记妙招么？刚刚川普发文说，美伊会谈进.md) — @qinbafrank, 2026-04-12 13:51
 - [BREAKING: President Trump says the US Navy will begin \"bloc...](2026-04-12-2043323635671179641-The Kobeissi Letter-BREAKING- President Trump says the US Navy will begin -blockading any and all ships- trying to enter or leave the Strait of Ho.md) — @The Kobeissi Letter, 2026-04-12 13:41
 - [据说今年的OKX嘉年华安排在 The Henderson 39F，高空俯瞰维港夜色，感觉应该很棒。感谢@Mercy_ok...](2026-04-12-2043320845620445331-qinbafrank-据说今年的OKX嘉年华安排在 The Henderson 39F，高空俯瞰维港夜色，感觉应该很棒。感谢@Mercy_okx @Haiteng_okx .md) — @qinbafrank, 2026-04-12 13:30
+- [RT Dr.Hash“Wesley”: 大家一起收费 美滋滋](2026-04-12-2043367764446900340-投资TALK君-RT Dr.Hash“Wesley”- 大家一起收费 美滋滋.md) — @投资TALK君, 2026-04-12 13:20
 - [RT ShortSeller: Re @epictrades1 use XYZ...order book is liqu...](2026-04-12-2043337644177031434-3X Long Labubu-RT ShortSeller- Re @epictrades1 use XYZ...order book is liquid 8K x 8k here as an example (as of 9AM down 1-11%).md) — @3X Long Labubu, 2026-04-12 13:18
 - [ありがとうございます なんだかんだ電源は強いです そして自社工場が既にアメリカにたくさんっ](2026-04-12-2043300040815583273-パウロ-ありがとうございます なんだかんだ電源は強いです そして自社工場が既にアメリカにたくさんっ.md) — @パウロ, 2026-04-12 12:07
 - [RT @Biz_zatukora: なんやなんや株は時価総額。 わけのわからん企業がどんなに勢いがあろうとNvidiaに...](2026-04-12-2043299744081232187-パウロ-RT @Biz_zatukora- なんやなんや株は時価総額。 わけのわからん企業がどんなに勢いがあろうとNvidiaに迫ること.md) — @パウロ, 2026-04-12 12:06
@@ -21,6 +35,7 @@ Retrieved: 2026-04-12T15:51:31.224Z
 - [RT ゆきママ: たった1つのAIモデルで米財務省・FRB・ウォール街の大手銀行CEOが動いた現実🥶 Claude M...](2026-04-12-2043296767358517636-パウロ-RT ゆきママ- たった1つのAIモデルで米財務省・FRB・ウォール街の大手銀行CEOが動いた現実🥶 Claude Mythosで .md) — @パウロ, 2026-04-12 11:09
 - [パッケージ基板の面積が大いに成長する だからイビデンとABFが成長する そして日東紡のT-Glassが](2026-04-12-2043282088909275298-パウロ-パッケージ基板の面積が大いに成長する だからイビデンとABFが成長する そして日東紡のT-Glassが.md) — @パウロ, 2026-04-12 10:56
 - [データと計算資源をどうするか、計画を見たい ソフトバンクやNEC、ホンダ、ソニーグループの4社が人工知能（AI）を開発す...](2026-04-12-2043238162382954742-パウロ-データと計算資源をどうするか、計画を見たい ソフトバンクやNEC、ホンダ、ソニーグループの4社が人工.md) — @パウロ, 2026-04-12 08:01
+- [RT 郭明錤 (Ming-Chi Kuo): http://x.com/i/article/20432317900314...](2026-04-12-2043352625559806379-3X Long Labubu-RT 郭明錤 (Ming-Chi Kuo)- http-x.com-i-article-2043231790031409153.md) — @3X Long Labubu, 2026-04-12 07:58
 - [最適な資産形成 教育費をあまりかけず 23歳までに新NISA 2800万円(1800万円+1000万円) 状態にする 新...](2026-04-12-2043236889197761014-パウロ-最適な資産形成 教育費をあまりかけず 23歳までに新NISA 2800万円(1800万円+1000万円) 状態にする 新卒で株式.md) — @パウロ, 2026-04-12 07:56
 - [RT ゆきママ: いつかは来る…と思っていたが、もう来ましたね。AIモデルがあまりに強すぎるので、もはや一般向け公開不能...](2026-04-12-2043245949909344559-パウロ-RT ゆきママ- いつかは来る…と思っていたが、もう来ましたね。AIモデルがあまりに強すぎるので、もはや.md) — @パウロ, 2026-04-12 07:56
 - [社会保険料がこのまま上昇していけば 従業員への株式の付与から配当金や自社株買いで還元する方が合理的かもしれませんね DC...](2026-04-12-2043234213475094631-パウロ-社会保険料がこのまま上昇していけば 従業員への株式の付与から配当金や自社株買いで還元する方が合理.md) — @パウロ, 2026-04-12 07:46
@@ -94,6 +109,7 @@ Retrieved: 2026-04-12T15:51:31.224Z
 - [RT ぷにょ: 日本の某銘柄が特にカタリストもなく2ヶ月で倍以上になっちゃって先週カバーしてるアナリストと喋ったら、「s...](2026-04-11-2042958911683362849-パウロ-RT ぷにょ- 日本の某銘柄が特にカタリストもなく2ヶ月で倍以上になっちゃって先週カバーしてるアナリス.md) — @パウロ, 2026-04-11 13:08
 - [BREAKING: President Trump says the US has now begun the proc...](2026-04-11-2042951697090171159-The Kobeissi Letter-BREAKING- President Trump says the US has now begun the process of clearing out mines from the Strait of Hormuz. Several US Na.md) — @The Kobeissi Letter, 2026-04-11 13:03
 - [\"The Vix volatility index is back to its February level bel...](2026-04-11-2042951425185952190-Daily Chartbook-The Vix volatility index is back to its February level below 20, while multi-asset measures like SocGen's Sentiment Indicator have.md) — @Daily Chartbook, 2026-04-11 13:02
+- [RT Daily Chartbook: \"The Vix volatility index is back to it...](2026-04-11-2043362352578388463-Daily Chartbook-RT Daily Chartbook- -The Vix volatility index is back to its February level below 20, while multi-asset measures like SocGen's Sen.md) — @Daily Chartbook, 2026-04-11 13:02
 - [ちなみにE-glassとNE-glassの価格差は顧客にもよりますが、倍近く違います](2026-04-11-2042950146502332436-パウロ-ちなみにE-glassとNE-glassの価格差は顧客にもよりますが、倍近く違います.md) — @パウロ, 2026-04-11 12:57
 - [AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴史から800V直...](2026-04-11-2042948283023380729-パウロ-AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴.md) — @パウロ, 2026-04-11 12:50
 - [日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出現：産業調査によ...](2026-04-11-2042941797039771837-パウロ-日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出.md) — @パウロ, 2026-04-11 12:24

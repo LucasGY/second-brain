@@ -1,11 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T15:51:30.885Z
+Retrieved: 2026-04-12T17:00:52.642Z
 
-## Tweets (191)
+## Tweets (192)
 
 - [They grow up so fast 🦞](2026-04-12-2043313467512463713-Peter Steinberger 🦞-They grow up so fast 🦞.md) — @Peter Steinberger 🦞, 2026-04-12 13:01
+- [RT Riley Brown: Personally I don’t see the point of Cowork. ...](2026-04-12-2043365882299355567-Peter Steinberger 🦞-RT Riley Brown- Personally I don’t see the point of Cowork. I don’t even see the point of chatgpt or Claude anymore. I ei.md) — @Peter Steinberger 🦞, 2026-04-12 08:12
 - [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
 - [RT Deva Hazarika: For You feed is great today, this is Nikit...](2026-04-12-2043295525412225266-Peter Steinberger 🦞-RT Deva Hazarika- For You feed is great today, this is Nikita’s Liberation Day.md) — @Peter Steinberger 🦞, 2026-04-12 01:35
 - [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
