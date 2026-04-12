@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775970463079-den6gqn3o",
+  "providerId": "claude",
+  "title": "Begin chat with greeting",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775970463080,
+  "updatedAt": 1775973925185,
+  "lastResponseAt": 1775973159045,
+  "sessionId": "dd2e5b7a-7d6e-4efe-b3d1-7bb80a6e842d",
+  "providerState": {
+    "providerSessionId": "dd2e5b7a-7d6e-4efe-b3d1-7bb80a6e842d"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 7093,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 18049,
+    "contextWindow": 200000,
+    "contextTokens": 25142,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}
