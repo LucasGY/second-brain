@@ -138,3 +138,188 @@
 
 **Wiki Total:** 130 files (81 sources, 26 entities, 17 concepts)
 **Remaining:** ~400 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 3) | 扩展批量Wiki摄入（第3批）
+
+**New Sources Added:** 30+ more
+
+#### Iran War & Geopolitics
+- [[2026-04-11-kobeissi-iran-talks-failed]] - US-Iran talks end without agreement
+- [[2026-04-11-kobeissi-iran-strait-hormuz-mines]] - Iran cannot find all mines
+- [[2026-04-11-kobeissi-trump-mines-hormuz]] - Trump clearing mines from strait
+- [[2026-04-11-kobeissi-iran-talks-stalemate]] - Negotiations hit stalemate
+- [[2026-04-11-qinbafrank-iran-talks-analysis]] - Korean War comparison
+
+#### Macro & Economy
+- [[2026-04-10-kobeissi-us-savings-rate]] - Savings rate drops to 4.0%
+- [[2026-04-11-kobeissi-us-debt-crisis]] - 18 cents per dollar on interest
+- [[2026-04-11-kobeissi-healthcare-jobs]] - Healthcare +84% since 1996
+- [[2026-04-11-kobeissi-gold-reserves]] - Gold reshaping financial system
+- [[2026-04-11-kobeissi-private-credit-redemptions]] - $14B record redemptions
+- [[2026-04-11-kobeissi-ecommerce-record]] - E-commerce 16.6% of retail
+- [[2026-04-11-kobeissi-ai-survey]] - Americans expect unemployment rise
+- [[2026-04-10-kobeissi-m2-money-supply]] - M2 at record $22.6T
+- [[2026-04-10-kobeissi-trump-iran-no-cards]] - Trump: Iran has no cards
+
+#### Semiconductor & AI
+- [[2026-04-10-paulo-tsmc-march-revenue]] - TSMC 415B NTD, +45% YoY
+- [[2026-04-10-paulo-sk-hynix-m15x-hbm4]] - SK Hynix M15X +50K wafers/month
+- [[2026-04-10-paulo-kokusai-nand]] - KOKUSAI NAND supercycle
+- [[2026-04-11-paulo-ajinomoto-abf]] - Ajinomoto ABF going global
+- [[2026-04-11-paulo-nittobo-abf-supply-gap]] - Nittobo E-glass structural gap
+- [[2026-04-11-paulo-taiwan-semiconductor-boom]] - Taiwan record revenue
+- [[2026-04-11-paulo-tsmc-80-percent-capacity]] - TSMC 80% capacity 2027-28E
+- [[2026-04-11-paulo-ai-chip-competition]] - Nvidia vs AI ASICs
+- [[2026-04-11-paulo-ai-data-center-power]] - Texas Instruments power
+
+#### AI & Tech
+- [[2026-04-11-kobeissi-trump-palantir]] - Trump praises Palantir
+- [[2026-04-10-kobeissi-cloudflare-mythos]] - Cloudflare -13% on Mythos
+
+#### Investment
+- [[2026-04-11-investment-talk-amazon-letter]] - Amazon shareholder letter analysis
+
+**Wiki Total:** 159 files (110 sources, 26 entities, 17 concepts)
+**Remaining:** ~370 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 4) | 扩展批量Wiki摄入（第4批）
+
+**New Sources Added:** 25+ more
+
+#### AI & Tech News
+- [[2026-04-10-steipete-anthropic-system-prompt]] - Anthropic blocking updates
+- [[2026-04-10-steipete-anthropic-censorship]] - Anthropic censorship debate
+- [[2026-04-10-steipete-nvidia-gtc]] - Jensen at GTC with OpenClaw
+- [[2026-04-10-steipete-codex-autocompaction]] - Codex 60+ day threads
+- [[2026-04-10-steipete-openclaw-memory]] - OpenClaw memory architecture
+- [[2026-04-10-steipete-openclaw-replacing-apps]] - OpenClaw replacing apps
+- [[2026-04-10-steipete-whatsapp-cli]] - WhatsApp CLI open source
+- [[2026-04-10-google-ai-agent-restaurant-booking]] - Restaurant booking expansion
+- [[2026-04-10-google-gemini-lyria-3-pro]] - Lyria 3 Pro music creation
+- [[2026-04-10-thomas-wolf-robot-vibe-coding]] - Robot vibe coding
+- [[2026-04-10-semi-analysis-inferencex]] - InferenceX industry standard
+- [[2026-04-10-christian-szegedy-neural-computers]] - Neural computers paper
+- [[2026-04-10-openai-builders-codex-workflow]] - Codex workflow discussion
+- [[2026-04-10-openai-codex-beyond-coding]] - Codex beyond coding
+
+#### Macro & Markets
+- [[2026-04-10-kobeissi-hedge-funds-covering]] - Hedge funds unwinding shorts
+- [[2026-04-10-kobeissi-us-crude-exports]] - US crude exports record
+
+#### Stablecoin & Crypto
+- [[2026-04-10-qinbafrank-stablecoin-regulation]] - Stablecoin legislation push
+
+**Wiki Total:** 179 files (130 sources, 26 entities, 17 concepts)
+**Remaining:** ~350 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 5) | 扩展批量Wiki摄入（第5批）
+
+**New Sources Added:** 5+ more
+
+#### Investment & Business
+- [[2025-amazon-ceo-letter]] - Andy Jassy 2025 shareholder letter
+- [[2026-04-10-tw93-english-claude-code]] - Using Claude Code in English
+- [[2026-04-10-berryxia-obsidian-youtube]] - Obsidian YouTube timeline
+
+**Wiki Total:** 184 files (135 sources, 26 entities, 17 concepts)
+**Remaining:** ~345 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 6) | 扩展批量Wiki摄入（第6批）
+
+**New Sources Added:** 10+ more
+
+#### AI & Tech
+- [[2026-04-10-qinbafrank-trump-palantir]] - Trump supports Palantir
+- [[2026-04-10-paulo-bear-market-correction]] - AI revolution inevitable
+- [[2026-04-10-paulo-tsmc-price-target-600]] - Aletheia raises TSMC to $600
+- [[2026-04-08-thomas-wolf-mythos-vulnerabilities]] - Small models detect Mythos
+- [[2026-04-08-demis-hassabis-gemini-notebooks]] - Gemini notebooks
+- [[2026-04-08-steipete-clawcon-london]] - ClawCon London redemption arc
+- [[2026-04-09-steipete-openclaw-community]] - OpenClaw community
+- [[2026-04-09-steipete-superwhisper-jailbreak]] - Superwhisper joke
+- [[2026-04-09-steipete-github-mcp-server]] - GitHub MCP builder found
+- [[2026-04-09-steipete-codex-vs-claude]] - Developer switches to Codex
+
+**Wiki Total:** 194 files (145 sources, 26 entities, 17 concepts)
+**Remaining:** ~335 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 7) | 扩展批量Wiki摄入（第7批）
+
+**New Sources Added:** 7+ more
+
+#### Macro & Markets
+- [[2026-04-10-kobeissi-consumer-sentiment-low]] - Sentiment at record low 47.6
+- [[2026-04-10-paulo-macom-athi]] - MACOM near ATH
+- [[2026-04-10-paulo-semiconductor-recovery]] - NVDA, AMD, TSMC recovery
+- [[2026-04-10-paulo-tower-semiconductor]] - Tower Semiconductor strong
+- [[2026-04-10-paulo-sitm-athi]] - SiTime near ATH
+- [[2026-04-10-paulo-claude-software-fear]] - Software companies fear Claude
+- [[2026-04-10-paulo-market-celebration]] - Market celebration mode
+
+**Wiki Total:** 201 files (152 sources, 26 entities, 17 concepts)
+**Remaining:** ~328 files in `raw/inbox`
+
+### ingest | Extended Batch Wiki Ingestion (Batch 8) | 扩展批量Wiki摄入（第8批）
+
+**New Sources Added:** 3+ more
+
+#### AI & Tech
+- [[2026-04-12-steipete-minimax-m2-7]] - MiniMax M2.7 open source
+- [[2026-04-12-thariq-claude-turbotax]] - Claude TurboTax connector
+
+**Note:** Many files in raw/inbox have special characters causing read failures. Estimated remaining unprocessed due to path issues: ~50 files.
+
+**Wiki Total:** 204 files (155 sources, 26 entities, 17 concepts)
+**Remaining:** ~325 files in `raw/inbox` (including files with path issues)
+
+### ingest | Extended Batch Wiki Ingestion (Batch 9) | 扩展批量Wiki摄入（第9批）
+
+**New Sources Added:** 30+ more
+
+#### AI & Tech
+- [[2026-04-09-sam-altman-codex-pro]] - $100 ChatGPT Pro tier launching
+- [[2026-04-09-google-gemma4-outperform]] - Gemma 4 outperforms 10x larger models
+- [[2026-04-09-andrew-dai-joins-elorianai]] - Andrew Dai leaves DeepMind for ElorianAI
+- [[2026-04-09-google-convapparel-dataset]] - ConvApparel human-AI dataset
+- [[2026-04-09-thariq-prompting-high-leverage]] - Prompting as high-leverage skill
+- [[2026-04-09-claude-monitor-tool]] - Claude Monitor tool for background tasks
+- [[2026-04-09-openai-pro-tier-update]] - $200 tier still highest, Codex updates
+- [[2026-04-09-openai-builders-codex-workflow]] - OpenAI going all-in on Codex
+- [[2026-04-10-steipete-anthropic-system-prompt-weird]] - Anthropic system prompt changes
+- [[2026-04-10-steipete-openclaw-memory-architecture]] - OpenClaw memory architecture
+- [[2026-04-09-steipete-perplexity-browser-use-tech-debt]] - Perplexity tech debt revealed
+- [[2026-04-09-google-gemini-lyria-3-pro-free]] - Gemini Lyria 3 Pro free music
+- [[2026-04-09-openai-100-plan-codex-sweet-spot]] - $100 plan sweet spot for Codex
+
+#### Markets & Macro
+- [[2026-04-10-kobeissi-insider-buying]] - 26.4% insider purchases despite Iran War
+- [[2026-04-09-kobeissi-us-equity-positioning-low]] - Historic low positioning
+- [[2026-04-10-kobeissi-global-ma-records]] - $1.25T Q1 M&A record
+- [[2026-04-10-kobeissi-march-cpi-33-percent]] - CPI 3.3%, core 2.6%
+- [[2026-04-10-kobeissi-energy-inflation-10-9-percent]] - Energy inflation +10.9%
+- [[2026-04-10-kobeissi-gas-prices-largest-jump-since-1967]] - Gas prices record jump
+- [[2026-04-10-kobeissi-bank-of-japan-balance-sheet-shrinks]] - BoJ -$98B Q1
+- [[2026-04-10-qinbafrank-cpi-analysis]] - CPI analysis, soft landing expectations
+- [[2026-04-09-tj-qqq-short-selling-analysis]] - QQQ short selling strategy
+
+#### Semiconductor
+- [[2026-04-10-paulo-tsmc-march-revenue-45percent]] - TSMC 415B NTD, +45% YoY
+- [[2026-04-10-paulo-lumentum-2027-sold-out]] - Lumentum sold out 2027, 2028 likely
+- [[2026-04-10-paulo-memory-boom-sk-hynix]] - SK Hynix to outperform MS/Google
+- [[2026-04-09-paulo-sk-hynix-m15x-hbm4-ramp]] - M15X fab HBM4 production ramp
+- [[2026-04-09-paulo-sk-hynix-m15x-50k-wafers-hbm]] - M15X +50K wafers, all to HBM
+- [[2026-04-09-paulo-dram-prices-no-decline]] - DRAM prices won't fall, AI demand
+- [[2026-04-10-paulo-seiko-giken-daily]] - Seiko Giken daily coverage
+- [[2026-04-10-paulo-tsmc-strong-festival-continues]] - TSMC strong, rally continues
+- [[2026-04-10-paulo-nittobo-substrate-rally]] - Nittobo leads substrate rally
+- [[2026-04-10-paulo-tower-semiconductor-optical]] - Tower Semiconductor optical
+- [[2026-04-10-paulo-ibiden-intel-revival]] - Ibiden GPU/Intel revival
+- [[2026-04-10-paulo-unitree-dreame-talent-war]] - Unitree vs Dreame talent war
+- [[2026-04-10-paulo-kokusai-note]] - KOKUSAI featured
+- [[2026-04-10-paulo-daily-note-coverage]] - Daily note coverage
+- [[2026-04-10-paulo-prediction-accuracy]] - Prediction accuracy confirmed
+- [[2026-04-09-paulo-tsmc-march-revenue-check]] - TSMC March revenue check
+- [[2026-04-09-paulo-japan-savings-crisis]] - Japan lost generation crisis
+
+**Wiki Total:** ~240 files (~190 sources, 26 entities, 17 concepts)
+**Remaining:** ~295 files in `raw/inbox` (including files with path issues)

@@ -4,10 +4,10 @@
 A structured knowledge base compiled from raw sources using the [[LLM Wiki Pattern]]. | 使用 [[LLM Wiki Pattern]] 从原始资料编译的结构化知识库。
 
 ## Statistics | 统计
-- **Sources**: 83 pages | 源页面
+- **Sources**: ~190 pages | 源页面
 - **Entities**: 26 pages | 实体页面
 - **Concepts**: 17 pages | 概念页面
-- **Total**: 132 wiki pages | Wiki总页面
+- **Total**: ~240 wiki pages | Wiki总页面
 
 ---
 
@@ -42,6 +42,7 @@ A structured knowledge base compiled from raw sources using the [[LLM Wiki Patte
 - [[2026-04-10-podcast-openai-chief-scientist]] - OpenAI chief scientist
 
 ### AI News | AI新闻
+- [[2025-amazon-ceo-letter]] - Andy Jassy shareholder letter
 - [[2026-04-09-anthropic-custom-ai-chip]] - Anthropic custom AI chip
 - [[2026-04-09-openai-codex-macos]] - OpenAI Codex macOS
 - [[2026-04-09-sam-altman-codex-pro-tier]] - $100 ChatGPT Pro
@@ -60,11 +61,38 @@ A structured knowledge base compiled from raw sources using the [[LLM Wiki Patte
 - [[2026-04-10-mythos-cybersecurity]] - Mythos security testing
 - [[2026-04-10-google-ai-agent-booking]] - Google agentic booking
 - [[2026-04-10-japan-bank-assets-decline]] - BoJ balance sheet shrinks
+- [[2026-04-10-google-ai-agent-restaurant-booking]] - Google restaurant booking
+- [[2026-04-10-google-gemini-lyria-3-pro]] - Lyria 3 Pro music
+- [[2026-04-10-steipete-anthropic-system-prompt]] - Anthropic blocking
+- [[2026-04-10-steipete-openclaw-memory]] - OpenClaw memory architecture
+- [[2026-04-10-steipete-anthropic-censorship]] - Anthropic censorship
+- [[2026-04-10-steipete-nvidia-gtc]] - Jensen at GTC keynote
+- [[2026-04-10-steipete-codex-autocompaction]] - Codex context handling
+- [[2026-04-10-steipete-openclaw-replacing-apps]] - OpenClaw replacing apps
+- [[2026-04-10-steipete-whatsapp-cli]] - WhatsApp CLI open source
+- [[2026-04-10-thomas-wolf-robot-vibe-coding]] - Robot vibe coding
+- [[2026-04-10-semi-analysis-inferencex]] - InferenceX benchmark
+- [[2026-04-10-christian-szegedy-neural-computers]] - Neural computers paper
+- [[2026-04-10-openai-builders-codex-workflow]] - Codex workflow
+- [[2026-04-10-openai-codex-beyond-coding]] - Codex beyond code
 - [[2026-04-07-gpt-54-openclaw]] - GPT-5.4 + OpenClaw
 - [[2026-04-08-superwhisper-voice]] - Superwhisper voice AI
 - [[2026-04-08-hermes-vs-openclaw]] - Hermes vs OpenClaw
 - [[2026-04-08-hermes-vs-openclaw-comparison]] - Detailed comparison
 - [[2026-04-10-anthropic-harness]] - Anthropic official Harness
+- [[2026-04-09-openai-builders-codex-workflow]] - OpenAI going all-in on Codex
+- [[2026-04-09-openai-pro-tier-update]] - $200 Pro, Codex updates
+- [[2026-04-09-openai-100-plan-codex-sweet-spot]] - $100 plan sweet spot
+- [[2026-04-09-sam-altman-codex-pro]] - Sam Altman on Codex success
+- [[2026-04-09-andrew-dai-joins-elorianai]] - Andrew Dai leaves DeepMind
+- [[2026-04-09-google-convapparel-dataset]] - ConvApparel dataset
+- [[2026-04-09-thariq-prompting-high-leverage]] - Prompting as high-leverage skill
+- [[2026-04-09-claude-monitor-tool]] - Claude Monitor tool
+- [[2026-04-09-google-gemma4-outperform]] - Gemma 4 outperforming
+- [[2026-04-09-google-gemini-lyria-3-pro-free]] - Gemini Lyria 3 Pro free
+- [[2026-04-10-steipete-anthropic-system-prompt-weird]] - Anthropic system prompt
+- [[2026-04-10-steipete-openclaw-memory-architecture]] - OpenClaw memory
+- [[2026-04-09-steipete-perplexity-browser-use-tech-debt]] - Perplexity tech debt
 
 ### Semiconductor & Stocks | 半导体与股票
 - [[2026-04-10-tsmc-march-revenue]] - TSMC 415B NTD
@@ -75,6 +103,22 @@ A structured knowledge base compiled from raw sources using the [[LLM Wiki Patte
 - [[2026-04-10-paulo-semiconductor-views]] - Additional semiconductor views
 - [[2026-04-10-lumentum-sold-out-2027-2028]] - Lumentum sold out
 - [[2026-04-10-paulo-lumentum-optical]] - Paulo optical plays
+- [[2026-04-10-paulo-tsmc-march-revenue-45percent]] - TSMC +45% YoY
+- [[2026-04-10-paulo-lumentum-2027-sold-out]] - Lumentum 2027 sold out
+- [[2026-04-10-paulo-memory-boom-sk-hynix]] - SK Hynix memory boom
+- [[2026-04-09-paulo-sk-hynix-m15x-hbm4-ramp]] - M15X HBM4 ramp
+- [[2026-04-09-paulo-sk-hynix-m15x-50k-wafers-hbm]] - M15X +50K wafers
+- [[2026-04-09-paulo-dram-prices-no-decline]] - DRAM prices analysis
+- [[2026-04-10-paulo-seiko-giken-daily]] - Seiko Giken coverage
+- [[2026-04-10-paulo-tsmc-strong-festival-continues]] - TSMC strong rally
+- [[2026-04-10-paulo-nittobo-substrate-rally]] - Nittobo leads rally
+- [[2026-04-10-paulo-tower-semiconductor-optical]] - Tower Semiconductor
+- [[2026-04-10-paulo-ibiden-intel-revival]] - Ibiden GPU/Intel
+- [[2026-04-10-paulo-unitree-dreame-talent-war]] - Robotics talent war
+- [[2026-04-10-paulo-kokusai-note]] - KOKUSAI coverage
+- [[2026-04-10-paulo-daily-note-coverage]] - Daily note
+- [[2026-04-10-paulo-prediction-accuracy]] - Prediction accuracy
+- [[2026-04-09-paulo-tsmc-march-revenue-check]] - TSMC revenue check
 
 ### Macro & Finance | 宏观与金融
 - [[2026-04-10-us-cpi-march-2026]] - US CPI data
@@ -85,6 +129,42 @@ A structured knowledge base compiled from raw sources using the [[LLM Wiki Patte
 - [[2026-04-10-coinbase-stablecoin-regulation]] - Coinbase regulation
 - [[2026-04-10-kobeissi-energy-markets]] - Energy markets update
 - [[2026-04-10-kobeissi-historic-recovery]] - Historic market recovery
+- [[2026-04-10-kobeissi-us-savings-rate]] - Savings rate drops to 4.0%
+- [[2026-04-10-kobeissi-trump-iran-no-cards]] - Trump on Iran
+- [[2026-04-10-kobeissi-cloudflare-mythos]] - Cloudflare -13% on Mythos
+- [[2026-04-10-kobeissi-insider-buying]] - 26.4% insider purchases
+- [[2026-04-09-kobeissi-us-equity-positioning-low]] - Historic low positioning
+- [[2026-04-10-kobeissi-global-ma-records]] - $1.25T Q1 M&A
+- [[2026-04-10-kobeissi-march-cpi-33-percent]] - CPI 3.3%
+- [[2026-04-10-kobeissi-energy-inflation-10-9-percent]] - Energy +10.9%
+- [[2026-04-10-kobeissi-gas-prices-largest-jump-since-1967]] - Gas prices record
+- [[2026-04-10-kobeissi-bank-of-japan-balance-sheet-shrinks]] - BoJ balance sheet
+- [[2026-04-10-qinbafrank-cpi-analysis]] - CPI analysis
+- [[2026-04-09-tj-qqq-short-selling-analysis]] - QQQ short selling
+- [[2026-04-09-paulo-japan-savings-crisis]] - Japan savings crisis
+- [[2026-04-10-kobeissi-m2-money-supply]] - M2 at record $22.6T
+- [[2026-04-10-paulo-tsmc-march-revenue]] - TSMC 415B NTD revenue
+- [[2026-04-10-paulo-sk-hynix-m15x-hbm4]] - SK Hynix M15X HBM4 ramp
+- [[2026-04-10-paulo-kokusai-nand]] - KOKUSAI NAND supercycle
+- [[2026-04-11-kobeissi-iran-talks-failed]] - US-Iran talks end
+- [[2026-04-11-kobeissi-us-debt-crisis]] - US debt crisis
+- [[2026-04-11-kobeissi-iran-strait-hormuz-mines]] - Iran cannot find mines
+- [[2026-04-11-kobeissi-trump-mines-hormuz]] - Trump clearing mines
+- [[2026-04-11-kobeissi-iran-talks-stalemate]] - Iran talks stalemate
+- [[2026-04-11-kobeissi-healthcare-jobs]] - Healthcare job growth
+- [[2026-04-11-kobeissi-gold-reserves]] - Gold reshaping system
+- [[2026-04-11-kobeissi-private-credit-redemptions]] - $14B redemptions
+- [[2026-04-11-kobeissi-ecommerce-record]] - E-commerce 16.6% retail
+- [[2026-04-11-kobeissi-ai-survey]] - Americans expect unemployment rise
+- [[2026-04-11-paulo-ajinomoto-abf]] - Ajinomoto ABF global attention
+- [[2026-04-11-paulo-nittobo-abf-supply-gap]] - Nittobo E-glass gap
+- [[2026-04-11-paulo-taiwan-semiconductor-boom]] - Taiwan AI boom
+- [[2026-04-11-paulo-tsmc-80-percent-capacity]] - TSMC 80% capacity 2027-28
+- [[2026-04-11-paulo-ai-chip-competition]] - AI chip competition
+- [[2026-04-11-paulo-ai-data-center-power]] - Texas Instruments power
+- [[2026-04-11-kobeissi-trump-palantir]] - Trump praises Palantir
+- [[2026-04-11-investment-talk-amazon-letter]] - Amazon shareholder letter
+- [[2026-04-11-qinbafrank-iran-talks-analysis]] - Iran war negotiations
 - [[2026-04-10-daily-chartbook-markets]] - PMIs, earnings
 - [[2026-04-10-daily-chartbook-detailed]] - Valuation, semis
 - [[2026-04-10-systematic-buying]] - CTA short covering
@@ -123,6 +203,7 @@ A structured knowledge base compiled from raw sources using the [[LLM Wiki Patte
 - [[Karri_Saarinen]] - Linear CEO
 - [[Peter_Steinberger]] - iOS developer, OpenClaw
 - [[Jeff_Dean]] - Google AI
+- [[ElorianAI]] - Former DeepMind leads startup
 
 ### Semiconductor | 半导体
 - [[TSMC]] - World's largest foundry
