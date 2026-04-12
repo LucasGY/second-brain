@@ -1,10 +1,13 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T20:52:27.040Z
+Retrieved: 2026-04-12T21:52:32.847Z
 
-## Tweets (364)
+## Tweets (369)
 
+- [BREAKING: The US Military says it will begin its Strait of H...](2026-04-12-2043433889637580820-The Kobeissi Letter-BREAKING- The US Military says it will begin its Strait of Hormuz “blockade” at 10 AM ET on Monday.md) — @The Kobeissi Letter, 2026-04-12 20:59
+- [Gold ETFs saw historic outflows in March across every region...](2026-04-12-2043427682940227615-The Kobeissi Letter-Gold ETFs saw historic outflows in March across every region- Global gold ETFs posted -$4.3 billion in outflows in the week en.md) — @The Kobeissi Letter, 2026-04-12 20:34
+- [US trucking costs are rapidly rising: The per-mile cost to h...](2026-04-12-2043409877339349494-The Kobeissi Letter-US trucking costs are rapidly rising- The per-mile cost to hire a truck to move goods is up to $2.97 per mile, the highest sin.md) — @The Kobeissi Letter, 2026-04-12 19:24
 - [The Kobeissi Letter for the week of April 13th has been publ...](2026-04-12-2043396229476815326-The Kobeissi Letter-The Kobeissi Letter for the week of April 13th has been published and may be viewed through the link below- https-tinyurl.com.md) — @The Kobeissi Letter, 2026-04-12 18:30
 - [The entire world is watching oil: Google search interest for...](2026-04-12-2043390179386503606-The Kobeissi Letter-The entire world is watching oil- Google search interest for -price of oil- spiked to its highest level on record in data goin.md) — @The Kobeissi Letter, 2026-04-12 18:05
 - [This is a pure meme stock at the moment. Would be fun to swi...](2026-04-12-2043388273821905339-3X Long Labubu-This is a pure meme stock at the moment. Would be fun to swing trade but don’t have balls to hold the bag.md) — @3X Long Labubu, 2026-04-12 17:58
@@ -14,6 +17,7 @@ Retrieved: 2026-04-12T20:52:27.040Z
 - [RT Diyas.Σίσυφος(embracing bubble): Helium never a issue](2026-04-12-2043367515078942970-3X Long Labubu-RT Diyas.Σίσυφος(embracing bubble)- Helium never a issue.md) — @3X Long Labubu, 2026-04-12 16:31
 - [RT Chips & Wafers: Taiwan Helium Imports shifting from Qatar...](2026-04-12-2043367531302601124-パウロ-RT Chips & Wafers- Taiwan Helium Imports shifting from Qatar to the USA.md) — @パウロ, 2026-04-12 16:17
 - [这次BNN Chain Super Meetup会有很多BNB生态里的潜力项目到场，看看都有什么新布局和新动作！ 多谢@...](2026-04-12-2043358712702890136-qinbafrank-这次BNN Chain Super Meetup会有很多BNB生态里的潜力项目到场，看看都有什么新布局和新动作！ 多谢@pearbinan.md) — @qinbafrank, 2026-04-12 16:00
+- [RT 3X Long Labubu: Re @aaronXu2024 @Trumpyla No, will never ...](2026-04-12-2043431907892003072-3X Long Labubu-RT 3X Long Labubu- Re @aaronXu2024 @Trumpyla No, will never return to that toxic community. I made lots of friends after switch to .md) — @3X Long Labubu, 2026-04-12 15:41
 - [このメモリ不足で、最悪ストライキになったら、もっと混乱しそうですね もちろんストライキになればSK HynixとMicr...](2026-04-12-2043351755443028325-パウロ-このメモリ不足で、最悪ストライキになったら、もっと混乱しそうですね もちろんストライキになればSK .md) — @パウロ, 2026-04-12 15:33
 - [市場の予想通りにSamsung電子が利益を上げ 12%で合意すると 2026年 5000万円 2027年 5500万円 ...](2026-04-12-2043351179909079110-パウロ-市場の予想通りにSamsung電子が利益を上げ 12%で合意すると 2026年 5000万円 2027年 5500万円 2028年 6000万円 みた.md) — @パウロ, 2026-04-12 15:30
 - [SK Hynixは既に営業利益の10%をボーナスの原資にしましたが、日本企業も労働組合設ける、もしくは強固にして、ストラ...](2026-04-12-2043348926108209340-パウロ-SK Hynixは既に営業利益の10%をボーナスの原資にしましたが、日本企業も労働組合設ける、もしくは強固に.md) — @パウロ, 2026-04-12 15:22
@@ -65,6 +69,7 @@ Retrieved: 2026-04-12T20:52:27.040Z
 - [えっ MLCCやガラスクロス、シャント抵抗の中国製があるんですか 是非、教えてください どこのメーカーですか](2026-04-12-2043163620704756185-パウロ-えっ MLCCやガラスクロス、シャント抵抗の中国製があるんですか 是非、教えてください どこのメーカーで.md) — @パウロ, 2026-04-12 03:05
 - [BREAKING: Vice President JD Vance on failed talks with Iran:...](2026-04-12-2043163446318113258-The Kobeissi Letter-BREAKING- Vice President JD Vance on failed talks with Iran- -We are leaving here with a very simple proposal, our final and b.md) — @The Kobeissi Letter, 2026-04-12 03:05
 - [ありがとうございます ABFはかなり前から指摘していました 王将の餃子によって一時期はやられましたが、ついに来ますっ](2026-04-12-2043162422190670181-パウロ-ありがとうございます ABFはかなり前から指摘していました 王将の餃子によって一時期はやられましたが.md) — @パウロ, 2026-04-12 03:00
+- [RT CryptoCat|猫姐🐈: 这篇文章在英文圈火了，WLFI项目参与人员出来揭露川普团队怎么通过WLFI敛财，目...](2026-04-12-2043409566923121112-投资TALK君-RT CryptoCat-猫姐🐈- 这篇文章在英文圈火了，WLFI项目参与人员出来揭露川普团队怎么通过WLFI敛财，目前WLF.md) — @投资TALK君, 2026-04-12 02:48
 - [Bitcoin is down sharply on failed US-Iran talks. It's going ...](2026-04-12-2043157110444134412-The Kobeissi Letter-Bitcoin is down sharply on failed US-Iran talks. It's going to be a busy week ahead.md) — @The Kobeissi Letter, 2026-04-12 02:39
 - [BREAKING: Details emerge regarding failed talks between the ...](2026-04-12-2043154354627072026-The Kobeissi Letter-BREAKING- Details emerge regarding failed talks between the US and Iran as negotiations end with no deal. Details include- 1. .md) — @The Kobeissi Letter, 2026-04-12 02:28
 - [BREAKING: JD Vance announces US-Iran talks have ended after ...](2026-04-12-2043152806341755076-The Kobeissi Letter-BREAKING- JD Vance announces US-Iran talks have ended after 21 hours without an agreement, which is -bad news for Iran, much m.md) — @The Kobeissi Letter, 2026-04-12 02:22
