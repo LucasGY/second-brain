@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T11:46:59.597Z
+Retrieved: 2026-04-12T12:51:27.250Z
 
-## Tweets (186)
+## Tweets (188)
 
+- [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
+- [RT Deva Hazarika: For You feed is great today, this is Nikit...](2026-04-12-2043295525412225266-Peter Steinberger 🦞-RT Deva Hazarika- For You feed is great today, this is Nikita’s Liberation Day.md) — @Peter Steinberger 🦞, 2026-04-12 01:35
 - [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
 - [there's a turbotax connector in Claude Code now, so glad I p...](2026-04-12-2043138221836746762-Thariq-there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭.md) — @Thariq, 2026-04-12 01:24
 - [RT Tibo: Hi! Getting a lot of questions on Pro plan rate lim...](2026-04-11-2043088430763250067-OpenAI-RT Tibo- Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things- - Your Pro $100 plan includes at leas.md) — @OpenAI, 2026-04-11 21:14
