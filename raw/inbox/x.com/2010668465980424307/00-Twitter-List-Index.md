@@ -1,11 +1,14 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T01:36:40.858Z
+Retrieved: 2026-04-12T02:52:25.769Z
 
-## Tweets (176)
+## Tweets (180)
 
+- [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
+- [there's a turbotax connector in Claude Code now, so glad I p...](2026-04-12-2043138221836746762-Thariq-there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭.md) — @Thariq, 2026-04-12 01:24
 - [RT Tibo: Hi! Getting a lot of questions on Pro plan rate lim...](2026-04-11-2043088430763250067-OpenAI-RT Tibo- Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things- - Your Pro $100 plan includes at leas.md) — @OpenAI, 2026-04-11 21:14
+- [RT TestingCatalog News 🗞: OpenAI is working on a new experi...](2026-04-11-2043140441290449058-Peter Steinberger 🦞-RT TestingCatalog News 🗞- OpenAI is working on a new experimental feature for Codex called Scratchpad. Users will be able .md) — @Peter Steinberger 🦞, 2026-04-11 17:34
 - [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
 - [RT Beff (e/acc): When you've been too locked in on Claude an...](2026-04-11-2042974452716032020-Peter Steinberger 🦞-RT Beff (e-acc)- When you've been too locked in on Claude and finally try out GPT 5.4 high for a coding task only to realize .md) — @Peter Steinberger 🦞, 2026-04-11 07:10
 - [RT Guillermo Rauch: 🦞 + ▲](2026-04-11-2042960750629581213-Peter Steinberger 🦞-RT Guillermo Rauch- 🦞 + ▲.md) — @Peter Steinberger 🦞, 2026-04-11 04:36
@@ -127,6 +130,7 @@ Retrieved: 2026-04-12T01:36:40.858Z
 - [Lots of love for Gemma 4! Team just told me it’s already had...](029-Sundar Pichai-Lots of love for Gemma 4! Team just told me it’s a.md) — @Sundar Pichai, 2026-04-08 22:57
 - [Lots of love for Gemma 4! Team just told me it’s already had...](035-Sundar Pichai-Lots of love for Gemma 4! Team just told me it’s a.md) — @Sundar Pichai, 2026-04-08 22:57
 - [Lots of love for Gemma 4! Team just told me it’s already had...](042-Sundar Pichai-Lots of love for Gemma 4! Team just told me it’s a.md) — @Sundar Pichai, 2026-04-08 22:57
+- [RT Sundar Pichai: Lots of love for Gemma 4! Team just told m...](2026-04-08-2042077966385995808-Demis Hassabis-RT Sundar Pichai- Lots of love for Gemma 4! Team just told me it’s already had 10M+ downloads since last week’s launch. Gemma m.md) — @Demis Hassabis, 2026-04-08 22:57
 - [RT Adam.GPT:](030-Peter Steinberger 🦞-RT Adam.GPT.md) — @Peter Steinberger 🦞, 2026-04-08 21:59
 - [RT Adam.GPT:](036-Peter Steinberger 🦞-RT Adam.GPT.md) — @Peter Steinberger 🦞, 2026-04-08 21:59
 - [RT Adam.GPT:](043-Peter Steinberger 🦞-RT Adam.GPT.md) — @Peter Steinberger 🦞, 2026-04-08 21:59

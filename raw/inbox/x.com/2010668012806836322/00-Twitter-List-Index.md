@@ -1,10 +1,17 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T01:36:41.113Z
+Retrieved: 2026-04-12T02:52:27.330Z
 
-## Tweets (290)
+## Tweets (297)
 
+- [Bitcoin is down sharply on failed US-Iran talks. It's going ...](2026-04-12-2043157110444134412-The Kobeissi Letter-Bitcoin is down sharply on failed US-Iran talks. It's going to be a busy week ahead.md) — @The Kobeissi Letter, 2026-04-12 02:39
+- [BREAKING: Details emerge regarding failed talks between the ...](2026-04-12-2043154354627072026-The Kobeissi Letter-BREAKING- Details emerge regarding failed talks between the US and Iran as negotiations end with no deal. Details include- 1. .md) — @The Kobeissi Letter, 2026-04-12 02:28
+- [BREAKING: JD Vance announces US-Iran talks have ended after ...](2026-04-12-2043152806341755076-The Kobeissi Letter-BREAKING- JD Vance announces US-Iran talks have ended after 21 hours without an agreement, which is -bad news for Iran, much m.md) — @The Kobeissi Letter, 2026-04-12 02:22
+- [美伊谈判已结束，双方都确认未达成协议，其实这可以认为是美伊的第一轮谈判。也是这两天一直聊到的，谈判中间波折应该不会少，也...](2026-04-12-2043148422224785477-qinbafrank-美伊谈判已结束，双方都确认未达成协议，其实这可以认为是美伊的第一轮谈判。也是这两天一直聊到.md) — @qinbafrank, 2026-04-12 02:05
+- [Cracks in the US private credit market are widening: Investo...](2026-04-12-2043142306576969785-The Kobeissi Letter-Cracks in the US private credit market are widening- Investors requested a record -$14.0 billion in redemptions from private c.md) — @The Kobeissi Letter, 2026-04-12 01:41
+- [刚刚的消息：谈判没有谈妥](2026-04-12-2043140582659199236-投资TALK君-刚刚的消息：谈判没有谈妥.md) — @投资TALK君, 2026-04-12 01:34
+- [BREAKING: The delinquency rate on Commercial Mortgage-Backed...](2026-04-12-2043129220251963522-The Kobeissi Letter-BREAKING- The delinquency rate on Commercial Mortgage-Backed Securities (CMBS) for offices surged +51 basis points in March, t.md) — @The Kobeissi Letter, 2026-04-12 00:49
 - [The US debt crisis is heading into uncharted territory: The ...](2026-04-11-2043116133876990337-The Kobeissi Letter-The US debt crisis is heading into uncharted territory- The US government spent 18 cents of every Dollar of revenue on interes.md) — @The Kobeissi Letter, 2026-04-11 23:57
 - [微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL里）和新产品...](2026-04-11-2043103174274486644-投资TALK君-微软的末日？工作场合的AI智能体 举个例子，我是一家汽车配件的SALES，我需要把内部的数据（存在EXCEL.md) — @投资TALK君, 2026-04-11 23:05
 - [The top 20% of Americans now own the majority of US real est...](2026-04-11-2043101286019498021-The Kobeissi Letter-The top 20% of Americans now own the majority of US real estate- The top 1% of US earners hold a record $6.1 trillion in real .md) — @The Kobeissi Letter, 2026-04-11 22:58
