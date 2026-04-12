@@ -1,10 +1,16 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T13:51:21.013Z
+Retrieved: 2026-04-12T14:51:41.653Z
 
-## Tweets (334)
+## Tweets (342)
 
+- [PRESIDENT TRUMP ON OIL AND GAS PRICES: \"The price of oil an...](2026-04-12-2043336658926411864-The Kobeissi Letter-PRESIDENT TRUMP ON OIL AND GAS PRICES- -The price of oil and gas could be lower before the midterm elections, or maybe a littl.md) — @The Kobeissi Letter, 2026-04-12 14:33
+- [BREAKING: US oil prices are now expected to surge above $115...](2026-04-12-2043334214225936569-The Kobeissi Letter-BREAKING- US oil prices are now expected to surge above $115-barrel this month as US-Iran talks fail and President Trump annou.md) — @The Kobeissi Letter, 2026-04-12 14:23
+- [川普出手了，美国封锁海峡禁止向伊朗付费的船只通过，是一记妙招么？刚刚川普发文说，美伊会谈进行得不错，大部分议题都达成了共...](2026-04-12-2043326170750701849-qinbafrank-川普出手了，美国封锁海峡禁止向伊朗付费的船只通过，是一记妙招么？刚刚川普发文说，美伊会谈进.md) — @qinbafrank, 2026-04-12 13:51
+- [BREAKING: President Trump says the US Navy will begin \"bloc...](2026-04-12-2043323635671179641-The Kobeissi Letter-BREAKING- President Trump says the US Navy will begin -blockading any and all ships- trying to enter or leave the Strait of Ho.md) — @The Kobeissi Letter, 2026-04-12 13:41
+- [据说今年的OKX嘉年华安排在 The Henderson 39F，高空俯瞰维港夜色，感觉应该很棒。感谢@Mercy_ok...](2026-04-12-2043320845620445331-qinbafrank-据说今年的OKX嘉年华安排在 The Henderson 39F，高空俯瞰维港夜色，感觉应该很棒。感谢@Mercy_okx @Haiteng_okx .md) — @qinbafrank, 2026-04-12 13:30
+- [RT ShortSeller: Re @epictrades1 use XYZ...order book is liqu...](2026-04-12-2043337644177031434-3X Long Labubu-RT ShortSeller- Re @epictrades1 use XYZ...order book is liquid 8K x 8k here as an example (as of 9AM down 1-11%).md) — @3X Long Labubu, 2026-04-12 13:18
 - [ありがとうございます なんだかんだ電源は強いです そして自社工場が既にアメリカにたくさんっ](2026-04-12-2043300040815583273-パウロ-ありがとうございます なんだかんだ電源は強いです そして自社工場が既にアメリカにたくさんっ.md) — @パウロ, 2026-04-12 12:07
 - [RT @Biz_zatukora: なんやなんや株は時価総額。 わけのわからん企業がどんなに勢いがあろうとNvidiaに...](2026-04-12-2043299744081232187-パウロ-RT @Biz_zatukora- なんやなんや株は時価総額。 わけのわからん企業がどんなに勢いがあろうとNvidiaに迫ること.md) — @パウロ, 2026-04-12 12:06
 - [IRAN ON FAILED TALKS WITH THE US IN PAKISTAN: \"The American...](2026-04-12-2043298091558719732-The Kobeissi Letter-IRAN ON FAILED TALKS WITH THE US IN PAKISTAN- -The American enemy, which is vile, wicked and dishonest, attempted to achieve o.md) — @The Kobeissi Letter, 2026-04-12 12:00
@@ -92,12 +98,14 @@ Retrieved: 2026-04-12T13:51:21.013Z
 - [AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴史から800V直...](2026-04-11-2042948283023380729-パウロ-AIデータセンターの隠れた主役、電源のテキサスインスツルメンツについてnoteを書きました 彼らの深い歴.md) — @パウロ, 2026-04-11 12:50
 - [日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出現：産業調査によ...](2026-04-11-2042941797039771837-パウロ-日東紡、これはでかい、高級ガラスクロスに集中だ 日東紡が戦略的に撤退、E-glassに「構造的缺口」が出.md) — @パウロ, 2026-04-11 12:24
 - [\"Tariffs implemented through November of 2025 can explain t...](2026-04-11-2042936033247961464-Daily Chartbook-Tariffs implemented through November of 2025 can explain the entirety of excess inflation in the core goods category and contribut.md) — @Daily Chartbook, 2026-04-11 12:01
+- [RT Daily Chartbook: \"Tariffs implemented through November o...](2026-04-11-2043340586594226479-Daily Chartbook-RT Daily Chartbook- -Tariffs implemented through November of 2025 can explain the entirety of excess inflation in the core goods c.md) — @Daily Chartbook, 2026-04-11 12:01
 - [RT 泥女医: チラホラ法律の素人が介入すれば裁判がめちゃくちゃになると言ってる人がいますけど、医学の素人が医療を裁いて...](2026-04-11-2042970638697271329-パウロ-RT 泥女医- チラホラ法律の素人が介入すれば裁判がめちゃくちゃになると言ってる人がいますけど、医学.md) — @パウロ, 2026-04-11 11:35
 - [AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官の存在意義は無かった...](2026-04-11-2042928395223470161-パウロ-AIで判決を出す方が良さそうですね テクノロジーや先端医療の1割も理解できていない地方裁判所の裁判官.md) — @パウロ, 2026-04-11 11:30
 - [RT ちほうのいんちょう: 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくってるから強いのかも...](2026-04-11-2042969262088949811-パウロ-RT ちほうのいんちょう- 法曹関係の方って意外とレスバ強くないな 医者は普段から身内でレスバしまくっ.md) — @パウロ, 2026-04-11 11:26
 - [RT ゆきママ: 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を押し目でしっかり...](2026-04-11-2042930790796046396-パウロ-RT ゆきママ- 皆さんの今週のハイライトが見えてきましたね🍻 サンディスク、マイクロンといった銘柄を.md) — @パウロ, 2026-04-11 11:15
 - [RT Brian Sozzi: Tech stock valuations have compressed from a...](2026-04-11-2043018362192540126-投资TALK君-RT Brian Sozzi- Tech stock valuations have compressed from a 40x PE ratio to 20x, and we are now back at levels last seen before the AI bo.md) — @投资TALK君, 2026-04-11 11:13
 - [\"We continue to see an uptick in the share of CPI component...](2026-04-11-2042920621454094451-Daily Chartbook-We continue to see an uptick in the share of CPI components running above 2%. Unlike previous months, however, this increase is in.md) — @Daily Chartbook, 2026-04-11 11:00
+- [RT Daily Chartbook: \"We continue to see an uptick in the sh...](2026-04-11-2043335952970428468-Daily Chartbook-RT Daily Chartbook- -We continue to see an uptick in the share of CPI components running above 2%. Unlike previous months, however.md) — @Daily Chartbook, 2026-04-11 11:00
 - [すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを構築](2026-04-11-2042917682459349223-パウロ-すげー、味の素のABFがどんどん有名にっ 英国の活動家パリサー氏は、日本企業味の素に投資ポジションを.md) — @パウロ, 2026-04-11 10:48
 - [噂 https://note.com/paul1211/n/n0f3c365a6eeb](2026-04-11-2042914864872776158-パウロ-噂 https-note.com-paul1211-n-n0f3c365a6eeb.md) — @パウロ, 2026-04-11 10:37
 - [http://x.com/i/article/2042901929819541508](2026-04-11-2042905763979440511-qinbafrank-http-x.com-i-article-2042901929819541508.md) — @qinbafrank, 2026-04-11 10:01

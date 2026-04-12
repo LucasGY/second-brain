@@ -1,14 +1,17 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T13:51:20.676Z
+Retrieved: 2026-04-12T14:51:39.803Z
 
-## Tweets (188)
+## Tweets (191)
 
+- [They grow up so fast 🦞](2026-04-12-2043313467512463713-Peter Steinberger 🦞-They grow up so fast 🦞.md) — @Peter Steinberger 🦞, 2026-04-12 13:01
 - [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
 - [RT Deva Hazarika: For You feed is great today, this is Nikit...](2026-04-12-2043295525412225266-Peter Steinberger 🦞-RT Deva Hazarika- For You feed is great today, this is Nikita’s Liberation Day.md) — @Peter Steinberger 🦞, 2026-04-12 01:35
 - [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
 - [there's a turbotax connector in Claude Code now, so glad I p...](2026-04-12-2043138221836746762-Thariq-there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭.md) — @Thariq, 2026-04-12 01:24
+- [RT Ben Badejo: OpenClaw 4.10 with the new active-memory plug...](2026-04-11-2043316860276605130-Peter Steinberger 🦞-RT Ben Badejo- OpenClaw 4.10 with the new active-memory plugin enabled is SO MUCH SMARTER. It's really a ridiculous step-chan.md) — @Peter Steinberger 🦞, 2026-04-11 22:16
+- [RT Ben Badejo: If you are using OpenClaw, you really need to...](2026-04-11-2043323073789935969-Peter Steinberger 🦞-RT Ben Badejo- If you are using OpenClaw, you really need to do this. Wow. I am really enjoying it again. The responses are n.md) — @Peter Steinberger 🦞, 2026-04-11 21:56
 - [RT Tibo: Hi! Getting a lot of questions on Pro plan rate lim...](2026-04-11-2043088430763250067-OpenAI-RT Tibo- Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things- - Your Pro $100 plan includes at leas.md) — @OpenAI, 2026-04-11 21:14
 - [RT TestingCatalog News 🗞: OpenAI is working on a new experi...](2026-04-11-2043140441290449058-Peter Steinberger 🦞-RT TestingCatalog News 🗞- OpenAI is working on a new experimental feature for Codex called Scratchpad. Users will be able .md) — @Peter Steinberger 🦞, 2026-04-11 17:34
 - [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
