@@ -4,8 +4,8 @@
   "title": "Batch ingest raw inbox documents to wiki",
   "titleGenerationStatus": "success",
   "createdAt": 1775973991286,
-  "updatedAt": 1775978625565,
-  "lastResponseAt": 1775978625565,
+  "updatedAt": 1775991658370,
+  "lastResponseAt": 1775991658370,
   "sessionId": "0491026d-0600-4bb3-a7d0-bb6d8a01e823",
   "providerState": {
     "providerSessionId": "0491026d-0600-4bb3-a7d0-bb6d8a01e823"
@@ -13,12 +13,12 @@
   "currentNote": "CLAUDE.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 84969,
+    "inputTokens": 94455,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 18049,
     "contextWindow": 200000,
-    "contextTokens": 103018,
-    "percentage": 52,
+    "contextTokens": 112504,
+    "percentage": 56,
     "contextWindowIsAuthoritative": true
   }
 }
