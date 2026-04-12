@@ -1,10 +1,15 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T17:00:54.614Z
+Retrieved: 2026-04-12T19:04:28.924Z
 
-## Tweets (358)
+## Tweets (364)
 
+- [The Kobeissi Letter for the week of April 13th has been publ...](2026-04-12-2043396229476815326-The Kobeissi Letter-The Kobeissi Letter for the week of April 13th has been published and may be viewed through the link below- https-tinyurl.com.md) — @The Kobeissi Letter, 2026-04-12 18:30
+- [The entire world is watching oil: Google search interest for...](2026-04-12-2043390179386503606-The Kobeissi Letter-The entire world is watching oil- Google search interest for -price of oil- spiked to its highest level on record in data goin.md) — @The Kobeissi Letter, 2026-04-12 18:05
+- [This is a pure meme stock at the moment. Would be fun to swi...](2026-04-12-2043388273821905339-3X Long Labubu-This is a pure meme stock at the moment. Would be fun to swing trade but don’t have balls to hold the bag.md) — @3X Long Labubu, 2026-04-12 17:58
+- [RT bubble boi: I’m a big believer in not selling chips but s...](2026-04-12-2043402478084096184-3X Long Labubu-RT bubble boi- I’m a big believer in not selling chips but selling the services those chips create. It’s the reason why cloud s.md) — @3X Long Labubu, 2026-04-12 17:31
+- [RT 3X Long Labubu: Re @RobinCh2020 I’d rather buy GOOG and A...](2026-04-12-2043376692790763985-3X Long Labubu-RT 3X Long Labubu- Re @RobinCh2020 I’d rather buy GOOG and AMZN as they have invested a lot into customized hardware, so they alr.md) — @3X Long Labubu, 2026-04-12 17:12
 - [Talk about a turn of events: President Trump just announced ...](2026-04-12-2043370141845438481-The Kobeissi Letter-Talk about a turn of events- President Trump just announced that the US itself will now begin blocking the Strait of Hormuz. E.md) — @The Kobeissi Letter, 2026-04-12 16:46
 - [RT Diyas.Σίσυφος(embracing bubble): Helium never a issue](2026-04-12-2043367515078942970-3X Long Labubu-RT Diyas.Σίσυφος(embracing bubble)- Helium never a issue.md) — @3X Long Labubu, 2026-04-12 16:31
 - [RT Chips & Wafers: Taiwan Helium Imports shifting from Qatar...](2026-04-12-2043367531302601124-パウロ-RT Chips & Wafers- Taiwan Helium Imports shifting from Qatar to the USA.md) — @パウロ, 2026-04-12 16:17
@@ -34,6 +39,7 @@ Retrieved: 2026-04-12T17:00:54.614Z
 - [America is waking up to some major news. Peace talks between...](2026-04-12-2043285255931441306-The Kobeissi Letter-America is waking up to some major news. Peace talks between the US and Iran have failed and both sides have returned home. As.md) — @The Kobeissi Letter, 2026-04-12 11:09
 - [RT ゆきママ: たった1つのAIモデルで米財務省・FRB・ウォール街の大手銀行CEOが動いた現実🥶 Claude M...](2026-04-12-2043296767358517636-パウロ-RT ゆきママ- たった1つのAIモデルで米財務省・FRB・ウォール街の大手銀行CEOが動いた現実🥶 Claude Mythosで .md) — @パウロ, 2026-04-12 11:09
 - [パッケージ基板の面積が大いに成長する だからイビデンとABFが成長する そして日東紡のT-Glassが](2026-04-12-2043282088909275298-パウロ-パッケージ基板の面積が大いに成長する だからイビデンとABFが成長する そして日東紡のT-Glassが.md) — @パウロ, 2026-04-12 10:56
+- [RT Damnang2: I just finished an article on the structural te...](2026-04-12-2043389695187657137-3X Long Labubu-RT Damnang2- I just finished an article on the structural technical risks of $LWLG. In this piece, I break down what I see as the f.md) — @3X Long Labubu, 2026-04-12 08:38
 - [データと計算資源をどうするか、計画を見たい ソフトバンクやNEC、ホンダ、ソニーグループの4社が人工知能（AI）を開発す...](2026-04-12-2043238162382954742-パウロ-データと計算資源をどうするか、計画を見たい ソフトバンクやNEC、ホンダ、ソニーグループの4社が人工.md) — @パウロ, 2026-04-12 08:01
 - [RT 郭明錤 (Ming-Chi Kuo): http://x.com/i/article/20432317900314...](2026-04-12-2043352625559806379-3X Long Labubu-RT 郭明錤 (Ming-Chi Kuo)- http-x.com-i-article-2043231790031409153.md) — @3X Long Labubu, 2026-04-12 07:58
 - [最適な資産形成 教育費をあまりかけず 23歳までに新NISA 2800万円(1800万円+1000万円) 状態にする 新...](2026-04-12-2043236889197761014-パウロ-最適な資産形成 教育費をあまりかけず 23歳までに新NISA 2800万円(1800万円+1000万円) 状態にする 新卒で株式.md) — @パウロ, 2026-04-12 07:56
