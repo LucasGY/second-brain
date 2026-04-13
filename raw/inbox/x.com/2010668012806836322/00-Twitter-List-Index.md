@@ -1,10 +1,26 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-12T23:52:21.365Z
+Retrieved: 2026-04-13T00:52:32.469Z
 
-## Tweets (369)
+## Tweets (387)
 
+- [5 of Friday's best charts and insights: https://www.dailycha...](2026-04-13-2043486939181961529-Daily Chartbook-5 of Friday's best charts and insights- https-www.dailychartbook.com-p-technology-sector-insiders-keep-buying-8fc3.md) — @Daily Chartbook, 2026-04-13 00:30
+- [まさか今日も強い？](2026-04-13-2043484861235957997-パウロ-まさか今日も強い？.md) — @パウロ, 2026-04-13 00:22
+- [China just exited its longest factory deflation on record: C...](2026-04-12-2043478014046941308-The Kobeissi Letter-China just exited its longest factory deflation on record- China’s producer prices (PPI) rose +0.5% YoY in March, above the .md) — @The Kobeissi Letter, 2026-04-12 23:54
+- [RT χ2: InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？](2026-04-12-2043481168096686560-パウロ-RT χ2- InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？.md) — @パウロ, 2026-04-12 23:33
+- [BREAKING: President Trump is looking at resuming \"limited m...](2026-04-12-2043458844102127942-The Kobeissi Letter-BREAKING- President Trump is looking at resuming -limited military strikes- in Iran in addition to the US blockade of the Stra.md) — @The Kobeissi Letter, 2026-04-12 22:38
+- [ありがとうございます TIは戦略で生き残ってきました 彼らは先見性があるので昔から常に注目しています](2026-04-12-2043455097624285208-パウロ-ありがとうございます TIは戦略で生き残ってきました 彼らは先見性があるので昔から常に注目しています.md) — @パウロ, 2026-04-12 22:23
+- [電源のテキサスインスツルメンツ 大変好評です 地味ですが自社工場生産とAIデータセンターの電源ICに使われます 是非、読...](2026-04-12-2043454899674038376-パウロ-電源のテキサスインスツルメンツ 大変好評です 地味ですが自社工場生産とAIデータセンターの電源ICに使.md) — @パウロ, 2026-04-12 22:23
+- [Their strategy will likely focus on pushing out Chinese comp...](2026-04-12-2043454005763015036-パウロ-Their strategy will likely focus on pushing out Chinese competitors. To achieve this, they will keep prices unchanged for low-capacitance, gen.md) — @パウロ, 2026-04-12 22:19
+- [たぶん今までの受験や「良い」会社に入る というのは受験や就職などで最適化する期待値が悪くなっていると感じる とにかく株式...](2026-04-12-2043452013325975872-パウロ-たぶん今までの受験や「良い」会社に入る というのは受験や就職などで最適化する期待値が悪くなってい.md) — @パウロ, 2026-04-12 22:11
+- [BREAKING: Iran's Foreign Minister Araghchi releases a statem...](2026-04-12-2043451561595265042-The Kobeissi Letter-BREAKING- Iran's Foreign Minister Araghchi releases a statement after peace talks with the US this weekend- -In intensive talk.md) — @The Kobeissi Letter, 2026-04-12 22:09
+- [N3はTSMCの中では難しかったノードだった N2はどうなるか、良さそうというお話も](2026-04-12-2043451100687376432-パウロ-N3はTSMCの中では難しかったノードだった N2はどうなるか、良さそうというお話も.md) — @パウロ, 2026-04-12 22:08
+- [BREAKING: US stock market futures open sharply lower as Iran...](2026-04-12-2043450038781653009-The Kobeissi Letter-BREAKING- US stock market futures open sharply lower as Iran War peace talks end without a deal- 1. S&P 500- -1.0% 2. Nasdaq 1.md) — @The Kobeissi Letter, 2026-04-12 22:03
+- [BREAKING: US oil prices officially surge +10% at the open, r...](2026-04-12-2043449369500725675-The Kobeissi Letter-BREAKING- US oil prices officially surge +10% at the open, rising above $105-barrel, as peace talks between the US and Iran fa.md) — @The Kobeissi Letter, 2026-04-12 22:01
+- [というかなぜみんなBroadcomと呼んでいるのか オリジンはアバゴである](2026-04-12-2043449351692054907-パウロ-というかなぜみんなBroadcomと呼んでいるのか オリジンはアバゴである.md) — @パウロ, 2026-04-12 22:01
+- [No, not selling a single share. I will only liquidate when I...](2026-04-12-2043448962548703434-3X Long Labubu-No, not selling a single share. I will only liquidate when I lose the job and have to pay the tuition for the culinary or electrici.md) — @3X Long Labubu, 2026-04-12 21:59
+- [このあたりをきちんと認識しないとね いつまでも過去に縛られてはいけない 適宜修正しないと 「メモリは、加速する持続可能な...](2026-04-12-2043448791651819695-パウロ-このあたりをきちんと認識しないとね いつまでも過去に縛られてはいけない 適宜修正しないと 「メモリ.md) — @パウロ, 2026-04-12 21:58
 - [BREAKING: The US Military says it will begin its Strait of H...](2026-04-12-2043433889637580820-The Kobeissi Letter-BREAKING- The US Military says it will begin its Strait of Hormuz “blockade” at 10 AM ET on Monday.md) — @The Kobeissi Letter, 2026-04-12 20:59
 - [Gold ETFs saw historic outflows in March across every region...](2026-04-12-2043427682940227615-The Kobeissi Letter-Gold ETFs saw historic outflows in March across every region- Global gold ETFs posted -$4.3 billion in outflows in the week en.md) — @The Kobeissi Letter, 2026-04-12 20:34
 - [US trucking costs are rapidly rising: The per-mile cost to h...](2026-04-12-2043409877339349494-The Kobeissi Letter-US trucking costs are rapidly rising- The per-mile cost to hire a truck to move goods is up to $2.97 per mile, the highest sin.md) — @The Kobeissi Letter, 2026-04-12 19:24
@@ -99,12 +115,14 @@ Retrieved: 2026-04-12T23:52:21.365Z
 - [RT Geiger Capital: The train is out of control… The first 6 ...](2026-04-11-2043001556531056957-3X Long Labubu-RT Geiger Capital- The train is out of control… The first 6 months of FY 2026 produced a deficit of $1.17 Trillion. The simple re.md) — @3X Long Labubu, 2026-04-11 15:18
 - [BREAKING: Iran’s President Pezeshkian releases a statement a...](2026-04-11-2042985144609284154-The Kobeissi Letter-BREAKING- Iran’s President Pezeshkian releases a statement as in-person talks between the US and Iran begin in Pakistan- “.md) — @The Kobeissi Letter, 2026-04-11 15:16
 - [\"April historically marks a transition in investor behavior...](2026-04-11-2042981128705884264-Daily Chartbook-April historically marks a transition in investor behavior, and we are seeing early signs of that shift- -Citadel Rubner.md) — @Daily Chartbook, 2026-04-11 15:00
+- [RT Daily Chartbook: \"April historically marks a transition ...](2026-04-11-2043459956951662719-Daily Chartbook-RT Daily Chartbook- -April historically marks a transition in investor behavior, and we are seeing early signs of that shift- -Cit.md) — @Daily Chartbook, 2026-04-11 15:00
 - [日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のらりくらりボッタくるマイン...](2026-04-11-2042979404876517376-パウロ-日本の素材企業の経営者はあまり立派にならずに 台湾、韓国、中国、そして米国の著名な企業から、のら.md) — @パウロ, 2026-04-11 14:53
 - [日本の光関係の素材、部品に世界が注目してますよ](2026-04-11-2042978438580179450-パウロ-日本の光関係の素材、部品に世界が注目してますよ.md) — @パウロ, 2026-04-11 14:49
 - [RT Adam Kobeissi: This chart says it all: US tech valuations...](2026-04-11-2042977939029905520-The Kobeissi Letter-RT Adam Kobeissi- This chart says it all- US tech valuations have compressed from 40x to 20x Forward P-E in weeks. Tech valuat.md) — @The Kobeissi Letter, 2026-04-11 14:46
 - [教育関係者って点数ばかり気にしてその本質が見えてないですよね 科挙の仕組みとして、有能な人材をフィルターする仕組みが現在...](2026-04-11-2042976142798524848-パウロ-教育関係者って点数ばかり気にしてその本質が見えてないですよね 科挙の仕組みとして、有能な人材をフ.md) — @パウロ, 2026-04-11 14:40
 - [AIが一瞬で解ける問題において 鉛筆と謎のヒアリング器具でフィルターをかける 優位差があったとしてそれが何になるんですか...](2026-04-11-2042975079311843798-パウロ-AIが一瞬で解ける問題において 鉛筆と謎のヒアリング器具でフィルターをかける 優位差があったとしてそ.md) — @パウロ, 2026-04-11 14:36
 - [\"Technology sector insiders keep buying (The chart shows th...](2026-04-11-2042966273978491291-Daily Chartbook-Technology sector insiders keep buying (The chart shows the total number of corporate insiders of companies covered by the XLK ETF.md) — @Daily Chartbook, 2026-04-11 14:01
+- [RT Daily Chartbook: \"Technology sector insiders keep buying...](2026-04-11-2043449341566664865-Daily Chartbook-RT Daily Chartbook- -Technology sector insiders keep buying (The chart shows the total number of corporate insiders of companies c.md) — @Daily Chartbook, 2026-04-11 14:01
 - [日本の材料メーカー、部品メーカー 下請け根性から脱却しつつある 元来とんでもない技術力を持っている 自信を持って値上げを...](2026-04-11-2042965238925156477-パウロ-日本の材料メーカー、部品メーカー 下請け根性から脱却しつつある 元来とんでもない技術力を持ってい.md) — @パウロ, 2026-04-11 13:57
 - [RT りゅんぽん2: 船株と同じ 大相場ｸﾙ━━(ﾟ∀ﾟ)━━??](2026-04-11-2042967216531144787-パウロ-RT りゅんぽん2- 船株と同じ 大相場ｸﾙ━━(ﾟ∀ﾟ)━━.md) — @パウロ, 2026-04-11 13:57
 - [BREAKING: Iran has formally submitted its four \"red lines\"...](2026-04-11-2042965064026669094-The Kobeissi Letter-BREAKING- Iran has formally submitted its four -red lines- for peace talks with the US today, per Iranian state TV- 1. Authori.md) — @The Kobeissi Letter, 2026-04-11 13:56

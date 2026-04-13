@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-12T23:52:21.082Z
+Retrieved: 2026-04-13T00:52:31.091Z
 
-## Tweets (192)
+## Tweets (194)
 
+- [json is so token inefficient it hurts these days man, these ...](2026-04-12-2043467761427575028-Thomas Wolf-json is so token inefficient it hurts these days man, these braces and quotes are costing me real $$.md) — @Thomas Wolf, 2026-04-12 23:14
+- [Codex helps you turn requirements into working prototypes fa...](2026-04-12-2043452326166528239-OpenAI Developers-Codex helps you turn requirements into working prototypes faster. @eh_dubb shared how that makes quarterly planning more concret.md) — @OpenAI Developers, 2026-04-12 22:12
 - [They grow up so fast 🦞](2026-04-12-2043313467512463713-Peter Steinberger 🦞-They grow up so fast 🦞.md) — @Peter Steinberger 🦞, 2026-04-12 13:01
 - [RT Riley Brown: Personally I don’t see the point of Cowork. ...](2026-04-12-2043365882299355567-Peter Steinberger 🦞-RT Riley Brown- Personally I don’t see the point of Cowork. I don’t even see the point of chatgpt or Claude anymore. I ei.md) — @Peter Steinberger 🦞, 2026-04-12 08:12
 - [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
