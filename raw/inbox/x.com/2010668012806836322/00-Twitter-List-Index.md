@@ -1,14 +1,22 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-13T02:52:29.029Z
+Retrieved: 2026-04-13T03:52:27.439Z
 
-## Tweets (387)
+## Tweets (396)
 
+- [割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金...](2026-04-13-2043536699566022676-パウロ-割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金で-500万円 日本.md) — @パウロ, 2026-04-13 03:48
+- [これは特殊メモリだと思いますよ Wide IO系だろうね クアルコムと中国CXMTがDRAM開発で提携すると報じられてい...](2026-04-13-2043534677315821912-パウロ-これは特殊メモリだと思いますよ Wide IO系だろうね クアルコムと中国CXMTがDRAM開発で提携すると報じられ.md) — @パウロ, 2026-04-13 03:40
+- [二桁億円でしょうね 出来るだけ精度を高めていきたいものです](2026-04-13-2043533072457756813-パウロ-二桁億円でしょうね 出来るだけ精度を高めていきたいものです.md) — @パウロ, 2026-04-13 03:33
+- [这本《芯片之路：从台积电到兆级晶圆厂》应该跟《芯片战争》合起来一起读应该更有助于我们了解半导体芯片产业是如何一步步发展到...](2026-04-13-2043520499037446466-qinbafrank-这本《芯片之路：从台积电到兆级晶圆厂》应该跟《芯片战争》合起来一起读应该更有助于我们了解半.md) — @qinbafrank, 2026-04-13 02:43
+- [RT @4th_skywalker: 東証はまだ光を舐めているボンクラばかりなので 光の期待値をちゃんと理解している人間...](2026-04-13-2043510281977102431-パウロ-RT @4th_skywalker- 東証はまだ光を舐めているボンクラばかりなので 光の期待値をちゃんと理解している人間.md) — @パウロ, 2026-04-13 02:03
+- [China has massive economic exposure to the Middle East: Chin...](2026-04-13-2043501207948329022-The Kobeissi Letter-China has massive economic exposure to the Middle East- China has spent over $269 billion on investments and construction cont.md) — @The Kobeissi Letter, 2026-04-13 01:27
+- [川普说海峡全封，美军说只封伊朗港口船只。美国中央司令部对特朗普的“封锁”一词做了进一步澄清： “封锁将对所有进出伊朗港口...](2026-04-13-2043496715513381007-qinbafrank-川普说海峡全封，美军说只封伊朗港口船只。美国中央司令部对特朗普的“封锁”一词做了进一步澄清.md) — @qinbafrank, 2026-04-13 01:09
 - [5 of Friday's best charts and insights: https://www.dailycha...](2026-04-13-2043486939181961529-Daily Chartbook-5 of Friday's best charts and insights- https-www.dailychartbook.com-p-technology-sector-insiders-keep-buying-8fc3.md) — @Daily Chartbook, 2026-04-13 00:30
 - [まさか今日も強い？](2026-04-13-2043484861235957997-パウロ-まさか今日も強い？.md) — @パウロ, 2026-04-13 00:22
 - [China just exited its longest factory deflation on record: C...](2026-04-12-2043478014046941308-The Kobeissi Letter-China just exited its longest factory deflation on record- China’s producer prices (PPI) rose +0.5% YoY in March, above the .md) — @The Kobeissi Letter, 2026-04-12 23:54
 - [RT χ2: InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？](2026-04-12-2043481168096686560-パウロ-RT χ2- InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？.md) — @パウロ, 2026-04-12 23:33
+- [RT χ2: ワイがイン🐙やってたときも、電気と光のテストは面倒かつレーンが沢山ありすぎて時間がかかのがテストネックで...](2026-04-12-2043508467236004243-パウロ-RT χ2- ワイがイン🐙やってたときも、電気と光のテストは面倒かつレーンが沢山ありすぎて時間がかかの.md) — @パウロ, 2026-04-12 23:25
 - [BREAKING: President Trump is looking at resuming \"limited m...](2026-04-12-2043458844102127942-The Kobeissi Letter-BREAKING- President Trump is looking at resuming -limited military strikes- in Iran in addition to the US blockade of the Stra.md) — @The Kobeissi Letter, 2026-04-12 22:38
 - [ありがとうございます TIは戦略で生き残ってきました 彼らは先見性があるので昔から常に注目しています](2026-04-12-2043455097624285208-パウロ-ありがとうございます TIは戦略で生き残ってきました 彼らは先見性があるので昔から常に注目しています.md) — @パウロ, 2026-04-12 22:23
 - [電源のテキサスインスツルメンツ 大変好評です 地味ですが自社工場生産とAIデータセンターの電源ICに使われます 是非、読...](2026-04-12-2043454899674038376-パウロ-電源のテキサスインスツルメンツ 大変好評です 地味ですが自社工場生産とAIデータセンターの電源ICに使.md) — @パウロ, 2026-04-12 22:23
@@ -392,3 +400,4 @@ Retrieved: 2026-04-13T02:52:29.029Z
 - [TSMC 3月売り上げは？ NTD](082-パウロ-TSMC 3月売り上げは？ NTD.md) — @パウロ, 2026-04-09 22:09
 - [RT 🌿 lithos: The same goes for immersion lithography export...](083-パウロ-RT 🌿 lithos- The same goes for immersion lithogra.md) — @パウロ, 2026-04-09 16:18
 - [RT Daily Chartbook: Global M&A: \"Transaction values of abou...](084-Daily Chartbook-RT Daily Chartbook- Global M&A- -Transaction value.md) — @Daily Chartbook, 2026-04-09 12:01
+- [RT Financelot: If you're wondering why Trump is waging war w...](2026-03-26-2043529869288423624-投资TALK君-RT Financelot- If you're wondering why Trump is waging war with Iran right now... Watch this 👇.md) — @投资TALK君, 2026-03-26 03:54
