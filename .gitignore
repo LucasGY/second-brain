@@ -3,3 +3,4 @@ __pycache__/
 
 # Obsidian local config, workspace state, and community plugins
 .obsidian/
+.claudian/

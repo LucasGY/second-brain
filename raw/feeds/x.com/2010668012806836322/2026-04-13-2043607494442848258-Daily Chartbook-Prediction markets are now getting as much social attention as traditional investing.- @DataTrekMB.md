@@ -1,0 +1,24 @@
+---
+title: "\"Prediction markets are now getting as much social attention as traditional investing.\" @DataTrekMB"
+author: "Daily Chartbook"
+date: "2026-04-13 08:29"
+isoDate: "2026-04-13T08:29:29.000Z"
+source: "https://x.com/dailychartbook/status/2043607494442848258"
+tweetId: "2043607494442848258"
+images: ["https://pbs.twimg.com/media/HFxaL96XsAAAbIT?format=jpg&name=orig"]
+---
+
+# "Prediction markets are now getting as much social attention as traditional investing." @DataTrekMB
+
+**@Daily Chartbook** · 2026-04-13 08:29
+
+"Prediction markets are now getting as much social attention as traditional investing."
+
+@DataTrekMB
+
+---
+
+![](https://pbs.twimg.com/media/HFxaL96XsAAAbIT?format=jpg&name=orig)
+
+---
+Source: [Tweet](https://x.com/dailychartbook/status/2043607494442848258)

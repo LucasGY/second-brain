@@ -6,17 +6,23 @@ The purpose of `raw/` is simple: keep source material separate from the wiki.
 Files here are inputs, not polished knowledge pages.
 
 ## Directory Structure
-
 ```text
 raw/
 ├── README.md
 ├── assets/
-├── inbox/
-│   ├── podcast/
-│   ├── web/
-│   ├── wechat/
-│   └── x.com/
-└── processed/
+├── trash/
+├── inbox_manual/
+│    ├── podcast/
+│    ├── web/
+│    ├── wechat/
+│    ├── youtube/
+│    └── x.com/ 
+├── feeds/
+│    ├── podcast/
+│    ├── web/
+│    ├── wechat/
+│    ├── youtube/    
+│    └── x.com/
 ```
 
 ### `inbox/`
