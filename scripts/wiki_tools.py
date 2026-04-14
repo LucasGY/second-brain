@@ -35,6 +35,7 @@ def wiki_markdown_files() -> list[pathlib.Path]:
         path
         for path in WIKI_DIR.rglob("*.md")
         if path.name not in {"index.md", "log.md"}
+        and "schema" not in path.relative_to(WIKI_DIR).parts
     )
 
 
@@ -185,7 +186,7 @@ def rebuild_index(_: argparse.Namespace) -> int:
 
 def append_log(kind: str, title: str, details: str | None) -> None:
     today = dt.date.today().isoformat()
-    entry_lines = ["", f"## [{today}] {kind} | {title}", ""]
+    entry_lines = ["", f"## [{today}] {kind.upper()} | {title}", ""]
     if details:
         for line in details.splitlines():
             stripped = line.strip()
