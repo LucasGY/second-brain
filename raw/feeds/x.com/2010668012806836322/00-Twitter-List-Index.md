@@ -1,10 +1,23 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-14T10:20:34.430Z
+Retrieved: 2026-04-14T12:20:39.244Z
 
-## Tweets (281)
+## Tweets (295)
 
+- [BREAKING: JP Morgan, $JPM, reports a record $11.6 billion in...](2026-04-14-The Kobeissi Letter-2044027349285404799.md) — @The Kobeissi Letter, 2026-04-14 12:17
+- [RT @ISABELNET_SA: 📌 Financials Positioning in financials is...](2026-04-14-Daily Chartbook-2044023914955710960.md) — @Daily Chartbook, 2026-04-14 12:04
+- [\"While there are cracks in the 'shadow' banking system, com...](2026-04-14-Daily Chartbook-2044022794350952780.md) — @Daily Chartbook, 2026-04-14 11:59
+- [RT Scarlett & Carter's BaPa: Markets trade on expectations a...](2026-04-14-Daily Chartbook-2044023988771279313.md) — @Daily Chartbook, 2026-04-14 11:39
+- [RT Elin Wiker: Estimat upp!](2026-04-14-Daily Chartbook-2044023978340085952.md) — @Daily Chartbook, 2026-04-14 11:37
+- [\"Expectations for corporate earnings have climbed for both ...](2026-04-14-Daily Chartbook-2044014670831296614.md) — @Daily Chartbook, 2026-04-14 11:27
+- [RT Scarlett & Carter's BaPa: Large capital commitments (whic...](2026-04-14-Daily Chartbook-2044023957179728318.md) — @Daily Chartbook, 2026-04-14 11:12
+- [\"Higher gas prices should only partially offset stimulus fr...](2026-04-14-Daily Chartbook-2044007630675325066.md) — @Daily Chartbook, 2026-04-14 10:59
+- [\"If you began driving at the age of 16 in 2004, when AAA’s ...](2026-04-14-Daily Chartbook-2044000081712410929.md) — @Daily Chartbook, 2026-04-14 10:29
+- [RT Neil Sethi: I was going to do a chart showing how gold, w...](2026-04-14-Daily Chartbook-2044023941388255261.md) — @Daily Chartbook, 2026-04-14 10:00
+- [\"Industry analysts are very optimistic about earnings growt...](2026-04-14-Daily Chartbook-2043992453376553257.md) — @Daily Chartbook, 2026-04-14 09:59
+- [\"We estimate that CTAs bought $19bn of US equities last wee...](2026-04-14-Daily Chartbook-2043984773308092672.md) — @Daily Chartbook, 2026-04-14 09:28
+- [从30到900，只用了一年 多少人在去年下半年之前对闪迪的认知仅限于\"就是个卖U盘的”，又有多少人拿着它切身体会着\"...](2026-04-14-qinbafrank-2043983514425860450.md) — @qinbafrank, 2026-04-14 09:23
 - [\"Equity positioning is bracing for a sharp earnings slowdow...](2026-04-14-Daily Chartbook-2043978107514724451.md) — @Daily Chartbook, 2026-04-14 09:02
 - [\"We’ve now had more than a month of elevated oil prices ......](2026-04-14-Daily Chartbook-2043970348387860579.md) — @Daily Chartbook, 2026-04-14 08:31
 - [\"Oil exports (blue) pay for imports of goods (red) and serv...](2026-04-14-Daily Chartbook-2043962530079322371.md) — @Daily Chartbook, 2026-04-14 08:00
@@ -14,6 +27,7 @@ Retrieved: 2026-04-14T10:20:34.430Z
 - [算力紧缺已经临界点，我们将面临近几年来最大规模算力紧缺。看OpenAI官方披露https://openai.com/zh...](2026-04-14-2043910896351883636-qinbafrank-算力紧缺已经临界点，我们将面临近几年来最大规模算力紧缺。看OpenAI官方披露https-openai.com-zh-Hans-CN-in.md) — @qinbafrank, 2026-04-14 04:35
 - [RT Jukan: Bernstein: Early checks on 2Q26 memory contract ne...](2026-04-14-3X Long Labubu-2043927830258753630.md) — @3X Long Labubu, 2026-04-14 04:29
 - [RT Aaron: Anthropic - $AVGO TPU deal. 3.5M spanning 5 years....](2026-04-14-2043914089299357970-3X Long Labubu-RT Aaron- Anthropic - $AVGO TPU deal. 3.5M spanning 5 years. _ From MS.md) — @3X Long Labubu, 2026-04-14 03:53
+- [RT Ryan Detrick, CMT: Nice charts from Mike Wilson at Morgan...](2026-04-14-Daily Chartbook-2044024009499500740.md) — @Daily Chartbook, 2026-04-14 03:45
 - [4月2日SEMIANALYSIS的文章，我视频也聊过，算力的紧缺，文中直接聊到了利好NEOCLOUD。可惜那时候多数人都...](2026-04-14-2043898332641157519-投资TALK君-4月2日SEMIANALYSIS的文章，我视频也聊过，算力的紧缺，文中直接聊到了利好NEOCLOUD。可惜那时候多数人都.md) — @投资TALK君, 2026-04-14 03:45
 - [关于核问题的争执，美伊比公开表现出来的其实更接近，球已经伊朗的脚下了。看Axios昨晚报道了塞尔纳酒店双方都没有公开披露...](2026-04-14-2043884447582564655-qinbafrank-关于核问题的争执，美伊比公开表现出来的其实更接近，球已经伊朗的脚下了。看Axios昨晚报道了塞尔.md) — @qinbafrank, 2026-04-14 02:50
 - [BREAKING: A new round of negotiations between the US and Ira...](2026-04-14-2043882612528238650-The Kobeissi Letter-BREAKING- A new round of negotiations between the US and Iran may be held on Thursday, per AP. President Trump said that “we.md) — @The Kobeissi Letter, 2026-04-14 02:42

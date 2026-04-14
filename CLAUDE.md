@@ -13,38 +13,50 @@ Your goal is to transform raw, immutable source documents into a highly structur
 - `log.md`: The chronological append-only ledger of your actions.
 
 ## 3. Core Workflow: INGEST
+
 When the user asks you to "ingest" or "process" a new file from the `raw/` directory, you MUST strictly follow this exact sequence:
 
-### Step 1: Read & Extract
-- Read the provided source document in `raw/`.
-- Identify key **Entities** (tools, companies, people) and **Concepts** (theories, architectures, methods).
-- Identify the core claims, technical updates, or significant data points.
+### Step 0: Pre-flight & Idempotency Check
+- Check `wiki/log.md` to verify if this specific source file has already been ingested.
+- If it has, STOP and ask the user if they want to re-ingest (overwrite) or abort.
+
+### Step 1: Read, Extract & Route
+- Read the provided source document.
+- **Source Routing:** - If the file is from `raw/inbox_manual/`: Treat as high-priority. Extract deep architectural logic, mechanisms, and core definitions.
+  - If the file is from `raw/feeds/`: Treat as an update. Extract only timelines, news, or version changes.
+- Identify key Entities and Concepts. 
+- **Entity Resolution:** Before assuming a new entity exists, aggressively scan `wiki/index.md` to find existing aliases (e.g., map "GPT4" to existing `[[GPT-4]]`). Do not create duplicate semantic nodes.
 
 ### Step 2: Create Source Page
 - Create a new file in `wiki/sources/` named `YYYY-MM-DD-short-title.md`.
-- Include YAML frontmatter (tags, date, original URL if applicable).
-- Write a concise summary of the document's main points.
+- Include standard YAML frontmatter (tags, date_ingested, original_url). 
+- **Tag Constraint:** Only use tags that already exist in `index.md` unless explicitly instructed otherwise.
+- Write a structured summary (TL;DR, Key Takeaways, Detailed Notes).
+- **Asset Paths:** If the raw source references images in `raw/assets/`, ensure the image markdown links in the wiki page correctly point to `../../raw/assets/image_name.png`.
 
 ### Step 3: Distributed Updates (The Compilation)
-- **Entities & Concepts:** For every major entity or concept mentioned, open its corresponding page in `wiki/entities/` or `wiki/concepts/`. (Create the page if it doesn't exist).
-- **Append Knowledge:** Add a concise bullet point or paragraph under a "Recent Developments" or relevant section, detailing what this new source revealed.
-- **Wikilinks:** You MUST use Obsidian wikilinks `[[Page Name]]` whenever you mention another entity or concept. Every update must link back to the new source page `[[YYYY-MM-DD-short-title]]` as a citation.
+- **Entities & Concepts:** Open corresponding pages in `wiki/entities/` or `wiki/concepts/`. Create ONLY if you confirmed in Step 1 they don't exist.
+- **Append Knowledge:** Add a concise bullet point. 
+  - For Inbox sources: Update definitions or core mechanisms.
+  - For Feed sources: Append to the "Timeline" or "Latest Developments" section.
+- **Wikilinks:** You MUST use Obsidian wikilinks `[[Page Name]]`. Every update must cite the new source page `[[YYYY-MM-DD-short-title]]`.
 
 ### Step 4: Contradiction Flagging (CRITICAL)
-- If a claim in the new source conflicts with existing knowledge in the wiki (e.g., an entity page says X, but the new source says Y), you MUST NOT silently overwrite the old data.
-- Instead, insert a blockquote with a contradiction flag: 
-  `> [!IMPORTANT] CONTRADICTION:` followed by a brief explanation of the conflicting claims and links to both sources.
+- If a claim conflicts with existing knowledge in the wiki, you MUST NOT silently overwrite the old data.
+- Insert a blockquote with a contradiction flag: 
+  `> [!IMPORTANT] CONTRADICTION: [Brief explanation of conflict]. Source A claims X, but [[YYYY-MM-DD-New-Source]] claims Y.`
 
-### Step 5: Bookkeeping
-- **Update `index.md`:** Add the new source page to the sources list with a one-line description. If you created new entity/concept pages, add them to their respective sections.
-- **Update `log.md`:** Append a single line at the bottom in this exact format:
+### Step 5: Bookkeeping (Performance Optimized)
+- **Update `index.md`:** Append the new source page to the sources list. Add newly created entities/concepts to their sections.
+- **Update `log.md`:** APPEND (do not rewrite the whole file) a single line at the bottom:
   `## [YYYY-MM-DD] ingest | [Title of Source] | Touched: [[Entity 1]], [[Concept 2]]`
 
 ### Step 6: Human Review
-- After completing all file operations, output a brief terminal summary for the user detailing:
-  1. The pages created/updated.
-  2. Any contradictions found.
-  3. Suggested follow-up questions or areas that might need manual synthesis.
+- Output a brief terminal summary detailing:
+  1. Status (New Ingest / Re-ingest).
+  2. Pages created/updated.
+  3. Contradictions found.
+  4. Suggested follow-up questions or manual synthesis required.
 
 ## 4. Language & Formatting Rules (Bilingual)
 **CRITICAL RULE:** All content generated for the wiki (including source summaries, entity pages, concept pages, and synthesis) MUST be fully bilingual (English and Simplified Chinese).

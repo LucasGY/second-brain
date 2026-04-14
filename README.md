@@ -23,8 +23,8 @@ persistent, interlinked wiki that gets richer over time.
 .
 ├── AGENTS.md
 ├── raw/
-│   ├── inbox/
-│   ├── processed/
+│   ├── feeds/
+│   ├── manual/
 │   └── assets/
 ├── scripts/
 │   └── wiki_tools.py
@@ -135,7 +135,6 @@ Example `rss.md`:
 - The LLM should prefer updating existing pages over creating duplicates.
 - Podcast transcripts are written under `raw/feeds/podcast/`.
 - `x.com` list captures are written under `raw/feeds/x.com/<feed>/`.
-- Processed podcast episode GUIDs are tracked in `raw/processed/podcast_transcriptions.json`.
 - The transcriber uses local `faster-whisper` on CPU (`small` + `int8` by default), so it does not require an API key.
 - Episode audio is downloaded to a temporary file under `/tmp` for transcription and removed immediately after the run.
 - `rss.md` supports multiple headings, inline labels, blank lines, comment lines, and duplicate URLs.

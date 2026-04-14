@@ -7,7 +7,6 @@ import argparse
 import datetime as dt
 import email.utils
 import html
-import json
 import os
 import pathlib
 import re
@@ -23,7 +22,6 @@ import xml.etree.ElementTree as ET
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw"
 INBOX_DIR = RAW_DIR / "inbox"
-STATE_PATH = RAW_DIR / "processed" / "podcast_transcriptions.json"
 RSS_PATH = ROOT / "rss.md"
 
 USER_AGENT = "second-brain-podcast-transcriber/1.0"
@@ -150,20 +148,6 @@ def load_rss_config(path: pathlib.Path) -> list[dict[str, str]]:
             }
         )
     return feeds
-
-
-def load_state() -> dict[str, dict[str, object]]:
-    if not STATE_PATH.exists():
-        return {"processed": {}}
-    return json.loads(STATE_PATH.read_text(encoding="utf-8"))
-
-
-def save_state(state: dict[str, dict[str, object]]) -> None:
-    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    STATE_PATH.write_text(
-        json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-        encoding="utf-8",
-    )
 
 
 def fetch_bytes(url: str, timeout: int = 60) -> bytes:
@@ -414,7 +398,6 @@ def output_path_for_entry(entry: dict[str, object]) -> pathlib.Path:
 
 def process_entry(
     entry: dict[str, object],
-    state: dict[str, dict[str, object]],
     dry_run: bool,
     include_existing: bool,
 ) -> pathlib.Path | None:
@@ -425,13 +408,6 @@ def process_entry(
 
     if output_path.exists() and not include_existing:
         print(f"Markdown already exists, skipping: {output_path.relative_to(ROOT)}", flush=True)
-        state["processed"][str(entry["guid"])] = {
-            "title": entry["title"],
-            "published": entry["pub_date_iso"],
-            "output_path": output_path.relative_to(ROOT).as_posix(),
-            "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        }
-        save_state(state)
         return output_path
 
     print(f"Processing episode: {entry['title']}", flush=True)
@@ -445,13 +421,6 @@ def process_entry(
         build_markdown(entry, transcript, backend),
         encoding="utf-8",
     )
-    state["processed"][str(entry["guid"])] = {
-        "title": entry["title"],
-        "published": entry["pub_date_iso"],
-        "output_path": output_path.relative_to(ROOT).as_posix(),
-        "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-    }
-    save_state(state)
     print(f"Wrote {output_path.relative_to(ROOT)}")
     return output_path
 
@@ -459,8 +428,6 @@ def process_entry(
 def run(args: argparse.Namespace) -> int:
     rss_path = pathlib.Path(args.rss).resolve()
     feeds = load_rss_config(rss_path)
-    state = load_state()
-    processed = state.setdefault("processed", {})
 
     anything_processed = False
     for feed in feeds:
@@ -481,7 +448,7 @@ def run(args: argparse.Namespace) -> int:
         pending_entries = [
             entry
             for entry in entries
-            if args.include_existing or str(entry["guid"]) not in processed
+            if args.include_existing or not output_path_for_entry(entry).exists()
         ]
         if args.max_new_per_feed >= 0:
             pending_entries = pending_entries[: args.max_new_per_feed]
@@ -492,7 +459,7 @@ def run(args: argparse.Namespace) -> int:
 
         for entry in pending_entries:
             try:
-                result = process_entry(entry, state, args.dry_run, args.include_existing)
+                result = process_entry(entry, args.dry_run, args.include_existing)
             except Exception as exc:  # noqa: BLE001
                 print(f"Failed to process '{entry['title']}': {exc}", file=sys.stderr)
                 continue

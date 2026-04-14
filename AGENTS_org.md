@@ -206,7 +206,7 @@ durable threads, signals, decision points, and next checkpoints.
 
 When given a new raw source:
 
-1. Read the source from `raw/inbox/` or `raw/processed/`.
+1. Read the source from `raw/feeds/` or `raw/manual/`.
 2. Create or update a bilingual source note in `wiki/sources/`.
 3. Update any impacted concept, entity, analysis, synthesis, or overview pages.
 4. Add missing wiki links and surface contradictions.
