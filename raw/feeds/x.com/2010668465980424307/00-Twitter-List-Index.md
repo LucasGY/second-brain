@@ -1,0 +1,85 @@
+# Twitter List
+
+Source: http://localhost:1200/twitter/list/2010668465980424307
+Retrieved: 2026-04-14T10:20:33.967Z
+
+## Tweets (78)
+
+- [Ever wonder how UX changes when your user is a developer? Vi...](2026-04-14-Google Research-2043941671738429950.md) — @Google Research, 2026-04-14 06:37
+- [RT Azalia Mirhoseini: Turns out we can get SOTA on agentic b...](2026-04-13-Christian Szegedy-2043977181613961550.md) — @Christian Szegedy, 2026-04-13 22:06
+- [RT Peyton Walters: super proud of my 6 year old nephew for l...](2026-04-13-Peter Steinberger 🦞-2043941674414698909.md) — @Peter Steinberger 🦞, 2026-04-13 21:24
+- [Today we're sharing our research experiment, Vantage, using ...](2026-04-13-2043757042230493311-Google Research-Today we're sharing our research experiment, Vantage, using GenAI to assess -future-ready- skills like collaboration. A study with.md) — @Google Research, 2026-04-13 18:23
+- [RT Tak 🦞: A few more OpenClaw 2026.4.12 changes that didn’t...](2026-04-13-2043726001750900770-Peter Steinberger 🦞-RT Tak 🦞- A few more OpenClaw 2026.4.12 changes that didn’t make the first tweet 🦞 🏠 Better local models with bund.md) — @Peter Steinberger 🦞, 2026-04-13 15:23
+- [RT Air Katakana: gemini-cli has a headless mode option, whic...](2026-04-13-2043742157773971634-Peter Steinberger 🦞-RT Air Katakana- gemini-cli has a headless mode option, which is obviously supposed to be used to run it in automated scripts.md) — @Peter Steinberger 🦞, 2026-04-13 14:41
+- [RT Vincent Koc: OpenClaw 2026.4.12 🦞 ✨ Stability & reliabil...](2026-04-13-2043674651323208059-Peter Steinberger 🦞-RT Vincent Koc- OpenClaw 2026.4.12 🦞 ✨ Stability & reliability improvements 🎙️ Audio transcription fixes 💬 Bette.md) — @Peter Steinberger 🦞, 2026-04-13 12:55
+- [RT Henry Shevlin: Big personal news: I’ve been recruited by ...](2026-04-13-2043684102889423066-Demis Hassabis-RT Henry Shevlin- Big personal news- I’ve been recruited by Google DeepMind for a new Philosopher position (actual title), focusi.md) — @Demis Hassabis, 2026-04-13 12:05
+- [How do we move from describing digital harms to preventing t...](2026-04-13-2043621361512317114-Google Research-How do we move from describing digital harms to preventing them- Join Patrick Gage Kelley and Ashley Walker at the Google booth at.md) — @Google Research, 2026-04-13 09:24
+- [Want to translate user prompts into interactive WebXR apps? ...](2026-04-13-2043585374539120906-Google Research-Want to translate user prompts into interactive WebXR apps- Stop by the Google booth at 10-30AM to see a demo of Vibe Coding XR, a.md) — @Google Research, 2026-04-13 07:01
+- [Google is proud to be a Hero Sponsor of the 2026 @acm_chi co...](2026-04-13-2043577767170613518-Google Research-Google is proud to be a Hero Sponsor of the 2026 @acm_chi conference on Human-Computer Interaction, held this week in Barcelona, S.md) — @Google Research, 2026-04-13 06:31
+- [RT Owen Sparks: Artemis II astronaut Victor Glover received ...](2026-04-12-2043517523078078699-Jeff Dean-RT Owen Sparks- Artemis II astronaut Victor Glover received a hero's welcome from his neighbors! 🇺🇸.md) — @Jeff Dean, 2026-04-12 23:52
+- [json is so token inefficient it hurts these days man, these ...](2026-04-12-2043467761427575028-Thomas Wolf-json is so token inefficient it hurts these days man, these braces and quotes are costing me real $$.md) — @Thomas Wolf, 2026-04-12 23:14
+- [Codex helps you turn requirements into working prototypes fa...](2026-04-12-2043452326166528239-OpenAI Developers-Codex helps you turn requirements into working prototypes faster. @eh_dubb shared how that makes quarterly planning more concret.md) — @OpenAI Developers, 2026-04-12 22:12
+- [RT Gabriel Chua: Here’s how we use Codex to: > understand la...](2026-04-12-2043833038828908570-OpenAI Developers-RT Gabriel Chua- Here’s how we use Codex to- - understand large codebases - review PRs faster - build macOS apps - turn Figma .md) — @OpenAI Developers, 2026-04-12 14:43
+- [They grow up so fast 🦞](2026-04-12-2043313467512463713-Peter Steinberger 🦞-They grow up so fast 🦞.md) — @Peter Steinberger 🦞, 2026-04-12 13:01
+- [RT Riley Brown: Personally I don’t see the point of Cowork. ...](2026-04-12-2043365882299355567-Peter Steinberger 🦞-RT Riley Brown- Personally I don’t see the point of Cowork. I don’t even see the point of chatgpt or Claude anymore. I ei.md) — @Peter Steinberger 🦞, 2026-04-12 08:12
+- [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
+- [RT Deva Hazarika: For You feed is great today, this is Nikit...](2026-04-12-2043295525412225266-Peter Steinberger 🦞-RT Deva Hazarika- For You feed is great today, this is Nikita’s Liberation Day.md) — @Peter Steinberger 🦞, 2026-04-12 01:35
+- [RT ollama: MiniMax M2.7 is available on Ollama's cloud, and ...](2026-04-12-2043140427138900083-Peter Steinberger 🦞-RT ollama- MiniMax M2.7 is available on Ollama's cloud, and is licensed for commercial usage. Use it with OpenClaw- ollama la.md) — @Peter Steinberger 🦞, 2026-04-12 01:28
+- [there's a turbotax connector in Claude Code now, so glad I p...](2026-04-12-2043138221836746762-Thariq-there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭.md) — @Thariq, 2026-04-12 01:24
+- [RT Ben Badejo: OpenClaw 4.10 with the new active-memory plug...](2026-04-11-2043316860276605130-Peter Steinberger 🦞-RT Ben Badejo- OpenClaw 4.10 with the new active-memory plugin enabled is SO MUCH SMARTER. It's really a ridiculous step-chan.md) — @Peter Steinberger 🦞, 2026-04-11 22:16
+- [RT Ben Badejo: If you are using OpenClaw, you really need to...](2026-04-11-2043323073789935969-Peter Steinberger 🦞-RT Ben Badejo- If you are using OpenClaw, you really need to do this. Wow. I am really enjoying it again. The responses are n.md) — @Peter Steinberger 🦞, 2026-04-11 21:56
+- [RT Tibo: Hi! Getting a lot of questions on Pro plan rate lim...](2026-04-11-2043088430763250067-OpenAI-RT Tibo- Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things- - Your Pro $100 plan includes at leas.md) — @OpenAI, 2026-04-11 21:14
+- [RT TestingCatalog News 🗞: OpenAI is working on a new experi...](2026-04-11-2043140441290449058-Peter Steinberger 🦞-RT TestingCatalog News 🗞- OpenAI is working on a new experimental feature for Codex called Scratchpad. Users will be able .md) — @Peter Steinberger 🦞, 2026-04-11 17:34
+- [RT Mario Zechner: uffi ouchie wtf https://akshaychugh.xyz/wr...](2026-04-11-2042916507273801869-Peter Steinberger 🦞-RT Mario Zechner- uffi ouchie wtf https-akshaychugh.xyz-writings-png-vercel-plugin-telemetry.md) — @Peter Steinberger 🦞, 2026-04-11 07:14
+- [RT Beff (e/acc): When you've been too locked in on Claude an...](2026-04-11-2042974452716032020-Peter Steinberger 🦞-RT Beff (e-acc)- When you've been too locked in on Claude and finally try out GPT 5.4 high for a coding task only to realize .md) — @Peter Steinberger 🦞, 2026-04-11 07:10
+- [RT Guillermo Rauch: 🦞 + ▲](2026-04-11-2042960750629581213-Peter Steinberger 🦞-RT Guillermo Rauch- 🦞 + ▲.md) — @Peter Steinberger 🦞, 2026-04-11 04:36
+- [This is so awesome! When I was a kid, when the Apollo missio...](2026-04-11-2042819001815126233-Jeff Dean-This is so awesome! When I was a kid, when the Apollo mission were still relativ.md) — @Jeff Dean, 2026-04-11 04:16
+- [RT アヤーン: OpenClaw now has end-to-end testing for Telegram 👀...](2026-04-11-2042917149484724545-Peter Steinberger 🦞-RT アヤーン- OpenClaw now has end-to-end testing for Telegram 👀 Uses the brand new Telegram bot-to-bot communication m.md) — @Peter Steinberger 🦞, 2026-04-11 03:41
+- [<br><img width=\"2048\" height=\"1187\" style=\"\" src=\"htt...](2026-04-11-2042793664947081398-Peter Steinberger 🦞-br-img width=-2048- height=-1187- style=- src=-https-pbs.twimg.com-media-HF.md) — @Peter Steinberger 🦞, 2026-04-11 02:35
+- [Re 🔗 Codex CLI: https://developers.openai.com/codex/cli](2026-04-11-2042780056804811115-OpenAI-Re 🔗 Codex CLI- https-developers.openai.com-codex-cli.md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 Atlas: https://chatgpt.com/atlas](2026-04-11-2042780058075672703-OpenAI-Re 🔗 Atlas- https-chatgpt.com-atlas.md) — @OpenAI, 2026-04-11 01:41
+- [Re The security and privacy of your information are a top pr...](2026-04-11-2042780059363336237-OpenAI-Re The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when iss.md) — @OpenAI, 2026-04-11 01:41
+- [We recently identified a security issue involving the third-...](2026-04-11-2042780052669239782-OpenAI-We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We .md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 ChatGPT Desktop: https://chatgpt.com/download/](2026-04-11-2042780054015611373-OpenAI-Re 🔗 ChatGPT Desktop- https-chatgpt.com-download.md) — @OpenAI, 2026-04-11 01:41
+- [Re 🔗 Codex App: https://chatgpt.com/codex/](2026-04-11-2042780055559114993-OpenAI-Re 🔗 Codex App- https-chatgpt.com-codex.md) — @OpenAI, 2026-04-11 01:41
+- [RT Ms. Dei®️: Yet another inspiration to women in STEM. Chri...](2026-04-11-2042821001176928726-Jeff Dean-RT Ms. Dei®️- Yet another inspiration to women in STEM. Christina Koch is her na.md) — @Jeff Dean, 2026-04-11 00:29
+- [RT Google Earth: Welcome home 🩵](2026-04-11-2042815366855049271-Jeff Dean-RT Google Earth- Welcome home 🩵.md) — @Jeff Dean, 2026-04-11 00:27
+- [RT Thomas Ricouard: We're preparing an Intel release for the...](2026-04-10-2042921069569298574-Peter Steinberger 🦞-RT Thomas Ricouard- We're preparing an Intel release for the Codex App and I'm looking for people on Intel Mac willing to tes.md) — @Peter Steinberger 🦞, 2026-04-10 23:26
+- [I wrote this early this morning and I wasn't sure if I would...](2026-04-10-2042738954550603884-Sam Altman-I wrote this early this morning and I wasn't sure if I would actually publish it.md) — @Sam Altman, 2026-04-10 22:58
+- [RT Felipe Coury 🦀: Codex CLI 0.119.0 is out and I'm excited...](2026-04-10-2042766392085061728-Peter Steinberger 🦞-RT Felipe Coury 🦀- Codex CLI 0.119.0 is out and I'm excited about two features.md) — @Peter Steinberger 🦞, 2026-04-10 22:53
+- [RT Armin Ronacher ⇌: This time around at @aiDotEngineer I wa...](2026-04-10-2042792226720223524-Peter Steinberger 🦞-RT Armin Ronacher ⇌- This time around at @aiDotEngineer I was lucky to do someth.md) — @Peter Steinberger 🦞, 2026-04-10 21:08
+- [RT Nick: http://x.com/i/article/2042694217663979520](2026-04-10-2042742570992963816-OpenAI Developers-RT Nick- http-x.com-i-article-2042694217663979520.md) — @OpenAI Developers, 2026-04-10 20:44
+- [Anyone here who wants to help with WhatsApp CLI? It needs lo...](2026-04-10-Peter Steinberger 🦞-2042684707683365227.md) — @Peter Steinberger 🦞, 2026-04-10 19:22
+- [RT Mario Zechner: People of pi. You can view my 18 minutes @...](2026-04-10-2042766316776411551-Peter Steinberger 🦞-RT Mario Zechner- People of pi. You can view my 18 minutes @aiDotEngineer Europe.md) — @Peter Steinberger 🦞, 2026-04-10 19:16
+- [RT NVIDIA AI Developer: Green and red have never looked so g...](2026-04-10-Peter Steinberger 🦞-2042682012440424553.md) — @Peter Steinberger 🦞, 2026-04-10 19:01
+- [RT kache: he's right](2026-04-10-Peter Steinberger 🦞-2042683788824633354.md) — @Peter Steinberger 🦞, 2026-04-10 18:42
+- [favorite AGI/sci-fi vibe these days is coding a robot code t...](2026-04-10-Thomas Wolf-2042669638564352477.md) — @Thomas Wolf, 2026-04-10 18:22
+- [RT Katia Gil Guzman: We talk a lot about Codex for coding. B...](2026-04-10-OpenAI Developers-2042669520935113091.md) — @OpenAI Developers, 2026-04-10 18:11
+- [Builders Unscripted with @ashebytes Ashe talked to @romainhu...](2026-04-10-OpenAI Developers-2042657797419262175.md) — @OpenAI Developers, 2026-04-10 17:35
+- [Search can take the hassle out of booking restaurants with a...](2026-04-10-Google-2042626811083853857.md) — @Google, 2026-04-10 15:32
+- [RT Ryan Lopopolo: This is the truth. Autocompaction in Codex...](2026-04-10-Peter Steinberger 🦞-2042679910754365875.md) — @Peter Steinberger 🦞, 2026-04-10 15:31
+- [RT José RC de Freitas: Re @steipete Imagine building a busin...](2026-04-10-Peter Steinberger 🦞-2042616906952085522.md) — @Peter Steinberger 🦞, 2026-04-10 14:52
+- [RT Jürgen Schmidhuber: Neural Computers https://arxiv.org/ab...](2026-04-10-Christian Szegedy-2042630771223974073.md) — @Christian Szegedy, 2026-04-10 13:50
+- [RT Reda Sadki: I am using fewer and fewer apps, more and mor...](2026-04-10-Peter Steinberger 🦞-2042605879355171065.md) — @Peter Steinberger 🦞, 2026-04-10 13:42
+- [Anthropic's randoms system prompt blockers are getting weird...](2026-04-10-Peter Steinberger 🦞-2042537771865104653.md) — @Peter Steinberger 🦞, 2026-04-10 09:38
+- [RT Mariano Belinky: Agents are only as good as what they rem...](2026-04-10-Peter Steinberger 🦞-2042535632006705616.md) — @Peter Steinberger 🦞, 2026-04-10 09:28
+- [RT Alexey Pelykh: So @AnthorpicAI went pedal-to-the-metal on...](2026-04-10-Peter Steinberger 🦞-2042554746171515224.md) — @Peter Steinberger 🦞, 2026-04-10 09:20
+- [RT How To AI: 🚨 MIT just dropped a technique that makes Cha...](2026-04-10-Christian Szegedy-2042630853189140913.md) — @Christian Szegedy, 2026-04-10 08:42
+- [RT Romain Huet: We recorded a Web Dev Challenge with three t...](2026-04-10-2043060944553808218-OpenAI Developers-RT Romain Huet- We recorded a Web Dev Challenge with three teams building apps with Codex in 4 hours! 🎬 Loved the creative en.md) — @OpenAI Developers, 2026-04-10 03:16
+- [Build macOS apps with our Codex plugin:](2026-04-09-OpenAI Developers-2042369696608239848.md) — @OpenAI Developers, 2026-04-09 22:30
+- [Introducing ConvApparel, a new human-AI conversation dataset...](2026-04-09-Google Research-2042348159800848472.md) — @Google Research, 2026-04-09 21:05
+- [It is very nice to see Codex getting so much love. We are la...](2026-04-09-Sam Altman-2042342572958630332.md) — @Sam Altman, 2026-04-09 20:43
+- [RT Magnus Müller: I just realized that Perplexity is built o...](2026-04-09-Peter Steinberger 🦞-2042554346060075120.md) — @Peter Steinberger 🦞, 2026-04-09 20:31
+- [you'll need to explicitly prompt Claude Code to use it, but ...](2026-04-09-Thariq-2042335178388103559.md) — @Thariq, 2026-04-09 20:13
+- [I think \"prompting\" will keep being an incredibly high-lev...](2026-04-09-Thariq-2042318547519762678.md) — @Thariq, 2026-04-09 19:07
+- [RT Google Gemini: Rolling out today, you can create longer t...](2026-04-09-Google-2042324699955237233.md) — @Google, 2026-04-09 19:00
+- [RT Andrew M. Dai: After almost 12 years in Brain/DeepMind, I...](2026-04-09-Jeff Dean-2042400094423826884.md) — @Jeff Dean, 2026-04-09 18:21
+- [We’re going all in to help builders do even more with Codex....](2026-04-09-OpenAI Developers-2042299379613384790.md) — @OpenAI Developers, 2026-04-09 17:51
+- [RT Tibo: We did it, say hi to the $100 plan! It should be th...](2026-04-09-Peter Steinberger 🦞-2042553072312799568.md) — @Peter Steinberger 🦞, 2026-04-09 17:51
+- [Our existing $200 Pro tier still remains our highest usage o...](2026-04-09-OpenAI-2042296046009626989.md) — @OpenAI, 2026-04-09 17:38
+- [RT OpenAI: We’re updating our ChatGPT Pro and Plus subscript...](2026-04-09-Peter Steinberger 🦞-2042337850671210988.md) — @Peter Steinberger 🦞, 2026-04-09 17:36
+- [RT José A. Alonso: QED-Nano: Teaching a tiny model to prove ...](2026-04-09-Christian Szegedy-2042598654683349467.md) — @Christian Szegedy, 2026-04-09 17:07
+- [RT Sundar Pichai: Lots of love for Gemma 4! Team just told m...](2026-04-08-2042077966385995808-Demis Hassabis-RT Sundar Pichai- Lots of love for Gemma 4! Team just told me it’s already had 10M+ downloads since last week’s launch. Gemma m.md) — @Demis Hassabis, 2026-04-08 22:57
+- [RT Demis Hassabis: Thanks for the great conversation @cleoab...](2026-04-08-Google-2042334293603561623.md) — @Google, 2026-04-08 00:56
+- [RT OpenAI Developers: Let’s talk about building with Codex. ...](2026-04-06-OpenAI Developers-2042340483415097682.md) — @OpenAI Developers, 2026-04-06 20:10
+- [RT Andrej Karpathy: Re @NirDiamantAI Peter Steinberger told ...](2026-04-04-Peter Steinberger 🦞-2042511877394096222.md) — @Peter Steinberger 🦞, 2026-04-04 16:54

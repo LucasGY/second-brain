@@ -133,7 +133,7 @@ Example `rss.md`:
 - `index.md` is for navigation.
 - `log.md` is append-only operational history.
 - The LLM should prefer updating existing pages over creating duplicates.
-- Podcast transcripts are written under `raw/inbox/` as `小宇宙+标题+日期.md`.
+- Podcast transcripts are written under `raw/feeds/podcast/`.
 - `x.com` list captures are written under `raw/feeds/x.com/<feed>/`.
 - Processed podcast episode GUIDs are tracked in `raw/processed/podcast_transcriptions.json`.
 - The transcriber uses local `faster-whisper` on CPU (`small` + `int8` by default), so it does not require an API key.
