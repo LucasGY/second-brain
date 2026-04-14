@@ -1,11 +1,26 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-14T15:20:27.943Z
+Retrieved: 2026-04-14T22:14:56.013Z
 
-## Tweets (300)
+## Tweets (319)
 
+- [BREAKING: The UK just sold 10Y Government Bonds at the highe...](2026-04-14-The Kobeissi Letter-2044159005711577199.md) — @The Kobeissi Letter, 2026-04-14 21:01
+- [如果美国和伊朗签和平协议，石油美元要崩溃？ 如果石油美元崩溃，美国资产少了中东买家。 这是最近我听到比较多的观点。 提一...](2026-04-14-投资TALK君-2044145667044716837.md) — @投资TALK君, 2026-04-14 20:08
+- [BREAKING: The S&P 500 closes +1.2% higher, now up +10.2% fro...](2026-04-14-The Kobeissi Letter-2044143760435564708.md) — @The Kobeissi Letter, 2026-04-14 20:00
+- [噪音里面找重点](2026-04-14-投资TALK君-2044136489571750353.md) — @投资TALK君, 2026-04-14 19:31
+- [Today’s Prospero Signal Leaders and Losers 👇 Short Term Bul...](2026-04-14-Prospero.ai-2044132978645770303.md) — @Prospero.ai, 2026-04-14 19:17
+- [Americans have never been this pessimistic about their finan...](2026-04-14-The Kobeissi Letter-2044130416735699233.md) — @The Kobeissi Letter, 2026-04-14 19:07
+- [We are witnessing a historic short squeeze right now. The S&...](2026-04-14-The Kobeissi Letter-2044114462530019405.md) — @The Kobeissi Letter, 2026-04-14 18:04
+- [川普五月访华，中美关系进入一小段蜜月期，然后最近的地缘局势又让东大站在一个相对有利的位置上。中国资产大会不会迎来一波关注...](2026-04-14-qinbafrank-2044108965706187209.md) — @qinbafrank, 2026-04-14 17:42
+- [China is well positioned to withstand the impact of the US b...](2026-04-14-The Kobeissi Letter-2044101628014301642.md) — @The Kobeissi Letter, 2026-04-14 17:13
+- [出息了，你说敢喊小盘股吗？X上有很多靠这个赚钱的，币圈就更不用说了。](2026-04-14-投资TALK君-2044096822998618529.md) — @投资TALK君, 2026-04-14 16:53
+- [The IPO market is about to make history: Anthropic's pre-IPO...](2026-04-14-The Kobeissi Letter-2044085611494265283.md) — @The Kobeissi Letter, 2026-04-14 16:09
+- [是不是想追进来了？看到很多标的一天涨20%觉得错过了？ 如果要追，保守点的买 $AAPL ，这两天没跟涨，即使大盘回调它...](2026-04-14-投资TALK君-2044084020456178092.md) — @投资TALK君, 2026-04-14 16:03
+- [Hedge funds continue to aggressively cover their short posit...](2026-04-14-The Kobeissi Letter-2044071641961906419.md) — @The Kobeissi Letter, 2026-04-14 15:13
+- [RT Zephyr: \"We observed that the OCS ratio in Scale Up scen...](2026-04-14-3X Long Labubu-2044086123216154733.md) — @3X Long Labubu, 2026-04-14 13:05
 - [美联储缩减RMP储备管理购买（买短债扩表），看纽约联储的公告未来一个月（4月14-5月13号）美联储月度购债规模砍掉近四...](2026-04-14-qinbafrank-2044034060717306102.md) — @qinbafrank, 2026-04-14 12:44
+- [RT Jukan: Oh my god lol, $MRVL is talking with Google about ...](2026-04-14-3X Long Labubu-2044086004920005058.md) — @3X Long Labubu, 2026-04-14 12:39
 - [BREAKING: US March PPI inflation rises to 4.0%, its highest ...](2026-04-14-The Kobeissi Letter-2044031118400253968.md) — @The Kobeissi Letter, 2026-04-14 12:32
 - [BREAKING: JP Morgan, $JPM, reports a record $11.6 billion in...](2026-04-14-The Kobeissi Letter-2044027349285404799.md) — @The Kobeissi Letter, 2026-04-14 12:17
 - [RT @ISABELNET_SA: 📌 Financials Positioning in financials is...](2026-04-14-Daily Chartbook-2044023914955710960.md) — @Daily Chartbook, 2026-04-14 12:04
@@ -71,8 +86,11 @@ Retrieved: 2026-04-14T15:20:27.943Z
 - [http://x.com/i/article/2043644141134094336](2026-04-13-2043653387271712962-qinbafrank-http-x.com-i-article-2043644141134094336.md) — @qinbafrank, 2026-04-13 11:31
 - [RT Peter Atwater: \"Me Here Now\" Thinking Meets the \"Me He...](2026-04-13-2043664038576464199-Daily Chartbook-RT Peter Atwater- -Me Here Now- Thinking Meets the -Me Here Now- reality for those at the bottom.md) — @Daily Chartbook, 2026-04-13 10:50
 - [\"Nearly half of working-age Americans don’t have a retireme...](2026-04-13-2043615711470223531-Daily Chartbook-Nearly half of working-age Americans don’t have a retirement account, with the shortfall most acute among younger, less-educated.md) — @Daily Chartbook, 2026-04-13 09:02
+- [RT Daily Chartbook: \"Nearly half of working-age Americans d...](2026-04-13-Daily Chartbook-2043759497361993882.md) — @Daily Chartbook, 2026-04-13 09:02
 - [\"Prediction markets are now getting as much social attentio...](2026-04-13-2043607494442848258-Daily Chartbook-Prediction markets are now getting as much social attention as traditional investing.- @DataTrekMB.md) — @Daily Chartbook, 2026-04-13 08:29
+- [RT Daily Chartbook: \"Prediction markets are now getting as ...](2026-04-13-Daily Chartbook-2043752093803057586.md) — @Daily Chartbook, 2026-04-13 08:29
 - [\"Bonds are cheap, sentiment remains predominantly bearish, ...](2026-04-13-2043600171901030542-Daily Chartbook-Bonds are cheap, sentiment remains predominantly bearish, and investor allocations to bonds are at cycle lows (last time it was th.md) — @Daily Chartbook, 2026-04-13 08:00
+- [RT Daily Chartbook: \"Bonds are cheap, sentiment remains pre...](2026-04-13-Daily Chartbook-2043744717918154774.md) — @Daily Chartbook, 2026-04-13 08:00
 - [The number of jobs needed to keep US unemployment stable has...](2026-04-13-2043542331958108316-The Kobeissi Letter-The number of jobs needed to keep US unemployment stable has collapsed- Minimum monthly job gains needed to hold unemployment .md) — @The Kobeissi Letter, 2026-04-13 04:10
 - [多谢邀请，晚上跟几位老师一起聊聊近期美股行情。](2026-04-13-2043539710862315750-qinbafrank-多谢邀请，晚上跟几位老师一起聊聊近期美股行情。.md) — @qinbafrank, 2026-04-13 04:00
 - [割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金...](2026-04-13-2043536699566022676-パウロ-割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金で-500万円 日本.md) — @パウロ, 2026-04-13 03:48
@@ -191,6 +209,7 @@ Retrieved: 2026-04-14T15:20:27.943Z
 - [BREAKING: Another round of negotiations between the US and I...](2026-04-11-2043011259231015063-The Kobeissi Letter-BREAKING- Another round of negotiations between the US and Iran will be held tonight or tomorrow in Pakistan, per Iranian stat.md) — @The Kobeissi Letter, 2026-04-11 17:00
 - [最近两份美联储研报 1. 关税对通胀影响：0.8%，去掉关税，核心PCE是2.2% 2. 劳动力非农增速26年常态可能接...](2026-04-11-2043008168138092889-投资TALK君-最近两份美联储研报 1. 关税对通胀影响：0.8%，去掉关税，核心PCE是2.2% 2. 劳动力非农增速26年常态可能接.md) — @投资TALK君, 2026-04-11 16:47
 - [BREAKING: US-Iran negotiations in Pakistan have hit a “stale...](2026-04-11-2043007695817441519-The Kobeissi Letter-BREAKING- US-Iran negotiations in Pakistan have hit a “stalemate” over the control of the Strait of Hormuz, per FT.md) — @The Kobeissi Letter, 2026-04-11 16:46
+- [RT 3X Long Labubu: Re @Arronwei3n Thanks for sharing! I gues...](2026-04-11-3X Long Labubu-2044083276231651744.md) — @3X Long Labubu, 2026-04-11 16:25
 - [RT Geiger Capital: The train is out of control… The first 6 ...](2026-04-11-2043001556531056957-3X Long Labubu-RT Geiger Capital- The train is out of control… The first 6 months of FY 2026 produced a deficit of $1.17 Trillion. The simple re.md) — @3X Long Labubu, 2026-04-11 15:18
 - [BREAKING: Iran’s President Pezeshkian releases a statement a...](2026-04-11-2042985144609284154-The Kobeissi Letter-BREAKING- Iran’s President Pezeshkian releases a statement as in-person talks between the US and Iran begin in Pakistan- “.md) — @The Kobeissi Letter, 2026-04-11 15:16
 - [\"April historically marks a transition in investor behavior...](2026-04-11-2042981128705884264-Daily Chartbook-April historically marks a transition in investor behavior, and we are seeing early signs of that shift- -Citadel Rubner.md) — @Daily Chartbook, 2026-04-11 15:00

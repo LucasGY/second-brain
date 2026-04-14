@@ -1,13 +1,24 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-14T15:20:27.608Z
+Retrieved: 2026-04-14T22:14:54.899Z
 
-## Tweets (80)
+## Tweets (91)
 
+- [RT NotebookLM: To celebrate World Quantum Day (one of our fa...](2026-04-14-Google-2044174392280658071.md) — @Google, 2026-04-14 20:39
+- [RT Anthony Morris ツ: Today we're launching a rebuilt version...](2026-04-14-Thariq-2044131837937889408.md) — @Thariq, 2026-04-14 19:05
+- [RT Noah Zweben: Claude Code Routines are here! In addition t...](2026-04-14-Thariq-2044100766445805823.md) — @Thariq, 2026-04-14 16:42
+- [RT Google Quantum AI: In honor of World Quantum Day, we’re h...](2026-04-14-Google Research-2044116545056715255.md) — @Google Research, 2026-04-14 16:01
+- [Small businesses are the engine of the American economy. Our...](2026-04-14-Sundar Pichai-2044083072275210732.md) — @Sundar Pichai, 2026-04-14 15:59
+- [RT Dave Morin 🦞: 2300+ builders at @UMich in Ann Arbor this...](2026-04-14-Peter Steinberger 🦞-2044083654058557685.md) — @Peter Steinberger 🦞, 2026-04-14 15:37
+- [RT Google DeepMind: We’re rolling out an upgrade designed to...](2026-04-14-Google-2044091356302160284.md) — @Google, 2026-04-14 15:06
+- [RT Google Quantum AI: Happy World Quantum Day! Today’s #Goog...](2026-04-14-Google Research-2044116503956787709.md) — @Google Research, 2026-04-14 14:32
+- [RT Josh Lehman: lossless-claw 0.9.0 — the \"stop touching my...](2026-04-14-Peter Steinberger 🦞-2044093495149776974.md) — @Peter Steinberger 🦞, 2026-04-14 14:27
 - [RT Luke: I would like to say that I also did nothing this re...](2026-04-14-Peter Steinberger 🦞-2044053948613702010.md) — @Peter Steinberger 🦞, 2026-04-14 13:53
+- [RT Tak 🦞: 👋 A few useful OpenClaw 2026.4.14 changes that d...](2026-04-14-Peter Steinberger 🦞-2044093888445509748.md) — @Peter Steinberger 🦞, 2026-04-14 13:41
 - [This release makes me unreasonably happy since I wasn't invo...](2026-04-14-Peter Steinberger 🦞-2044047222481019300.md) — @Peter Steinberger 🦞, 2026-04-14 13:36
 - [Ever wonder how UX changes when your user is a developer? Vi...](2026-04-14-Google Research-2043941671738429950.md) — @Google Research, 2026-04-14 06:37
+- [RT claire vo 🖤: http://x.com/i/article/2043852315753623552](2026-04-14-Peter Steinberger 🦞-2044093632718704647.md) — @Peter Steinberger 🦞, 2026-04-14 01:23
 - [RT Azalia Mirhoseini: Turns out we can get SOTA on agentic b...](2026-04-13-Christian Szegedy-2043977181613961550.md) — @Christian Szegedy, 2026-04-13 22:06
 - [RT Peyton Walters: super proud of my 6 year old nephew for l...](2026-04-13-Peter Steinberger 🦞-2043941674414698909.md) — @Peter Steinberger 🦞, 2026-04-13 21:24
 - [Today we're sharing our research experiment, Vantage, using ...](2026-04-13-2043757042230493311-Google Research-Today we're sharing our research experiment, Vantage, using GenAI to assess -future-ready- skills like collaboration. A study with.md) — @Google Research, 2026-04-13 18:23
