@@ -1,0 +1,79 @@
+# Twitter List
+
+Source: http://localhost:1200/twitter/list/2010668012806836322
+Retrieved: 2026-04-14T07:53:25.094Z
+
+## Tweets (72)
+
+- [Not surprising to me. AI Agent is also cpu-bound.](2026-04-14-3X Long Labubu-2043939524208930937.md) — @3X Long Labubu, 2026-04-14 06:28
+- [RT Zephyr: Assuming they do a 70/30 split in those 3 factori...](2026-04-14-3X Long Labubu-2043941174420091205.md) — @3X Long Labubu, 2026-04-14 06:27
+- [SEC又给加密送了一次绑：纯中立的“界面工具”不等于经纪商，不会因为帮用户准备交易就被视为需要牌照的“平台”。 SEC交...](2026-04-14-qinbafrank-2043935213223588072.md) — @qinbafrank, 2026-04-14 06:11
+- [算力紧缺已经临界点，我们将面临近几年来最大规模算力紧缺。看OpenAI官方披露https://openai.com/zh...](2026-04-14-qinbafrank-2043910896351883636.md) — @qinbafrank, 2026-04-14 04:35
+- [RT Jukan: Bernstein: Early checks on 2Q26 memory contract ne...](2026-04-14-3X Long Labubu-2043927830258753630.md) — @3X Long Labubu, 2026-04-14 04:29
+- [RT Aaron: Anthropic - $AVGO TPU deal. 3.5M spanning 5 years....](2026-04-14-3X Long Labubu-2043914089299357970.md) — @3X Long Labubu, 2026-04-14 03:53
+- [4月2日SEMIANALYSIS的文章，我视频也聊过，算力的紧缺，文中直接聊到了利好NEOCLOUD。可惜那时候多数人都...](2026-04-14-投资TALK君-2043898332641157519.md) — @投资TALK君, 2026-04-14 03:45
+- [关于核问题的争执，美伊比公开表现出来的其实更接近，球已经伊朗的脚下了。看Axios昨晚报道了塞尔纳酒店双方都没有公开披露...](2026-04-14-qinbafrank-2043884447582564655.md) — @qinbafrank, 2026-04-14 02:50
+- [BREAKING: A new round of negotiations between the US and Ira...](2026-04-14-The Kobeissi Letter-2043882612528238650.md) — @The Kobeissi Letter, 2026-04-14 02:42
+- [The US AI boom has a hardware problem: US imports of major e...](2026-04-14-The Kobeissi Letter-2043880139767853323.md) — @The Kobeissi Letter, 2026-04-14 02:32
+- [5 of Monday's best charts and insights: https://www.dailycha...](2026-04-14-Daily Chartbook-2043866802988433783.md) — @Daily Chartbook, 2026-04-14 01:39
+- [Global data center power demand is set to accelerate: Data c...](2026-04-14-The Kobeissi Letter-2043863505284055126.md) — @The Kobeissi Letter, 2026-04-14 01:26
+- [🤨🙄🤦🤷](2026-04-14-投资TALK君-2043858318901317762.md) — @投资TALK君, 2026-04-14 01:06
+- [BREAKING: Bitcoin extends gains to +5% on the day and rises ...](2026-04-13-The Kobeissi Letter-2043817074162647056.md) — @The Kobeissi Letter, 2026-04-13 22:22
+- [Real income growth among US households is weakening: Real di...](2026-04-13-The Kobeissi Letter-2043809902422905271.md) — @The Kobeissi Letter, 2026-04-13 21:53
+- [还有空间可以跑，日内可以做，估计再有10%就有增发风险。增发后还可以做。我自己没时间看盘，投资仓位也满了，祝大家都赚钱。](2026-04-13-投资TALK君-2043798423791337546.md) — @投资TALK君, 2026-04-13 21:08
+- [做多台湾](2026-04-13-投资TALK君-2043797318927876216.md) — @投资TALK君, 2026-04-13 21:03
+- [7 of the top 10 companies by market cap depend almost entire...](2026-04-13-SemiAnalysis-2043796633108766898.md) — @SemiAnalysis, 2026-04-13 21:01
+- [淡定，虽然我看好 $ADBE ，虽然大空头BURRY可能抄了我的底，但我 $ADBE 还是浮亏了1%。如果看对了，现在都...](2026-04-13-投资TALK君-2043787794644926507.md) — @投资TALK君, 2026-04-13 20:25
+- [RT Jan @ Chartfleau: S&P 500 Monday performance by sector. $...](2026-04-13-Daily Chartbook-2043793340534030763.md) — @Daily Chartbook, 2026-04-13 20:10
+- [Didn’t expect this much 😅](2026-04-13-3X Long Labubu-2043783457315463630.md) — @3X Long Labubu, 2026-04-13 20:08
+- [最后一个送了，目的是反馈给订阅的朋友，挺好。给 @AnthropicAI 打打广告。下个月继续，然后会留出1，2个名额给...](2026-04-13-投资TALK君-2043776553809547285.md) — @投资TALK君, 2026-04-13 19:41
+- [RT عاجل من إيران 🇮🇷: الرئيس الإيراني:\" نحن مستعدون للمفاو...](2026-04-13-投资TALK君-2043781370455916598.md) — @投资TALK君, 2026-04-13 19:38
+- [The gap between Wall Street and Main Street has never been b...](2026-04-13-The Kobeissi Letter-2043772468473536955.md) — @The Kobeissi Letter, 2026-04-13 19:25
+- [RT BRICS News: JUST IN: 🇺🇸🇮🇷 US officials discussing sec...](2026-04-13-投资TALK君-2043771657853042877.md) — @投资TALK君, 2026-04-13 19:16
+- [Saudi Arabia's oil infrastructure is proving resilient: Crud...](2026-04-13-The Kobeissi Letter-2043750327338578167.md) — @The Kobeissi Letter, 2026-04-13 17:57
+- [RT South Asia Index: Just IN:— Next round of US-Iran talks a...](2026-04-13-投资TALK君-2043764717055828108.md) — @投资TALK君, 2026-04-13 17:47
+- [BREAKING: Global energy funds posted -$2.1 billion in outflo...](2026-04-13-The Kobeissi Letter-2043737478084108777.md) — @The Kobeissi Letter, 2026-04-13 17:06
+- [BREAKING: US oil prices fall back below $100/barrel in a lar...](2026-04-13-The Kobeissi Letter-2043734091523047523.md) — @The Kobeissi Letter, 2026-04-13 16:52
+- [BREAKING: The US Treasury's budget deficit rose +2% YoY in M...](2026-04-13-The Kobeissi Letter-2043724307621138577.md) — @The Kobeissi Letter, 2026-04-13 16:13
+- [China's dominance in the global EV battery market is unprece...](2026-04-13-The Kobeissi Letter-2043709683890806879.md) — @The Kobeissi Letter, 2026-04-13 15:15
+- [3号space里提到很多个股已经进入了高性价比区间，已经在买了； 8号聊到，“春劫行情”告以段落，以打促谈、有条件媾合是...](2026-04-13-qinbafrank-2043706920281006429.md) — @qinbafrank, 2026-04-13 15:04
+- [http://Prospero.ai Stock Market LIVE | Apr. 13th, 2026 https...](2026-04-13-Prospero.ai-2043705997068472792.md) — @Prospero.ai, 2026-04-13 15:00
+- [还是早上聊到的：美军只封锁进出伊朗的船只，让局势进一步可控，可以视作“制裁升级”而不是战争升级。还是昨天说的核心目标不是...](2026-04-13-qinbafrank-2043704836512948713.md) — @qinbafrank, 2026-04-13 14:56
+- [Maybe neocloud performs so well today because H100 rental pr...](2026-04-13-3X Long Labubu-2043701067834401264.md) — @3X Long Labubu, 2026-04-13 14:41
+- [BREAKING: President Trump issues a warning to Iran: \"If any...](2026-04-13-The Kobeissi Letter-2043697280872587662.md) — @The Kobeissi Letter, 2026-04-13 14:26
+- [Look good to me, took the profit of PLTR 0417 130c with 80% ...](2026-04-13-3X Long Labubu-2043697043538108816.md) — @3X Long Labubu, 2026-04-13 14:25
+- [出息了，大盘股也能喊上去](2026-04-13-投资TALK君-2043693433643032812.md) — @投资TALK君, 2026-04-13 14:10
+- [BREAKING: The S&P 500 erases all losses and turns green on t...](2026-04-13-The Kobeissi Letter-2043692008896618620.md) — @The Kobeissi Letter, 2026-04-13 14:05
+- [BREAKING: The US Military has officially begun its \"blockad...](2026-04-13-The Kobeissi Letter-2043690678136271313.md) — @The Kobeissi Letter, 2026-04-13 14:00
+- [The market is numb to the headlines. We just saw the worst p...](2026-04-13-The Kobeissi Letter-2043679352152318163.md) — @The Kobeissi Letter, 2026-04-13 13:15
+- [BREAKING: Israel’s Prime Minister Netanyahu says the ceasefi...](2026-04-13-The Kobeissi Letter-2043654550440001628.md) — @The Kobeissi Letter, 2026-04-13 11:36
+- [http://x.com/i/article/2043644141134094336](2026-04-13-qinbafrank-2043653387271712962.md) — @qinbafrank, 2026-04-13 11:31
+- [RT Peter Atwater: \"Me Here Now\" Thinking Meets the \"Me He...](2026-04-13-Daily Chartbook-2043664038576464199.md) — @Daily Chartbook, 2026-04-13 10:50
+- [\"Nearly half of working-age Americans don’t have a retireme...](2026-04-13-Daily Chartbook-2043615711470223531.md) — @Daily Chartbook, 2026-04-13 09:02
+- [\"Prediction markets are now getting as much social attentio...](2026-04-13-Daily Chartbook-2043607494442848258.md) — @Daily Chartbook, 2026-04-13 08:29
+- [\"Bonds are cheap, sentiment remains predominantly bearish, ...](2026-04-13-Daily Chartbook-2043600171901030542.md) — @Daily Chartbook, 2026-04-13 08:00
+- [The number of jobs needed to keep US unemployment stable has...](2026-04-13-The Kobeissi Letter-2043542331958108316.md) — @The Kobeissi Letter, 2026-04-13 04:10
+- [多谢邀请，晚上跟几位老师一起聊聊近期美股行情。](2026-04-13-qinbafrank-2043539710862315750.md) — @qinbafrank, 2026-04-13 04:00
+- [这本《芯片之路：从台积电到兆级晶圆厂》应该跟《芯片战争》合起来一起读应该更有助于我们了解半导体芯片产业是如何一步步发展到...](2026-04-13-qinbafrank-2043520499037446466.md) — @qinbafrank, 2026-04-13 02:43
+- [China has massive economic exposure to the Middle East: Chin...](2026-04-13-The Kobeissi Letter-2043501207948329022.md) — @The Kobeissi Letter, 2026-04-13 01:27
+- [川普说海峡全封，美军说只封伊朗港口船只。美国中央司令部对特朗普的“封锁”一词做了进一步澄清： “封锁将对所有进出伊朗港口...](2026-04-13-qinbafrank-2043496715513381007.md) — @qinbafrank, 2026-04-13 01:09
+- [5 of Friday's best charts and insights: https://www.dailycha...](2026-04-13-Daily Chartbook-2043486939181961529.md) — @Daily Chartbook, 2026-04-13 00:30
+- [China just exited its longest factory deflation on record: C...](2026-04-12-The Kobeissi Letter-2043478014046941308.md) — @The Kobeissi Letter, 2026-04-12 23:54
+- [BREAKING: President Trump is looking at resuming \"limited m...](2026-04-12-The Kobeissi Letter-2043458844102127942.md) — @The Kobeissi Letter, 2026-04-12 22:38
+- [BREAKING: Iran's Foreign Minister Araghchi releases a statem...](2026-04-12-The Kobeissi Letter-2043451561595265042.md) — @The Kobeissi Letter, 2026-04-12 22:09
+- [BREAKING: US stock market futures open sharply lower as Iran...](2026-04-12-The Kobeissi Letter-2043450038781653009.md) — @The Kobeissi Letter, 2026-04-12 22:03
+- [BREAKING: US oil prices officially surge +10% at the open, r...](2026-04-12-The Kobeissi Letter-2043449369500725675.md) — @The Kobeissi Letter, 2026-04-12 22:01
+- [No, not selling a single share. I will only liquidate when I...](2026-04-12-3X Long Labubu-2043448962548703434.md) — @3X Long Labubu, 2026-04-12 21:59
+- [BREAKING: The US Military says it will begin its Strait of H...](2026-04-12-The Kobeissi Letter-2043433889637580820.md) — @The Kobeissi Letter, 2026-04-12 20:59
+- [Gold ETFs saw historic outflows in March across every region...](2026-04-12-The Kobeissi Letter-2043427682940227615.md) — @The Kobeissi Letter, 2026-04-12 20:34
+- [US trucking costs are rapidly rising: The per-mile cost to h...](2026-04-12-The Kobeissi Letter-2043409877339349494.md) — @The Kobeissi Letter, 2026-04-12 19:24
+- [The Kobeissi Letter for the week of April 13th has been publ...](2026-04-12-The Kobeissi Letter-2043396229476815326.md) — @The Kobeissi Letter, 2026-04-12 18:30
+- [The entire world is watching oil: Google search interest for...](2026-04-12-The Kobeissi Letter-2043390179386503606.md) — @The Kobeissi Letter, 2026-04-12 18:05
+- [This is a pure meme stock at the moment. Would be fun to swi...](2026-04-12-3X Long Labubu-2043388273821905339.md) — @3X Long Labubu, 2026-04-12 17:58
+- [RT bubble boi: I’m a big believer in not selling chips but s...](2026-04-12-3X Long Labubu-2043402478084096184.md) — @3X Long Labubu, 2026-04-12 17:31
+- [RT 3X Long Labubu: Re @RobinCh2020 I’d rather buy GOOG and A...](2026-04-12-3X Long Labubu-2043376692790763985.md) — @3X Long Labubu, 2026-04-12 17:12
+- [RT Damnang2: I just finished an article on the structural te...](2026-04-12-3X Long Labubu-2043389695187657137.md) — @3X Long Labubu, 2026-04-12 08:38
+- [RT CryptoCat|猫姐🐈: 这篇文章在英文圈火了，WLFI项目参与人员出来揭露川普团队怎么通过WLFI敛财，目...](2026-04-12-投资TALK君-2043409566923121112.md) — @投资TALK君, 2026-04-12 02:48
+- [RT Daily Chartbook: \"April historically marks a transition ...](2026-04-11-Daily Chartbook-2043459956951662719.md) — @Daily Chartbook, 2026-04-11 15:00
+- [RT Daily Chartbook: \"Technology sector insiders keep buying...](2026-04-11-Daily Chartbook-2043449341566664865.md) — @Daily Chartbook, 2026-04-11 14:01
+- [RT Financelot: If you're wondering why Trump is waging war w...](2026-03-26-投资TALK君-2043529869288423624.md) — @投资TALK君, 2026-03-26 03:54
