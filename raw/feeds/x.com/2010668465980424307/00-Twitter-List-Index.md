@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-14T12:20:37.751Z
+Retrieved: 2026-04-14T14:20:36.036Z
 
-## Tweets (78)
+## Tweets (80)
 
+- [RT Luke: I would like to say that I also did nothing this re...](2026-04-14-Peter Steinberger 🦞-2044053948613702010.md) — @Peter Steinberger 🦞, 2026-04-14 13:53
+- [This release makes me unreasonably happy since I wasn't invo...](2026-04-14-Peter Steinberger 🦞-2044047222481019300.md) — @Peter Steinberger 🦞, 2026-04-14 13:36
 - [Ever wonder how UX changes when your user is a developer? Vi...](2026-04-14-Google Research-2043941671738429950.md) — @Google Research, 2026-04-14 06:37
 - [RT Azalia Mirhoseini: Turns out we can get SOTA on agentic b...](2026-04-13-Christian Szegedy-2043977181613961550.md) — @Christian Szegedy, 2026-04-13 22:06
 - [RT Peyton Walters: super proud of my 6 year old nephew for l...](2026-04-13-Peter Steinberger 🦞-2043941674414698909.md) — @Peter Steinberger 🦞, 2026-04-13 21:24

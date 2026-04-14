@@ -6,6 +6,7 @@ Your goal is to transform raw, immutable source documents into a highly structur
 
 ## 2. Directory Structure
 - `raw/`: Immutable source files (PDFs, markdown clippings, code snippets). **NEVER modify files here.**
+- `schema/`: Your rulebook.
 - `wiki/sources/`: Markdown summaries of the raw files.
 - `wiki/entities/`: Pages for concrete things (e.g., OpenAI, Claude, Obsidian, specific algorithms).
 - `wiki/concepts/`: Pages for abstract ideas (e.g., RAG, Reinforcement Learning, Vibe Coding).
@@ -13,6 +14,13 @@ Your goal is to transform raw, immutable source documents into a highly structur
 - `log.md`: The chronological append-only ledger of your actions.
 
 ## 3. Core Workflow: INGEST
+
+* **To Create or Update entity page:** Before writing the file, READ `schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update concept page:** Before writing the file, READ `schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update source page:** Before writing the file, READ `schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update index page:** Before writing the file, READ `schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update log page:** Before writing the file, READ `schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
+
 
 When the user asks you to "ingest" or "process" a new file from the `raw/` directory, you MUST strictly follow this exact sequence:
 
@@ -22,7 +30,7 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
 
 ### Step 1: Read, Extract & Route
 - Read the provided source document.
-- **Source Routing:** - If the file is from `raw/inbox_manual/`: Treat as high-priority. Extract deep architectural logic, mechanisms, and core definitions.
+- **Source Routing:** - If the file is from `raw/manual/`: Treat as high-priority. Extract deep architectural logic, mechanisms, and core definitions.
   - If the file is from `raw/feeds/`: Treat as an update. Extract only timelines, news, or version changes.
 - Identify key Entities and Concepts. 
 - **Entity Resolution:** Before assuming a new entity exists, aggressively scan `wiki/index.md` to find existing aliases (e.g., map "GPT4" to existing `[[GPT-4]]`). Do not create duplicate semantic nodes.

@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-14T12:20:39.244Z
+Retrieved: 2026-04-14T14:20:37.006Z
 
-## Tweets (295)
+## Tweets (300)
 
+- [美联储缩减RMP储备管理购买（买短债扩表），看纽约联储的公告未来一个月（4月14-5月13号）美联储月度购债规模砍掉近四...](2026-04-14-qinbafrank-2044034060717306102.md) — @qinbafrank, 2026-04-14 12:44
+- [BREAKING: US March PPI inflation rises to 4.0%, its highest ...](2026-04-14-The Kobeissi Letter-2044031118400253968.md) — @The Kobeissi Letter, 2026-04-14 12:32
 - [BREAKING: JP Morgan, $JPM, reports a record $11.6 billion in...](2026-04-14-The Kobeissi Letter-2044027349285404799.md) — @The Kobeissi Letter, 2026-04-14 12:17
 - [RT @ISABELNET_SA: 📌 Financials Positioning in financials is...](2026-04-14-Daily Chartbook-2044023914955710960.md) — @Daily Chartbook, 2026-04-14 12:04
 - [\"While there are cracks in the 'shadow' banking system, com...](2026-04-14-Daily Chartbook-2044022794350952780.md) — @Daily Chartbook, 2026-04-14 11:59
@@ -13,7 +15,9 @@ Retrieved: 2026-04-14T12:20:39.244Z
 - [\"Expectations for corporate earnings have climbed for both ...](2026-04-14-Daily Chartbook-2044014670831296614.md) — @Daily Chartbook, 2026-04-14 11:27
 - [RT Scarlett & Carter's BaPa: Large capital commitments (whic...](2026-04-14-Daily Chartbook-2044023957179728318.md) — @Daily Chartbook, 2026-04-14 11:12
 - [\"Higher gas prices should only partially offset stimulus fr...](2026-04-14-Daily Chartbook-2044007630675325066.md) — @Daily Chartbook, 2026-04-14 10:59
+- [RT Josh Schafer: Re @dailychartbook You can checkout our ful...](2026-04-14-Daily Chartbook-2044044709455134975.md) — @Daily Chartbook, 2026-04-14 10:31
 - [\"If you began driving at the age of 16 in 2004, when AAA’s ...](2026-04-14-Daily Chartbook-2044000081712410929.md) — @Daily Chartbook, 2026-04-14 10:29
+- [RT Cori Arnold: The Bulls are trying to come back SPY NOS wa...](2026-04-14-Prospero.ai-2044043821856547009.md) — @Prospero.ai, 2026-04-14 10:20
 - [RT Neil Sethi: I was going to do a chart showing how gold, w...](2026-04-14-Daily Chartbook-2044023941388255261.md) — @Daily Chartbook, 2026-04-14 10:00
 - [\"Industry analysts are very optimistic about earnings growt...](2026-04-14-Daily Chartbook-2043992453376553257.md) — @Daily Chartbook, 2026-04-14 09:59
 - [\"We estimate that CTAs bought $19bn of US equities last wee...](2026-04-14-Daily Chartbook-2043984773308092672.md) — @Daily Chartbook, 2026-04-14 09:28
@@ -79,6 +83,7 @@ Retrieved: 2026-04-14T12:20:39.244Z
 - [China has massive economic exposure to the Middle East: Chin...](2026-04-13-2043501207948329022-The Kobeissi Letter-China has massive economic exposure to the Middle East- China has spent over $269 billion on investments and construction cont.md) — @The Kobeissi Letter, 2026-04-13 01:27
 - [川普说海峡全封，美军说只封伊朗港口船只。美国中央司令部对特朗普的“封锁”一词做了进一步澄清： “封锁将对所有进出伊朗港口...](2026-04-13-2043496715513381007-qinbafrank-川普说海峡全封，美军说只封伊朗港口船只。美国中央司令部对特朗普的“封锁”一词做了进一步澄清.md) — @qinbafrank, 2026-04-13 01:09
 - [5 of Friday's best charts and insights: https://www.dailycha...](2026-04-13-2043486939181961529-Daily Chartbook-5 of Friday's best charts and insights- https-www.dailychartbook.com-p-technology-sector-insiders-keep-buying-8fc3.md) — @Daily Chartbook, 2026-04-13 00:30
+- [RT Daily Chartbook: 5 of Friday's best charts and insights: ...](2026-04-13-Daily Chartbook-2043661491384037543.md) — @Daily Chartbook, 2026-04-13 00:30
 - [まさか今日も強い？](2026-04-13-2043484861235957997-パウロ-まさか今日も強い？.md) — @パウロ, 2026-04-13 00:22
 - [China just exited its longest factory deflation on record: C...](2026-04-12-2043478014046941308-The Kobeissi Letter-China just exited its longest factory deflation on record- China’s producer prices (PPI) rose +0.5% YoY in March, above the .md) — @The Kobeissi Letter, 2026-04-12 23:54
 - [RT χ2: InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？](2026-04-12-2043481168096686560-パウロ-RT χ2- InP EML やファンがやたら多いQDレーザーですが、モニターPDが必要ならば多分将来は暗いのでは？.md) — @パウロ, 2026-04-12 23:33

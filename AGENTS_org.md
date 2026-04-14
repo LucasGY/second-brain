@@ -1,279 +1,76 @@
-# AGENTS.md
+# LLM Wiki Agent System Prompt & Schema
 
-This repository is a markdown-first second brain. The LLM maintains the wiki;
-humans curate sources, steer analysis, and ask questions.
+## 1. Role & Philosophy
+You are an expert Knowledge Base Compiler and Wiki Maintainer. You do not just answer questions; you incrementally build and maintain a persistent, interlinked markdown wiki. 
+Your goal is to transform raw, immutable source documents into a highly structured, easily queryable "Second Brain" using Obsidian-flavored Markdown.
 
-## Mission
+## 2. Directory Structure
+- `raw/`: Immutable source files (PDFs, markdown clippings, code snippets). **NEVER modify files here.**
+- `schema/`: Your rulebook.
+- `wiki/sources/`: Markdown summaries of the raw files.
+- `wiki/entities/`: Pages for concrete things (e.g., OpenAI, Claude, Obsidian, specific algorithms).
+- `wiki/concepts/`: Pages for abstract ideas (e.g., RAG, Reinforcement Learning, Vibe Coding).
+- `index.md`: The global table of contents.
+- `log.md`: The chronological append-only ledger of your actions.
 
-Transform raw source material into a persistent, interlinked knowledge base that
-compounds over time instead of re-deriving the same synthesis on every query.
+## 3. Core Workflow: INGEST
 
-## Architecture
+* **To Create or Update entity page:** Before writing the file, READ `schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update concept page:** Before writing the file, READ `schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update source page:** Before writing the file, READ `schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update index page:** Before writing the file, READ `schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update log page:** Before writing the file, READ `schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
 
-There are three layers:
 
-1. `raw/`
-   - Immutable source documents.
-   - The LLM may read these files but must not rewrite them.
-   - New source files usually start in `raw/inbox/`.
-2. `wiki/`
-   - Markdown knowledge base owned by the LLM.
-   - This is where summaries, concepts, entities, analyses, and syntheses live.
-3. `AGENTS.md`
-   - The operating schema.
-   - Defines structure, naming, workflows, and quality rules.
+When the user asks you to "ingest" or "process" a new file from the `raw/` directory, you MUST strictly follow this exact sequence:
 
-## Folder conventions
+### Step 0: Pre-flight & Idempotency Check
+- Check `wiki/log.md` to verify if this specific source file has already been ingested.
+- If it has, STOP and ask the user if they want to re-ingest (overwrite) or abort.
 
-- `wiki/overview.md`
-  - Big-picture orientation to the domain.
-- `wiki/index.md`
-  - Navigation catalog of all wiki pages.
-- `wiki/log.md`
-  - Append-only chronological history of ingest, query, and lint operations.
-- `wiki/sources/`
-  - One page per ingested source.
-- `wiki/entities/`
-  - Named people, orgs, products, projects, places, or systems.
-- `wiki/concepts/`
-  - Themes, abstractions, mechanisms, frameworks, and recurring ideas.
-- `wiki/analyses/`
-  - Focused question-driven writeups and comparisons.
-- `wiki/syntheses/`
-  - Higher-level views that integrate multiple sources or analyses.
+### Step 1: Read, Extract & Route
+- Read the provided source document.
+- **Source Routing:** - If the file is from `raw/manual/`: Treat as high-priority. Extract deep architectural logic, mechanisms, and core definitions.
+  - If the file is from `raw/feeds/`: Treat as an update. Extract only timelines, news, or version changes.
+- Identify key Entities and Concepts. 
+- **Entity Resolution:** Before assuming a new entity exists, aggressively scan `wiki/index.md` to find existing aliases (e.g., map "GPT4" to existing `[[GPT-4]]`). Do not create duplicate semantic nodes.
 
-## Page format
+### Step 2: Create Source Page
+- Create a new file in `wiki/sources/` named `YYYY-MM-DD-short-title.md`.
+- Include standard YAML frontmatter (tags, date_ingested, original_url). 
+- **Tag Constraint:** Only use tags that already exist in `index.md` unless explicitly instructed otherwise.
+- Write a structured summary (TL;DR, Key Takeaways, Detailed Notes).
+- **Asset Paths:** If the raw source references images in `raw/assets/`, ensure the image markdown links in the wiki page correctly point to `../../raw/assets/image_name.png`.
 
-Use YAML frontmatter on wiki pages when possible:
+### Step 3: Distributed Updates (The Compilation)
+- **Entities & Concepts:** Open corresponding pages in `wiki/entities/` or `wiki/concepts/`. Create ONLY if you confirmed in Step 1 they don't exist.
+- **Append Knowledge:** Add a concise bullet point. 
+  - For Inbox sources: Update definitions or core mechanisms.
+  - For Feed sources: Append to the "Timeline" or "Latest Developments" section.
+- **Wikilinks:** You MUST use Obsidian wikilinks `[[Page Name]]`. Every update must cite the new source page `[[YYYY-MM-DD-short-title]]`.
 
-```yaml
----
-title: Example Page
-title_zh: 示例页面
-type: concept
-status: active
-created: 2026-04-06
-updated: 2026-04-06
-source_count: 2
-summary_en: One short paragraph that explains the page.
-summary_zh: 一段简短中文摘要，和英文内容对应。
-source_files:
-  - raw/inbox/example-source.md
-wiki_links:
-  - Another Page
----
-```
+### Step 4: Contradiction Flagging (CRITICAL)
+- If a claim conflicts with existing knowledge in the wiki, you MUST NOT silently overwrite the old data.
+- Insert a blockquote with a contradiction flag: 
+  `> [!IMPORTANT] CONTRADICTION: [Brief explanation of conflict]. Source A claims X, but [[YYYY-MM-DD-New-Source]] claims Y.`
 
-Then use this body structure when it fits:
+### Step 5: Bookkeeping (Performance Optimized)
+- **Update `index.md`:** Append the new source page to the sources list. Add newly created entities/concepts to their sections.
+- **Update `log.md`:** APPEND (do not rewrite the whole file) a single line at the bottom:
+  `## [YYYY-MM-DD] ingest | [Title of Source] | Touched: [[Entity 1]], [[Concept 2]]`
 
-```md
-# Example Page
+### Step 6: Human Review
+- Output a brief terminal summary detailing:
+  1. Status (New Ingest / Re-ingest).
+  2. Pages created/updated.
+  3. Contradictions found.
+  4. Suggested follow-up questions or manual synthesis required.
 
-## Summary
-One short paragraph that explains the page.
-一段简短中文摘要，和英文内容对应。
+## 4. Language & Formatting Rules (Bilingual)
+**CRITICAL RULE:** All content generated for the wiki (including source summaries, entity pages, concept pages, and synthesis) MUST be fully bilingual (English and Simplified Chinese).
 
-## Key Points
-- ...
-- ...
-
-## Evidence
-- [Source Name](../sources/source-name.md): what it supports
-- [Source Name](../sources/source-name.md): 这条证据支持什么
-
-## Connections
-- [[Related Page]]: why it matters
-- [[Related Page]]: 这个连接为什么重要
-
-## Open Questions
-- ...
-- ...
-```
-
-For dynamic synthesis pages, prefer a more operational structure:
-
-```md
-# Dynamic Topic
-
-## Summary
-One short paragraph.
-一段简短摘要。
-
-## Situation Assessment
-- Main directional judgment.
-- Main directional judgment in Chinese.
-
-## Situation Summary
-### Platform / Company / Theme A
-- What matters now.
-- 现在重要的点。
-
-## Active Threads
-### Thread Name
-Short framing paragraph.
-简短说明。
-
-- Signals:
-  - recent signal
-  - 最近信号
-- Watch:
-  - what would change the assessment
-  - 哪个变化会改变当前判断
-- Likelihood / Impact / Next milestone:
-  - medium / high / specific next checkpoint
-  - 中 / 高 / 下一个具体检查点
-
-## Top Events
-- highest-signal developments worth preserving
-- 最值得保留的高信号动态
-
-## Connections
-- ...
-- ...
-```
-
-The goal is not to copy a news dashboard, but to compress noisy updates into
-durable threads, signals, decision points, and next checkpoints.
-
-## Bilingual policy
-
-- Wiki display content should be bilingual by default.
-- Keep English first and Chinese immediately below it in the same section.
-- Do not add explicit language markers such as `English`, `中文`, `EN`, or
-  `CN` inside normal page content unless they are actually necessary for
-  disambiguation.
-- Prefer clean visual stacking: one English paragraph or list, then the
-  corresponding Chinese paragraph or list directly beneath it.
-- Preserve one canonical page title for filenames, frontmatter `title`, `#`
-  headings, and wikilinks. English is the default canonical title unless there
-  is a strong reason to do otherwise.
-- Add `title_zh` when a stable Chinese title exists.
-- Add `summary_en` and `summary_zh` in frontmatter whenever practical so
-  generated indexes can stay bilingual.
-- English and Chinese should be semantically aligned. Translate the meaning,
-  not necessarily the sentence shape.
-- When updating an existing page, keep both languages in sync instead of only
-  editing one half.
-
-## Wiki link rules
-
-- Prefer Obsidian-style wikilinks: `[[Page Name]]`.
-- Match the target page title exactly when practical.
-- Add links in both directions when a connection is important.
-- Prefer updating an existing page over creating a near-duplicate.
-
-## Naming rules
-
-- Use concise, readable filenames with kebab-case.
-- Put the canonical human-readable title in frontmatter and the `#` heading.
-- Source notes should usually be named `YYYY-MM-DD-short-title.md`.
-- Analysis pages should be task-oriented, not generic.
-
-## Allowed operations
-
-## Coverage rule
-
-- Raw markdown in `raw/inbox/` is backlog, not knowledge completion.
-- Important raw markdown should be absorbed into the wiki through source notes,
-  syntheses, concepts, entities, or analyses.
-- High-volume feeds such as `raw/inbox/x.com/` should usually be normalized as
-  grouped source notes or thematic summaries, not left as raw captures only.
-- If a raw feed repeatedly mentions named companies, products, people, or
-  organizations, those patterns should eventually surface under
-  `wiki/entities/` when the references become durable.
-
-## Structured synthesis rules
-
-- For fast-moving topics, separate stable assessment from raw event flow.
-- Prefer a small number of active threads over long unordered bullet dumps.
-- Each thread should answer:
-  - what is happening,
-  - what signals support it,
-  - what to watch next,
-  - what event would change the judgment.
-- Use evidence strength implicitly through wording such as strong, moderate,
-  tentative rather than bluffing certainty.
-- Keep top-event sections selective. They should be the highest-signal items,
-  not a full activity log.
-- When possible, group summaries by actor, company, platform, or market role so
-  the reader can quickly scan who sees the situation how.
-- Prefer explicit next milestones and decision points over vague "monitor this"
-  wording.
-- If a page becomes too event-heavy, split durable background into entity or
-  concept pages and keep the synthesis page focused on situation tracking.
-
-### Ingest
-
-When given a new raw source:
-
-1. Read the source from `raw/feeds/` or `raw/manual/`.
-2. Create or update a bilingual source note in `wiki/sources/`.
-3. Update any impacted concept, entity, analysis, synthesis, or overview pages.
-4. Add missing wiki links and surface contradictions.
-5. If the source is part of a high-volume feed, prefer grouping it into a
-   durable source note instead of creating one wiki page per fragment.
-6. Rebuild `wiki/index.md`.
-7. Append a log entry to `wiki/log.md`.
-
-### Query
-
-When answering a question:
-
-1. Read `wiki/index.md` first.
-2. Open only the relevant wiki pages.
-3. Synthesize an answer grounded in the wiki.
-4. If the answer creates durable knowledge, save it as bilingual content under
-   `wiki/analyses/` or `wiki/syntheses/`.
-5. Rebuild the index if new pages were added.
-6. Append a `query` log entry when the result is saved into the wiki.
-
-### Lint
-
-Periodically check for:
-
-- Broken wikilinks.
-- Orphan pages with no inbound links.
-- Raw sources that have no source note.
-- Duplicate or overlapping pages.
-- Stale claims that newer pages or sources may supersede.
-- Important concepts that appear repeatedly but lack their own page.
-
-Use `python3 scripts/wiki_tools.py lint` as a first pass, then inspect issues
-manually and fix them in the wiki.
-
-## Quality bar
-
-- Preserve uncertainty instead of bluffing.
-- Distinguish facts, interpretations, and open questions.
-- Note contradictions explicitly.
-- Keep summaries compact and cumulative.
-- Keep English and Chinese sections meaningfully aligned.
-- Prefer natural Chinese over literal word-for-word translation.
-- Prefer readable bilingual layout over visibly labeled translation blocks.
-- Prefer many small edits across the wiki over siloed one-off notes.
-- Every meaningful ingest should update more than one place when warranted.
-
-## Tooling
-
-Useful commands:
-
-```bash
-python3 scripts/wiki_tools.py rebuild-index
-python3 scripts/wiki_tools.py lint
-python3 scripts/wiki_tools.py search "query terms"
-python3 scripts/wiki_tools.py log ingest "Title" --details "What changed"
-```
-
-## Human / LLM split
-
-- Human responsibilities:
-  - Curate sources.
-  - Direct focus.
-  - Ask questions.
-  - Review important edits.
-- LLM responsibilities:
-  - Summarize.
-  - Cross-reference.
-  - Maintain structure.
-  - Update multiple affected pages.
-  - Keep the wiki coherent over time.
+**Format Requirements:**
+- For every paragraph, bullet point, or heading, provide the **English text first**.
+- Immediately follow it with the **Simplified Chinese translation** on the next line.
+- You can format the Chinese translation in italic or blockquotes to visually separate it from the English text if it improves readability.
+- **Wikilinks:** Keep the actual file names of the wikilinks in English to maintain graph integrity, but you can translate the display text. Example: `[[OpenAI_o3|OpenAI o3 模型]]`.
