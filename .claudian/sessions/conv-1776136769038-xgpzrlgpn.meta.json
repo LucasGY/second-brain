@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776136769038-xgpzrlgpn",
+  "providerId": "claude",
+  "title": "Assess stock tweet investment value",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776136769038,
+  "updatedAt": 1776137474010,
+  "lastResponseAt": 1776137474010,
+  "sessionId": "885a6354-66b9-417c-9d2a-9e672e49a9cf",
+  "providerState": {
+    "providerSessionId": "885a6354-66b9-417c-9d2a-9e672e49a9cf"
+  },
+  "currentNote": "CLAUDE.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 126,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20440,
+    "contextWindow": 200000,
+    "contextTokens": 20566,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

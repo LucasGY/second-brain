@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "model": "opus",
+  "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -30,7 +30,7 @@
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "haiku",
+      "lastModel": "opus",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -42,22 +42,22 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "LucasMacBook-Pro.local": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     }
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "opus"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "medium"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
