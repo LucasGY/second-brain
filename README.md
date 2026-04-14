@@ -79,7 +79,7 @@ Register a raw source in the log:
 /root/.openclaw/.venv/bin/python scripts/wiki_tools.py register-source raw/inbox/example.md --title "Example Source"
 ```
 
-Sync feeds declared in `rss.md` into `raw/inbox/`:
+Sync feeds declared in `rss.md` into `raw/`:
 
 ```bash
 /root/.openclaw/.venv/bin/python /root/.openclaw/everything-clipper/bin/rss-sync --rss /root/.openclaw/second-brain/rss.md
@@ -134,7 +134,7 @@ Example `rss.md`:
 - `log.md` is append-only operational history.
 - The LLM should prefer updating existing pages over creating duplicates.
 - Podcast transcripts are written under `raw/inbox/` as `小宇宙+标题+日期.md`.
-- `x.com` list captures are written under `raw/inbox/x.com/<feed>/`.
+- `x.com` list captures are written under `raw/feeds/x.com/<feed>/`.
 - Processed podcast episode GUIDs are tracked in `raw/processed/podcast_transcriptions.json`.
 - The transcriber uses local `faster-whisper` on CPU (`small` + `int8` by default), so it does not require an API key.
 - Episode audio is downloaded to a temporary file under `/tmp` for transcription and removed immediately after the run.
