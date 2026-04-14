@@ -1,10 +1,55 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-13T05:52:23.799Z
+Retrieved: 2026-04-14T04:52:30.171Z
 
-## Tweets (396)
+## Tweets (441)
 
+- [算力紧缺已经临界点，我们将面临近几年来最大规模算力紧缺。看OpenAI官方披露https://openai.com/zh...](2026-04-14-2043910896351883636-qinbafrank-算力紧缺已经临界点，我们将面临近几年来最大规模算力紧缺。看OpenAI官方披露https-openai.com-zh-Hans-CN-in.md) — @qinbafrank, 2026-04-14 04:35
+- [RT Aaron: Anthropic - $AVGO TPU deal. 3.5M spanning 5 years....](2026-04-14-2043914089299357970-3X Long Labubu-RT Aaron- Anthropic - $AVGO TPU deal. 3.5M spanning 5 years. _ From MS.md) — @3X Long Labubu, 2026-04-14 03:53
+- [4月2日SEMIANALYSIS的文章，我视频也聊过，算力的紧缺，文中直接聊到了利好NEOCLOUD。可惜那时候多数人都...](2026-04-14-2043898332641157519-投资TALK君-4月2日SEMIANALYSIS的文章，我视频也聊过，算力的紧缺，文中直接聊到了利好NEOCLOUD。可惜那时候多数人都.md) — @投资TALK君, 2026-04-14 03:45
+- [关于核问题的争执，美伊比公开表现出来的其实更接近，球已经伊朗的脚下了。看Axios昨晚报道了塞尔纳酒店双方都没有公开披露...](2026-04-14-2043884447582564655-qinbafrank-关于核问题的争执，美伊比公开表现出来的其实更接近，球已经伊朗的脚下了。看Axios昨晚报道了塞尔.md) — @qinbafrank, 2026-04-14 02:50
+- [BREAKING: A new round of negotiations between the US and Ira...](2026-04-14-2043882612528238650-The Kobeissi Letter-BREAKING- A new round of negotiations between the US and Iran may be held on Thursday, per AP. President Trump said that “we.md) — @The Kobeissi Letter, 2026-04-14 02:42
+- [The US AI boom has a hardware problem: US imports of major e...](2026-04-14-2043880139767853323-The Kobeissi Letter-The US AI boom has a hardware problem- US imports of major electrical equipment rose +4.7% YoY in 2025, to $411 billion. This .md) — @The Kobeissi Letter, 2026-04-14 02:32
+- [5 of Monday's best charts and insights: https://www.dailycha...](2026-04-14-2043866802988433783-Daily Chartbook-5 of Monday's best charts and insights- https-www.dailychartbook.com-p-over-the-next-week-buy-estimates-are-some-of-the-largest-on.md) — @Daily Chartbook, 2026-04-14 01:39
+- [Global data center power demand is set to accelerate: Data c...](2026-04-14-2043863505284055126-The Kobeissi Letter-Global data center power demand is set to accelerate- Data center power demand is expected to grow +220% from 2023 levels, or .md) — @The Kobeissi Letter, 2026-04-14 01:26
+- [🤨🙄🤦🤷](2026-04-14-2043858318901317762-投资TALK君-🤨🙄🤦🤷.md) — @投资TALK君, 2026-04-14 01:06
+- [BREAKING: Bitcoin extends gains to +5% on the day and rises ...](2026-04-13-2043817074162647056-The Kobeissi Letter-BREAKING- Bitcoin extends gains to +5% on the day and rises above $74,000.md) — @The Kobeissi Letter, 2026-04-13 22:22
+- [Real income growth among US households is weakening: Real di...](2026-04-13-2043809902422905271-The Kobeissi Letter-Real income growth among US households is weakening- Real disposable income, excluding government transfers, is down -0.1% sin.md) — @The Kobeissi Letter, 2026-04-13 21:53
+- [还有空间可以跑，日内可以做，估计再有10%就有增发风险。增发后还可以做。我自己没时间看盘，投资仓位也满了，祝大家都赚钱。](2026-04-13-2043798423791337546-投资TALK君-还有空间可以跑，日内可以做，估计再有10%就有增发风险。增发后还可以做。我自己没时间看盘，投资仓.md) — @投资TALK君, 2026-04-13 21:08
+- [做多台湾](2026-04-13-2043797318927876216-投资TALK君-做多台湾.md) — @投资TALK君, 2026-04-13 21:03
+- [7 of the top 10 companies by market cap depend almost entire...](2026-04-13-2043796633108766898-SemiAnalysis-7 of the top 10 companies by market cap depend almost entirely on TSMC's ability to produce chips. Trillions in revenue. Concentrated.md) — @SemiAnalysis, 2026-04-13 21:01
+- [淡定，虽然我看好 $ADBE ，虽然大空头BURRY可能抄了我的底，但我 $ADBE 还是浮亏了1%。如果看对了，现在都...](2026-04-13-2043787794644926507-投资TALK君-淡定，虽然我看好 $ADBE ，虽然大空头BURRY可能抄了我的底，但我 $ADBE 还是浮亏了1%。如果看对了，现在都.md) — @投资TALK君, 2026-04-13 20:25
+- [RT Jan @ Chartfleau: S&P 500 Monday performance by sector. $...](2026-04-13-2043793340534030763-Daily Chartbook-RT Jan @ Chartfleau- S&P 500 Monday performance by sector. $SPY.md) — @Daily Chartbook, 2026-04-13 20:10
+- [Didn’t expect this much 😅](2026-04-13-2043783457315463630-3X Long Labubu-Didn’t expect this much 😅.md) — @3X Long Labubu, 2026-04-13 20:08
+- [最后一个送了，目的是反馈给订阅的朋友，挺好。给 @AnthropicAI 打打广告。下个月继续，然后会留出1，2个名额给...](2026-04-13-2043776553809547285-投资TALK君-最后一个送了，目的是反馈给订阅的朋友，挺好。给 @AnthropicAI 打打广告。下个月继续，然后会留出1，2.md) — @投资TALK君, 2026-04-13 19:41
+- [RT عاجل من إيران 🇮🇷: الرئيس الإيراني:\" نحن مستعدون للمفاو...](2026-04-13-2043781370455916598-投资TALK君-RT عاجل من إيران 🇮🇷- الرئيس الإيراني- نحن مستعدون للمفاوضات وفتح مضيق هرمز .md) — @投资TALK君, 2026-04-13 19:38
+- [The gap between Wall Street and Main Street has never been b...](2026-04-13-2043772468473536955-The Kobeissi Letter-The gap between Wall Street and Main Street has never been bigger- US consumer sentiment is down to 47.6 points, the lowest le.md) — @The Kobeissi Letter, 2026-04-13 19:25
+- [RT BRICS News: JUST IN: 🇺🇸🇮🇷 US officials discussing sec...](2026-04-13-2043771657853042877-投资TALK君-RT BRICS News- JUST IN- 🇺🇸🇮🇷 US officials discussing second face-to-face meeting with Iran before ceasefire expires, CNN repor.md) — @投资TALK君, 2026-04-13 19:16
+- [Saudi Arabia's oil infrastructure is proving resilient: Crud...](2026-04-13-2043750327338578167-The Kobeissi Letter-Saudi Arabia's oil infrastructure is proving resilient- Crude exports from Yanbu terminals are running at ~4.0 million barrels.md) — @The Kobeissi Letter, 2026-04-13 17:57
+- [RT South Asia Index: Just IN:— Next round of US-Iran talks a...](2026-04-13-2043764717055828108-投资TALK君-RT South Asia Index- Just IN-— Next round of US-Iran talks and a possible deal is expected by the end of this week in Islamabad. ▫️D.md) — @投资TALK君, 2026-04-13 17:47
+- [BREAKING: Global energy funds posted -$2.1 billion in outflo...](2026-04-13-2043737478084108777-The Kobeissi Letter-BREAKING- Global energy funds posted -$2.1 billion in outflows last week, the largest since July 2024. This comes after energy.md) — @The Kobeissi Letter, 2026-04-13 17:06
+- [BREAKING: US oil prices fall back below $100/barrel in a lar...](2026-04-13-2043734091523047523-The Kobeissi Letter-BREAKING- US oil prices fall back below $100-barrel in a large reversal on the day.md) — @The Kobeissi Letter, 2026-04-13 16:52
+- [BREAKING: The US Treasury's budget deficit rose +2% YoY in M...](2026-04-13-2043724307621138577-The Kobeissi Letter-BREAKING- The US Treasury's budget deficit rose +2% YoY in March, to $164 billion, above the $153 billion expected. Adjusted f.md) — @The Kobeissi Letter, 2026-04-13 16:13
+- [China's dominance in the global EV battery market is unprece...](2026-04-13-2043709683890806879-The Kobeissi Letter-China's dominance in the global EV battery market is unprecedented- Chinese battery makers now control a record 70.4% of globa.md) — @The Kobeissi Letter, 2026-04-13 15:15
+- [3号space里提到很多个股已经进入了高性价比区间，已经在买了； 8号聊到，“春劫行情”告以段落，以打促谈、有条件媾合是...](2026-04-13-2043706920281006429-qinbafrank-3号space里提到很多个股已经进入了高性价比区间，已经在买了； 8号聊到，“春劫行情”告以段落，以.md) — @qinbafrank, 2026-04-13 15:04
+- [http://Prospero.ai Stock Market LIVE | Apr. 13th, 2026 https...](2026-04-13-2043705997068472792-Prospero.ai-http-Prospero.ai Stock Market LIVE - Apr. 13th, 2026 https-x.com-i-broadcasts-1wGWjabXaBZKQ.md) — @Prospero.ai, 2026-04-13 15:00
+- [还是早上聊到的：美军只封锁进出伊朗的船只，让局势进一步可控，可以视作“制裁升级”而不是战争升级。还是昨天说的核心目标不是...](2026-04-13-2043704836512948713-qinbafrank-还是早上聊到的：美军只封锁进出伊朗的船只，让局势进一步可控，可以视作“制裁升级”而不是战争.md) — @qinbafrank, 2026-04-13 14:56
+- [Maybe neocloud performs so well today because H100 rental pr...](2026-04-13-2043701067834401264-3X Long Labubu-Maybe neocloud performs so well today because H100 rental prices keep surging and people are talking about Claude’s thinking perf.md) — @3X Long Labubu, 2026-04-13 14:41
+- [BREAKING: President Trump issues a warning to Iran: \"If any...](2026-04-13-2043697280872587662-The Kobeissi Letter-BREAKING- President Trump issues a warning to Iran- -If any of these ships come anywhere close to our blockade, they will be i.md) — @The Kobeissi Letter, 2026-04-13 14:26
+- [Look good to me, took the profit of PLTR 0417 130c with 80% ...](2026-04-13-2043697043538108816-3X Long Labubu-Look good to me, took the profit of PLTR 0417 130c with 80% gain. Thanks @Fillynillyswily for reminding me on Friday also added $FS.md) — @3X Long Labubu, 2026-04-13 14:25
+- [出息了，大盘股也能喊上去](2026-04-13-2043693433643032812-投资TALK君-出息了，大盘股也能喊上去.md) — @投资TALK君, 2026-04-13 14:10
+- [BREAKING: The S&P 500 erases all losses and turns green on t...](2026-04-13-2043692008896618620-The Kobeissi Letter-BREAKING- The S&P 500 erases all losses and turns green on the day as the US begins its blockade of the Strait of Hormuz.md) — @The Kobeissi Letter, 2026-04-13 14:05
+- [BREAKING: The US Military has officially begun its \"blockad...](2026-04-13-2043690678136271313-The Kobeissi Letter-BREAKING- The US Military has officially begun its -blockade- of the Strait of Hormuz. Details include- 1. The US says the blo.md) — @The Kobeissi Letter, 2026-04-13 14:00
+- [The market is numb to the headlines. We just saw the worst p...](2026-04-13-2043679352152318163-The Kobeissi Letter-The market is numb to the headlines. We just saw the worst possible outcome to US-Iran peace talks. Not only was a deal not re.md) — @The Kobeissi Letter, 2026-04-13 13:15
+- [BREAKING: Israel’s Prime Minister Netanyahu says the ceasefi...](2026-04-13-2043654550440001628-The Kobeissi Letter-BREAKING- Israel’s Prime Minister Netanyahu says the ceasefire with Iran “could end quickly.” President Trump’s “blo.md) — @The Kobeissi Letter, 2026-04-13 11:36
+- [http://x.com/i/article/2043644141134094336](2026-04-13-2043653387271712962-qinbafrank-http-x.com-i-article-2043644141134094336.md) — @qinbafrank, 2026-04-13 11:31
+- [RT Peter Atwater: \"Me Here Now\" Thinking Meets the \"Me He...](2026-04-13-2043664038576464199-Daily Chartbook-RT Peter Atwater- -Me Here Now- Thinking Meets the -Me Here Now- reality for those at the bottom.md) — @Daily Chartbook, 2026-04-13 10:50
+- [\"Nearly half of working-age Americans don’t have a retireme...](2026-04-13-2043615711470223531-Daily Chartbook-Nearly half of working-age Americans don’t have a retirement account, with the shortfall most acute among younger, less-educated.md) — @Daily Chartbook, 2026-04-13 09:02
+- [\"Prediction markets are now getting as much social attentio...](2026-04-13-2043607494442848258-Daily Chartbook-Prediction markets are now getting as much social attention as traditional investing.- @DataTrekMB.md) — @Daily Chartbook, 2026-04-13 08:29
+- [\"Bonds are cheap, sentiment remains predominantly bearish, ...](2026-04-13-2043600171901030542-Daily Chartbook-Bonds are cheap, sentiment remains predominantly bearish, and investor allocations to bonds are at cycle lows (last time it was th.md) — @Daily Chartbook, 2026-04-13 08:00
+- [The number of jobs needed to keep US unemployment stable has...](2026-04-13-2043542331958108316-The Kobeissi Letter-The number of jobs needed to keep US unemployment stable has collapsed- Minimum monthly job gains needed to hold unemployment .md) — @The Kobeissi Letter, 2026-04-13 04:10
+- [多谢邀请，晚上跟几位老师一起聊聊近期美股行情。](2026-04-13-2043539710862315750-qinbafrank-多谢邀请，晚上跟几位老师一起聊聊近期美股行情。.md) — @qinbafrank, 2026-04-13 04:00
 - [割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金...](2026-04-13-2043536699566022676-パウロ-割と頭の良い人でも認識していない問題 23歳時点 A君 NISA 2800万(1800万円+1000万円) B君 奨学金で-500万円 日本.md) — @パウロ, 2026-04-13 03:48
 - [これは特殊メモリだと思いますよ Wide IO系だろうね クアルコムと中国CXMTがDRAM開発で提携すると報じられてい...](2026-04-13-2043534677315821912-パウロ-これは特殊メモリだと思いますよ Wide IO系だろうね クアルコムと中国CXMTがDRAM開発で提携すると報じられ.md) — @パウロ, 2026-04-13 03:40
 - [二桁億円でしょうね 出来るだけ精度を高めていきたいものです](2026-04-13-2043533072457756813-パウロ-二桁億円でしょうね 出来るだけ精度を高めていきたいものです.md) — @パウロ, 2026-04-13 03:33

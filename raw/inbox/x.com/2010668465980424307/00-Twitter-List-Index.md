@@ -1,13 +1,22 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-13T05:52:23.446Z
+Retrieved: 2026-04-14T04:52:29.002Z
 
-## Tweets (195)
+## Tweets (204)
 
+- [Today we're sharing our research experiment, Vantage, using ...](2026-04-13-2043757042230493311-Google Research-Today we're sharing our research experiment, Vantage, using GenAI to assess -future-ready- skills like collaboration. A study with.md) — @Google Research, 2026-04-13 18:23
+- [RT Tak 🦞: A few more OpenClaw 2026.4.12 changes that didn’t...](2026-04-13-2043726001750900770-Peter Steinberger 🦞-RT Tak 🦞- A few more OpenClaw 2026.4.12 changes that didn’t make the first tweet 🦞 🏠 Better local models with bund.md) — @Peter Steinberger 🦞, 2026-04-13 15:23
+- [RT Air Katakana: gemini-cli has a headless mode option, whic...](2026-04-13-2043742157773971634-Peter Steinberger 🦞-RT Air Katakana- gemini-cli has a headless mode option, which is obviously supposed to be used to run it in automated scripts.md) — @Peter Steinberger 🦞, 2026-04-13 14:41
+- [RT Vincent Koc: OpenClaw 2026.4.12 🦞 ✨ Stability & reliabil...](2026-04-13-2043674651323208059-Peter Steinberger 🦞-RT Vincent Koc- OpenClaw 2026.4.12 🦞 ✨ Stability & reliability improvements 🎙️ Audio transcription fixes 💬 Bette.md) — @Peter Steinberger 🦞, 2026-04-13 12:55
+- [RT Henry Shevlin: Big personal news: I’ve been recruited by ...](2026-04-13-2043684102889423066-Demis Hassabis-RT Henry Shevlin- Big personal news- I’ve been recruited by Google DeepMind for a new Philosopher position (actual title), focusi.md) — @Demis Hassabis, 2026-04-13 12:05
+- [How do we move from describing digital harms to preventing t...](2026-04-13-2043621361512317114-Google Research-How do we move from describing digital harms to preventing them- Join Patrick Gage Kelley and Ashley Walker at the Google booth at.md) — @Google Research, 2026-04-13 09:24
+- [Want to translate user prompts into interactive WebXR apps? ...](2026-04-13-2043585374539120906-Google Research-Want to translate user prompts into interactive WebXR apps- Stop by the Google booth at 10-30AM to see a demo of Vibe Coding XR, a.md) — @Google Research, 2026-04-13 07:01
+- [Google is proud to be a Hero Sponsor of the 2026 @acm_chi co...](2026-04-13-2043577767170613518-Google Research-Google is proud to be a Hero Sponsor of the 2026 @acm_chi conference on Human-Computer Interaction, held this week in Barcelona, S.md) — @Google Research, 2026-04-13 06:31
 - [RT Owen Sparks: Artemis II astronaut Victor Glover received ...](2026-04-12-2043517523078078699-Jeff Dean-RT Owen Sparks- Artemis II astronaut Victor Glover received a hero's welcome from his neighbors! 🇺🇸.md) — @Jeff Dean, 2026-04-12 23:52
 - [json is so token inefficient it hurts these days man, these ...](2026-04-12-2043467761427575028-Thomas Wolf-json is so token inefficient it hurts these days man, these braces and quotes are costing me real $$.md) — @Thomas Wolf, 2026-04-12 23:14
 - [Codex helps you turn requirements into working prototypes fa...](2026-04-12-2043452326166528239-OpenAI Developers-Codex helps you turn requirements into working prototypes faster. @eh_dubb shared how that makes quarterly planning more concret.md) — @OpenAI Developers, 2026-04-12 22:12
+- [RT Gabriel Chua: Here’s how we use Codex to: > understand la...](2026-04-12-2043833038828908570-OpenAI Developers-RT Gabriel Chua- Here’s how we use Codex to- - understand large codebases - review PRs faster - build macOS apps - turn Figma .md) — @OpenAI Developers, 2026-04-12 14:43
 - [They grow up so fast 🦞](2026-04-12-2043313467512463713-Peter Steinberger 🦞-They grow up so fast 🦞.md) — @Peter Steinberger 🦞, 2026-04-12 13:01
 - [RT Riley Brown: Personally I don’t see the point of Cowork. ...](2026-04-12-2043365882299355567-Peter Steinberger 🦞-RT Riley Brown- Personally I don’t see the point of Cowork. I don’t even see the point of chatgpt or Claude anymore. I ei.md) — @Peter Steinberger 🦞, 2026-04-12 08:12
 - [RT Viktor Seraleev: While you were sleeping, Apple pulled of...](2026-04-12-2043294744986440013-Peter Steinberger 🦞-RT Viktor Seraleev- While you were sleeping, Apple pulled off a quiet revolution. They silently rolled out automated app revi.md) — @Peter Steinberger 🦞, 2026-04-12 02:13
