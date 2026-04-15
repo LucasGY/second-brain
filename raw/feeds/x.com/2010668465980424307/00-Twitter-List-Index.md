@@ -1,10 +1,11 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-15T05:45:55.081Z
+Retrieved: 2026-04-15T06:46:10.779Z
 
-## Tweets (93)
+## Tweets (95)
 
+- [Meet Fabula: an interactive AI writing tool helping authors ...](2026-04-15-Google Research-2044304794194452945.md) — @Google Research, 2026-04-15 06:40
 - [RT NotebookLM: To celebrate World Quantum Day (one of our fa...](2026-04-14-Google-2044174392280658071.md) — @Google, 2026-04-14 20:39
 - [RT Anthony Morris ツ: Today we're launching a rebuilt version...](2026-04-14-Thariq-2044131837937889408.md) — @Thariq, 2026-04-14 19:05
 - [RT Noah Zweben: Claude Code Routines are here! In addition t...](2026-04-14-Thariq-2044100766445805823.md) — @Thariq, 2026-04-14 16:42
@@ -12,6 +13,7 @@ Retrieved: 2026-04-15T05:45:55.081Z
 - [Small businesses are the engine of the American economy. Our...](2026-04-14-Sundar Pichai-2044083072275210732.md) — @Sundar Pichai, 2026-04-14 15:59
 - [RT Dave Morin 🦞: 2300+ builders at @UMich in Ann Arbor this...](2026-04-14-Peter Steinberger 🦞-2044083654058557685.md) — @Peter Steinberger 🦞, 2026-04-14 15:37
 - [RT Google DeepMind: We’re rolling out an upgrade designed to...](2026-04-14-Google-2044091356302160284.md) — @Google, 2026-04-14 15:06
+- [RT Google DeepMind: We’re rolling out an upgrade designed to...](2026-04-14-Jeff Dean-2044284771073962168.md) — @Jeff Dean, 2026-04-14 15:06
 - [RT Google Quantum AI: Happy World Quantum Day! Today’s #Goog...](2026-04-14-Google Research-2044116503956787709.md) — @Google Research, 2026-04-14 14:32
 - [RT Josh Lehman: lossless-claw 0.9.0 — the \"stop touching my...](2026-04-14-Peter Steinberger 🦞-2044093495149776974.md) — @Peter Steinberger 🦞, 2026-04-14 14:27
 - [RT Luke: I would like to say that I also did nothing this re...](2026-04-14-Peter Steinberger 🦞-2044053948613702010.md) — @Peter Steinberger 🦞, 2026-04-14 13:53

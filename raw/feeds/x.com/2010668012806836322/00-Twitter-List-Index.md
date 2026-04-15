@@ -1,10 +1,11 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-15T05:45:55.290Z
+Retrieved: 2026-04-15T06:46:11.667Z
 
-## Tweets (332)
+## Tweets (333)
 
+- [过去一周美股涨太快，CTA都还没来得及上车。高盛本次完善的CTA估算核心数据（数据截至2026年4月13日），高盛模型显...](2026-04-15-qinbafrank-2044283513114137049.md) — @qinbafrank, 2026-04-15 05:15
 - [PRESIDENT TRUMP: “NATO wasn’t there for us, and they won’t b...](2026-04-15-The Kobeissi Letter-2044260524175532277.md) — @The Kobeissi Letter, 2026-04-15 03:44
 - [美联储新主席沃什真的很懂加密投资么？昨天下一任美联储主席提名人沃什向国会披露了个人的财务状况，其作为LP一些基金和VC机...](2026-04-15-qinbafrank-2044257552565956624.md) — @qinbafrank, 2026-04-15 03:32
 - [Chinese and North American gold investors have reacted diffe...](2026-04-15-The Kobeissi Letter-2044253643856327146.md) — @The Kobeissi Letter, 2026-04-15 03:17

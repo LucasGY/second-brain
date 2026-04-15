@@ -13,11 +13,17 @@ Your goal is to transform raw, immutable source documents into a highly structur
 - `index.md`: The global table of contents.
 - `log.md`: The chronological append-only ledger of your actions.
 
-## 3. Core Workflow: INGEST
+## 3. Language & Formatting Rules (Bilingual)
+**CRITICAL RULE:** All content generated for the wiki (including source summaries, entity pages, concept pages, and synthesis) MUST be fully bilingual (English and Simplified Chinese).
 
-* **To Create or Update entity page:** Before writing the file, READ `wiki/schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update concept page:** Before writing the file, READ `wiki/schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update source page:** Before writing the file, READ `wiki/schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.
+**Format Requirements:**
+- For every paragraph, bullet point, or heading, provide the **English text first**.
+- Immediately follow it with the **Simplified Chinese translation** on the next line.
+- You can format the Chinese translation in italic or blockquotes to visually separate it from the English text if it improves readability.
+- **Wikilinks:** Keep the actual file names of the wikilinks in English to maintain graph integrity, but you can translate the display text. Example: `[[OpenAI_o3|OpenAI o3 模型]]`.
+
+## 4. Core Workflow: INGEST
+
 * **To Create or Update index page:** Before writing the file, READ `wiki/schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
 * **To Create or Update log page:** Before writing the file, READ `wiki/schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
 
@@ -37,12 +43,12 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
 
 ### Step 2: Create Source Page
 - Create a new file in `wiki/sources/` named `YYYY-MM-DD-short-title.md`.
-- Include standard YAML frontmatter (tags, date_ingested, original_url). 
-- **Tag Constraint:** Only use tags that already exist in `index.md` unless explicitly instructed otherwise.
-- Write a structured summary (TL;DR, Key Takeaways, Detailed Notes).
+- **To Create or Update source page:** Before writing the file, READ `wiki/schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.- **Tag Constraint:** Only use tags that already exist in `index.md` unless explicitly instructed otherwise.
 - **Asset Paths:** If the raw source references images in `raw/assets/`, ensure the image markdown links in the wiki page correctly point to `../../raw/assets/image_name.png`.
 
 ### Step 3: Distributed Updates (The Compilation)
+- **To Create or Update entity page:** Before writing the file, READ `wiki/schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
+- **To Create or Update concept page:** Before writing the file, READ `wiki/schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
 - **Entities & Concepts:** Open corresponding pages in `wiki/entities/` or `wiki/concepts/`. Create ONLY if you confirmed in Step 1 they don't exist.
 - **Append Knowledge:** Add a concise bullet point. 
   - For Inbox sources: Update definitions or core mechanisms.
@@ -66,11 +72,3 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
   3. Contradictions found.
   4. Suggested follow-up questions or manual synthesis required.
 
-## 4. Language & Formatting Rules (Bilingual)
-**CRITICAL RULE:** All content generated for the wiki (including source summaries, entity pages, concept pages, and synthesis) MUST be fully bilingual (English and Simplified Chinese).
-
-**Format Requirements:**
-- For every paragraph, bullet point, or heading, provide the **English text first**.
-- Immediately follow it with the **Simplified Chinese translation** on the next line.
-- You can format the Chinese translation in italic or blockquotes to visually separate it from the English text if it improves readability.
-- **Wikilinks:** Keep the actual file names of the wikilinks in English to maintain graph integrity, but you can translate the display text. Example: `[[OpenAI_o3|OpenAI o3 模型]]`.
