@@ -1,9 +1,9 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-14T23:14:21.765Z
+Retrieved: 2026-04-15T01:11:32.784Z
 
-## Tweets (91)
+## Tweets (93)
 
 - [RT NotebookLM: To celebrate World Quantum Day (one of our fa...](2026-04-14-Google-2044174392280658071.md) — @Google, 2026-04-14 20:39
 - [RT Anthony Morris ツ: Today we're launching a rebuilt version...](2026-04-14-Thariq-2044131837937889408.md) — @Thariq, 2026-04-14 19:05
@@ -17,6 +17,7 @@ Retrieved: 2026-04-14T23:14:21.765Z
 - [RT Luke: I would like to say that I also did nothing this re...](2026-04-14-Peter Steinberger 🦞-2044053948613702010.md) — @Peter Steinberger 🦞, 2026-04-14 13:53
 - [RT Tak 🦞: 👋 A few useful OpenClaw 2026.4.14 changes that d...](2026-04-14-Peter Steinberger 🦞-2044093888445509748.md) — @Peter Steinberger 🦞, 2026-04-14 13:41
 - [This release makes me unreasonably happy since I wasn't invo...](2026-04-14-Peter Steinberger 🦞-2044047222481019300.md) — @Peter Steinberger 🦞, 2026-04-14 13:36
+- [RT Waymo: London, we’re taking the next step! 🚙 We’re offic...](2026-04-14-Demis Hassabis-2044180701168242986.md) — @Demis Hassabis, 2026-04-14 10:00
 - [Ever wonder how UX changes when your user is a developer? Vi...](2026-04-14-Google Research-2043941671738429950.md) — @Google Research, 2026-04-14 06:37
 - [RT claire vo 🖤: http://x.com/i/article/2043852315753623552](2026-04-14-Peter Steinberger 🦞-2044093632718704647.md) — @Peter Steinberger 🦞, 2026-04-14 01:23
 - [RT Azalia Mirhoseini: Turns out we can get SOTA on agentic b...](2026-04-13-Christian Szegedy-2043977181613961550.md) — @Christian Szegedy, 2026-04-13 22:06
@@ -24,6 +25,7 @@ Retrieved: 2026-04-14T23:14:21.765Z
 - [Today we're sharing our research experiment, Vantage, using ...](2026-04-13-2043757042230493311-Google Research-Today we're sharing our research experiment, Vantage, using GenAI to assess -future-ready- skills like collaboration. A study with.md) — @Google Research, 2026-04-13 18:23
 - [RT Tak 🦞: A few more OpenClaw 2026.4.12 changes that didn’t...](2026-04-13-2043726001750900770-Peter Steinberger 🦞-RT Tak 🦞- A few more OpenClaw 2026.4.12 changes that didn’t make the first tweet 🦞 🏠 Better local models with bund.md) — @Peter Steinberger 🦞, 2026-04-13 15:23
 - [RT Air Katakana: gemini-cli has a headless mode option, whic...](2026-04-13-2043742157773971634-Peter Steinberger 🦞-RT Air Katakana- gemini-cli has a headless mode option, which is obviously supposed to be used to run it in automated scripts.md) — @Peter Steinberger 🦞, 2026-04-13 14:41
+- [RT JetBrains: JetBrains is hosting a hackathon with OpenAI i...](2026-04-13-OpenAI Developers-2044194854486585757.md) — @OpenAI Developers, 2026-04-13 13:51
 - [RT Vincent Koc: OpenClaw 2026.4.12 🦞 ✨ Stability & reliabil...](2026-04-13-2043674651323208059-Peter Steinberger 🦞-RT Vincent Koc- OpenClaw 2026.4.12 🦞 ✨ Stability & reliability improvements 🎙️ Audio transcription fixes 💬 Bette.md) — @Peter Steinberger 🦞, 2026-04-13 12:55
 - [RT Henry Shevlin: Big personal news: I’ve been recruited by ...](2026-04-13-2043684102889423066-Demis Hassabis-RT Henry Shevlin- Big personal news- I’ve been recruited by Google DeepMind for a new Philosopher position (actual title), focusi.md) — @Demis Hassabis, 2026-04-13 12:05
 - [How do we move from describing digital harms to preventing t...](2026-04-13-2043621361512317114-Google Research-How do we move from describing digital harms to preventing them- Join Patrick Gage Kelley and Ashley Walker at the Google booth at.md) — @Google Research, 2026-04-13 09:24

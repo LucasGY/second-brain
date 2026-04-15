@@ -1,10 +1,16 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-14T23:14:22.157Z
+Retrieved: 2026-04-15T01:11:34.121Z
 
-## Tweets (319)
+## Tweets (325)
 
+- [The US housing market is weakening heading into the spring s...](2026-04-15-The Kobeissi Letter-2044221832149016882.md) — @The Kobeissi Letter, 2026-04-15 01:10
+- [没有一次不是这样的，因为fear sells，这就是为啥主流媒体喜欢散布恐慌，标题越惊悚，点击率越高。市场越差，流量越好...](2026-04-15-投资TALK君-2044218403288744434.md) — @投资TALK君, 2026-04-15 00:57
+- [美股进入财报季，之前有聊到这一次财报季最重要最核心的就是验证一季度火热的AI代理热潮是不是能带动云厂商业务的火爆，毕竟算...](2026-04-15-qinbafrank-2044209665152790631.md) — @qinbafrank, 2026-04-15 00:22
+- [The US job market has been stagnant for years beneath the su...](2026-04-15-The Kobeissi Letter-2044205469439295531.md) — @The Kobeissi Letter, 2026-04-15 00:05
+- [The AI boom is fueling a historic surge in startup investmen...](2026-04-14-The Kobeissi Letter-2044186478163431848.md) — @The Kobeissi Letter, 2026-04-14 22:50
+- [RT BRICS News: JUST IN: 🇺🇸🇮🇷 US Vice President JD Vance ...](2026-04-14-投资TALK君-2044218926951776458.md) — @投资TALK君, 2026-04-14 22:38
 - [BREAKING: The UK just sold 10Y Government Bonds at the highe...](2026-04-14-The Kobeissi Letter-2044159005711577199.md) — @The Kobeissi Letter, 2026-04-14 21:01
 - [如果美国和伊朗签和平协议，石油美元要崩溃？ 如果石油美元崩溃，美国资产少了中东买家。 这是最近我听到比较多的观点。 提一...](2026-04-14-投资TALK君-2044145667044716837.md) — @投资TALK君, 2026-04-14 20:08
 - [BREAKING: The S&P 500 closes +1.2% higher, now up +10.2% fro...](2026-04-14-The Kobeissi Letter-2044143760435564708.md) — @The Kobeissi Letter, 2026-04-14 20:00
