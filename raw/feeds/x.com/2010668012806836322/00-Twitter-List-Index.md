@@ -1,10 +1,18 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-15T11:45:50.933Z
+Retrieved: 2026-04-15T12:46:03.344Z
 
-## Tweets (338)
+## Tweets (347)
 
+- [2026-04-15-投资TALK君-2044395923485098301](2026-04-15-投资TALK君-2044395923485098301.md) — @投资TALK君, 2026-04-15 12:29
+- [2026-04-15-Daily Chartbook-2044385382725234922](2026-04-15-Daily Chartbook-2044385382725234922.md) — @Daily Chartbook, 2026-04-15 12:00
+- [2026-04-15-The Kobeissi Letter-2044384923188879447](2026-04-15-The Kobeissi Letter-2044384923188879447.md) — @The Kobeissi Letter, 2026-04-15 11:58
+- [2026-04-15-Daily Chartbook-2044377057166041106](2026-04-15-Daily Chartbook-2044377057166041106.md) — @Daily Chartbook, 2026-04-15 11:27
+- [2026-04-15-Daily Chartbook-2044370485375328410](2026-04-15-Daily Chartbook-2044370485375328410.md) — @Daily Chartbook, 2026-04-15 11:01
+- [2026-04-15-投资TALK君-2044392025492005023](2026-04-15-投资TALK君-2044392025492005023.md) — @投资TALK君, 2026-04-15 10:50
+- [2026-04-15-Daily Chartbook-2044362473977835784](2026-04-15-Daily Chartbook-2044362473977835784.md) — @Daily Chartbook, 2026-04-15 10:29
+- [2026-04-15-Daily Chartbook-2044354839803482535](2026-04-15-Daily Chartbook-2044354839803482535.md) — @Daily Chartbook, 2026-04-15 09:59
 - [2026-04-15-Daily Chartbook-2044347842970485092](2026-04-15-Daily Chartbook-2044347842970485092.md) — @Daily Chartbook, 2026-04-15 09:31
 - [2026-04-15-qinbafrank-2044341261877026960](2026-04-15-qinbafrank-2044341261877026960.md) — @qinbafrank, 2026-04-15 09:05
 - [2026-04-15-Daily Chartbook-2044340285291798851](2026-04-15-Daily Chartbook-2044340285291798851.md) — @Daily Chartbook, 2026-04-15 09:01
@@ -71,6 +79,7 @@ Retrieved: 2026-04-15T11:45:50.933Z
 - [BREAKING: A new round of negotiations between the US and Ira...](2026-04-14-2043882612528238650-The Kobeissi Letter-BREAKING- A new round of negotiations between the US and Iran may be held on Thursday, per AP. President Trump said that “we.md) — @The Kobeissi Letter, 2026-04-14 02:42
 - [The US AI boom has a hardware problem: US imports of major e...](2026-04-14-2043880139767853323-The Kobeissi Letter-The US AI boom has a hardware problem- US imports of major electrical equipment rose +4.7% YoY in 2025, to $411 billion. This .md) — @The Kobeissi Letter, 2026-04-14 02:32
 - [5 of Monday's best charts and insights: https://www.dailycha...](2026-04-14-2043866802988433783-Daily Chartbook-5 of Monday's best charts and insights- https-www.dailychartbook.com-p-over-the-next-week-buy-estimates-are-some-of-the-largest-on.md) — @Daily Chartbook, 2026-04-14 01:39
+- [2026-04-14-Daily Chartbook-2044034335292944408](2026-04-14-Daily Chartbook-2044034335292944408.md) — @Daily Chartbook, 2026-04-14 01:39
 - [Global data center power demand is set to accelerate: Data c...](2026-04-14-2043863505284055126-The Kobeissi Letter-Global data center power demand is set to accelerate- Data center power demand is expected to grow +220% from 2023 levels, or .md) — @The Kobeissi Letter, 2026-04-14 01:26
 - [🤨🙄🤦🤷](2026-04-14-2043858318901317762-投资TALK君-🤨🙄🤦🤷.md) — @投资TALK君, 2026-04-14 01:06
 - [BREAKING: Bitcoin extends gains to +5% on the day and rises ...](2026-04-13-2043817074162647056-The Kobeissi Letter-BREAKING- Bitcoin extends gains to +5% on the day and rises above $74,000.md) — @The Kobeissi Letter, 2026-04-13 22:22

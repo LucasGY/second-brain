@@ -1,11 +1,18 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-15T11:45:50.683Z
+Retrieved: 2026-04-15T12:46:01.791Z
 
-## Tweets (95)
+## Tweets (103)
 
+- [2026-04-15-Peter Steinberger 🦞-2044390067997937716](2026-04-15-Peter Steinberger 🦞-2044390067997937716.md) — @Peter Steinberger 🦞, 2026-04-15 12:19
+- [2026-04-15-Peter Steinberger 🦞-2044394704171909176](2026-04-15-Peter Steinberger 🦞-2044394704171909176.md) — @Peter Steinberger 🦞, 2026-04-15 12:17
+- [2026-04-15-Google Research-2044379312686506292](2026-04-15-Google Research-2044379312686506292.md) — @Google Research, 2026-04-15 11:36
+- [2026-04-15-Peter Steinberger 🦞-2044378533984862408](2026-04-15-Peter Steinberger 🦞-2044378533984862408.md) — @Peter Steinberger 🦞, 2026-04-15 08:49
+- [2026-04-15-Peter Steinberger 🦞-2044389728733323643](2026-04-15-Peter Steinberger 🦞-2044389728733323643.md) — @Peter Steinberger 🦞, 2026-04-15 08:38
+- [2026-04-15-Peter Steinberger 🦞-2044383696766284095](2026-04-15-Peter Steinberger 🦞-2044383696766284095.md) — @Peter Steinberger 🦞, 2026-04-15 08:02
 - [Meet Fabula: an interactive AI writing tool helping authors ...](2026-04-15-Google Research-2044304794194452945.md) — @Google Research, 2026-04-15 06:40
+- [2026-04-15-Peter Steinberger 🦞-2044377693790392737](2026-04-15-Peter Steinberger 🦞-2044377693790392737.md) — @Peter Steinberger 🦞, 2026-04-15 01:14
 - [RT NotebookLM: To celebrate World Quantum Day (one of our fa...](2026-04-14-Google-2044174392280658071.md) — @Google, 2026-04-14 20:39
 - [RT Anthony Morris ツ: Today we're launching a rebuilt version...](2026-04-14-Thariq-2044131837937889408.md) — @Thariq, 2026-04-14 19:05
 - [RT Noah Zweben: Claude Code Routines are here! In addition t...](2026-04-14-Thariq-2044100766445805823.md) — @Thariq, 2026-04-14 16:42
@@ -97,6 +104,7 @@ Retrieved: 2026-04-15T11:45:50.683Z
 - [RT OpenAI: We’re updating our ChatGPT Pro and Plus subscript...](2026-04-09-Peter Steinberger 🦞-2042337850671210988.md) — @Peter Steinberger 🦞, 2026-04-09 17:36
 - [RT José A. Alonso: QED-Nano: Teaching a tiny model to prove ...](2026-04-09-Christian Szegedy-2042598654683349467.md) — @Christian Szegedy, 2026-04-09 17:07
 - [RT Sundar Pichai: Lots of love for Gemma 4! Team just told m...](2026-04-08-2042077966385995808-Demis Hassabis-RT Sundar Pichai- Lots of love for Gemma 4! Team just told me it’s already had 10M+ downloads since last week’s launch. Gemma m.md) — @Demis Hassabis, 2026-04-08 22:57
+- [2026-04-08-Peter Steinberger 🦞-2044392111500562824](2026-04-08-Peter Steinberger 🦞-2044392111500562824.md) — @Peter Steinberger 🦞, 2026-04-08 18:38
 - [RT Demis Hassabis: Thanks for the great conversation @cleoab...](2026-04-08-Google-2042334293603561623.md) — @Google, 2026-04-08 00:56
 - [RT OpenAI Developers: Let’s talk about building with Codex. ...](2026-04-06-OpenAI Developers-2042340483415097682.md) — @OpenAI Developers, 2026-04-06 20:10
 - [RT Andrej Karpathy: Re @NirDiamantAI Peter Steinberger told ...](2026-04-04-Peter Steinberger 🦞-2042511877394096222.md) — @Peter Steinberger 🦞, 2026-04-04 16:54
