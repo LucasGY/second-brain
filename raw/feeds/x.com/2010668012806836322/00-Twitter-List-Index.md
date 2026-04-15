@@ -1,14 +1,21 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-15T16:45:52.483Z
+Retrieved: 2026-04-15T18:06:42.093Z
 
-## Tweets (356)
+## Tweets (372)
 
+- [2026-04-15-The Kobeissi Letter-2044470474789331124](2026-04-15-The Kobeissi Letter-2044470474789331124.md) — @The Kobeissi Letter, 2026-04-15 17:38
+- [2026-04-15-The Kobeissi Letter-2044460492354396345](2026-04-15-The Kobeissi Letter-2044460492354396345.md) — @The Kobeissi Letter, 2026-04-15 16:59
+- [2026-04-15-投资TALK君-2044447472680857993](2026-04-15-投资TALK君-2044447472680857993.md) — @投资TALK君, 2026-04-15 16:07
+- [2026-04-15-SemiAnalysis-2044445940904267921](2026-04-15-SemiAnalysis-2044445940904267921.md) — @SemiAnalysis, 2026-04-15 16:01
+- [2026-04-15-The Kobeissi Letter-2044444889627156512](2026-04-15-The Kobeissi Letter-2044444889627156512.md) — @The Kobeissi Letter, 2026-04-15 15:57
+- [2026-04-15-投资TALK君-2044444360993870123](2026-04-15-投资TALK君-2044444360993870123.md) — @投资TALK君, 2026-04-15 15:54
 - [2026-04-15-The Kobeissi Letter-2044435422944649651](2026-04-15-The Kobeissi Letter-2044435422944649651.md) — @The Kobeissi Letter, 2026-04-15 15:19
 - [2026-04-15-投资TALK君-2044435388668711127](2026-04-15-投资TALK君-2044435388668711127.md) — @投资TALK君, 2026-04-15 15:19
 - [2026-04-15-The Kobeissi Letter-2044427776736825785](2026-04-15-The Kobeissi Letter-2044427776736825785.md) — @The Kobeissi Letter, 2026-04-15 14:49
 - [2026-04-15-qinbafrank-2044423226051457174](2026-04-15-qinbafrank-2044423226051457174.md) — @qinbafrank, 2026-04-15 14:30
+- [2026-04-15-投资TALK君-2044458171469554111](2026-04-15-投资TALK君-2044458171469554111.md) — @投资TALK君, 2026-04-15 14:09
 - [2026-04-15-Prospero.ai-2044411610316304675](2026-04-15-Prospero.ai-2044411610316304675.md) — @Prospero.ai, 2026-04-15 13:44
 - [2026-04-15-The Kobeissi Letter-2044409012989407252](2026-04-15-The Kobeissi Letter-2044409012989407252.md) — @The Kobeissi Letter, 2026-04-15 13:34
 - [2026-04-15-qinbafrank-2044407925557645472](2026-04-15-qinbafrank-2044407925557645472.md) — @qinbafrank, 2026-04-15 13:30
@@ -61,21 +68,30 @@ Retrieved: 2026-04-15T16:45:52.483Z
 - [BREAKING: JP Morgan, $JPM, reports a record $11.6 billion in...](2026-04-14-The Kobeissi Letter-2044027349285404799.md) — @The Kobeissi Letter, 2026-04-14 12:17
 - [RT @ISABELNET_SA: 📌 Financials Positioning in financials is...](2026-04-14-Daily Chartbook-2044023914955710960.md) — @Daily Chartbook, 2026-04-14 12:04
 - [\"While there are cracks in the 'shadow' banking system, com...](2026-04-14-Daily Chartbook-2044022794350952780.md) — @Daily Chartbook, 2026-04-14 11:59
+- [2026-04-14-Daily Chartbook-2044194067437813917](2026-04-14-Daily Chartbook-2044194067437813917.md) — @Daily Chartbook, 2026-04-14 11:59
 - [RT Scarlett & Carter's BaPa: Markets trade on expectations a...](2026-04-14-Daily Chartbook-2044023988771279313.md) — @Daily Chartbook, 2026-04-14 11:39
 - [RT Elin Wiker: Estimat upp!](2026-04-14-Daily Chartbook-2044023978340085952.md) — @Daily Chartbook, 2026-04-14 11:37
 - [\"Expectations for corporate earnings have climbed for both ...](2026-04-14-Daily Chartbook-2044014670831296614.md) — @Daily Chartbook, 2026-04-14 11:27
+- [2026-04-14-Daily Chartbook-2044185243909763508](2026-04-14-Daily Chartbook-2044185243909763508.md) — @Daily Chartbook, 2026-04-14 11:27
 - [RT Scarlett & Carter's BaPa: Large capital commitments (whic...](2026-04-14-Daily Chartbook-2044023957179728318.md) — @Daily Chartbook, 2026-04-14 11:12
 - [\"Higher gas prices should only partially offset stimulus fr...](2026-04-14-Daily Chartbook-2044007630675325066.md) — @Daily Chartbook, 2026-04-14 10:59
+- [2026-04-14-Daily Chartbook-2044142567059603648](2026-04-14-Daily Chartbook-2044142567059603648.md) — @Daily Chartbook, 2026-04-14 10:59
 - [RT Josh Schafer: Re @dailychartbook You can checkout our ful...](2026-04-14-Daily Chartbook-2044044709455134975.md) — @Daily Chartbook, 2026-04-14 10:31
 - [\"If you began driving at the age of 16 in 2004, when AAA’s ...](2026-04-14-Daily Chartbook-2044000081712410929.md) — @Daily Chartbook, 2026-04-14 10:29
+- [2026-04-14-Daily Chartbook-2044139752647970870](2026-04-14-Daily Chartbook-2044139752647970870.md) — @Daily Chartbook, 2026-04-14 10:29
 - [RT Cori Arnold: The Bulls are trying to come back SPY NOS wa...](2026-04-14-Prospero.ai-2044043821856547009.md) — @Prospero.ai, 2026-04-14 10:20
 - [RT Neil Sethi: I was going to do a chart showing how gold, w...](2026-04-14-Daily Chartbook-2044023941388255261.md) — @Daily Chartbook, 2026-04-14 10:00
 - [\"Industry analysts are very optimistic about earnings growt...](2026-04-14-Daily Chartbook-2043992453376553257.md) — @Daily Chartbook, 2026-04-14 09:59
+- [2026-04-14-Daily Chartbook-2044130859532300774](2026-04-14-Daily Chartbook-2044130859532300774.md) — @Daily Chartbook, 2026-04-14 09:59
 - [\"We estimate that CTAs bought $19bn of US equities last wee...](2026-04-14-Daily Chartbook-2043984773308092672.md) — @Daily Chartbook, 2026-04-14 09:28
+- [2026-04-14-Daily Chartbook-2044130853777707311](2026-04-14-Daily Chartbook-2044130853777707311.md) — @Daily Chartbook, 2026-04-14 09:28
 - [从30到900，只用了一年 多少人在去年下半年之前对闪迪的认知仅限于\"就是个卖U盘的”，又有多少人拿着它切身体会着\"...](2026-04-14-qinbafrank-2043983514425860450.md) — @qinbafrank, 2026-04-14 09:23
 - [\"Equity positioning is bracing for a sharp earnings slowdow...](2026-04-14-Daily Chartbook-2043978107514724451.md) — @Daily Chartbook, 2026-04-14 09:02
+- [2026-04-14-Daily Chartbook-2044130844520939549](2026-04-14-Daily Chartbook-2044130844520939549.md) — @Daily Chartbook, 2026-04-14 09:02
 - [\"We’ve now had more than a month of elevated oil prices ......](2026-04-14-Daily Chartbook-2043970348387860579.md) — @Daily Chartbook, 2026-04-14 08:31
+- [2026-04-14-Daily Chartbook-2044130836052599018](2026-04-14-Daily Chartbook-2044130836052599018.md) — @Daily Chartbook, 2026-04-14 08:31
 - [\"Oil exports (blue) pay for imports of goods (red) and serv...](2026-04-14-Daily Chartbook-2043962530079322371.md) — @Daily Chartbook, 2026-04-14 08:00
+- [2026-04-14-Daily Chartbook-2044130828221817091](2026-04-14-Daily Chartbook-2044130828221817091.md) — @Daily Chartbook, 2026-04-14 08:00
 - [Not surprising to me. AI Agent is also cpu-bound.](2026-04-14-3X Long Labubu-2043939524208930937.md) — @3X Long Labubu, 2026-04-14 06:28
 - [RT Zephyr: Assuming they do a 70/30 split in those 3 factori...](2026-04-14-3X Long Labubu-2043941174420091205.md) — @3X Long Labubu, 2026-04-14 06:27
 - [SEC又给加密送了一次绑：纯中立的“界面工具”不等于经纪商，不会因为帮用户准备交易就被视为需要牌照的“平台”。 SEC交...](2026-04-14-qinbafrank-2043935213223588072.md) — @qinbafrank, 2026-04-14 06:11
