@@ -16,6 +16,12 @@ _暂无页面。_
 
 _来源_
 
+- [Technology Sector Insiders Keep Buying](sources/2026-04-11-daily-chartbook-tech-insiders-buying.md)
+  Technology sector insiders continue to accumulate shares in their own companies at a high rate, as shown by XLK ETF insider buying data. Analysts watch this indicator for sentiment signals.
+  科技板块内部人士继续以较高比率增持自家公司股票，XLK ETF 内部人士买入数据显示了这一点。分析师正在关注这一情绪指标。
+- [Iran's Four Red Lines for US Peace Talks](sources/2026-04-11-kobeissi-iran-red-lines-peace-talks.md)
+  Iran has formally submitted its four red lines for peace talks with the US: Strait of Hormuz authority, war reparations, asset unfreezing, and regional ceasefire.
+  伊朗正式向美国提交了和平谈判的四条红线：霍尔木兹海峡管辖权、战争赔偿金支付、资产解冻和区域停火。
 - [Amazon CEO Andy Jassy's 2025 Letter to Shareholders](sources/20260414_manual_amazon_andy_jassy_2025_shareholder_letter.md)
   Amazon argues that long-term advantage comes from inventing new inflections, funding parallel bets early, and accepting short-term free-cash-flow pressure to build AI-scale infrastructure ahead of demand.
   亚马逊认为，长期优势来自主动发明新拐点、提前布局并行下注，并接受短期自由现金流压力以抢先建设面向 AI 规模化需求的基础设施。
@@ -27,6 +33,9 @@ _来源_
 
 _实体_
 
+- [Iran](entities/iran.md)
+  Iran is a key geopolitical entity in this wiki, relevant for energy markets, the Strait of Hormuz, and US-Iran relations.
+  伊朗是本知识库中的重要地缘政治实体，与能源市场、霍尔木兹海峡和美伊关系相关。
 - [Amazon](entities/amazon.md)
   Amazon is the central operating entity in this wiki for retail, cloud, logistics, devices, and AI platform strategy.
   Amazon 是本知识库中承载零售、云计算、物流、设备与 AI 平台战略的核心公司实体。

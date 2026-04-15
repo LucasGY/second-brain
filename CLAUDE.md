@@ -6,7 +6,7 @@ Your goal is to transform raw, immutable source documents into a highly structur
 
 ## 2. Directory Structure
 - `raw/`: Immutable source files (PDFs, markdown clippings, code snippets). **NEVER modify files here.**
-- `schema/`: Your rulebook.
+- `wiki/schema/`: Your rulebook.
 - `wiki/sources/`: Markdown summaries of the raw files.
 - `wiki/entities/`: Pages for concrete things (e.g., OpenAI, Claude, Obsidian, specific algorithms).
 - `wiki/concepts/`: Pages for abstract ideas (e.g., RAG, Reinforcement Learning, Vibe Coding).
@@ -15,11 +15,11 @@ Your goal is to transform raw, immutable source documents into a highly structur
 
 ## 3. Core Workflow: INGEST
 
-* **To Create or Update entity page:** Before writing the file, READ `schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update concept page:** Before writing the file, READ `schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update source page:** Before writing the file, READ `schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update index page:** Before writing the file, READ `schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update log page:** Before writing the file, READ `schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update entity page:** Before writing the file, READ `wiki/schema/ENTITY_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update concept page:** Before writing the file, READ `wiki/schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update source page:** Before writing the file, READ `wiki/schema/SOURCE_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update index page:** Before writing the file, READ `wiki/schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
+* **To Create or Update log page:** Before writing the file, READ `wiki/schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
 
 
 When the user asks you to "ingest" or "process" a new file from the `raw/` directory, you MUST strictly follow this exact sequence:
