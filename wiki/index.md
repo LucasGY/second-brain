@@ -26,11 +26,17 @@ _来源_
 - [Wechat-Cli：将微信聊天记录导入 Karpathy 的 LLM Wiki](sources/20260415_manual_wechat_cli_wechat_to_llm_wiki.md)
   The article presents a local-first workflow that extracts WeChat chat history with [[wechat-cli|WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[llm-wiki|LLM Wiki]] and graph-based knowledge layer through [[graphify|Graphify]].
   这篇文章提出了一条本地优先的工作流：先用 [[wechat-cli|WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[graphify|Graphify]] 把原本隐藏的团队讨论编译进 [[llm-wiki|LLM Wiki]] 与图谱化知识层。
+- [Anthropic官方Harness发布了](sources/20260410_manual_anthropic_harness_managed_agents.md)
+  Anthropic launched Claude Managed Agents, turning the abstract "Agent = Model + Harness" formula into a production-ready managed service handling sandboxing, orchestration, permission scoping, and long-running sessions.
+  Anthropic 发布了 Claude Managed Agents，将"Agent = Model + Harness"这一抽象公式转化为生产就绪的托管服务，集成了沙箱隔离、编排逻辑、权限作用域控制和长时运行会话。
 
 ## Entities
 
 _实体_
 
+- [Anthropic](entities/anthropic.md)
+  Anthropic is an AI safety company and leading AI research laboratory that developed the Claude family of foundation models. In April 2026, they launched Claude Managed Agents, marking a strategic shift from providing model APIs to offering a complete managed agent runtime.
+  Anthropic 是一家 AI 安全公司，也是开发 Claude 系列基础模型的领先 AI 研究实验室。2026年4月，他们发布了 Claude Managed Agents，标志着从提供模型 API 向提供完整托管 Agent 运行时的战略转变。
 - [Amazon](entities/amazon.md)
   Amazon is a multinational technology and commerce company whose current strategy, in this wiki, centers on using AI, logistics, and infrastructure scale to pursue major industry inflections.
   Amazon 是一家跨国科技与商业公司；在本知识库里，它当前的战略重点是利用 AI、物流与基础设施规模去押注重大行业拐点。
@@ -40,6 +46,9 @@ _实体_
 - [Amazon Web Services](entities/aws.md)
   Amazon Web Services is Amazon's cloud platform and, in this wiki, the main infrastructure layer through which Amazon is pursuing AI growth, custom silicon leverage, and large-scale enterprise workloads.
   Amazon Web Services 是 Amazon 的云平台；在本知识库里，它是 Amazon 追求 AI 增长、自研芯片杠杆与大规模企业工作负载的核心基础设施层。
+- [Claude Managed Agents](entities/claude-managed-agents.md)
+  Claude Managed Agents is Anthropic's managed agent runtime providing a composable API suite for building and deploying cloud-hosted agents. It handles sandboxed execution, orchestration, permission scoping, and long-running sessions.
+  Claude Managed Agents 是 Anthropic 的托管 Agent 运行时，提供可组合的 API 套件用于构建和部署云托管 Agent。它处理沙箱执行、编排逻辑、权限作用域控制和长时运行会话。
 - [Andy Jassy](entities/andy-jassy.md)
   Andy Jassy is Amazon's chief executive and is represented in this wiki as a strategic operator who emphasizes inflection-driven investment, parallel bets, and first-principles rebuilding.
   Andy Jassy 是 Amazon 的首席执行官；在本知识库里，他被呈现为一位强调拐点驱动投资、并行押注与第一性原理重建的战略操盘者。
@@ -48,9 +57,15 @@ _实体_
 
 _概念_
 
+- [Harness Engineering](concepts/harness-engineering.md)
+  Harness Engineering is the discipline of designing the infrastructure layer that surrounds AI models—the formula is Agent = Model + Harness. It encompasses system prompts, tools, sandbox, orchestration logic, checkpoints, and permission scoping.
+  Harness Engineering 是设计围绕 AI 模型的基础设施层的学科——公式是 Agent = Model + Harness。它包含系统提示词、工具、沙箱、编排逻辑、检查点和权限作用域。
 - [Inflection Management](concepts/inflection-management.md)
   Inflection Management is the strategic pattern of identifying major technological or market shifts early, investing ahead of certainty, and coordinating parallel bets plus architectural resets to capture outsized upside.
   Inflection Management 是一种战略模式：及早识别重大的技术或市场拐点，在确定性到来之前先行投资，并通过并行押注与架构重置来捕捉超额上行。
+- [Multi-Agent Coordination](concepts/multi-agent-coordination.md)
+  Multi-Agent Coordination is the architectural pattern where one agent spawns and directs other agents to parallelize complex work, with a parent agent aggregating results from multiple specialized child agents.
+  Multi-Agent Coordination 是一种架构模式：一个 Agent 可以生成并指挥其他 Agent 来并行化复杂工作，父 Agent 汇总多个专业化子 Agent 的结果。
 
 ## Analyses
 
