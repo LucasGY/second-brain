@@ -9,6 +9,7 @@
 - **Format:** `YYYYMMDD_[source_type]_[short_title].md`
 - **Source Types:** `manual` (high intent, manual clipping), `feeds` (automated news/updates)
 - **Example:** `20260414_inbox_agentic_rl_survey.md`, `20260414_feed_qqq_macro_update.md`
+- The filename stem is the source page's canonical `slug`. When linking to the page from elsewhere, prefer `[[YYYYMMDD_source_type_short_title|Readable Source Title]]`.
 
 ## 2. Universal Pre-requisites
 Every Source page MUST contain this YAML frontmatter and the Universal Header.
@@ -98,5 +99,5 @@ Based on the domain of the document (identified via content or tags), apply the 
 Every Source page, regardless of domain, MUST end with this section to ensure the wiki remains interconnected:
 
 ## 🕸️ Knowledge Graph
-**Extracted Entities:** [[Entity1]], [[Entity2]]
-**Related Concepts:** [[Concept1]], [[Concept2]]
+**Extracted Entities:** [[entity-slug-1|Entity 1]], [[entity-slug-2|Entity 2]]
+**Related Concepts:** [[concept-slug-1|Concept 1]], [[concept-slug-2|Concept 2]]

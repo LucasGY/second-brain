@@ -9,6 +9,7 @@ import pathlib
 import re
 import sys
 from collections import Counter, defaultdict
+from dataclasses import dataclass
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -28,6 +29,7 @@ SECTION_ORDER = [
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]")
 FRONTMATTER_RE = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
+ALIASES_RE = re.compile(r"^\s*aliases:\s*\[(.*)\]\s*$")
 
 
 def wiki_markdown_files() -> list[pathlib.Path]:
@@ -52,6 +54,27 @@ def parse_frontmatter(text: str) -> dict[str, str]:
         key, value = line.split(":", 1)
         values[key.strip()] = value.strip().strip('"').strip("'")
     return values
+
+
+def parse_aliases(text: str) -> list[str]:
+    match = FRONTMATTER_RE.match(text)
+    if not match:
+        return []
+
+    aliases: list[str] = []
+    for raw_line in match.group(1).splitlines():
+        line = raw_line.strip()
+        alias_match = ALIASES_RE.match(line)
+        if not alias_match:
+            continue
+        raw_items = alias_match.group(1).strip()
+        if not raw_items:
+            return []
+        for item in raw_items.split(","):
+            alias = item.strip().strip('"').strip("'")
+            if alias:
+                aliases.append(alias)
+    return aliases
 
 
 def strip_frontmatter(text: str) -> str:
@@ -108,12 +131,15 @@ def load_pages() -> list[dict[str, object]]:
     for path in wiki_markdown_files():
         text = path.read_text(encoding="utf-8")
         frontmatter = parse_frontmatter(text)
+        aliases = parse_aliases(text)
         title = page_title(path, text, frontmatter)
         pages.append(
             {
                 "path": path,
                 "rel": path.relative_to(WIKI_DIR),
                 "title": title,
+                "aliases": aliases,
+                "stem": path.stem,
                 "type": page_type(path),
                 "summary_en": summary_for_page(text, frontmatter)[0],
                 "summary_zh": summary_for_page(text, frontmatter)[1],
@@ -121,6 +147,43 @@ def load_pages() -> list[dict[str, object]]:
             }
         )
     return pages
+
+
+@dataclass
+class PageRegistry:
+    canonical_name_to_page: dict[str, dict[str, object]]
+    lookup_to_pages: dict[str, list[dict[str, object]]]
+
+
+def build_page_registry(pages: list[dict[str, object]]) -> PageRegistry:
+    canonical_name_to_page = {str(page["stem"]): page for page in pages}
+    lookup_to_pages: dict[str, list[dict[str, object]]] = defaultdict(list)
+
+    for page in pages:
+        candidates = {
+            str(page["title"]).strip(),
+            str(page["stem"]).strip(),
+        }
+        for alias in page.get("aliases", []):
+            candidates.add(str(alias).strip())
+
+        for candidate in candidates:
+            if candidate:
+                lookup_to_pages[candidate].append(page)
+
+    return PageRegistry(
+        canonical_name_to_page=canonical_name_to_page,
+        lookup_to_pages=dict(lookup_to_pages),
+    )
+
+
+def resolve_link_target(
+    registry: PageRegistry, target: str
+) -> dict[str, object] | None:
+    matches = registry.lookup_to_pages.get(target.strip(), [])
+    if len(matches) == 1:
+        return matches[0]
+    return None
 
 
 def rebuild_index(_: argparse.Namespace) -> int:
@@ -225,22 +288,23 @@ def extract_wikilinks(text: str) -> list[str]:
 
 def lint(_: argparse.Namespace) -> int:
     pages = load_pages()
-    title_to_page = {str(page["title"]): page for page in pages}
+    registry = build_page_registry(pages)
     inbound = Counter()
     broken_links: list[tuple[str, str]] = []
 
     for page in pages:
         page_title_value = str(page["title"])
         for target in extract_wikilinks(str(page["text"])):
-            if target in title_to_page:
-                inbound[target] += 1
+            resolved = resolve_link_target(registry, target)
+            if resolved:
+                inbound[str(resolved["stem"])] += 1
             else:
                 broken_links.append((page_title_value, target))
 
     orphan_pages = [
         str(page["title"])
         for page in pages
-        if str(page["title"]) != "Overview" and inbound[str(page["title"])] == 0
+        if str(page["title"]) != "Overview" and inbound[str(page["stem"])] == 0
     ]
 
     source_roots = [RAW_DIR / "inbox", RAW_DIR / "processed"]
@@ -313,6 +377,46 @@ def search(args: argparse.Namespace) -> int:
     return 0
 
 
+def canonicalize_wikilinks(args: argparse.Namespace) -> int:
+    pages = load_pages()
+    registry = build_page_registry(pages)
+    changed_files: list[pathlib.Path] = []
+
+    def replace_link(match: re.Match[str]) -> str:
+        raw = match.group(0)
+        inner = raw[2:-2]
+        target, sep, display = inner.partition("|")
+        clean_target = target.split("#", 1)[0].strip()
+        if not clean_target:
+            return raw
+
+        resolved = resolve_link_target(registry, clean_target)
+        if not resolved:
+            return raw
+
+        canonical = str(resolved["stem"])
+        shown = display.strip() if sep else clean_target
+        if clean_target == canonical and (not sep or shown == display.strip()):
+            return raw
+        return f"[[{canonical}|{shown}]]"
+
+    for page in pages:
+        path = pathlib.Path(page["path"])
+        original = str(page["text"])
+        updated = re.sub(WIKILINK_RE, replace_link, original)
+        if updated != original:
+            path.write_text(updated, encoding="utf-8")
+            changed_files.append(path)
+
+    if changed_files:
+        for path in changed_files:
+            print(f"Updated {path.relative_to(ROOT)}")
+    else:
+        print("No wikilinks needed canonicalization.")
+
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -327,6 +431,12 @@ def build_parser() -> argparse.ArgumentParser:
     search_parser.add_argument("query", nargs="+", help="Search terms")
     search_parser.add_argument("--limit", type=int, default=10, help="Max results")
     search_parser.set_defaults(func=search)
+
+    canonicalize_parser = subparsers.add_parser(
+        "canonicalize-wikilinks",
+        help="Rewrite resolved wikilinks to use canonical file stems",
+    )
+    canonicalize_parser.set_defaults(func=canonicalize_wikilinks)
 
     log_parser = subparsers.add_parser("log", help="Append an entry to wiki/log.md")
     log_parser.add_argument("kind", choices=["ingest", "query", "lint", "note", "bootstrap"])

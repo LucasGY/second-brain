@@ -48,5 +48,5 @@ Understanding Iran's opening positions in US-Iran peace negotiations and implica
 ---
 
 ## 🕸️ Knowledge Graph
-**Extracted Entities:** [[Iran]], [[United States]]
-**Related Concepts:** [[Strait of Hormuz]], [[US-Iran Relations]], [[Energy Markets]], [[Geopolitical Risk]]
+**Extracted Entities:** [[iran|Iran]], [[United States]]
+**Related Concepts:** [[strait-of-hormuz|Strait of Hormuz]], [[US-Iran Relations]], [[Energy Markets]], [[Geopolitical Risk]]

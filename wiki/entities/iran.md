@@ -37,4 +37,4 @@ Iran is a key geopolitical actor in the Middle East, playing a critical role in 
 [[United States]], [[Pakistan]]
 
 ### Related Concepts
-[[Strait of Hormuz]], [[US-Iran Relations]], [[Energy Markets]], [[Geopolitical Risk]]
+[[strait-of-hormuz|Strait of Hormuz]], [[US-Iran Relations]], [[Energy Markets]], [[Geopolitical Risk]]

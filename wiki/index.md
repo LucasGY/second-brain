@@ -16,38 +16,38 @@ _暂无页面。_
 
 _来源_
 
-- [Technology Sector Insiders Keep Buying](sources/2026-04-11-daily-chartbook-tech-insiders-buying.md)
-  Technology sector insiders continue to accumulate shares in their own companies at a high rate, as shown by XLK ETF insider buying data. Analysts watch this indicator for sentiment signals.
-  科技板块内部人士继续以较高比率增持自家公司股票，XLK ETF 内部人士买入数据显示了这一点。分析师正在关注这一情绪指标。
-- [Iran's Four Red Lines for US Peace Talks](sources/2026-04-11-kobeissi-iran-red-lines-peace-talks.md)
-  Iran has formally submitted its four red lines for peace talks with the US: Strait of Hormuz authority, war reparations, asset unfreezing, and regional ceasefire.
-  伊朗正式向美国提交了和平谈判的四条红线：霍尔木兹海峡管辖权、战争赔偿金支付、资产解冻和区域停火。
-- [Amazon CEO Andy Jassy's 2025 Letter to Shareholders](sources/20260414_manual_amazon_andy_jassy_2025_shareholder_letter.md)
-  Amazon argues that long-term advantage comes from inventing new inflections, funding parallel bets early, and accepting short-term free-cash-flow pressure to build AI-scale infrastructure ahead of demand.
-  亚马逊认为，长期优势来自主动发明新拐点、提前布局并行下注，并接受短期自由现金流压力以抢先建设面向 AI 规模化需求的基础设施。
+- [Amazon CEO Andy Jassy's 2025 Letter to Shareholders](sources/20260415_manual_amazon_andy_jassy_shareholder_letter.md)
+  Andy Jassy's 2025 shareholder letter frames [[amazon|Amazon]] as a company that wins by inventing into major inflections, running parallel bets, and rebuilding products such as [[amazon-bedrock|Amazon Bedrock]] and Alexa around AI even at the cost of short-term cash flow pressure.
+  Andy Jassy 的 2025 年股东信把 [[amazon|Amazon]] 描述为一家通过押注重大拐点、并行推进多条路径，并围绕 AI 重建 [[amazon-bedrock|Amazon Bedrock]] 与 Alexa 等产品来取胜的公司，即使这会带来短期现金流压力。
+- [Iran's Four "Red Lines" for US Peace Talks](sources/20260411_feeds_iran_us_peace_talks.md)
+  伊朗正式向美国提交和平谈判四条红线：霍尔木兹海峡管辖权、战争赔偿金支付、资产解冻和区域停火，面对面谈判正在进行中。
+- [Technology Sector Insiders Keep Buying](sources/20260411_feeds_tech_insider_buying.md)
+  科技板块内部人士（覆盖XLK ETF的公司）过去6个月持续净买入自家股票，这一情绪指标正被市场分析师密切关注。
 - [Wechat-Cli：将微信聊天记录导入 Karpathy 的 LLM Wiki](sources/20260415_manual_wechat_cli_wechat_to_llm_wiki.md)
-  The article presents a local-first workflow that extracts WeChat chat history with [[WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[LLM Wiki]] and graph-based knowledge layer through [[Graphify]].
-  这篇文章提出了一条本地优先的工作流：先用 [[WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[Graphify]] 把原本隐藏的团队讨论编译进 [[LLM Wiki]] 与图谱化知识层。
+  The article presents a local-first workflow that extracts WeChat chat history with [[wechat-cli|WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[llm-wiki|LLM Wiki]] and graph-based knowledge layer through [[graphify|Graphify]].
+  这篇文章提出了一条本地优先的工作流：先用 [[wechat-cli|WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[graphify|Graphify]] 把原本隐藏的团队讨论编译进 [[llm-wiki|LLM Wiki]] 与图谱化知识层。
 
 ## Entities
 
 _实体_
 
-- [Iran](entities/iran.md)
-  Iran is a key geopolitical entity in this wiki, relevant for energy markets, the Strait of Hormuz, and US-Iran relations.
-  伊朗是本知识库中的重要地缘政治实体，与能源市场、霍尔木兹海峡和美伊关系相关。
 - [Amazon](entities/amazon.md)
-  Amazon is the central operating entity in this wiki for retail, cloud, logistics, devices, and AI platform strategy.
-  Amazon 是本知识库中承载零售、云计算、物流、设备与 AI 平台战略的核心公司实体。
+  Amazon is a multinational technology and commerce company whose current strategy, in this wiki, centers on using AI, logistics, and infrastructure scale to pursue major industry inflections.
+  Amazon 是一家跨国科技与商业公司；在本知识库里，它当前的战略重点是利用 AI、物流与基础设施规模去押注重大行业拐点。
+- [Amazon Bedrock](entities/amazon-bedrock.md)
+  Amazon Bedrock is AWS's inference and foundation-model service and appears in this wiki as a concrete example of Amazon rebuilding a scaled AI system from scratch when its original architecture became limiting.
+  Amazon Bedrock 是 AWS 的推理与基础模型服务；在本知识库里，它被用作一个具体案例，说明当原始架构开始限制发展时，Amazon 会如何从零重建已经规模化的 AI 系统。
+- [Amazon Web Services](entities/aws.md)
+  Amazon Web Services is Amazon's cloud platform and, in this wiki, the main infrastructure layer through which Amazon is pursuing AI growth, custom silicon leverage, and large-scale enterprise workloads.
+  Amazon Web Services 是 Amazon 的云平台；在本知识库里，它是 Amazon 追求 AI 增长、自研芯片杠杆与大规模企业工作负载的核心基础设施层。
 - [Andy Jassy](entities/andy-jassy.md)
-  Andy Jassy is Amazon's CEO and an important management voice on long-term investment, cloud strategy, and AI-era reinvention.
-  Andy Jassy 是亚马逊 CEO，也是本知识库中关于长期投资、云战略与 AI 时代重构的重要管理层声音。
-- [AWS](entities/aws.md)
-  AWS is Amazon's cloud platform and the primary vehicle for the company's AI infrastructure and enterprise compute strategy.
-  AWS 是亚马逊的云平台，也是公司 AI 基础设施与企业算力战略的主要承载体。
+  Andy Jassy is Amazon's chief executive and is represented in this wiki as a strategic operator who emphasizes inflection-driven investment, parallel bets, and first-principles rebuilding.
+  Andy Jassy 是 Amazon 的首席执行官；在本知识库里，他被呈现为一位强调拐点驱动投资、并行押注与第一性原理重建的战略操盘者。
 - [Graphify](entities/graphify.md)
   Graphify is presented here as an AI-assistant skill that converts Markdown-based conversational data into an interactive knowledge graph and related analytical artifacts.
   在当前知识库里，Graphify 被呈现为一种 AI 助手 skill，用于把基于 Markdown 的对话数据转换成可交互的知识图谱及相关分析产物。
+- [Iran](entities/iran.md)
+  Iran is a key geopolitical actor in the Middle East, playing a critical role in global energy markets through its strategic proximity to the Strait of Hormuz. The country has been subject to extensive international sanctions and maintains ongoing tensions with the United States, while also possessing significant oil and natural gas reserves.
 - [WeChat CLI](entities/wechat-cli.md)
   WeChat CLI is a local command-line tool that extracts and queries WeChat chat data from a user's own device, then exports it into formats suitable for downstream LLM and wiki workflows.
   WeChat CLI 是一个本地命令行工具，用于从用户自己的设备提取并查询微信聊天数据，再导出成适合下游 LLM 和 wiki 工作流消费的格式。
@@ -56,12 +56,14 @@ _实体_
 
 _概念_
 
+- [Inflection Management](concepts/inflection-management.md)
+  Inflection Management is the strategic pattern of identifying major technological or market shifts early, investing ahead of certainty, and coordinating parallel bets plus architectural resets to capture outsized upside.
+  Inflection Management 是一种战略模式：及早识别重大的技术或市场拐点，在确定性到来之前先行投资，并通过并行押注与架构重置来捕捉超额上行。
 - [LLM Wiki](concepts/llm-wiki.md)
   LLM Wiki is a pattern in which an LLM compiles raw material into a maintained, interlinked markdown knowledge base rather than re-deriving answers from source chunks on every query.
   LLM Wiki 是一种模式：让 LLM 把原始材料编译成持续维护、相互链接的 Markdown 知识库，而不是在每次提问时都从原始片段重新推导答案。
-- [Parallel Path Experimentation](concepts/parallel-path-experimentation.md)
-  Parallel Path Experimentation is a strategy of pursuing multiple complementary approaches at once when the desired future state is uncertain and waiting would be more costly than imperfect parallel execution.
-  Parallel Path Experimentation 指的是在目标未来状态尚不确定时，同时推进多条互补路径的一种策略，因为等待往往比不完美地并行执行更昂贵。
+- [Strait of Hormuz](concepts/strait-of-hormuz.md)
+  霍尔木兹海峡
 - [Tacit Knowledge Compilation](concepts/tacit-knowledge-compilation.md)
   Tacit Knowledge Compilation is the process of turning undocumented conversational knowledge into structured, reusable artifacts that can participate in search, synthesis, and long-term organizational memory.
   Tacit Knowledge Compilation 指的是把未文档化的对话型知识转化为结构化、可复用产物的过程，使其能够参与搜索、综合分析和长期组织记忆。

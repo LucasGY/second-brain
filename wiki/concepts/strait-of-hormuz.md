@@ -39,7 +39,7 @@ The Strait of Hormuz is one of the world's most critical maritime chokepoints, c
 
 相关实体
 
-- [[Iran]]
+- [[iran|Iran]]
 - [[United States]]
 
 ## Sources

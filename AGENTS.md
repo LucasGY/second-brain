@@ -22,12 +22,21 @@ Your goal is to transform raw, immutable source documents into a highly structur
 - You can format the Chinese translation in italic or blockquotes to visually separate it from the English text if it improves readability.
 - **Wikilinks:** Keep the actual file names of the wikilinks in English to maintain graph integrity, but you can translate the display text. Example: `[[OpenAI_o3|OpenAI o3 模型]]`.
 
+## 3.1 Canonical Naming Rule (`slug`)
+- Every wiki page MUST have a stable canonical file identifier called a `slug`.
+- A `slug` is the normalized file stem used for filenames and wikilink targets. It should usually be lowercase, use hyphens instead of spaces, and remove unstable punctuation where practical.
+- Examples:
+  - `WeChat CLI` -> `wechat-cli`
+  - `LLM Wiki` -> `llm-wiki`
+  - `Andy Jassy` -> `andy-jassy`
+- The page `title` is the human-readable name shown to readers. The `slug` is the machine-stable identifier used for linking.
+- When readable names contain spaces, capitalization, or punctuation, always use canonical piped wikilinks in this form:
+  - `[[wechat-cli|WeChat CLI]]`
+  - `[[llm-wiki|LLM Wiki]]`
+- Do NOT rely on plain `[[Readable Name]]` links unless the readable name exactly matches the filename stem.
+- Use `aliases` in YAML for alternate spellings, abbreviations, and prior names, but do not use aliases as the canonical target when writing new links.
+
 ## 4. Core Workflow: INGEST
-
-* **To Create or Update index page:** Before writing the file, READ `wiki/schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
-* **To Create or Update log page:** Before writing the file, READ `wiki/schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
-
-
 When the user asks you to "ingest" or "process" a new file from the `raw/` directory, you MUST strictly follow this exact sequence:
 
 ### Step 0: Pre-flight & Idempotency Check
@@ -53,7 +62,7 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
 - **Append Knowledge:** Add a concise bullet point. 
   - For Inbox sources: Update definitions or core mechanisms.
   - For Feed sources: Append to the "Timeline" or "Latest Developments" section.
-- **Wikilinks:** You MUST use Obsidian wikilinks `[[Page Name]]`. Every update must cite the new source page `[[YYYY-MM-DD-short-title]]`.
+- **Wikilinks:** You MUST use Obsidian wikilinks with canonical slug targets. Prefer `[[slug|Readable Name]]`, and cite new source pages with their canonical source-page slug as the target.
 
 ### Step 4: Contradiction Flagging (CRITICAL)
 - If a claim conflicts with existing knowledge in the wiki, you MUST NOT silently overwrite the old data.
@@ -61,9 +70,10 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
   `> [!IMPORTANT] CONTRADICTION: [Brief explanation of conflict]. Source A claims X, but [[YYYY-MM-DD-New-Source]] claims Y.`
 
 ### Step 5: Bookkeeping (Performance Optimized)
-- **Update `index.md`:** Append the new source page to the sources list. Add newly created entities/concepts to their sections.
+- **Update `index.md`:** Append the new source page to the sources list. Add newly created entities/concepts to their sections. READ `wiki/schema/INDEX_STANDARDS.md` to ensure correct YAML and headings.
 - **Update `log.md`:** APPEND (do not rewrite the whole file) a single line at the bottom:
   `## [YYYY-MM-DD] ingest | [Title of Source] | Touched: [[Entity 1]], [[Concept 2]]`
+  READ `wiki/schema/LOG_STANDARDS.md` to ensure correct YAML and headings.
 
 ### Step 6: Human Review
 - Output a brief terminal summary detailing:
@@ -71,4 +81,3 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
   2. Pages created/updated.
   3. Contradictions found.
   4. Suggested follow-up questions or manual synthesis required.
-

@@ -25,6 +25,7 @@ Every concept page MUST contain these sections in this exact order:
 - Assume the reader is a senior algorithm engineer. Be technically precise but clear.
 - Explicitly document conflicting information or paradigm shifts (e.g., shifting consensus on chunk sizes in RAG).
 - Heavily use Obsidian wikilinks to connect to the specific `[[Entities]]` that implement this concept.
+- If the page filename is a normalized slug but the readable concept name contains spaces, case changes, or punctuation, use canonical piped links such as `[[llm-wiki|LLM Wiki]]` instead of relying on the rendered title text as the target.
 
 ## Update Rules
 - **Core Definition:** Update only when a major paradigm shift fundamentally changes what the concept means.

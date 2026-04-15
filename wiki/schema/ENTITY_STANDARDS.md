@@ -24,6 +24,7 @@ Every entity page MUST contain these sections in this order:
 - Preserve durable, reusable knowledge.
 - Prefer stable facts over transient chatter.
 - Use Obsidian wikilinks for related pages.
+- When a page filename is a normalized slug (for example `wechat-cli.md`) but the display name contains spaces, case changes, or punctuation (for example `WeChat CLI`), always write links in canonical form: `[[wechat-cli|WeChat CLI]]`.
 
 ## Update Rules
 - Add a recent development only if a source materially changes or enriches understanding of the entity.

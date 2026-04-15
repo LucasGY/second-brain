@@ -1,36 +1,36 @@
 ---
 type: entity
 title: "Andy Jassy"
-aliases: []
-tags: [entity, person, executive]
-first_seen: 2026-04-14
-last_updated: 2026-04-14
+aliases: ["Andrew R. Jassy"]
+tags: [entity, person, ai_tech]
+first_seen: 2026-04-15
+last_updated: 2026-04-15
 key_sources: ["Amazon CEO Andy Jassy's 2025 Letter to Shareholders"]
-summary_en: Andy Jassy is Amazon's CEO and an important management voice on long-term investment, cloud strategy, and AI-era reinvention.
-summary_zh: Andy Jassy 是亚马逊 CEO，也是本知识库中关于长期投资、云战略与 AI 时代重构的重要管理层声音。
+summary_en: Andy Jassy is Amazon's chief executive and is represented in this wiki as a strategic operator who emphasizes inflection-driven investment, parallel bets, and first-principles rebuilding.
+summary_zh: Andy Jassy 是 Amazon 的首席执行官；在本知识库里，他被呈现为一位强调拐点驱动投资、并行押注与第一性原理重建的战略操盘者。
 ---
 # Definition
-[[Andy Jassy]] is the President and CEO of [[Amazon]] and a key strategic narrator for how the company justifies large infrastructure bets, parallel experimentation, and long-term operating discipline.
-[[Andy Jassy]] 是 [[Amazon]] 的总裁兼首席执行官，也是解释公司为何进行大规模基础设施下注、并行实验与长期运营纪律的重要战略叙事者。
+[[andy-jassy|Andy Jassy]] is the chief executive voice behind Amazon's current operating doctrine, and this wiki uses his 2025 shareholder letter as a first-party articulation of how the company approaches AI, logistics, and large-scale strategic change.
+[[andy-jassy|Andy Jassy]] 是 Amazon 当前运营理念的首席表达者；本知识库把他的 2025 年股东信视为一手材料，用来理解 Amazon 如何处理 AI、物流以及大规模战略转向。
 
 ## Key Facts
-- Jassy previously helped build [[AWS]] into a foundational Amazon business.
-  Jassy 曾帮助将 [[AWS]] 建设成亚马逊的基础性业务。
-- His shareholder communications emphasize long-duration thinking, invention, and operational mechanisms.
-  他的股东沟通强调长期思维、发明能力和运营机制。
-- In this wiki, he matters primarily as a management source rather than as a standalone biographical subject.
-  在本知识库里，他的重要性主要体现在管理思想与战略表述，而非独立人物传记本身。
+- In this source, Jassy frames leadership as the ability to identify disproportionate inflections early and then invest hard enough to matter.
+  在这份来源中，Jassy 把领导力定义为：尽早识别非对称拐点，并以足够大的力度投入，真正产生影响。
+- He explicitly advocates multiple parallel paths when the best mechanism is unclear, rather than over-optimizing for neatness or premature certainty.
+  他明确主张：当最佳机制尚不清晰时，应同时推进多条路径，而不是过度追求整洁性或过早的确定性。
+- His examples show a bias toward restarting architectures when scaled products no longer match new technological realities. Source: [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+  他的案例体现出一种偏好：当已经规模化的产品不再适应新的技术现实，就愿意重启架构。来源：[[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Recent Developments
-- 2026-04-14: In Amazon's 2025 shareholder letter, Jassy articulates a management doctrine centered on non-linear progress, parallel bets, first-principles resets, and willingness to absorb short-term free-cash-flow pain for strategic AI positioning. Source: [[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
-  2026-04-14：在亚马逊 2025 年股东信中，Jassy 明确提出了一套管理方法论：接受非线性进展、并行下注、回到第一性原理重构产品，并愿意承受短期自由现金流压力来换取 AI 战略卡位。来源：[[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+- 2026-04-15: The 2025 shareholder letter positions Jassy not only as a financial narrator but as the architect of an operating philosophy built around AI-led reinvention, custom infrastructure leverage, and organizational speed under ambiguity. Source: [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+  2026-04-15：这封 2025 年股东信把 Jassy 呈现为不仅仅是财务叙述者，更是一个运营哲学的设计者：围绕 AI 驱动重塑、自研基础设施杠杆，以及在不确定性中保持组织速度。来源：[[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Source Mentions
-- [[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+- [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Relationships
 ### Related Entities
-[[Amazon]], [[AWS]]
+[[amazon|Amazon]], [[aws|AWS]]
 
 ### Related Concepts
-[[Parallel Path Experimentation]]
+[[inflection-management|Inflection Management]]

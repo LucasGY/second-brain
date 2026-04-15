@@ -1,36 +1,36 @@
 ---
 type: entity
-title: "AWS"
-aliases: ["Amazon Web Services"]
-tags: [entity, cloud, ai_infrastructure]
-first_seen: 2026-04-14
-last_updated: 2026-04-14
+title: "Amazon Web Services"
+aliases: ["AWS"]
+tags: [entity, ai_tech, company]
+first_seen: 2026-04-15
+last_updated: 2026-04-15
 key_sources: ["Amazon CEO Andy Jassy's 2025 Letter to Shareholders"]
-summary_en: AWS is Amazon's cloud platform and the primary vehicle for the company's AI infrastructure and enterprise compute strategy.
-summary_zh: AWS 是亚马逊的云平台，也是公司 AI 基础设施与企业算力战略的主要承载体。
+summary_en: Amazon Web Services is Amazon's cloud platform and, in this wiki, the main infrastructure layer through which Amazon is pursuing AI growth, custom silicon leverage, and large-scale enterprise workloads.
+summary_zh: Amazon Web Services 是 Amazon 的云平台；在本知识库里，它是 Amazon 追求 AI 增长、自研芯片杠杆与大规模企业工作负载的核心基础设施层。
 ---
 # Definition
-[[AWS]] is Amazon's cloud computing platform, positioned here as both a mature hyperscale business and the main execution surface for Amazon's next wave of AI infrastructure investment.
-[[AWS]] 是亚马逊的云计算平台；在这里它既是一个成熟的超大规模业务，也是亚马逊下一波 AI 基础设施投资的主要落地点。
+[[aws|AWS]] is Amazon's cloud infrastructure platform, and the current wiki state treats it as the core engine through which Amazon is monetizing AI demand, deploying custom chips, and linking data, security, and compute into a defensible systems advantage.
+[[aws|AWS]] 是 Amazon 的云基础设施平台；当前知识库把它视为 Amazon 兑现 AI 需求、部署自研芯片，并将数据、安全与算力连接成系统性护城河的核心引擎。
 
 ## Key Facts
-- AWS bundles compute, storage, databases, security, and AI services into a broad enterprise platform.
-  AWS 将计算、存储、数据库、安全与 AI 服务整合为一个广泛的企业平台。
-- Its economics are heavily shaped by supply planning, datacenter buildout, and utilization over multi-year horizons.
-  它的经济模型高度受制于供给规划、数据中心建设以及跨多年周期的产能利用率。
-- Amazon's shareholder messaging frames AWS as both a current profit engine and a launchpad for larger AI-era businesses.
-  亚马逊在股东沟通中把 AWS 同时定义为当前利润引擎和更大 AI 时代业务的起飞平台。
+- The letter presents AWS as being in the middle of the enterprise AI land rush, with customer demand strong enough that power and capacity remain constraints.
+  这封信把 AWS 描述为正处于企业级 AI 淘金潮的中心位置，客户需求之强，以至于电力与产能依然是主要约束。
+- AWS's strategic advantage is described as a bundle rather than a single service: model building, inference, agent tooling, adjacent data gravity, security, and operational performance.
+  文中把 AWS 的战略优势描述为一个能力组合，而不是单一服务：包括模型构建、推理、agent 工具、邻近数据重力、安全性与运营性能。
+- Custom silicon such as Graviton and Trainium is framed as an economic and architectural differentiator for AWS, not merely an internal optimization. Source: [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+  文中把 Graviton 与 Trainium 等自研芯片视为 AWS 的经济性与架构性差异化因素，而不只是内部优化。来源：[[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Recent Developments
-- 2026-04-14: Amazon states that AWS demand exceeds available capacity, argues that large pre-committed customer demand supports aggressive AI capex, and positions AWS as the preferred environment for customers building AI systems. Source: [[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
-  2026-04-14：亚马逊表示 AWS 的需求超过现有供给，认为大客户的前置承诺支撑了激进的 AI 资本开支，并将 AWS 定位为客户构建 AI 系统的首选环境。来源：[[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+- 2026-04-15: The 2025 shareholder letter updates AWS from a general cloud provider to a more vertically integrated AI platform, where power buildout, custom chips, and services such as Bedrock are increasingly coupled into one growth system. Source: [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+  2026-04-15：2025 年股东信把 AWS 从“通用云服务商”的形象进一步推进为“垂直整合的 AI 平台”，其中电力扩张、自研芯片与 Bedrock 等服务正越来越紧密地耦合成一个增长系统。来源：[[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Source Mentions
-- [[Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
+- [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 
 ## Relationships
 ### Related Entities
-[[Amazon]], [[Andy Jassy]]
+[[amazon|Amazon]], [[amazon-bedrock|Amazon Bedrock]], [[andy-jassy|Andy Jassy]]
 
 ### Related Concepts
-[[Parallel Path Experimentation]]
+[[inflection-management|Inflection Management]]

@@ -5,14 +5,14 @@ authors: ["AI作弊码"]
 source_url: "https://mp.weixin.qq.com/s/da5eWSbyg2hxG7DoahaR6Q"
 source_path: "raw/manual/wechat/2026-04-11-Wechat-Cli：将微信聊天记录导入 Karpathy 的 LLM Wiki.md"
 tags: [source, manual, ai_tech, tooling]
-summary_en: The article presents a local-first workflow that extracts WeChat chat history with [[WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[LLM Wiki]] and graph-based knowledge layer through [[Graphify]].
-summary_zh: 这篇文章提出了一条本地优先的工作流：先用 [[WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[Graphify]] 把原本隐藏的团队讨论编译进 [[LLM Wiki]] 与图谱化知识层。
+summary_en: The article presents a local-first workflow that extracts WeChat chat history with [[wechat-cli|WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[llm-wiki|LLM Wiki]] and graph-based knowledge layer through [[graphify|Graphify]].
+summary_zh: 这篇文章提出了一条本地优先的工作流：先用 [[wechat-cli|WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[graphify|Graphify]] 把原本隐藏的团队讨论编译进 [[llm-wiki|LLM Wiki]] 与图谱化知识层。
 ---
 # Wechat-Cli：将微信聊天记录导入 Karpathy 的 LLM Wiki
 
 ## 📌 TL;DR
-This article argues that high-value team decisions are often trapped inside private chat logs, and that a local-first toolchain of [[WeChat CLI]] plus [[Graphify]] can convert that tacit discussion into structured Markdown, knowledge graphs, and a maintainable [[LLM Wiki]].
-这篇文章认为，高价值的团队决策经常被困在私有聊天记录里，而由 [[WeChat CLI]] 与 [[Graphify]] 组成的本地优先工具链，可以把这些暗知识转成结构化 Markdown、知识图谱以及可维护的 [[LLM Wiki]]。
+This article argues that high-value team decisions are often trapped inside private chat logs, and that a local-first toolchain of [[wechat-cli|WeChat CLI]] plus [[graphify|Graphify]] can convert that tacit discussion into structured Markdown, knowledge graphs, and a maintainable [[llm-wiki|LLM Wiki]].
+这篇文章认为，高价值的团队决策经常被困在私有聊天记录里，而由 [[wechat-cli|WeChat CLI]] 与 [[graphify|Graphify]] 组成的本地优先工具链，可以把这些暗知识转成结构化 Markdown、知识图谱以及可维护的 [[llm-wiki|LLM Wiki]]。
 
 ## 🎯 Primary Use Case
 The primary use case is turning WeChat group chats from inaccessible encrypted storage into reusable knowledge artifacts for search, synthesis, and ongoing team memory.
@@ -71,8 +71,8 @@ The workflow is optimized for personal learning or internal retrospectives, not 
 这条流程更适合个人学习或团队内部复盘，而不适合在没有法律与社交层面许可的前提下，无限制归档群聊内容。
 
 ## 🕸️ Knowledge Graph
-**Extracted Entities:** [[WeChat CLI]], [[Graphify]]
-**提取出的实体：** [[WeChat CLI]], [[Graphify]]
+**Extracted Entities:** [[wechat-cli|WeChat CLI]], [[graphify|Graphify]]
+**提取出的实体：** [[wechat-cli|WeChat CLI]], [[graphify|Graphify]]
 
-**Related Concepts:** [[LLM Wiki]], [[Tacit Knowledge Compilation]]
-**相关概念：** [[LLM Wiki]], [[Tacit Knowledge Compilation]]
+**Related Concepts:** [[llm-wiki|LLM Wiki]], [[tacit-knowledge-compilation|Tacit Knowledge Compilation]]
+**相关概念：** [[llm-wiki|LLM Wiki]], [[tacit-knowledge-compilation|Tacit Knowledge Compilation]]
