@@ -16,6 +16,9 @@ _暂无页面。_
 
 _来源_
 
+- [Lessons from the Five Innovation Waves That Preceded AI](sources/20260415_manual_nvidia_five_innovation_waves.md)
+  NVIDIA traces AI's emergence to five prior technology waves—PC, Internet, Mobile Cloud, Deep Learning, and Accelerated Computing—arguing that each wave built upon the last, and that understanding these patterns helps predict AI's trajectory toward trillion-dollar markets.
+  NVIDIA 通过梳理 AI 出现之前的五次技术浪潮——PC、互联网、移动云、深度学习和加速计算——认为每一次浪潮都建立在前者的基础之上，理解这些模式有助于预测 AI 向万亿美元市场的演进轨迹。
 - [Amazon CEO Andy Jassy's 2025 Letter to Shareholders](sources/20260415_manual_amazon_andy_jassy_shareholder_letter.md)
   Andy Jassy's 2025 shareholder letter frames [[amazon|Amazon]] as a company that wins by inventing into major inflections, running parallel bets, and rebuilding products such as [[amazon-bedrock|Amazon Bedrock]] and Alexa around AI even at the cost of short-term cash flow pressure.
   Andy Jassy 的 2025 年股东信把 [[amazon|Amazon]] 描述为一家通过押注重大拐点、并行推进多条路径，并围绕 AI 重建 [[amazon-bedrock|Amazon Bedrock]] 与 Alexa 等产品来取胜的公司，即使这会带来短期现金流压力。
@@ -34,6 +37,9 @@ _来源_
 
 _实体_
 
+- [NVIDIA](entities/nvidia.md)
+  NVIDIA is a leading semiconductor company that has strategically positioned itself at the intersection of gaming, professional visualization, data center, and AI markets. Its CUDA ecosystem became the foundational platform for AI development in the 2010s.
+  NVIDIA 是一家领先的半导体公司，战略性地位于游戏、专业可视化、数据中心和 AI 市场的交汇点。其 CUDA 生态系统在 2010 年代成为 AI 开发的基础平台。
 - [Anthropic](entities/anthropic.md)
   Anthropic is an AI safety company and leading AI research laboratory that developed the Claude family of foundation models. In April 2026, they launched Claude Managed Agents, marking a strategic shift from providing model APIs to offering a complete managed agent runtime.
   Anthropic 是一家 AI 安全公司，也是开发 Claude 系列基础模型的领先 AI 研究实验室。2026年4月，他们发布了 Claude Managed Agents，标志着从提供模型 API 向提供完整托管 Agent 运行时的战略转变。
@@ -57,6 +63,12 @@ _实体_
 
 _概念_
 
+- [Innovation Waves](concepts/innovation-waves.md)
+  Innovation Waves refer to the historical pattern of distinct technological paradigm shifts that reshape industries, create new markets, and fundamentally alter competitive dynamics. NVIDIA identifies five waves: PC, Internet, Mobile Cloud, Deep Learning, and Accelerated Computing.
+  Innovation Waves（技术浪潮）指独特的技术范式转变的历史模式，这些转变重塑行业、创造新市场并从根本上改变竞争格局。NVIDIA 识别出五次浪潮：PC、互联网、移动云、深度学习和加速计算。
+- [Platform Shifts](concepts/platform-shifts.md)
+  Platform Shifts occur when a dominant technology platform is replaced by a new paradigm. These shifts favor builders who adopt new tools early, while incumbents often struggle to adapt.
+  Platform Shifts（平台转移）发生在主导技术平台被新范式取代时。这些转移有利于早期采用新工具的构建者，而现有企业往往难以适应。
 - [Harness Engineering](concepts/harness-engineering.md)
   Harness Engineering is the discipline of designing the infrastructure layer that surrounds AI models—the formula is Agent = Model + Harness. It encompasses system prompts, tools, sandbox, orchestration logic, checkpoints, and permission scoping.
   Harness Engineering 是设计围绕 AI 模型的基础设施层的学科——公式是 Agent = Model + Harness。它包含系统提示词、工具、沙箱、编排逻辑、检查点和权限作用域。
