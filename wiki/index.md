@@ -16,6 +16,42 @@ _暂无页面。_
 
 _来源_
 
+- [Meta Strategic Focus Areas](sources/20251030_manual_meta_strategic_focus.md)
+  This Meta-authored strategic document outlines five key focus areas: AI-powered ads, Llama ecosystem, Reality Labs, and organizational resilience.
+  Meta 官方战略文件概述了五个关键重点领域：AI 驱动广告、Llama 生态系统、Reality Labs 和组织韧性。
+- [Goldman Sachs TMT Meta Update](sources/20251030_manual_gs_tmt_meta.md)
+  Goldman Sachs provides a comparative analysis of major internet platforms' AI strategies, positioning Meta as a "buy the dip" opportunity.
+  Goldman Sachs 提供了主要互联网平台 AI 战略的比较分析，将 Meta 定位为"逢低买入"机会。
+- [TD Cowen 3Q Review](sources/20251030_manual_td_cowen_meta_3q.md)
+  TD Cowen views Meta's 3Q results as solid but warns that aggressive AI infrastructure spending creates a "show me" dynamic for AI ROI.
+  TD Cowen 认为 Meta 的 3Q 业绩稳健，但警告激进的 AI 基础设施投入创造了"向我证明"的 AI ROI 动态。
+- [UBS Meta: Ad Engine Delivering Mid-Term Revenue Growth](sources/20251030_manual_ubs_meta_25q4.md)
+  UBS sees Meta's AI-powered ad engine as the primary driver of mid-term revenue growth.
+  UBS 认为 Meta 的 AI 广告引擎是中期收入增长的主要驱动力。
+- [BofA Meta: AI Opportunity Worth the Wait](sources/20251030_manual_bofa_meta_25q4.md)
+  Bank of America views Meta as a compelling AI play despite near-term margin pressure.
+  Bank of America 认为，尽管短期内面临利润率压力，Meta 仍是一个引人注目的 AI 投资标的。
+- [JPMorgan Capex Analysis](sources/20251030_manual_jpmorgan_meta_capex.md)
+  JP Morgan views elevated Capex as structural necessity but cautions about near-term free cash flow pressure.
+  JP Morgan 将高资本支出视为结构性必要条件，但警告近期的自由现金流压力。
+- [Deutsche Bank: Bigger Bill for Bigger Ambitions](sources/20251030_manual_deutsche_bank_meta_bigger_bill.md)
+  Deutsche Bank questions whether Meta's higher spending will translate into proportionally bigger returns.
+  Deutsche Bank 质疑 Meta 的更高支出能否获得与其投资规模相称的回报。
+- [Barclays: Core Ads Ripping](sources/20251030_manual_barclays_meta_core_ads.md)
+  Barclays maintains positive view on core advertising but flags Opex and Capex growth limiting margin expansion.
+  Barclays 对核心广告保持乐观，但指出运营支出和资本支出增长限制了利润率扩张。
+- [Morgan Stanley Meta 25Q4财报后](sources/20251030_manual_morgan_stanley_meta_25q4.md)
+  Morgan Stanley看好Meta的AI广告变现路径，但提醒投资者关注运营杠杆收窄和竞争加剧的潜在风险。
+  Morgan Stanley is positive on Meta's AI ad monetization trajectory but warns investors to monitor narrowing operating leverage and intensifying competitive pressures.
+- [JPM Meta 25Q4财报后](sources/20251030_manual_jpmorgan_meta_25q4.md)
+  JP Morgan强调Meta Capex持续攀升的风险，但认可其AI驱动的收入增长潜力，维持中性至谨慎乐观立场。
+  JP Morgan emphasizes Meta's elevated Capex trajectory as a risk factor while acknowledging AI-driven revenue growth potential.
+- [德银 Meta 25Q4财报后](sources/20251030_manual_deutsche_bank_meta_25q4.md)
+  Deutsche Bank认可Meta的AI战略布局，看好Llama开源生态和AI广告优化的长期价值，但提醒投资者关注竞争加剧和监管风险。
+  Deutsche Bank acknowledges Meta's AI strategy, particularly the Llama open-source ecosystem and long-term value of AI ad optimization.
+- [Barclays Meta 25Q4财报后](sources/20251030_manual_barclays_meta_25q4.md)
+  Barclays维持对Meta的增持评级，看好核心广告业务强劲增长，同时关注运营支出攀升和AI基础设施投资对利润率的影响。
+  Barclays maintains an Overweight rating on Meta, citing strong core advertising growth while monitoring rising operating expenses and AI infrastructure investments.
 - [Lessons from the Five Innovation Waves That Preceded AI](sources/20260415_manual_nvidia_five_innovation_waves.md)
   NVIDIA traces AI's emergence to five prior technology waves—PC, Internet, Mobile Cloud, Deep Learning, and Accelerated Computing—arguing that each wave built upon the last, and that understanding these patterns helps predict AI's trajectory toward trillion-dollar markets.
   NVIDIA 通过梳理 AI 出现之前的五次技术浪潮——PC、互联网、移动云、深度学习和加速计算——认为每一次浪潮都建立在前者的基础之上，理解这些模式有助于预测 AI 向万亿美元市场的演进轨迹。
@@ -37,6 +73,9 @@ _来源_
 
 _实体_
 
+- [Meta](entities/meta.md)
+  Meta (formerly Facebook) is a global social media company operating Facebook, Instagram, WhatsApp, and Threads. Strategic focus includes AI-driven advertising optimization, the Llama open-source ecosystem, and emerging monetization in short-form video.
+  Meta（前身为 Facebook）是一家全球社交媒体公司，运营 Facebook、Instagram、WhatsApp 和 Threads。战略重点包括 AI 驱动的广告优化、Llama 开源生态系统，以及短视频变现新机遇。
 - [NVIDIA](entities/nvidia.md)
   NVIDIA is a leading semiconductor company that has strategically positioned itself at the intersection of gaming, professional visualization, data center, and AI markets. Its CUDA ecosystem became the foundational platform for AI development in the 2010s.
   NVIDIA 是一家领先的半导体公司，战略性地位于游戏、专业可视化、数据中心和 AI 市场的交汇点。其 CUDA 生态系统在 2010 年代成为 AI 开发的基础平台。
@@ -83,8 +122,9 @@ _概念_
 
 _分析_
 
-_No pages yet._
-_暂无页面。_
+- [Meta AI Investment Thesis: Buy-Side Analyst Synthesis](analyses/20260415_analysis_meta_ai_investment_thesis.md)
+  基于 8 篇投行研报的交叉验证与独立判断。核心结论：信息增量有限，情绪放大为主；不存在显著预期差；建议等待更好的买入时机。
+  Based on cross-validation of 8 broker research reports. Core conclusion: Limited marginal information, mainly sentiment amplification; no significant expectation gap; recommend waiting for better entry points.
 
 ## Syntheses
 
