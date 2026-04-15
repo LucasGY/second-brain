@@ -32,7 +32,8 @@ if ! openclaw cron list --json | grep -q '"name": "second-brain-podcast-rss-sync
   openclaw cron add \
     --name "second-brain-podcast-rss-sync" \
     --description "Sync only podcast feeds from rss.md into second-brain/raw/feeds/podcast." \
-    --every 2h \
+    --cron "0 1 * * *" \
+    --tz "Asia/Shanghai" \
     --session isolated \
     --light-context \
     --expect-final \
