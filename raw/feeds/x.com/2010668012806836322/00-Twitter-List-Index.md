@@ -1,10 +1,17 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-15T02:46:27.752Z
+Retrieved: 2026-04-15T03:50:05.088Z
 
-## Tweets (325)
+## Tweets (332)
 
+- [PRESIDENT TRUMP: “NATO wasn’t there for us, and they won’t b...](2026-04-15-The Kobeissi Letter-2044260524175532277.md) — @The Kobeissi Letter, 2026-04-15 03:44
+- [美联储新主席沃什真的很懂加密投资么？昨天下一任美联储主席提名人沃什向国会披露了个人的财务状况，其作为LP一些基金和VC机...](2026-04-15-qinbafrank-2044257552565956624.md) — @qinbafrank, 2026-04-15 03:32
+- [Chinese and North American gold investors have reacted diffe...](2026-04-15-The Kobeissi Letter-2044253643856327146.md) — @The Kobeissi Letter, 2026-04-15 03:17
+- [X平台的Cashtags功能终于上线，平台上能展示实时金融数据，还能无缝交易股票及代币。前两天Nikita说加密货币今年...](2026-04-15-qinbafrank-2044230501230371307.md) — @qinbafrank, 2026-04-15 01:45
+- [SEC昨天正式批准取消“Pattern Day Trader（PDT）规则”也就是那个著名的“账户必须维持至少25,00...](2026-04-15-qinbafrank-2044227063503302913.md) — @qinbafrank, 2026-04-15 01:31
+- [5 of Tuesday's best charts and insights: https://www.dailych...](2026-04-15-Daily Chartbook-2044226384390697191.md) — @Daily Chartbook, 2026-04-15 01:28
+- [今年美股，特别科技股，最大的威胁应该是两家大模型和SPACE X的上市，会对市场非常严重地吸血，因为体量太大了。除此以外...](2026-04-15-投资TALK君-2044223190071955578.md) — @投资TALK君, 2026-04-15 01:16
 - [The US housing market is weakening heading into the spring s...](2026-04-15-The Kobeissi Letter-2044221832149016882.md) — @The Kobeissi Letter, 2026-04-15 01:10
 - [没有一次不是这样的，因为fear sells，这就是为啥主流媒体喜欢散布恐慌，标题越惊悚，点击率越高。市场越差，流量越好...](2026-04-15-投资TALK君-2044218403288744434.md) — @投资TALK君, 2026-04-15 00:57
 - [美股进入财报季，之前有聊到这一次财报季最重要最核心的就是验证一季度火热的AI代理热潮是不是能带动云厂商业务的火爆，毕竟算...](2026-04-15-qinbafrank-2044209665152790631.md) — @qinbafrank, 2026-04-15 00:22
