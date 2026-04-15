@@ -19,6 +19,9 @@ _来源_
 - [Amazon CEO Andy Jassy's 2025 Letter to Shareholders](sources/20260414_manual_amazon_andy_jassy_2025_shareholder_letter.md)
   Amazon argues that long-term advantage comes from inventing new inflections, funding parallel bets early, and accepting short-term free-cash-flow pressure to build AI-scale infrastructure ahead of demand.
   亚马逊认为，长期优势来自主动发明新拐点、提前布局并行下注，并接受短期自由现金流压力以抢先建设面向 AI 规模化需求的基础设施。
+- [Wechat-Cli：将微信聊天记录导入 Karpathy 的 LLM Wiki](sources/20260415_manual_wechat_cli_wechat_to_llm_wiki.md)
+  The article presents a local-first workflow that extracts WeChat chat history with [[WeChat CLI]], exports it as Markdown, and compiles previously hidden team discussion into an [[LLM Wiki]] and graph-based knowledge layer through [[Graphify]].
+  这篇文章提出了一条本地优先的工作流：先用 [[WeChat CLI]] 提取微信聊天记录并导出为 Markdown，再通过 [[Graphify]] 把原本隐藏的团队讨论编译进 [[LLM Wiki]] 与图谱化知识层。
 
 ## Entities
 
@@ -33,14 +36,26 @@ _实体_
 - [AWS](entities/aws.md)
   AWS is Amazon's cloud platform and the primary vehicle for the company's AI infrastructure and enterprise compute strategy.
   AWS 是亚马逊的云平台，也是公司 AI 基础设施与企业算力战略的主要承载体。
+- [Graphify](entities/graphify.md)
+  Graphify is presented here as an AI-assistant skill that converts Markdown-based conversational data into an interactive knowledge graph and related analytical artifacts.
+  在当前知识库里，Graphify 被呈现为一种 AI 助手 skill，用于把基于 Markdown 的对话数据转换成可交互的知识图谱及相关分析产物。
+- [WeChat CLI](entities/wechat-cli.md)
+  WeChat CLI is a local command-line tool that extracts and queries WeChat chat data from a user's own device, then exports it into formats suitable for downstream LLM and wiki workflows.
+  WeChat CLI 是一个本地命令行工具，用于从用户自己的设备提取并查询微信聊天数据，再导出成适合下游 LLM 和 wiki 工作流消费的格式。
 
 ## Concepts
 
 _概念_
 
+- [LLM Wiki](concepts/llm-wiki.md)
+  LLM Wiki is a pattern in which an LLM compiles raw material into a maintained, interlinked markdown knowledge base rather than re-deriving answers from source chunks on every query.
+  LLM Wiki 是一种模式：让 LLM 把原始材料编译成持续维护、相互链接的 Markdown 知识库，而不是在每次提问时都从原始片段重新推导答案。
 - [Parallel Path Experimentation](concepts/parallel-path-experimentation.md)
   Parallel Path Experimentation is a strategy of pursuing multiple complementary approaches at once when the desired future state is uncertain and waiting would be more costly than imperfect parallel execution.
   Parallel Path Experimentation 指的是在目标未来状态尚不确定时，同时推进多条互补路径的一种策略，因为等待往往比不完美地并行执行更昂贵。
+- [Tacit Knowledge Compilation](concepts/tacit-knowledge-compilation.md)
+  Tacit Knowledge Compilation is the process of turning undocumented conversational knowledge into structured, reusable artifacts that can participate in search, synthesis, and long-term organizational memory.
+  Tacit Knowledge Compilation 指的是把未文档化的对话型知识转化为结构化、可复用产物的过程，使其能够参与搜索、综合分析和长期组织记忆。
 
 ## Analyses
 
