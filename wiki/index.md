@@ -43,14 +43,6 @@ _实体_
 - [Andy Jassy](entities/andy-jassy.md)
   Andy Jassy is Amazon's chief executive and is represented in this wiki as a strategic operator who emphasizes inflection-driven investment, parallel bets, and first-principles rebuilding.
   Andy Jassy 是 Amazon 的首席执行官；在本知识库里，他被呈现为一位强调拐点驱动投资、并行押注与第一性原理重建的战略操盘者。
-- [Graphify](entities/graphify.md)
-  Graphify is presented here as an AI-assistant skill that converts Markdown-based conversational data into an interactive knowledge graph and related analytical artifacts.
-  在当前知识库里，Graphify 被呈现为一种 AI 助手 skill，用于把基于 Markdown 的对话数据转换成可交互的知识图谱及相关分析产物。
-- [Iran](entities/iran.md)
-  Iran is a key geopolitical actor in the Middle East, playing a critical role in global energy markets through its strategic proximity to the Strait of Hormuz. The country has been subject to extensive international sanctions and maintains ongoing tensions with the United States, while also possessing significant oil and natural gas reserves.
-- [WeChat CLI](entities/wechat-cli.md)
-  WeChat CLI is a local command-line tool that extracts and queries WeChat chat data from a user's own device, then exports it into formats suitable for downstream LLM and wiki workflows.
-  WeChat CLI 是一个本地命令行工具，用于从用户自己的设备提取并查询微信聊天数据，再导出成适合下游 LLM 和 wiki 工作流消费的格式。
 
 ## Concepts
 
@@ -59,14 +51,6 @@ _概念_
 - [Inflection Management](concepts/inflection-management.md)
   Inflection Management is the strategic pattern of identifying major technological or market shifts early, investing ahead of certainty, and coordinating parallel bets plus architectural resets to capture outsized upside.
   Inflection Management 是一种战略模式：及早识别重大的技术或市场拐点，在确定性到来之前先行投资，并通过并行押注与架构重置来捕捉超额上行。
-- [LLM Wiki](concepts/llm-wiki.md)
-  LLM Wiki is a pattern in which an LLM compiles raw material into a maintained, interlinked markdown knowledge base rather than re-deriving answers from source chunks on every query.
-  LLM Wiki 是一种模式：让 LLM 把原始材料编译成持续维护、相互链接的 Markdown 知识库，而不是在每次提问时都从原始片段重新推导答案。
-- [Strait of Hormuz](concepts/strait-of-hormuz.md)
-  霍尔木兹海峡
-- [Tacit Knowledge Compilation](concepts/tacit-knowledge-compilation.md)
-  Tacit Knowledge Compilation is the process of turning undocumented conversational knowledge into structured, reusable artifacts that can participate in search, synthesis, and long-term organizational memory.
-  Tacit Knowledge Compilation 指的是把未文档化的对话型知识转化为结构化、可复用产物的过程，使其能够参与搜索、综合分析和长期组织记忆。
 
 ## Analyses
 
