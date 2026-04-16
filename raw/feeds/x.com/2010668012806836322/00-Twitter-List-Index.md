@@ -1,10 +1,16 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-15T23:06:31.241Z
+Retrieved: 2026-04-16T00:06:42.883Z
 
-## Tweets (377)
+## Tweets (383)
 
+- [2026-04-15-The Kobeissi Letter-2044553696042778892](2026-04-15-The Kobeissi Letter-2044553696042778892.md) — @The Kobeissi Letter, 2026-04-15 23:09
+- [2026-04-15-SemiAnalysis-2044551571707482407](2026-04-15-SemiAnalysis-2044551571707482407.md) — @SemiAnalysis, 2026-04-15 23:00
+- [2026-04-15-3X Long Labubu-2044547835866284341](2026-04-15-3X Long Labubu-2044547835866284341.md) — @3X Long Labubu, 2026-04-15 22:46
+- [2026-04-15-The Kobeissi Letter-2044530846619623460](2026-04-15-The Kobeissi Letter-2044530846619623460.md) — @The Kobeissi Letter, 2026-04-15 21:38
+- [2026-04-15-The Kobeissi Letter-2044528265876885960](2026-04-15-The Kobeissi Letter-2044528265876885960.md) — @The Kobeissi Letter, 2026-04-15 21:28
+- [2026-04-15-3X Long Labubu-2044524522846765304](2026-04-15-3X Long Labubu-2044524522846765304.md) — @3X Long Labubu, 2026-04-15 21:13
 - [2026-04-15-The Kobeissi Letter-2044507788961894462](2026-04-15-The Kobeissi Letter-2044507788961894462.md) — @The Kobeissi Letter, 2026-04-15 20:06
 - [2026-04-15-The Kobeissi Letter-2044499214634201094](2026-04-15-The Kobeissi Letter-2044499214634201094.md) — @The Kobeissi Letter, 2026-04-15 19:32
 - [2026-04-15-Prospero.ai-2044491082311078169](2026-04-15-Prospero.ai-2044491082311078169.md) — @Prospero.ai, 2026-04-15 19:00
