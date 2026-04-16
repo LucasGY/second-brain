@@ -1,10 +1,19 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-16T09:06:57.699Z
+Retrieved: 2026-04-16T14:06:37.209Z
 
-## Tweets (405)
+## Tweets (415)
 
+- [2026-04-16-The Kobeissi Letter-2044774426885943693](2026-04-16-The Kobeissi Letter-2044774426885943693.md) — @The Kobeissi Letter, 2026-04-16 13:46
+- [2026-04-16-SemiAnalysis-2044763196716720204](2026-04-16-SemiAnalysis-2044763196716720204.md) — @SemiAnalysis, 2026-04-16 13:01
+- [2026-04-16-qinbafrank-2044758715967156502](2026-04-16-qinbafrank-2044758715967156502.md) — @qinbafrank, 2026-04-16 12:44
+- [2026-04-16-The Kobeissi Letter-2044758608928293254](2026-04-16-The Kobeissi Letter-2044758608928293254.md) — @The Kobeissi Letter, 2026-04-16 12:43
+- [2026-04-16-Daily Chartbook-2044739445128114638](2026-04-16-Daily Chartbook-2044739445128114638.md) — @Daily Chartbook, 2026-04-16 11:27
+- [2026-04-16-Daily Chartbook-2044732873064722873](2026-04-16-Daily Chartbook-2044732873064722873.md) — @Daily Chartbook, 2026-04-16 11:01
+- [2026-04-16-Daily Chartbook-2044725071021834650](2026-04-16-Daily Chartbook-2044725071021834650.md) — @Daily Chartbook, 2026-04-16 10:30
+- [2026-04-16-Daily Chartbook-2044716441358778757](2026-04-16-Daily Chartbook-2044716441358778757.md) — @Daily Chartbook, 2026-04-16 09:56
+- [2026-04-16-Daily Chartbook-2044710395462467637](2026-04-16-Daily Chartbook-2044710395462467637.md) — @Daily Chartbook, 2026-04-16 09:32
 - [2026-04-16-Daily Chartbook-2044702667163812073](2026-04-16-Daily Chartbook-2044702667163812073.md) — @Daily Chartbook, 2026-04-16 09:01
 - [2026-04-16-Daily Chartbook-2044694664494645525](2026-04-16-Daily Chartbook-2044694664494645525.md) — @Daily Chartbook, 2026-04-16 08:29
 - [2026-04-16-Daily Chartbook-2044687587806204124](2026-04-16-Daily Chartbook-2044687587806204124.md) — @Daily Chartbook, 2026-04-16 08:01
@@ -74,6 +83,7 @@ Retrieved: 2026-04-16T09:06:57.699Z
 - [X平台的Cashtags功能终于上线，平台上能展示实时金融数据，还能无缝交易股票及代币。前两天Nikita说加密货币今年...](2026-04-15-qinbafrank-2044230501230371307.md) — @qinbafrank, 2026-04-15 01:45
 - [SEC昨天正式批准取消“Pattern Day Trader（PDT）规则”也就是那个著名的“账户必须维持至少25,00...](2026-04-15-qinbafrank-2044227063503302913.md) — @qinbafrank, 2026-04-15 01:31
 - [5 of Tuesday's best charts and insights: https://www.dailych...](2026-04-15-Daily Chartbook-2044226384390697191.md) — @Daily Chartbook, 2026-04-15 01:28
+- [2026-04-15-Daily Chartbook-2044388700428087742](2026-04-15-Daily Chartbook-2044388700428087742.md) — @Daily Chartbook, 2026-04-15 01:28
 - [今年美股，特别科技股，最大的威胁应该是两家大模型和SPACE X的上市，会对市场非常严重地吸血，因为体量太大了。除此以外...](2026-04-15-投资TALK君-2044223190071955578.md) — @投资TALK君, 2026-04-15 01:16
 - [The US housing market is weakening heading into the spring s...](2026-04-15-The Kobeissi Letter-2044221832149016882.md) — @The Kobeissi Letter, 2026-04-15 01:10
 - [没有一次不是这样的，因为fear sells，这就是为啥主流媒体喜欢散布恐慌，标题越惊悚，点击率越高。市场越差，流量越好...](2026-04-15-投资TALK君-2044218403288744434.md) — @投资TALK君, 2026-04-15 00:57
