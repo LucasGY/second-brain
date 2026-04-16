@@ -1,11 +1,19 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-16T15:06:33.109Z
+Retrieved: 2026-04-16T16:06:42.799Z
 
-## Tweets (415)
+## Tweets (427)
 
+- [2026-04-16-qinbafrank-2044809243153580057](2026-04-16-qinbafrank-2044809243153580057.md) — @qinbafrank, 2026-04-16 16:04
+- [2026-04-16-The Kobeissi Letter-2044807247948030296](2026-04-16-The Kobeissi Letter-2044807247948030296.md) — @The Kobeissi Letter, 2026-04-16 15:56
+- [2026-04-16-3X Long Labubu-2044805142353154418](2026-04-16-3X Long Labubu-2044805142353154418.md) — @3X Long Labubu, 2026-04-16 15:48
+- [2026-04-16-The Kobeissi Letter-2044802946622247056](2026-04-16-The Kobeissi Letter-2044802946622247056.md) — @The Kobeissi Letter, 2026-04-16 15:39
+- [2026-04-16-The Kobeissi Letter-2044795160454713776](2026-04-16-The Kobeissi Letter-2044795160454713776.md) — @The Kobeissi Letter, 2026-04-16 15:08
+- [2026-04-16-投资TALK君-2044790235490365444](2026-04-16-投资TALK君-2044790235490365444.md) — @投资TALK君, 2026-04-16 14:29
+- [2026-04-16-3X Long Labubu-2044782094346522914](2026-04-16-3X Long Labubu-2044782094346522914.md) — @3X Long Labubu, 2026-04-16 14:16
 - [2026-04-16-The Kobeissi Letter-2044774426885943693](2026-04-16-The Kobeissi Letter-2044774426885943693.md) — @The Kobeissi Letter, 2026-04-16 13:46
+- [2026-04-16-3X Long Labubu-2044781898896187665](2026-04-16-3X Long Labubu-2044781898896187665.md) — @3X Long Labubu, 2026-04-16 13:45
 - [2026-04-16-SemiAnalysis-2044763196716720204](2026-04-16-SemiAnalysis-2044763196716720204.md) — @SemiAnalysis, 2026-04-16 13:01
 - [2026-04-16-qinbafrank-2044758715967156502](2026-04-16-qinbafrank-2044758715967156502.md) — @qinbafrank, 2026-04-16 12:44
 - [2026-04-16-The Kobeissi Letter-2044758608928293254](2026-04-16-The Kobeissi Letter-2044758608928293254.md) — @The Kobeissi Letter, 2026-04-16 12:43
@@ -18,6 +26,7 @@ Retrieved: 2026-04-16T15:06:33.109Z
 - [2026-04-16-Daily Chartbook-2044694664494645525](2026-04-16-Daily Chartbook-2044694664494645525.md) — @Daily Chartbook, 2026-04-16 08:29
 - [2026-04-16-Daily Chartbook-2044687587806204124](2026-04-16-Daily Chartbook-2044687587806204124.md) — @Daily Chartbook, 2026-04-16 08:01
 - [2026-04-16-3X Long Labubu-2044637856027799952](2026-04-16-3X Long Labubu-2044637856027799952.md) — @3X Long Labubu, 2026-04-16 04:43
+- [2026-04-16-3X Long Labubu-2044807139039035538](2026-04-16-3X Long Labubu-2044807139039035538.md) — @3X Long Labubu, 2026-04-16 04:39
 - [2026-04-16-SemiAnalysis-2044629920035295307](2026-04-16-SemiAnalysis-2044629920035295307.md) — @SemiAnalysis, 2026-04-16 04:12
 - [2026-04-16-SemiAnalysis-2044626979127783746](2026-04-16-SemiAnalysis-2044626979127783746.md) — @SemiAnalysis, 2026-04-16 04:00
 - [2026-04-16-The Kobeissi Letter-2044619576017564009](2026-04-16-The Kobeissi Letter-2044619576017564009.md) — @The Kobeissi Letter, 2026-04-16 03:31
@@ -74,8 +83,11 @@ Retrieved: 2026-04-16T15:06:33.109Z
 - [2026-04-15-Daily Chartbook-2044347842970485092](2026-04-15-Daily Chartbook-2044347842970485092.md) — @Daily Chartbook, 2026-04-15 09:31
 - [2026-04-15-qinbafrank-2044341261877026960](2026-04-15-qinbafrank-2044341261877026960.md) — @qinbafrank, 2026-04-15 09:05
 - [2026-04-15-Daily Chartbook-2044340285291798851](2026-04-15-Daily Chartbook-2044340285291798851.md) — @Daily Chartbook, 2026-04-15 09:01
+- [2026-04-15-Daily Chartbook-2044482602598334694](2026-04-15-Daily Chartbook-2044482602598334694.md) — @Daily Chartbook, 2026-04-15 09:01
 - [2026-04-15-Daily Chartbook-2044332266164277280](2026-04-15-Daily Chartbook-2044332266164277280.md) — @Daily Chartbook, 2026-04-15 08:29
+- [2026-04-15-Daily Chartbook-2044469906947612680](2026-04-15-Daily Chartbook-2044469906947612680.md) — @Daily Chartbook, 2026-04-15 08:29
 - [2026-04-15-Daily Chartbook-2044325609048813637](2026-04-15-Daily Chartbook-2044325609048813637.md) — @Daily Chartbook, 2026-04-15 08:03
+- [2026-04-15-Daily Chartbook-2044460532623716575](2026-04-15-Daily Chartbook-2044460532623716575.md) — @Daily Chartbook, 2026-04-15 08:03
 - [过去一周美股涨太快，CTA都还没来得及上车。高盛本次完善的CTA估算核心数据（数据截至2026年4月13日），高盛模型显...](2026-04-15-qinbafrank-2044283513114137049.md) — @qinbafrank, 2026-04-15 05:15
 - [PRESIDENT TRUMP: “NATO wasn’t there for us, and they won’t b...](2026-04-15-The Kobeissi Letter-2044260524175532277.md) — @The Kobeissi Letter, 2026-04-15 03:44
 - [美联储新主席沃什真的很懂加密投资么？昨天下一任美联储主席提名人沃什向国会披露了个人的财务状况，其作为LP一些基金和VC机...](2026-04-15-qinbafrank-2044257552565956624.md) — @qinbafrank, 2026-04-15 03:32
