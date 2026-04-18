@@ -68,6 +68,9 @@ _来源_
 - [Anthropic官方Harness发布了](sources/20260410_manual_anthropic_harness_managed_agents.md)
   Anthropic launched Claude Managed Agents, turning the abstract "Agent = Model + Harness" formula into a production-ready managed service handling sandboxing, orchestration, permission scoping, and long-running sessions.
   Anthropic 发布了 Claude Managed Agents，将"Agent = Model + Harness"这一抽象公式转化为生产就绪的托管服务，集成了沙箱隔离、编排逻辑、权限作用域控制和长时运行会话。
+- [GS Global Strategy Views: The Technology Value Opportunity](sources/20260418_manual_gs_technology_value_opportunity.md)
+  Goldman Sachs argues that global technology has de-rated faster than its earnings outlook has weakened, creating a “value within growth” opportunity rather than a classic bubble unwind.
+  Goldman Sachs 认为，全球科技板块的去估值速度快于盈利预期恶化速度，因此当前机会更像是“成长中的价值重估”，而不是典型泡沫破裂后的持续出清。
 
 ## Entities
 
@@ -97,6 +100,9 @@ _实体_
 - [Andy Jassy](entities/andy-jassy.md)
   Andy Jassy is Amazon's chief executive and is represented in this wiki as a strategic operator who emphasizes inflection-driven investment, parallel bets, and first-principles rebuilding.
   Andy Jassy 是 Amazon 的首席执行官；在本知识库里，他被呈现为一位强调拐点驱动投资、并行押注与第一性原理重建的战略操盘者。
+- [Goldman Sachs](entities/goldman-sachs.md)
+  Goldman Sachs is a global investment bank and sell-side research institution that appears in this wiki as a recurring source of market structure, valuation, and capital-allocation analysis.
+  Goldman Sachs 是一家全球投资银行和卖方研究机构；在本知识库中，它被视为持续提供市场结构、估值与资本配置分析的重要来源。
 
 ## Concepts
 
@@ -117,6 +123,15 @@ _概念_
 - [Multi-Agent Coordination](concepts/multi-agent-coordination.md)
   Multi-Agent Coordination is the architectural pattern where one agent spawns and directs other agents to parallelize complex work, with a parent agent aggregating results from multiple specialized child agents.
   Multi-Agent Coordination 是一种架构模式：一个 Agent 可以生成并指挥其他 Agent 来并行化复杂工作，父 Agent 汇总多个专业化子 Agent 的结果。
+- [PEG Ratio](concepts/peg-ratio.md)
+  PEG Ratio is a valuation framework that scales a price/earnings multiple by earnings growth, helping compare whether a growth asset is expensive or cheap relative to its expected expansion rate.
+  PEG Ratio（市盈增长比）是一种用盈利增长对市盈率进行缩放的估值框架，用于比较成长型资产相对于预期增速是昂贵还是便宜。
+- [Technology Sector Rotation](concepts/technology-sector-rotation.md)
+  Technology Sector Rotation describes the market process in which capital shifts between technology and non-technology segments, or within tech subsectors, as investors reprice duration, moats, capex, and earnings resilience.
+  Technology Sector Rotation（科技板块轮动）指市场资金在科技与非科技板块之间，或在科技内部子行业之间迁移的过程，其驱动通常来自久期、护城河、资本开支与盈利韧性的重新定价。
+- [AI Infrastructure Spending](concepts/ai-infrastructure-spending.md)
+  AI Infrastructure Spending refers to the capital allocation cycle funding data centers, semiconductors, networking, and power capacity required to scale AI models and cloud services.
+  AI Infrastructure Spending（AI 基础设施支出）指为扩展 AI 模型与云服务而投入到数据中心、半导体、网络与电力容量的资本开支周期。
 
 ## Analyses
 
