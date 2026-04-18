@@ -22,3 +22,8 @@
 
 - Source Created: [[20260415_manual_amazon_andy_jassy_shareholder_letter|Amazon CEO Andy Jassy's 2025 Letter to Shareholders]]
 - Touched: Created [[amazon|Amazon]], [[andy-jassy|Andy Jassy]], [[aws|Amazon Web Services]], [[amazon-bedrock|Amazon Bedrock]], and [[inflection-management|Inflection Management]].
+
+## [2026-04-18] INGEST | GS Global Strategy Views: The Technology Value Opportunity
+
+- Source Created: [[20260418_manual_gs_technology_value_opportunity|GS Global Strategy Views: The Technology Value Opportunity]]
+- Touched: Created [[goldman-sachs|Goldman Sachs]], [[peg-ratio|PEG Ratio]], [[technology-sector-rotation|Technology Sector Rotation]], [[ai-infrastructure-spending|AI Infrastructure Spending]].
