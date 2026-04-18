@@ -1,13 +1,23 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-17T20:33:11.797Z
+Retrieved: 2026-04-18T02:33:22.191Z
 
-## Tweets (162)
+## Tweets (174)
 
+- [2026-04-18-Peter Steinberger 🦞-2045309153762333092](2026-04-18-Peter Steinberger 🦞-2045309153762333092.md) — @Peter Steinberger 🦞, 2026-04-18 00:00
+- [2026-04-17-Peter Steinberger 🦞-2045276507527143629](2026-04-17-Peter Steinberger 🦞-2045276507527143629.md) — @Peter Steinberger 🦞, 2026-04-17 23:01
+- [2026-04-17-Peter Steinberger 🦞-2045289227794145522](2026-04-17-Peter Steinberger 🦞-2045289227794145522.md) — @Peter Steinberger 🦞, 2026-04-17 21:43
+- [2026-04-17-Claude-2045248224659644654](2026-04-17-Claude-2045248224659644654.md) — @Claude, 2026-04-17 21:09
+- [2026-04-17-Peter Steinberger 🦞-2045290605400752385](2026-04-17-Peter Steinberger 🦞-2045290605400752385.md) — @Peter Steinberger 🦞, 2026-04-17 20:45
+- [2026-04-17-Claude-2045222254699511855](2026-04-17-Claude-2045222254699511855.md) — @Claude, 2026-04-17 19:25
+- [2026-04-17-Christian Szegedy-2045220490919526720](2026-04-17-Christian Szegedy-2045220490919526720.md) — @Christian Szegedy, 2026-04-17 18:24
 - [2026-04-17-Google Research-2045197807741812778](2026-04-17-Google Research-2045197807741812778.md) — @Google Research, 2026-04-17 17:48
+- [2026-04-17-Christian Szegedy-2045240140814291168](2026-04-17-Christian Szegedy-2045240140814291168.md) — @Christian Szegedy, 2026-04-17 17:40
+- [2026-04-17-Christian Szegedy-2045220964364070921](2026-04-17-Christian Szegedy-2045220964364070921.md) — @Christian Szegedy, 2026-04-17 17:36
 - [2026-04-17-OpenAI Developers-2045157461578203408](2026-04-17-OpenAI Developers-2045157461578203408.md) — @OpenAI Developers, 2026-04-17 14:45
 - [2026-04-17-Google Research-2045070365441843655](2026-04-17-Google Research-2045070365441843655.md) — @Google Research, 2026-04-17 09:22
+- [2026-04-17-Peter Steinberger 🦞-2045292282220601536](2026-04-17-Peter Steinberger 🦞-2045292282220601536.md) — @Peter Steinberger 🦞, 2026-04-17 03:54
 - [2026-04-17-OpenAI Developers-2044946989633482871](2026-04-17-OpenAI Developers-2044946989633482871.md) — @OpenAI Developers, 2026-04-17 01:12
 - [2026-04-17-Peter Steinberger 🦞-2044935917417205796](2026-04-17-Peter Steinberger 🦞-2044935917417205796.md) — @Peter Steinberger 🦞, 2026-04-17 00:28
 - [2026-04-16-Sam Altman-2044921348540264614](2026-04-16-Sam Altman-2044921348540264614.md) — @Sam Altman, 2026-04-16 23:30
@@ -18,6 +28,7 @@ Retrieved: 2026-04-17T20:33:11.797Z
 - [2026-04-16-Thariq-2044869569555411383](2026-04-16-Thariq-2044869569555411383.md) — @Thariq, 2026-04-16 20:04
 - [2026-04-16-Thariq-2044869038455894151](2026-04-16-Thariq-2044869038455894151.md) — @Thariq, 2026-04-16 20:02
 - [2026-04-16-Sam Altman-2044920514205139430](2026-04-16-Sam Altman-2044920514205139430.md) — @Sam Altman, 2026-04-16 19:47
+- [2026-04-16-Peter Steinberger 🦞-2045288907324219773](2026-04-16-Peter Steinberger 🦞-2045288907324219773.md) — @Peter Steinberger 🦞, 2026-04-16 19:16
 - [2026-04-16-Google Research-2044857082722288102](2026-04-16-Google Research-2044857082722288102.md) — @Google Research, 2026-04-16 19:14
 - [2026-04-16-Sam Altman-2044920562901021107](2026-04-16-Sam Altman-2044920562901021107.md) — @Sam Altman, 2026-04-16 19:09
 - [2026-04-16-OpenAI Developers-2044918678991585683](2026-04-16-OpenAI Developers-2044918678991585683.md) — @OpenAI Developers, 2026-04-16 19:02
@@ -94,6 +105,7 @@ Retrieved: 2026-04-17T20:33:11.797Z
 - [RT Tak 🦞: A few more OpenClaw 2026.4.12 changes that didn’t...](2026-04-13-2043726001750900770-Peter Steinberger 🦞-RT Tak 🦞- A few more OpenClaw 2026.4.12 changes that didn’t make the first tweet 🦞 🏠 Better local models with bund.md) — @Peter Steinberger 🦞, 2026-04-13 15:23
 - [RT Air Katakana: gemini-cli has a headless mode option, whic...](2026-04-13-2043742157773971634-Peter Steinberger 🦞-RT Air Katakana- gemini-cli has a headless mode option, which is obviously supposed to be used to run it in automated scripts.md) — @Peter Steinberger 🦞, 2026-04-13 14:41
 - [RT JetBrains: JetBrains is hosting a hackathon with OpenAI i...](2026-04-13-OpenAI Developers-2044194854486585757.md) — @OpenAI Developers, 2026-04-13 13:51
+- [2026-04-13-Google-2045235926838706498](2026-04-13-Google-2045235926838706498.md) — @Google, 2026-04-13 13:00
 - [RT Vincent Koc: OpenClaw 2026.4.12 🦞 ✨ Stability & reliabil...](2026-04-13-2043674651323208059-Peter Steinberger 🦞-RT Vincent Koc- OpenClaw 2026.4.12 🦞 ✨ Stability & reliability improvements 🎙️ Audio transcription fixes 💬 Bette.md) — @Peter Steinberger 🦞, 2026-04-13 12:55
 - [RT Henry Shevlin: Big personal news: I’ve been recruited by ...](2026-04-13-2043684102889423066-Demis Hassabis-RT Henry Shevlin- Big personal news- I’ve been recruited by Google DeepMind for a new Philosopher position (actual title), focusi.md) — @Demis Hassabis, 2026-04-13 12:05
 - [How do we move from describing digital harms to preventing t...](2026-04-13-2043621361512317114-Google Research-How do we move from describing digital harms to preventing them- Join Patrick Gage Kelley and Ashley Walker at the Google booth at.md) — @Google Research, 2026-04-13 09:24
