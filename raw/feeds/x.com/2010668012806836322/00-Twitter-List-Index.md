@@ -1,10 +1,15 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-18T20:44:51.639Z
+Retrieved: 2026-04-18T21:44:52.564Z
 
-## Tweets (562)
+## Tweets (568)
 
+- [2026-04-18-The Kobeissi Letter-2045618901120127175](2026-04-18-The Kobeissi Letter-2045618901120127175.md) — @The Kobeissi Letter, 2026-04-18 21:42
+- [2026-04-18-The Kobeissi Letter-2045602094317711538](2026-04-18-The Kobeissi Letter-2045602094317711538.md) — @The Kobeissi Letter, 2026-04-18 20:35
+- [2026-04-18-The Kobeissi Letter-2045584562395521433](2026-04-18-The Kobeissi Letter-2045584562395521433.md) — @The Kobeissi Letter, 2026-04-18 19:25
+- [2026-04-18-SemiAnalysis-2045580010023530518](2026-04-18-SemiAnalysis-2045580010023530518.md) — @SemiAnalysis, 2026-04-18 19:07
+- [2026-04-18-The Kobeissi Letter-2045578321136644202](2026-04-18-The Kobeissi Letter-2045578321136644202.md) — @The Kobeissi Letter, 2026-04-18 19:00
 - [2026-04-18-The Kobeissi Letter-2045566657968374186](2026-04-18-The Kobeissi Letter-2045566657968374186.md) — @The Kobeissi Letter, 2026-04-18 18:14
 - [2026-04-18-The Kobeissi Letter-2045556464039727266](2026-04-18-The Kobeissi Letter-2045556464039727266.md) — @The Kobeissi Letter, 2026-04-18 17:34
 - [2026-04-18-The Kobeissi Letter-2045542119293718964](2026-04-18-The Kobeissi Letter-2045542119293718964.md) — @The Kobeissi Letter, 2026-04-18 16:37
@@ -77,6 +82,7 @@ Retrieved: 2026-04-18T20:44:51.639Z
 - [2026-04-17-The Kobeissi Letter-2045119225136587172](2026-04-17-The Kobeissi Letter-2045119225136587172.md) — @The Kobeissi Letter, 2026-04-17 12:36
 - [2026-04-17-The Kobeissi Letter-2045118765193453972](2026-04-17-The Kobeissi Letter-2045118765193453972.md) — @The Kobeissi Letter, 2026-04-17 12:34
 - [2026-04-17-Daily Chartbook-2045110393689821229](2026-04-17-Daily Chartbook-2045110393689821229.md) — @Daily Chartbook, 2026-04-17 12:01
+- [2026-04-17-Daily Chartbook-2045229949892583471](2026-04-17-Daily Chartbook-2045229949892583471.md) — @Daily Chartbook, 2026-04-17 12:01
 - [2026-04-17-qinbafrank-2045097384750027099](2026-04-17-qinbafrank-2045097384750027099.md) — @qinbafrank, 2026-04-17 11:09
 - [2026-04-17-The Kobeissi Letter-2045096247652946219](2026-04-17-The Kobeissi Letter-2045096247652946219.md) — @The Kobeissi Letter, 2026-04-17 11:05
 - [2026-04-17-Daily Chartbook-2045095289447436648](2026-04-17-Daily Chartbook-2045095289447436648.md) — @Daily Chartbook, 2026-04-17 11:01
