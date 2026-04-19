@@ -1,10 +1,16 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-18T23:44:50.969Z
+Retrieved: 2026-04-19T04:44:55.448Z
 
-## Tweets (568)
+## Tweets (574)
 
+- [2026-04-19-The Kobeissi Letter-2045714733790011457](2026-04-19-The Kobeissi Letter-2045714733790011457.md) — @The Kobeissi Letter, 2026-04-19 04:02
+- [2026-04-19-The Kobeissi Letter-2045690597764186307](2026-04-19-The Kobeissi Letter-2045690597764186307.md) — @The Kobeissi Letter, 2026-04-19 02:27
+- [2026-04-19-The Kobeissi Letter-2045675498529808886](2026-04-19-The Kobeissi Letter-2045675498529808886.md) — @The Kobeissi Letter, 2026-04-19 01:27
+- [2026-04-19-The Kobeissi Letter-2045660398637199602](2026-04-19-The Kobeissi Letter-2045660398637199602.md) — @The Kobeissi Letter, 2026-04-19 00:27
+- [2026-04-18-The Kobeissi Letter-2045645299377405963](2026-04-18-The Kobeissi Letter-2045645299377405963.md) — @The Kobeissi Letter, 2026-04-18 23:27
+- [2026-04-18-The Kobeissi Letter-2045630498945351771](2026-04-18-The Kobeissi Letter-2045630498945351771.md) — @The Kobeissi Letter, 2026-04-18 22:28
 - [2026-04-18-The Kobeissi Letter-2045618901120127175](2026-04-18-The Kobeissi Letter-2045618901120127175.md) — @The Kobeissi Letter, 2026-04-18 21:42
 - [2026-04-18-The Kobeissi Letter-2045602094317711538](2026-04-18-The Kobeissi Letter-2045602094317711538.md) — @The Kobeissi Letter, 2026-04-18 20:35
 - [2026-04-18-The Kobeissi Letter-2045584562395521433](2026-04-18-The Kobeissi Letter-2045584562395521433.md) — @The Kobeissi Letter, 2026-04-18 19:25
