@@ -1,10 +1,13 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-04-20T20:26:18.043Z
+Retrieved: 2026-04-20T21:26:21.706Z
 
-## Tweets (190)
+## Tweets (193)
 
+- [2026-04-20-Sam Altman-2046330825265086712](2026-04-20-Sam Altman-2046330825265086712.md) — @Sam Altman, 2026-04-20 20:51
+- [2026-04-20-Sam Altman-2046330082726384051](2026-04-20-Sam Altman-2046330082726384051.md) — @Sam Altman, 2026-04-20 20:48
+- [2026-04-20-OpenAI Developers-2046298195727433731](2026-04-20-OpenAI Developers-2046298195727433731.md) — @OpenAI Developers, 2026-04-20 18:38
 - [2026-04-20-Peter Steinberger 🦞-2046259696722465113](2026-04-20-Peter Steinberger 🦞-2046259696722465113.md) — @Peter Steinberger 🦞, 2026-04-20 16:08
 - [2026-04-20-Peter Steinberger 🦞-2046199257430888878](2026-04-20-Peter Steinberger 🦞-2046199257430888878.md) — @Peter Steinberger 🦞, 2026-04-20 12:08
 - [2026-04-20-Peter Steinberger 🦞-2046192869497622529](2026-04-20-Peter Steinberger 🦞-2046192869497622529.md) — @Peter Steinberger 🦞, 2026-04-20 11:42
