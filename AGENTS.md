@@ -45,8 +45,9 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
 
 ### Step 1: Read, Extract & Route
 - Read the provided source document.
-- **Source Routing:** - If the file is from `raw/manual/`: Treat as high-priority. Extract deep architectural logic, mechanisms, and core definitions.
-  - If the file is from `raw/feeds/`: Treat as an update. Extract only timelines, news, or version changes.
+- **Source Routing:**
+  - If the file is from `raw/manual/`: Treat it as a durable knowledge source. Extract deep architectural logic, mechanisms, definitions, strategy, reusable concepts, and entity relationships.
+  - If the file is from `raw/feeds/`: Treat it as an update stream. Extract only dated events, launches, release notes, version changes, market/news developments, and other timeline-worthy changes.
 - Identify key Entities and Concepts. 
 - **Entity Resolution:** Before assuming a new entity exists, aggressively scan `wiki/index.md` to find existing aliases (e.g., map "GPT4" to existing `[[GPT-4]]`). Do not create duplicate semantic nodes.
 
@@ -60,8 +61,9 @@ When the user asks you to "ingest" or "process" a new file from the `raw/` direc
 - **To Create or Update concept page:** Before writing the file, READ `wiki/schema/CONCEPT_STANDARDS.md` to ensure correct YAML and headings.
 - **Entities & Concepts:** Open corresponding pages in `wiki/entities/` or `wiki/concepts/`. Create ONLY if you confirmed in Step 1 they don't exist.
 - **Append Knowledge:** Add a concise bullet point. 
-  - For Inbox sources: Update definitions or core mechanisms.
-  - For Feed sources: Append to the "Timeline" or "Latest Developments" section.
+  - For `manual` sources: Update definitions, strategic/technical significance, core mechanisms, relationships, or concept explanations when the source improves durable understanding.
+  - For `feeds` sources: Prefer appending bilingual entries directly below `Definition` in the entity page's `Evolution Timeline` section. Do not rewrite definitions or durable significance unless the update materially changes stable understanding.
+  - For low-signal `feeds` mentions: Create the source page and add source mentions only when useful; do not clutter entity timelines with minor chatter.
 - **Wikilinks:** You MUST use Obsidian wikilinks with canonical slug targets. Prefer `[[slug|Readable Name]]`, and cite new source pages with their canonical source-page slug as the target.
 
 ### Step 4: Contradiction Flagging (CRITICAL)

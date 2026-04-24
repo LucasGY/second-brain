@@ -8,7 +8,7 @@
 ## 1. File Naming Convention
 - **Format:** `YYYYMMDD_[source_type]_[short_title].md`
 - **Source Types:** `manual` (high intent, manual clipping), `feeds` (automated news/updates)
-- **Example:** `20260414_inbox_agentic_rl_survey.md`, `20260414_feed_qqq_macro_update.md`
+- **Example:** `20260414_manual_agentic_rl_survey.md`, `20260414_feeds_qqq_macro_update.md`
 - The filename stem is the source page's canonical `slug`. When linking to the page from elsewhere, prefer `[[YYYYMMDD_source_type_short_title|Readable Source Title]]`.
 
 ## 2. Universal Pre-requisites
@@ -29,8 +29,19 @@ tags: [inherit from index.md, MUST include at least one domain tag]
 
 ---
 
-## 3. Dynamic Content Sections (Context-Aware)
-Based on the domain of the document (identified via content or tags), apply the appropriate analytical framework below. **Do NOT mix these frameworks.** Choose ONE.
+## 3. Source-Type Routing
+
+Choose the source page shape from the raw file path before choosing the domain framework.
+
+- `raw/manual/` sources are durable knowledge inputs. Use one of the deep analytical frameworks in Section 4.
+- `raw/feeds/` sources are update inputs. Use the feed update template in Section 5.
+- Do not force short feed items into a deep research template unless the feed item itself contains substantial analysis.
+- Both source types must remain fully bilingual: every heading, paragraph, and bullet must place English first and Simplified Chinese immediately after.
+
+---
+
+## 4. Manual Source Frameworks (Context-Aware)
+For `raw/manual/` sources, choose the appropriate analytical framework based on the domain of the document (identified via content or tags). **Do NOT mix these frameworks.** Choose ONE.
 
 ### Option A: Financial & Investment Research (Tag: `#finance`)
 *Use this for analyst reports, macro data, QQQ updates, backtests, or market strategy deep-dives.*
@@ -95,7 +106,28 @@ Based on the domain of the document (identified via content or tags), apply the 
 
 ---
 
-## 4. Universal Graph Linkage
+## 5. Feed Update Template
+Use this template for `raw/feeds/` sources. Keep it concise and event-focused.
+
+## 🗓️ Update Event
+[One sentence stating what happened, who/what changed, and the date if available.]
+[对应的简体中文句子，说明发生了什么、谁/什么发生变化，以及可用日期。]
+
+## 🔎 Why It Matters
+[1-2 sentences explaining why this update is worth preserving in the wiki.]
+[对应的1-2句简体中文，说明为什么这个更新值得进入 wiki。]
+
+## 🧭 Entity Timeline Updates
+* [[entity-slug|Entity Name]]: [Timeline-ready English sentence. Source: [[source-page-slug|Readable Source Title]]]
+  *[[entity-slug|实体名称]]：[可直接放入实体时间线的简体中文句子。来源：[[source-page-slug|可读来源标题]]]
+
+## ⚠️ Caveats / Open Questions
+[Any uncertainty, missing context, contradiction, or follow-up needed. Write "None identified" only if there is no caveat.]
+[任何不确定性、缺失背景、矛盾或后续问题。如果没有，则写“未发现”。]
+
+---
+
+## 6. Universal Graph Linkage
 Every Source page, regardless of domain, MUST end with this section to ensure the wiki remains interconnected:
 
 ## 🕸️ Knowledge Graph
