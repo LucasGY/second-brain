@@ -1,10 +1,17 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-24T21:59:39.339Z
+Retrieved: 2026-04-24T22:59:42.890Z
 
-## Tweets (927)
+## Tweets (934)
 
+- [2026-04-24-SemiAnalysis-2047802699245027649](2026-04-24-SemiAnalysis-2047802699245027649.md) — @SemiAnalysis, 2026-04-24 22:19
+- [2026-04-24-The Kobeissi Letter-2047791135033274788](2026-04-24-The Kobeissi Letter-2047791135033274788.md) — @The Kobeissi Letter, 2026-04-24 21:33
+- [2026-04-24-SemiAnalysis-2047782672022352144](2026-04-24-SemiAnalysis-2047782672022352144.md) — @SemiAnalysis, 2026-04-24 21:00
+- [2026-04-24-SemiAnalysis-2047782673158906137](2026-04-24-SemiAnalysis-2047782673158906137.md) — @SemiAnalysis, 2026-04-24 21:00
+- [2026-04-24-The Kobeissi Letter-2047774235213381962](2026-04-24-The Kobeissi Letter-2047774235213381962.md) — @The Kobeissi Letter, 2026-04-24 20:26
+- [2026-04-24-Daily Chartbook-2047769489735897307](2026-04-24-Daily Chartbook-2047769489735897307.md) — @Daily Chartbook, 2026-04-24 20:03
+- [2026-04-24-Lisa Abramowicz-2047768443462557860](2026-04-24-Lisa Abramowicz-2047768443462557860.md) — @Lisa Abramowicz, 2026-04-24 20:03
 - [2026-04-24-The Kobeissi Letter-2047757209300357338](2026-04-24-The Kobeissi Letter-2047757209300357338.md) — @The Kobeissi Letter, 2026-04-24 19:18
 - [2026-04-24-The Kobeissi Letter-2047754327507238917](2026-04-24-The Kobeissi Letter-2047754327507238917.md) — @The Kobeissi Letter, 2026-04-24 19:07
 - [2026-04-24-The Kobeissi Letter-2047745135740592608](2026-04-24-The Kobeissi Letter-2047745135740592608.md) — @The Kobeissi Letter, 2026-04-24 18:31
