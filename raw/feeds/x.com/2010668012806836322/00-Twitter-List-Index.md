@@ -1,10 +1,15 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-04-27T21:59:42.890Z
+Retrieved: 2026-04-27T22:59:52.916Z
 
-## Tweets (1079)
+## Tweets (1084)
 
+- [2026-04-27-The Kobeissi Letter-2048888535223005451](2026-04-27-The Kobeissi Letter-2048888535223005451.md) — @The Kobeissi Letter, 2026-04-27 22:14
+- [2026-04-27-The Kobeissi Letter-2048872056482119865](2026-04-27-The Kobeissi Letter-2048872056482119865.md) — @The Kobeissi Letter, 2026-04-27 21:08
+- [2026-04-27-SemiAnalysis-2048870022685081886](2026-04-27-SemiAnalysis-2048870022685081886.md) — @SemiAnalysis, 2026-04-27 21:00
+- [2026-04-27-SemiAnalysis-2048870024756986337](2026-04-27-SemiAnalysis-2048870024756986337.md) — @SemiAnalysis, 2026-04-27 21:00
+- [2026-04-27-The Kobeissi Letter-2048855402943549753](2026-04-27-The Kobeissi Letter-2048855402943549753.md) — @The Kobeissi Letter, 2026-04-27 20:02
 - [2026-04-27-The Kobeissi Letter-2048837519559581767](2026-04-27-The Kobeissi Letter-2048837519559581767.md) — @The Kobeissi Letter, 2026-04-27 18:51
 - [2026-04-27-Prospero.ai-2048833823094264276](2026-04-27-Prospero.ai-2048833823094264276.md) — @Prospero.ai, 2026-04-27 18:37
 - [2026-04-27-Prospero.ai-2048833819407478956](2026-04-27-Prospero.ai-2048833819407478956.md) — @Prospero.ai, 2026-04-27 18:37
