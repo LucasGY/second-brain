@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-05-02T11:59:46.400Z
+Retrieved: 2026-05-02T12:59:46.527Z
 
-## Tweets (837)
+## Tweets (839)
 
+- [2026-05-02-Satya Nadella-2050548824368873498](2026-05-02-Satya Nadella-2050548824368873498.md) — @Satya Nadella, 2026-05-02 12:11
+- [2026-05-02-Demis Hassabis-2050539386475786708](2026-05-02-Demis Hassabis-2050539386475786708.md) — @Demis Hassabis, 2026-05-02 11:34
 - [2026-05-02-Agnes AI-2050504909405986990](2026-05-02-Agnes AI-2050504909405986990.md) — @Agnes AI, 2026-05-02 09:17
 - [2026-05-02-Peter Steinberger 🦞-2050510198704377988](2026-05-02-Peter Steinberger 🦞-2050510198704377988.md) — @Peter Steinberger 🦞, 2026-05-02 09:17
 - [2026-05-02-Peter Steinberger 🦞-2050490163810230579](2026-05-02-Peter Steinberger 🦞-2050490163810230579.md) — @Peter Steinberger 🦞, 2026-05-02 08:18
