@@ -70,8 +70,10 @@ _来源_
   Anthropic 发布了 Claude Managed Agents，将"Agent = Model + Harness"这一抽象公式转化为生产就绪的托管服务，集成了沙箱隔离、编排逻辑、权限作用域控制和长时运行会话。
 - [GS Global Strategy Views: The Technology Value Opportunity](sources/20260418_manual_gs_technology_value_opportunity.md)
   Goldman Sachs argues that global technology has de-rated faster than its earnings outlook has weakened, creating a “value within growth” opportunity rather than a classic bubble unwind.
-  Goldman Sachs 认为，全球科技板块的去估值速度快于盈利预期恶化速度，因此当前机会更像是“成长中的价值重估”，而不是典型泡沫破裂后的持续出清。
-
+  Goldman Sachs 认为，全球科技板块的去估值速度快于盈利预期恶化速度，因此当前机会更像是”成长中的价值重估”，而不是典型泡沫破裂后的持续出清。
+- [SK Hynix Q1 2026 Blowout Earnings](sources/20260423_feeds_qinbafrank_sk_hynix_q1.md)
+  SK Hynix reported Q1 2026 record: ₩52.58T revenue (+298% YoY), ₩37.61T operating profit (+505% YoY), 72% operating margin, driven by DRAM/NAND price increases and AI HBM demand.
+  SK海力士Q1 2026创纪录：营收525.8万亿韩元（同比+298%），营业利润376.1万亿韩元（同比+505%），营业利润率72%，由DRAM/NAND价格上涨和AI HBM需求驱动。
 ## Entities
 
 _实体_
@@ -103,6 +105,9 @@ _实体_
 - [Goldman Sachs](entities/goldman-sachs.md)
   Goldman Sachs is a global investment bank and sell-side research institution that appears in this wiki as a recurring source of market structure, valuation, and capital-allocation analysis.
   Goldman Sachs 是一家全球投资银行和卖方研究机构；在本知识库中，它被视为持续提供市场结构、估值与资本配置分析的重要来源。
+- [SK Hynix](entities/sk-hynix.md)
+  SK Hynix is the world's second-largest memory chipmaker, specializing in DRAM, NAND, and HBM for AI GPUs. Q1 2026 results showed 72% operating margin, validating the AI memory supercycle thesis.
+  SK海力士是全球第二大内存芯片制造商，专注于AI GPU用的DRAM、NAND和HBM。Q1 2026业绩显示营业利润率达72%，验证了AI内存超级周期论。
 
 ## Concepts
 

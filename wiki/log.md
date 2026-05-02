@@ -27,3 +27,8 @@
 
 - Source Created: [[20260418_manual_gs_technology_value_opportunity|GS Global Strategy Views: The Technology Value Opportunity]]
 - Touched: Created [[goldman-sachs|Goldman Sachs]], [[peg-ratio|PEG Ratio]], [[technology-sector-rotation|Technology Sector Rotation]], [[ai-infrastructure-spending|AI Infrastructure Spending]].
+
+## [2026-04-24] INGEST | SK Hynix Q1 2026 Blowout Earnings (1/94)
+
+- Source Created: [[20260423_feeds_qinbafrank_sk_hynix_q1|SK Hynix Q1 2026 Blowout Earnings]]
+- Touched: Created [[sk-hynix|SK Hynix]]
