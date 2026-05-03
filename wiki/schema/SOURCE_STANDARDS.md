@@ -1,135 +1,215 @@
 # Source Page Standards (`wiki/sources/`)
 
 **Target Directory:** `wiki/sources/`
-**Purpose:** To create a digital proxy for a raw file. A source page must distill the signal from the noise, document the author's primary intent, and explicitly state any assumptions or contradictions. It must NOT be a mere summary; it must be a critical reading.
+**Purpose:** Create a digital proxy for a raw file. A source page distills signal from noise, documents the author's primary intent, and flags assumptions or contradictions. It is NOT a summary; it is a critical reading.
+
+---
+
+## 0. Classification: DOMAIN & DEPTH
+
+Before writing any source page, classify the raw file on two dimensions:
+
+**DOMAIN** — primary subject matter:
+
+| Value | Use When |
+|-------|----------|
+| `finance` | Analyst reports, earnings, macro data, valuations, investment theses |
+| `ai_tech` | AI papers, model releases, architecture blogs, LLM reasoning, agentic systems, MLOps |
+| `tooling` | CLI tools, IDE plugins, coding assistants, workflows, dev infrastructure |
+| `event` | News, policy changes, corporate announcements, product launches |
+| `general` | Philosophy, business strategy, leadership, essays spanning multiple domains |
+
+A source may span two domains. Pick the **primary** for the framework; note the secondary in YAML tags.
+
+**DEPTH** — extraction intensity:
+
+| Value | Condition | Framework |
+|-------|-----------|-----------|
+| `deep` | Source is from `raw/manual/` | Use Option A/B/C/D (Section 5) |
+| `update` | Source is from `raw/feeds/` | Use Feed Template (Section 6) |
 
 ---
 
 ## 1. File Naming Convention
 - **Format:** `YYYYMMDD_[source_type]_[short_title].md`
-- **Source Types:** `manual` (high intent, manual clipping), `feeds` (automated news/updates)
-- **Example:** `20260414_manual_agentic_rl_survey.md`, `20260414_feeds_qqq_macro_update.md`
-- The filename stem is the source page's canonical `slug`. When linking to the page from elsewhere, prefer `[[YYYYMMDD_source_type_short_title|Readable Source Title]]`.
+- **Source Types:** `manual`, `feeds`
+- **Example:** `20260414_manual_agentic_rl_survey.md`, `20260503_feeds_karpathy_inference_cost.md`
+- The filename stem is the canonical `slug`. Link as `[[YYYYMMDD_source_type_short_title|Readable Title]]`.
 
-## 2. Universal Pre-requisites
-Every Source page MUST contain this YAML frontmatter and the Universal Header.
+## 2. Universal YAML & Header
 
+```yaml
 ---
 type: source
 date_ingested: YYYY-MM-DD
-authors: [Author 1, Author 2, or Institution]
-source_url: "https://..." 
+domain: [finance | ai_tech | tooling | event | general]
+authors: [Author 1, Author 2]
+source_url: "https://..."
 source_path: "raw/[category]/[platform]/[filename]"
-tags: [inherit from index.md, MUST include at least one domain tag]
+tags: [must include at least one domain tag from index.md]
 ---
-# [Original Title of the Document]
+```
+
+```markdown
+# [Original Title]
 
 ## 📌 TL;DR
-[Exactly ONE sentence summarizing the core thesis, primary update, or investment proposition of this document.]
+[ONE sentence: the core thesis, update, or investment proposition.]
+> [对应中文一句话。]
+```
 
 ---
 
-## 3. Source-Type Routing
+## 3. Universal Extraction Checklist
 
-Choose the source page shape from the raw file path before choosing the domain framework.
+Regardless of DOMAIN or DEPTH, always perform:
 
-- `raw/manual/` sources are durable knowledge inputs. Use one of the deep analytical frameworks in Section 4.
-- `raw/feeds/` sources are update inputs. Use the feed update template in Section 5.
-- Do not force short feed items into a deep research template unless the feed item itself contains substantial analysis.
-- Both source types must remain fully bilingual: every heading, paragraph, and bullet must place English first and Simplified Chinese immediately after.
+1. **One-sentence thesis** — the single most important claim or event.
+2. **Named entities** — cross-reference `wiki/index.md` to resolve aliases before creating new pages.
+3. **Concepts** — identify methodologies/architectures deserving a `wiki/concepts/` page.
+4. **Novelty assessment** — NEW info (update definitions) vs. confirmatory (timeline entry only).
+5. **Contradiction check** — flag conflicts with existing wiki using `> [!IMPORTANT] CONTRADICTION:` format.
 
 ---
 
-## 4. Manual Source Frameworks (Context-Aware)
-For `raw/manual/` sources, choose the appropriate analytical framework based on the domain of the document (identified via content or tags). **Do NOT mix these frameworks.** Choose ONE.
+## 4. Source-Type Routing
 
-### Option A: Financial & Investment Research (Tag: `#finance`)
-*Use this for analyst reports, macro data, QQQ updates, backtests, or market strategy deep-dives.*
+- `raw/manual/` → DEPTH=`deep` → Use ONE framework from Section 5 (A/B/C/D).
+- `raw/feeds/` → DEPTH=`update` → Use Section 6 (Feed Template). Do not force short items into deep frameworks.
 
+---
+
+## 5. Deep Frameworks (for `raw/manual/` only)
+
+Choose ONE framework based on DOMAIN. Do NOT mix.
+
+---
+
+### Option A: Finance (Tag: `#finance`)
+
+```markdown
 ## 🎯 Core Investment Proposition
-[1-2 sentences explaining what core investment question this report tries to answer.]
+[What core question does this report answer?]
+> [中文]
 
-## 🔍 Critical Breakdown (Problem-Driven)
-*(For 2-3 key arguments in the report, evaluate them using this exact structure)*
-* **Question/Argument:** [What is the report claiming?]
-  * **Their Evidence:** [What data supports this?]
-  * **Evidence Quality:** [Is the logic sound, or are there leaps/assumptions?]
-  * **Missing Variables:** [What did they fail to consider?]
-  * **Independent Assessment:** [Agree/Disagree and WHY. This is the synthesis.]
+## 🔍 Critical Breakdown
+* **Argument:** [Claim]
+  * **Evidence:** [Data]
+  * **Evidence Quality:** Strong / Partial / Weak — [why]
+  * **Missing Variables:** [Gaps]
+  * **Independent Assessment:** Agree / Disagree — [why]
 
 ## 👻 Implicit Assumptions
-[List the silent, critical premises the author relies on but doesn't state explicitly. E.g., "Assumes inflation will remain sticky", or "Assumes VIX will revert to mean".]
+[Unstated premises the author relies on.]
+> [中文]
 
-## ⚡ Alpha & Expectation Gap (预期差)
-* **Market Consensus (Priced In):** [What does everyone already know?]
-* **Marginal Information:** [What is the new edge or contrarian view provided here?]
+## ⚡ Expectation Gap (预期差)
+* **Priced In:** [Consensus knowledge]
+* **Marginal Info:** [New edge or contrarian view]
 
 ## 📈 Key Tracking Metrics
-1. [Metric 1 to validate this thesis]
+1. [Metric to validate/falsify]
 2. [Metric 2]
+```
 
+---
 
-### Option B: AI & Tech Research (Tag: `#ai_tech`)
-*Use this for AI papers, architecture breakdowns, engineering blogs, MLOps, LLM reasoning, or Agentic AI.*
+### Option B: AI & Tech (Tag: `#ai_tech`)
 
+```markdown
 ## 🎯 Core Technical Problem
-[What engineering or theoretical bottleneck is this paper/blog trying to solve? E.g., latency in transaction models, hallucination in LLMs.]
+[What bottleneck is being solved?]
+> [中文]
 
-## 💡 Key Takeaways & Innovations
-* **Innovation 1:** [E.g., A new feature extraction algorithm.]
-* **Performance Gain:** [E.g., Reduced latency by X%, improved win rate by Y%.]
+## 💡 Key Innovations
+* [Innovation + performance numbers if available]
 
 ## 🛠️ Mechanisms & Architecture
-[Explain HOW it works. Synthesize the technical steps. Assume the reader is a senior algorithm engineer.]
-*(Detail the pipeline, logic flows, or mathematical intuition if relevant.)*
+[HOW it works. Assume reader is senior engineer.]
+> [中文]
 
-## 👻 Implicit Assumptions & Limitations
-[What are the unspoken constraints? E.g., "Assumes high-quality labeled data is available", or "Only tested in offline backtesting environments".]
+## 👻 Limitations & Failure Modes
+[Unspoken constraints, known weaknesses.]
+> [中文]
 
-## 🔗 Actionability / Integration
-[How can this be used in current or future projects? E.g., "This method could be tested in the transaction model feature engineering pipeline."]
+## 🔗 Actionability
+[How to apply in current/future projects.]
+> [中文]
+```
 
+---
 
-### Option C: Tools & Workflows (Tag: `#tooling`)
-*Use this for CLI tools, IDE plugins, AI coding assistants, Vibe Coding workflows, or Obsidian setups.*
+### Option C: Tooling (Tag: `#tooling`)
 
+```markdown
 ## 🎯 Primary Use Case
-[What specific friction does this tool/workflow eliminate?]
+[What friction does this eliminate?]
+> [中文]
 
-## 🚀 Best Practices & Setup
-*(Extract the actionable configuration steps, CLI commands, or prompts.)*
-* [Code block or terminal command]
-* [Key configuration detail]
+## 🚀 Setup & Best Practices
+* [CLI commands, config snippets]
 
 ## ⚠️ Known Pitfalls (踩坑记录)
-[What broke? What doesn't work as advertised? How to work around it.]
+[What breaks? Workarounds.]
+> [中文]
+```
 
 ---
 
-## 5. Feed Update Template
-Use this template for `raw/feeds/` sources. Keep it concise and event-focused.
+### Option D: Event & Narrative (Tag: `#event`)
 
+```markdown
+## 🎯 Core Event
+[What happened? One sentence.]
+> [中文]
+
+## 🕐 Timeline & Causality
+* **Trigger:** [...] -> **Event:** [...] -> **Consequence:** [...] -> **2nd-Order:** [...]
+
+## 🗺️ Stakeholder Map
+* **[Actor]:** [Action, motive, gain/loss]
+
+## 👻 Implicit Assumptions
+[What does the narrative assume about future behavior?]
+> [中文]
+
+## 🔗 Portfolio / Wiki Relevance
+[Connection to tracked entities/concepts.]
+> [中文]
+```
+
+---
+
+## 6. Feed Update Template (for `raw/feeds/`)
+
+Used for both HIGH and LOW triage scores. Keep event-focused and concise.
+
+```markdown
 ## 🗓️ Update Event
-[One sentence stating what happened, who/what changed, and the date if available.]
-[对应的简体中文句子，说明发生了什么、谁/什么发生变化，以及可用日期。]
+[One sentence: what happened, who, when.]
+> [中文]
 
 ## 🔎 Why It Matters
-[1-2 sentences explaining why this update is worth preserving in the wiki.]
-[对应的1-2句简体中文，说明为什么这个更新值得进入 wiki。]
+[1-2 sentences: why this is worth preserving.]
+> [中文]
 
 ## 🧭 Entity Timeline Updates
-* [[entity-slug|Entity Name]]: [Timeline-ready English sentence. Source: [[source-page-slug|Readable Source Title]]]
-  *[[entity-slug|实体名称]]：[可直接放入实体时间线的简体中文句子。来源：[[source-page-slug|可读来源标题]]]
+* [[entity-slug|Entity]]: [Timeline-ready sentence. Source: [[source-slug|Title]]]
+  > [[entity-slug|实体]]：[中文时间线句子。来源：[[source-slug|标题]]]
 
 ## ⚠️ Caveats / Open Questions
-[Any uncertainty, missing context, contradiction, or follow-up needed. Write "None identified" only if there is no caveat.]
-[任何不确定性、缺失背景、矛盾或后续问题。如果没有，则写“未发现”。]
+[Uncertainty, missing context, or "None identified."]
+> [中文]
+```
 
 ---
 
-## 6. Universal Graph Linkage
-Every Source page, regardless of domain, MUST end with this section to ensure the wiki remains interconnected:
+## 7. Universal Graph Linkage
 
+Every source page MUST end with:
+
+```markdown
 ## 🕸️ Knowledge Graph
 **Extracted Entities:** [[entity-slug-1|Entity 1]], [[entity-slug-2|Entity 2]]
 **Related Concepts:** [[concept-slug-1|Concept 1]], [[concept-slug-2|Concept 2]]
+```

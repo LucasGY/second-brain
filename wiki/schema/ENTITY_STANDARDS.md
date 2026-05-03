@@ -44,6 +44,15 @@ Do not:
 - maintain generic encyclopedia facts that do not help this wiki's research memory
 - rewrite durable significance because of a routine feed item
 
+## Bilingual Format
+
+English first, Chinese in `>` blockquote immediately below. See CLAUDE.md Section 3 for the rule. Timeline entry pattern:
+
+```markdown
+* **[YYYY-MM-DD]:** [English]. Source: [[source-slug|Title]]
+  > **[YYYY-MM-DD]：** [中文]。来源：[[source-slug|标题]]
+```
+
 ## Example Template
 
 ```markdown
@@ -54,22 +63,23 @@ aliases: [] # List alternative names or acronyms here, e.g., ["Obsidian.md"]
 tags: [entity] # Add 2-3 specific tags, e.g., #tool, #company
 first_seen: YYYY-MM-DD
 last_updated: YYYY-MM-DD
-key_sources: [] 
+key_sources: []
 ---
 
 # Definition
 [[Obsidian]] is a local-first markdown knowledge management tool used here as the primary interface for browsing and editing the wiki.
+> [[obsidian|Obsidian]] 是一款本地优先的 Markdown 知识管理工具，用作本 wiki 的主要浏览和编辑界面。
 
 ## 📅 Evolution Timeline
 [Append-only log. Newest entries at top. When ingesting news, launches, release notes, version changes, or market/news developments from `raw/feeds/`, append the new information to the TOP of this list. Never delete old timeline entries unless explicitly re-ingesting with human approval.]
 * **[YYYY-MM-DD]:** [Brief English description of the update]. Source: [[source-page-slug|Readable Source Title]]
-  *[YYYY-MM-DD]：[对应的简体中文更新描述]。来源：[[source-page-slug|可读来源标题]]
+  > **[YYYY-MM-DD]：** [对应的简体中文更新描述]。来源：[[source-page-slug|可读来源标题]]
 * **[YYYY-MM-DD]:** [Brief English description of the update]. Source: [[source-page-slug|Readable Source Title]]
-  *[YYYY-MM-DD]：[对应的简体中文更新描述]。来源：[[source-page-slug|可读来源标题]]
+  > **[YYYY-MM-DD]：** [对应的简体中文更新描述]。来源：[[source-page-slug|可读来源标题]]
 
 ## Strategic / Technical Significance
 - [Brief English synthesis of why this entity matters to the wiki's research questions, technical architecture, market thesis, or workflow.]
-- [对应的简体中文综合说明：这个实体为什么对本 wiki 的研究问题、技术架构、市场判断或工作流重要。]
+  > [对应的简体中文综合说明：这个实体为什么对本 wiki 的研究问题、技术架构、市场判断或工作流重要。]
 
 ## 📚 Source Mentions
 [A bulleted list of all source pages in `wiki/sources/` that heavily discuss or analyze this entity. Every time you touch this entity from an ingest, add the source link here.]

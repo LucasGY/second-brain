@@ -40,6 +40,10 @@ Do not:
 - ignore conflicting data; sweeping contradictions under the rug degrades the wiki's value.
 - create concept pages for highly specific, proprietary features (those belong under the tool's Entity page).
 
+## Bilingual Format
+
+English first, Chinese in `>` blockquote immediately below. See CLAUDE.md Section 3.
+
 ## Example Template
 
 ```markdown
@@ -54,31 +58,40 @@ last_updated: YYYY-MM-DD
 ---
 
 # Core Definition
-[Provide a clear, synthesized definition. Explain the theoretical foundation and the core problem it solves. e.g., Mixture of Experts (MoE) is a neural network architecture that...]
+[Provide a clear, synthesized definition. Explain the theoretical foundation and the core problem it solves.]
+> [提供清晰、综合的定义。解释理论基础和它解决的核心问题。]
 
 ## 🛠️ Mechanisms & Architecture
-[Detail HOW it works. Synthesize the technical steps, mathematical intuition, or pipeline. Use bullet points or code blocks to explain complex workflows.]
+[Detail HOW it works. Synthesize the technical steps, mathematical intuition, or pipeline.]
+> [详细说明它的工作原理。综合技术步骤、数学直觉或流水线。]
 * **Routing Strategy:** [Explanation of how tokens are routed, citing source].
+  > **路由策略：** [解释 token 如何被路由，引用来源。]
 * **Load Balancing:** [Explanation of load balancing techniques, citing source].
+  > **负载均衡：** [解释负载均衡技术，引用来源。]
 
 ## ⚔️ Contradictions & Evolution
-[Document how the industry understanding has changed, or highlight conflicting opinions/research from different sources. This is where the synthesis shines.]
-* **Debate on X:** [[Source_A_Paper]] argues that approach Y is optimal for latency, but recent empirical tests in [[Source_B_Blog]] found that approach Z yields better results in production environments.
+[Document how the industry understanding has changed, or highlight conflicting opinions/research.]
+> [记录行业理解如何变化，或突出来自不同来源的冲突观点/研究。]
+* **Debate on X:** [[Source_A_Paper]] argues approach Y is optimal for latency, but [[Source_B_Blog]] found approach Z yields better results in production.
+  > **关于 X 的争论：** [[Source_A_Paper]] 认为方法 Y 对延迟最优，但 [[Source_B_Blog]] 发现方法 Z 在生产环境中效果更好。
 
 ## 🚀 Implementations & Best Practices
 [How is this concept actually used? What are the known pitfalls? Link to specific Entities.]
+> [这个概念实际上如何使用？已知的陷阱是什么？链接到具体实体。]
 * **Leading Implementations:** [[DeepSeek-V3]], [[Mixtral-8x7B]]
+  > **主要实现：** [[DeepSeek-V3]]、[[Mixtral-8x7B]]
 * **Engineering Pitfalls:** Be aware of token dropping during heavy load scenarios.
+  > **工程陷阱：** 注意高负载场景下的 token 丢失问题。
 
 ## 📚 Source Mentions
-[A bulleted list of source pages that form the foundation of this concept. Add new sources here when they heavily contribute to the mechanisms above.]
-* [[YYYY-MM-DD-source-title-1]]
-* [[YYYY-MM-DD-source-title-2]]
+[A bulleted list of source pages that form the foundation of this concept.]
+* [[YYYYMMDD_manual_source_title_1|Source Title 1]]
+* [[YYYYMMDD_feeds_source_title_2|Source Title 2]]
 
 ## 🕸️ Relationships
 
 ### Related Concepts
-[[Broader_Concept]], [[Narrower_Concept]]
+[[broader-concept|Broader Concept]], [[narrower-concept|Narrower Concept]]
 
 ### Related Entities
-[[Tool_or_Model_Entity_1]]
+[[tool-or-model-entity|Tool or Model Entity]]
