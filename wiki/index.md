@@ -10,6 +10,7 @@
 
 > 来源页面，记录原始文档的摘要和分析。
 
+* [[20260503_manual_nat-friedman-daniel-gross-stripe-sessions-ai-agents|Nat Friedman and Daniel Gross on AI Agents]] - Stripe Sessions 2026 discussion on agentic AI, compute capex, token budgeting, and agent payments
 * [[20260503_feeds_semianalysis-course-promo|SemiAnalysis Course Promo]] - SemiAnalysis推广Jane Street毕业生使用Agentic AI的高薪案例（课程推广）
 * [[20260503_feeds_openclaw-v2026.5.2|OpenClaw v2026.5.2]] - OpenClaw集成xAI Grok 4.3，插件系统重构为extensions架构
 * [[20260503_feeds_pek-airport-observation|PEK Airport Observation]] - 3X Long Labubu观察北京首都机场，预判Xi-Trump会晤即将发生
