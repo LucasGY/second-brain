@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-05-03 INGEST | Stripe Sessions AI Agents
+
+* **Status:** New Ingest
+* **Source File:** `raw/manual/youtube/Nat Friedman and Daniel Gross in conversation with John and Patrick Collison.md`
+* **Source Page Created:** [[20260503_manual_nat-friedman-daniel-gross-stripe-sessions-ai-agents|Nat Friedman and Daniel Gross on AI Agents]]
+* **Domain / Depth:** `ai_tech` / `deep`
+* **Entities Extracted:** [[stripe|Stripe]], [[china|China]], [[meta|Meta]], [[github|GitHub]], [[claude-code|Claude Code]], [[openai|OpenAI]], [[stablecoins|Stablecoins]]
+* **Concepts Extracted:** [[ai-agents|AI Agents]], [[self-improving-ai|Self-improving AI]], [[prompt-injection|Prompt Injection]], [[token-budgeting|Token Budgeting]], [[software-production-cost-collapse|Software Production Cost Collapse]], [[agent-payments|Agent Payments]], [[ai-capex|AI Capex]], [[disinflation|Disinflation]]
+* **Contradictions:** None identified
+
+---
+
 ## 2026-05-03 TRIAGE | Twitter Feed (2026-05-03)
 
 * **Scope:** `raw/feeds/x.com/` — 7 items scanned, 0 already ingested (skipped)
