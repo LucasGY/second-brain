@@ -18,6 +18,59 @@ AI agents are turning intelligence into a callable, billable, scalable economic 
 The source asks how the economy, organizations, software production, hardware ecosystems, and payment rails change when AI shifts from passive chatbot to persistent agentic actor.
 > 这份材料的核心问题是：当 AI 从被动聊天机器人变成持续存在、能执行任务的 Agent 行动者后，经济、组织、软件生产、硬件生态和支付网络会如何变化。
 
+## 🧠 Five Core Questions
+
+### 1. What is the material fundamentally about?
+This source is not merely about AI tools; it is about the shift from passive chatbots to AI agents as economic actors.
+> 这份材料不只是讨论 AI 工具，而是在讨论 AI 从被动聊天机器人转向作为经济行动者的 Agent。
+
+* **Core object:** AI is becoming an operational layer that can research, write code, call tools, control hardware, and transact.
+  > **核心对象：** AI 正在变成一种操作层，能够研究、写代码、调用工具、控制硬件并进行交易。
+* **Core implication:** Intelligence becomes callable infrastructure rather than scarce human labor.
+  > **核心含义：** 智能从稀缺的人类劳动变成可调用的基础设施。
+
+### 2. Is AI inflationary or disinflationary?
+The source argues that AI’s macroeconomic effect is structurally divergent rather than purely inflationary or purely disinflationary.
+> 这份材料认为，AI 的宏观经济影响是结构性分化，而不是单纯通胀或单纯通缩。
+
+* **Inflationary side:** GPUs, memory, power, land, networking, and data centers may rise in price because AI consumes scarce physical infrastructure.
+  > **通胀侧：** GPU、内存、电力、土地、网络和数据中心可能涨价，因为 AI 消耗稀缺的物理基础设施。
+* **Disinflationary side:** Software, analysis, customer support, workflow automation, and other knowledge-work outputs may get cheaper as intelligence becomes abundant.
+  > **通缩侧：** 软件、分析、客服、流程自动化和其他知识工作产出可能变便宜，因为智能供给变得充足。
+
+### 3. How do agents change software, hardware, and individual productivity?
+Agents reduce the friction of turning intent into working systems, especially where tasks can be verified through code, tools, sensors, or runtime feedback.
+> Agent 降低了把意图变成可运行系统的摩擦，尤其是在能通过代码、工具、传感器或运行反馈验证结果的任务中。
+
+* **Software effect:** Coding agents help developers avoid getting stuck by reading documents, writing code, debugging, and integrating systems.
+  > **软件影响：** 编码 Agent 能通过阅读文档、写代码、调试和集成系统，帮助开发者减少卡住的情况。
+* **Hardware effect:** Physical devices can become AI-controlled I/O peripherals rather than closed vendor-controlled products.
+  > **硬件影响：** 物理设备可以成为 AI 控制的输入/输出外设，而不再只是厂商封闭控制的产品。
+* **Individual effect:** A single person can behave more like a small technical team with persistent tool-using assistants.
+  > **个人影响：** 单个人借助持续存在、能调用工具的助手，可以更像一个小型技术团队。
+
+### 4. What are the main risks of AI agents?
+The main risk is not that agents are weak; it is that agents may become powerful before they become safe.
+> 最大风险不是 Agent 不够强，而是 Agent 可能在足够安全之前就已经变得很强。
+
+* **Prompt-injection risk:** Agents that read untrusted emails, webpages, or messages can be manipulated into leaking data or taking unsafe actions.
+  > **提示注入风险：** 读取不可信邮件、网页或消息的 Agent 可能被操控，从而泄露数据或采取不安全行动。
+* **Enterprise cost risk:** Token consumption can become a hidden budget leak if usage is not attributed to people, workflows, and generated artifacts.
+  > **企业成本风险：** 如果 token 使用不能归因到人员、工作流和生成产物，就可能变成隐性预算黑洞。
+* **Security risk:** AI can continuously find software bugs, which helps defenders but also increases pressure on old, exposed, or poorly maintained systems.
+  > **安全风险：** AI 可以持续发现软件漏洞，这有利于防守方，但也会加大老旧、暴露或维护不佳系统的压力。
+
+### 5. How will AI reshape companies and business models?
+AI reshapes companies by changing the cost of production, the unit of budgeting, and the infrastructure needed for online commerce.
+> AI 会通过改变生产成本、预算单位和在线商业所需基础设施来重塑公司。
+
+* **Organization:** Small teams with strong agents may do work that previously required larger process-heavy teams.
+  > **组织：** 拥有强 Agent 的小团队可能完成过去需要大型流程化团队才能完成的工作。
+* **SaaS economics:** Traditional per-seat SaaS models may face pricing pressure as custom software becomes cheaper to build and maintain.
+  > **SaaS 经济模型：** 随着定制软件的构建和维护成本下降，传统按席位收费的 SaaS 模式可能面临定价压力。
+* **Payments:** Agentic commerce needs identity, permissioning, fraud control, dispute resolution, pricing, and settlement rails.
+  > **支付：** Agent 商业需要身份、权限、反欺诈、争议处理、定价和结算网络。
+
 ## 💡 Key Innovations
 * **Agentic execution:** Agents are framed as systems with persistence, tool use, arbitrary code execution, and the ability to act across personal and enterprise contexts.
   > **Agent 执行能力：** 材料把 Agent 定义为具备持续上下文、工具调用、任意代码执行，并能在个人和企业场景中采取行动的系统。
