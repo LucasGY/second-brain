@@ -60,3 +60,12 @@
 * **Entities Extracted:** [[berkshire-hathaway|Berkshire Hathaway]], [[warren-buffett|Warren Buffett]], [[greg-abel|Greg Abel]], [[ajit-jain|Ajit Jain]], [[geico|GEICO]], [[bnsf|BNSF]], [[apple|Apple]], [[american-express|American Express]], [[bank-of-america|Bank of America]], [[coca-cola|Coca-Cola]], [[chevron|Chevron]], [[tokyo-marine|Tokyo Marine]]
 * **Concepts Extracted:** [[capital-allocation|Capital Allocation]], [[cash-position|Cash Position]], [[share-repurchase|Share Repurchase]], [[decentralized-management|Decentralized Management]], [[insurance-underwriting-discipline|Insurance Underwriting Discipline]], [[ai-as-productivity-tool|AI as Productivity Tool]], [[ai-deepfake-risk|AI Deepfake Risk]], [[cyber-insurance|Cyber Insurance]], [[human-judgment-in-investing|Human Judgment in Investing]], [[market-speculation-vs-investing|Market Speculation vs Investing]]
 * **Contradictions:** None identified
+
+---
+
+## 2026-05-04 UPDATE | Berkshire Hathaway Entity Sync
+
+* **Action:** Created core entity pages from the Berkshire 2026 annual meeting ingest and added them to `wiki/index.md`.
+* **Entities Created:** [[berkshire-hathaway|Berkshire Hathaway]], [[warren-buffett|Warren Buffett]], [[greg-abel|Greg Abel]], [[ajit-jain|Ajit Jain]], [[geico|GEICO]], [[bnsf|BNSF]], [[tokyo-marine|Tokyo Marine]]
+* **Concept Pages:** Deferred per user instruction; no concept pages created.
+* **Source Reference:** [[20260504_manual_berkshire-hathaway-annual-meeting-2026|2026 Berkshire Hathaway Annual Shareholders Meeting]]
