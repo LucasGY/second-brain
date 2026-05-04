@@ -48,3 +48,15 @@
 ---
 
 *This log is append-only. Edits to historical entries are prohibited.*
+
+---
+
+## 2026-05-04 INGEST | Berkshire Hathaway 2026 Annual Shareholders Meeting
+
+* **Status:** New Ingest
+* **Source File:** `raw/manual/youtube/Watch the 2026 Berkshire Hathaway annual shareholders meeting — 522026.md`
+* **Source Page Created:** [[20260504_manual_berkshire-hathaway-annual-meeting-2026|2026 Berkshire Hathaway Annual Shareholders Meeting]]
+* **Domain / Depth:** `finance` / `deep`
+* **Entities Extracted:** [[berkshire-hathaway|Berkshire Hathaway]], [[warren-buffett|Warren Buffett]], [[greg-abel|Greg Abel]], [[ajit-jain|Ajit Jain]], [[geico|GEICO]], [[bnsf|BNSF]], [[apple|Apple]], [[american-express|American Express]], [[bank-of-america|Bank of America]], [[coca-cola|Coca-Cola]], [[chevron|Chevron]], [[tokyo-marine|Tokyo Marine]]
+* **Concepts Extracted:** [[capital-allocation|Capital Allocation]], [[cash-position|Cash Position]], [[share-repurchase|Share Repurchase]], [[decentralized-management|Decentralized Management]], [[insurance-underwriting-discipline|Insurance Underwriting Discipline]], [[ai-as-productivity-tool|AI as Productivity Tool]], [[ai-deepfake-risk|AI Deepfake Risk]], [[cyber-insurance|Cyber Insurance]], [[human-judgment-in-investing|Human Judgment in Investing]], [[market-speculation-vs-investing|Market Speculation vs Investing]]
+* **Contradictions:** None identified
