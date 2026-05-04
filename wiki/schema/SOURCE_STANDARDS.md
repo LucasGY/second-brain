@@ -47,8 +47,18 @@ authors: [Author 1, Author 2]
 source_url: "https://..."
 source_path: "raw/[category]/[platform]/[filename]"
 tags: [must include at least one domain tag from index.md]
+
+# --- Frontend fields (required for md→json pipeline) ---
+source_date: "YYYY-MM-DD HH:MM"        # Actual publication datetime; use date_ingested if unknown
+content_type: [podcast | article | news | release | tweet | research]
+frontend_category: [mag7 | ai | content | general]
+entity_tags: [TICKER_OR_BRAND, ...]    # Short names matching frontend ENTITIES list (e.g. NVDA, OpenAI, X)
+tldr_en: "One sentence in English."    # Extracted from ## 📌 TL;DR; used as card summary
+tldr_zh: "一句话中文摘要。"              # Chinese translation of tldr_en
 ---
 ```
+
+**`entity_tags` vs `tags` rule:** `tags` holds domain/topic labels (`ai_tech`, `semiconductor`) for Obsidian graph filtering. `entity_tags` holds short tickers and brand names (`NVDA`, `OpenAI`, `X`) for frontend filter chips. Never mix these two fields.
 
 ```markdown
 # [Original Title]

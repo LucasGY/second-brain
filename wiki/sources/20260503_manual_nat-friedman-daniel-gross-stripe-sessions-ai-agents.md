@@ -6,6 +6,12 @@ authors: [Stripe, Nat Friedman, Daniel Gross, John Collison, Patrick Collison]
 source_url: "https://www.youtube.com/watch?v=I-ldITom1cg"
 source_path: "raw/manual/youtube/Nat Friedman and Daniel Gross in conversation with John and Patrick Collison.md"
 tags: [ai_tech]
+source_date: "2026-05-03 00:00"
+content_type: podcast
+frontend_category: ai
+entity_tags: [OpenAI, Anthropic]
+tldr_en: "AI agents are turning intelligence into a callable, billable, scalable economic resource; once agents can write code, control tools, allocate token budgets, operate hardware, and transact online, software, organizations, payments, and internet commerce will be repriced."
+tldr_zh: "AI Agent 正在把智能变成一种可调用、可计费、可扩展的经济资源；一旦 Agent 能写代码、控制工具、分配 token 预算、操作硬件并在线交易，软件、组织、支付和互联网商业都会被重新定价。"
 ---
 
 # Nat Friedman and Daniel Gross in conversation with John and Patrick Collison

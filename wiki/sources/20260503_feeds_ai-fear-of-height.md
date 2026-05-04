@@ -6,6 +6,12 @@ authors: [qinbafrank]
 source_url: "https://x.com/qinbafrank/status/2050922012873527762"
 source_path: "raw/feeds/x.com/2010668012806836322/2026-05-03-qinbafrank-2050922012873527762.md"
 tags: [finance, general]
+source_date: "2026-05-03 00:00"
+content_type: tweet
+frontend_category: general
+entity_tags: [X]
+tldr_en: "Exponential growth in technology constantly breaks human imagination limits; in investing, offense must be built on deduction while induction serves only as defense."
+tldr_zh: "历史科技与生产力的指数级发展不断打破人类想象力极限。投资上进攻必须依靠演绎，但可以把归纳作为防守。"
 ---
 
 # AI与人类共同"恐高"：指数级增长的认知挑战

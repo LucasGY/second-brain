@@ -59,6 +59,12 @@ When the user asks you to "ingest" or "process" a single file from the `raw/` di
 - Choose the correct framework (Option A/B/C/D for manual, Section 6 for feeds) based on your DOMAIN classification.
 - **Tag Constraint:** Only use tags that already exist in `wiki/index.md` unless explicitly instructed otherwise.
 - **Asset Paths:** If the raw source references images in `raw/assets/`, ensure image links point to `../../raw/assets/image_name.png`.
+- **Frontend YAML (required):** Populate all six frontend fields in every source page YAML:
+  - `source_date`: publication datetime; fall back to `date_ingested` + `" 00:00"` if unknown.
+  - `content_type`: derive from source format (podcast/article/news/release/tweet/research).
+  - `frontend_category`: map `domain` → category (`finance`→`mag7`, `ai_tech`→`ai`, `tooling`/`general`→`general`; override to `content` for platform-native sources like YouTube/X/WeChat).
+  - `entity_tags`: extract 1–5 short tickers or brand names from the source (e.g. `[NVDA, OpenAI]`). Use the canonical short form from `wiki/index.md`.
+  - `tldr_en` / `tldr_zh`: copy the one-sentence thesis written for `## 📌 TL;DR` into both fields.
 
 ### Step 3: Distributed Updates (The Compilation)
 - **READ `wiki/schema/ENTITY_STANDARDS.md`** before creating or updating any entity page.

@@ -6,6 +6,12 @@ authors: [Peter Steinberger, OpenClaw]
 source_url: "https://x.com/steipete/status/2050735979477008412"
 source_path: "raw/feeds/x.com/2010668465980424307/2026-05-03-Peter Steinberger 🦞-2050735979477008412.md"
 tags: [tooling, ai_tech]
+source_date: "2026-05-03 00:00"
+content_type: release
+frontend_category: ai
+entity_tags: [XAI, X]
+tldr_en: "OpenClaw released v2026.5.2 integrating xAI Grok 4.3, fixing npm dependency slowness, significantly reducing package size, and migrating the plugin system to an extensions architecture."
+tldr_zh: "OpenClaw发布v2026.5.2，集成xAI Grok 4.3，修复npm安装的依赖问题，大幅精简包体积，插件系统迁移到extensions架构。"
 ---
 
 # OpenClaw 2026.5.2: xAI Grok 4.3集成，插件系统重构
