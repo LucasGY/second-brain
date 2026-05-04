@@ -17,6 +17,7 @@
 * [[20260503_feeds_ai-fear-of-height|AI恐高现象]] - qinbafrank讨论AI与人类面对指数级增长时的认知挑战
 * [[20260503_feeds_groq-nvidia-arch-analysis|Groq-Nvidia架构分析]] - fin深度解析Groq收购后确定性编译器无法应用于HBM架构的技术原因
 * [[20260503_feeds_tsmc-2026-tech-seminar|台积电技术研讨会2026]] - 台积电公布从制程到封装的完整路线图，定义AI算力时代工业结构
+* [[20260504_manual_berkshire-hathaway-annual-meeting-2026|2026 Berkshire Hathaway Annual Shareholders Meeting]] - 2026 伯克希尔哈撒韦股东大会要点、AI 相关内容与巴菲特问答整理
 
 ---
 
@@ -56,4 +57,4 @@
 
 ---
 
-*Last updated: 2026-05-03*
+*Last updated: 2026-05-04*
