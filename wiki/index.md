@@ -25,14 +25,21 @@
 
 > 具体事物页面（公司、产品、人物等）。
 
-* [[nvidia|Nvidia]] - AI基础设施领导者，GPU+HBM架构主导，2026收购Groq
-* [[groq|Groq]] - SRAM-based LPU芯片公司，确定性编译器架构
-* [[tsmc|TSMC]] - 全球最大芯片代工厂，2026技术研讨会定义AI算力工业结构
-* [[xai|XAI]] - Elon Musk的AI公司，开发Grok系列模型
-* [[openclaw|OpenClaw]] - AI驱动CLI工具链，集成Grok 4.3
+* [[ajit-jain|Ajit Jain]] - Berkshire Hathaway 保险业务负责人，代表承保纪律、风险选择与 AI 边界判断
+* [[berkshire-hathaway|Berkshire Hathaway]] - 多元化控股公司，2026 年进入 Greg Abel 运营管理时代
+* [[bnsf|BNSF]] - Berkshire 旗下铁路业务，2026 年大会中被定位为需要技术驱动效率改善的资产
 * [[china|China]] - 美国观察中国机场活动预判高层会晤
-* [[usa|USA]] - 特朗普政府与中国的贸易和技术谈判
 * [[fintech|FinTech]] - AI系统存在系统性认知偏见的金融科技领域
+* [[geico|GEICO]] - Berkshire 旗下汽车保险业务，是 Greg Abel 时代技术转型和经营改善的重要案例
+* [[greg-abel|Greg Abel]] - Berkshire Hathaway CEO，接替 Warren Buffett 后负责运营型管理与资本纪律延续
+* [[groq|Groq]] - SRAM-based LPU芯片公司，确定性编译器架构
+* [[nvidia|Nvidia]] - AI基础设施领导者，GPU+HBM架构主导，2026收购Groq
+* [[openclaw|OpenClaw]] - AI驱动CLI工具链，集成Grok 4.3
+* [[tokyo-marine|Tokyo Marine]] - Berkshire 2026 年大会中被提及的战略性保险合作关系
+* [[tsmc|TSMC]] - 全球最大芯片代工厂，2026技术研讨会定义AI算力工业结构
+* [[usa|USA]] - 特朗普政府与中国的贸易和技术谈判
+* [[warren-buffett|Warren Buffett]] - Berkshire 长期领导者，2026 年大会中从主答者转为 chairman 与访谈嘉宾
+* [[xai|XAI]] - Elon Musk的AI公司，开发Grok系列模型
 
 ---
 
