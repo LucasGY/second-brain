@@ -48,17 +48,37 @@ source_url: "https://..."
 source_path: "raw/[category]/[platform]/[filename]"
 tags: [must include at least one domain tag from index.md]
 
-# --- Frontend fields (required for md→json pipeline) ---
+# --- Frontend fields (required only when this source should appear in Entity Dynamics) ---
 source_date: "YYYY-MM-DD HH:MM"        # Actual publication datetime; use date_ingested if unknown
 content_type: [podcast | article | news | release | tweet | research]
-frontend_category: [mag7 | ai | content | general]
-entity_tags: [TICKER_OR_BRAND, ...]    # Short names matching frontend ENTITIES list (e.g. NVDA, OpenAI, X)
+frontend_category: [mag7 | ai | content] # First-level frontend tag
+entity_tags: [TICKER_OR_ENTITY, ...]   # Second-level frontend tags, e.g. [NVDA, TSMC] or [OpenAI, Anthropic]
+title_zh: "中文时间线卡片标题"            # Short Chinese title shown on frontend timeline cards
+source_platform: [YouTube | X | WeChat | Web]
 tldr_en: "One sentence in English."    # Extracted from ## 📌 TL;DR; used as card summary
 tldr_zh: "一句话中文摘要。"              # Chinese translation of tldr_en
 ---
 ```
 
-**`entity_tags` vs `tags` rule:** `tags` holds domain/topic labels (`ai_tech`, `semiconductor`) for Obsidian graph filtering. `entity_tags` holds short tickers and brand names (`NVDA`, `OpenAI`, `X`) for frontend filter chips. Never mix these two fields.
+**Frontend inclusion rule:** Source pages may keep frontend-related frontmatter fields for metadata completeness. However, only sources that match the fixed first-level/second-level tag lists below are eligible for the frontend Entity Dynamics feed. Unmatched sources may still have `frontend_category`, `entity_tags`, `title_zh`, or `source_platform` fields, but backend/frontend pipelines MUST ignore them.
+
+**First-level frontend tag rule:** `frontend_category` is the first-level tag shown in the frontend:
+
+| Value | Use When |
+|-------|----------|
+| `mag7` | The source materially tracks one of the fixed second-level tags: `AMZN`, `MSFT`, `NVDA`, `AAPL`, `META`, `GOOGL`, `TSLA`, `BRK`, `TSMC` |
+| `ai` | The source materially tracks one of the fixed second-level tags: `OpenAI`, `Anthropic` |
+| `content` | The source is a deep/manual source from `raw/manual/` and should appear under 深度内容 |
+
+There is no `general` frontend category. If a source does not match `mag7`, `ai`, or `content`, it does not enter the frontend.
+
+**Deep content rule:** `frontend_category: content` is allowed ONLY for sources whose `source_path` starts with `raw/manual/`. Feed items from `raw/feeds/` MUST NOT use `frontend_category: content`. For `content`, the second-level frontend filter is `source_platform`, and it must be one of `YouTube`, `X`, `WeChat`, or `Web`.
+
+**Second-level frontend tag rule:** For `mag7` and `ai`, `entity_tags` is the second-level tag list shown in the frontend. It must contain only values from the fixed lists above. For `content`, use `source_platform` as the second-level frontend tag.
+
+**Platform rule:** Put the publication/source platform in `source_platform`, not in `entity_tags`.
+
+**`entity_tags` vs `tags` rule:** `tags` holds domain/topic labels (`ai_tech`, `semiconductor`) for Obsidian graph filtering. `entity_tags` holds second-level frontend tracking tags (`NVDA`, `TSMC`, `OpenAI`, `Anthropic`). Never mix these two fields.
 
 ```markdown
 # [Original Title]

@@ -9,7 +9,9 @@ tags: [finance, general]
 source_date: "2026-05-03 00:00"
 content_type: tweet
 frontend_category: general
-entity_tags: [X]
+entity_tags: [FinTech]
+title_zh: "AI与人类共同恐高：指数级增长的认知挑战"
+source_platform: X
 tldr_en: "Exponential growth in technology constantly breaks human imagination limits; in investing, offense must be built on deduction while induction serves only as defense."
 tldr_zh: "历史科技与生产力的指数级发展不断打破人类想象力极限。投资上进攻必须依靠演绎，但可以把归纳作为防守。"
 ---

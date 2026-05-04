@@ -8,8 +8,6 @@ source_path: "raw/feeds/x.com/2010668012806836322/2026-05-03-SemiAnalysis-205074
 tags: [ai_tech, education]
 source_date: "2026-05-03 00:00"
 content_type: tweet
-frontend_category: general
-entity_tags: [X]
 tldr_en: "SemiAnalysis promoted a course claiming a Jane Street junior new grad used an agentic AI system (JAX + Mesh-TF over trillions of data points) to secure a $220K–$600K role—treat as marketing content, claims unverified."
 tldr_zh: "SemiAnalysis推广一门课程，声称一位Jane Street初级毕业生使用agentic AI系统（JAX + Mesh-TF处理万亿级数据点）获得$220K-$600K职位——属营销内容，数据未经验证。"
 ---

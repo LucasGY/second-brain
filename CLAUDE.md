@@ -59,12 +59,18 @@ When the user asks you to "ingest" or "process" a single file from the `raw/` di
 - Choose the correct framework (Option A/B/C/D for manual, Section 6 for feeds) based on your DOMAIN classification.
 - **Tag Constraint:** Only use tags that already exist in `wiki/index.md` unless explicitly instructed otherwise.
 - **Asset Paths:** If the raw source references images in `raw/assets/`, ensure image links point to `../../raw/assets/image_name.png`.
-- **Frontend YAML (required):** Populate all six frontend fields in every source page YAML:
+- **Frontend YAML (conditional):** Populate frontend fields only when the source should appear in the "深度追踪与实体动态" frontend feed. A source is frontend-eligible only if it matches the fixed first-level and second-level tag lists below.
   - `source_date`: publication datetime; fall back to `date_ingested` + `" 00:00"` if unknown.
   - `content_type`: derive from source format (podcast/article/news/release/tweet/research).
-  - `frontend_category`: map `domain` → category (`finance`→`mag7`, `ai_tech`→`ai`, `tooling`/`general`→`general`; override to `content` for platform-native sources like YouTube/X/WeChat).
-  - `entity_tags`: extract 1–5 short tickers or brand names from the source (e.g. `[NVDA, OpenAI]`). Use the canonical short form from `wiki/index.md`.
+  - `frontend_category`: first-level frontend tag. Allowed values are only `mag7`, `ai`, and `content`.
+  - `entity_tags`: second-level frontend tags for `mag7` and `ai` only. For `mag7`, allowed values are exactly `[AMZN, MSFT, NVDA, AAPL, META, GOOGL, TSLA, BRK, TSMC]`. For `ai`, allowed values are exactly `[OpenAI, Anthropic]`.
+  - `title_zh`: a short Chinese title for the frontend timeline card.
+  - `source_platform`: source platform. For `content`, this is the second-level frontend tag and must be one of `[YouTube, X, WeChat, Web]`.
   - `tldr_en` / `tldr_zh`: copy the one-sentence thesis written for `## 📌 TL;DR` into both fields.
+- **Frontend exclusion:** If the source does not match one of the fixed lists, it may still keep frontend-related frontmatter for metadata completeness, but it MUST NOT be considered frontend-eligible. Backend/frontend filtering decides final inclusion.
+- **No general category:** There is no frontend `general` category. Unmatched sources stay in the wiki but do not enter the frontend.
+- **Platform separation:** Do not put platforms such as `X`, `YouTube`, `WeChat`, or `Web` in `entity_tags`. Store the publication platform in `source_platform`.
+- **Deep content constraint:** `frontend_category: content` is allowed only when `source_path` begins with `raw/manual/`. Feed items from `raw/feeds/` must not be placed under 深度内容. For content items, the frontend second-level tag is `source_platform`, not `entity_tags`.
 
 ### Step 3: Distributed Updates (The Compilation)
 - **READ `wiki/schema/ENTITY_STANDARDS.md`** before creating or updating any entity page.

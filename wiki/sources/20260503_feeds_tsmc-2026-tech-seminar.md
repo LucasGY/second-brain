@@ -1,7 +1,7 @@
 ---
 type: source
 date_ingested: 2026-05-03
-domain: semiconductor
+domain: ai_tech
 authors: [qinbafrank]
 source_url: "https://x.com/qinbafrank/status/2050840376760729970"
 source_path: "raw/feeds/x.com/2010668012806836322/2026-05-03-qinbafrank-2050840376760729970.md"
@@ -10,8 +10,10 @@ source_date: "2026-05-03 00:00"
 content_type: article
 frontend_category: mag7
 entity_tags: [TSMC, NVDA]
+title_zh: "台积电 2026 技术研讨会"
+source_platform: X
 tldr_en: "TSMC positioned AI as the core driver of a new semiconductor super cycle, with a full process-to-packaging roadmap; AI competition has shifted from 'who is smarter' to 'who can build the compute system first'—advanced process determines the ceiling, system integration determines the gap."
-tldr_zh: "台积电明确将AI定位为新一轮半导体超级周期核心驱动力，并公布从制程到封装的完整路线图。核心观点：AI竞争已从"谁更聪明"变成"谁能先把算力系统造出来"——先进制程决定上限，系统集成决定差距。"
+tldr_zh: '台积电明确将AI定位为新一轮半导体超级周期核心驱动力，并公布从制程到封装的完整路线图。核心观点：AI竞争已从"谁更聪明"变成"谁能先把算力系统造出来"——先进制程决定上限，系统集成决定差距。'
 ---
 
 # 台积电技术研讨会2026：AI算力时代的工业结构定义

@@ -9,7 +9,9 @@ tags: [finance, geopolitics]
 source_date: "2026-05-03 00:00"
 content_type: tweet
 frontend_category: general
-entity_tags: [X]
+entity_tags: [China, USA]
+title_zh: "PEK 机场观察与中美会晤预期"
+source_platform: X
 tldr_en: "A trader observed Beijing Capital Airport expecting an imminent Xi-Trump meeting, concluding no major military action against Iran would occur before the meeting takes place."
 tldr_zh: "交易员观察北京首都国际机场，预期Xi-Trump会晤即将发生，并据此判断在会晤前不会出现针对伊朗的重大军事行动。"
 ---
