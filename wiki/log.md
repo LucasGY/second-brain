@@ -69,3 +69,23 @@
 * **Entities Created:** [[berkshire-hathaway|Berkshire Hathaway]], [[warren-buffett|Warren Buffett]], [[greg-abel|Greg Abel]], [[ajit-jain|Ajit Jain]], [[geico|GEICO]], [[bnsf|BNSF]], [[tokyo-marine|Tokyo Marine]]
 * **Concept Pages:** Deferred per user instruction; no concept pages created.
 * **Source Reference:** [[20260504_manual_berkshire-hathaway-annual-meeting-2026|2026 Berkshire Hathaway Annual Shareholders Meeting]]
+
+---
+
+## 2026-05-06 INGEST | Decoding the Agentic Economy
+
+* **Status:** New Ingest
+* **Source File:** `raw/manual/web/Americas Technology_ Decoding the Agentic Economy - The Coming Inflection in AI Usage and Margins.pdf`
+* **Source Page Created:** [[20260505_manual_decoding-agentic-economy|Decoding the Agentic Economy]]
+* **Domain / Depth:** `finance` / `deep`
+* **Entities Extracted:** [[goldman-sachs|Goldman Sachs]], [[nvidia|Nvidia]], [[broadcom|Broadcom]], [[amd|AMD]], [[amazon|Amazon]], [[alphabet|Alphabet]], [[meta|Meta]], [[microsoft|Microsoft]], [[cloudflare|Cloudflare]], [[accenture|Accenture]]
+* **Concepts Extracted:** [[ai-agents|AI Agents]], [[ai-inference-economics|AI Inference Economics]], [[ai-capex|AI CapEx]]
+* **Assets Created:** `wiki/assets/20260505_decoding-agentic-economy_token-economics.png`, `wiki/assets/20260505_decoding-agentic-economy_agent-roi.png`, `wiki/assets/20260505_decoding-agentic-economy_adoption-curves.png`
+* **Contradictions:** None identified
+
+---
+
+## 2026-05-06 UPDATE | Decoding the Agentic Economy Source Style
+
+* **Action:** Rewrote [[20260505_manual_decoding-agentic-economy|Decoding the Agentic Economy]] source body into concise bullet-point analysis with bolded key data, arrow-based causal logic, plain-language explanations, risk assessment, and embedded chart evidence.
+* **Touched:** [[20260505_manual_decoding-agentic-economy|Decoding the Agentic Economy]]
