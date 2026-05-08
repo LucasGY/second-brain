@@ -49,11 +49,7 @@ AI agent 出现
 
 ![Image](https://mmbiz.qpic.cn/mmbiz_png/eUejUCfotMfXYLmCp7M9icjEodMIVceVBCtdTaydibQXXUQ2N54cChJ3Tc2HibcgOMkG6hBqvZFv6AbG0WuBoQhdjzS8Zn9HVDjUzFT3ru4Vy4/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
 
-应用层里，agent
-
-orchestration
-
-可能改变 engagement 和 value capture，尤其是依赖 seat/user license 的产品；但在 platform 和 infrastructure 层，AI agent 通常会增加对数据管理、工作负载编排、安全、恢复等能力的需求，这些能力在 UI 之下，不容易被绕过。
+应用层里，agent orchestration可能改变 engagement 和 value capture，尤其是依赖 seat/user license 的产品；但在 platform 和 infrastructure 层，AI agent 通常会增加对数据管理、工作负载编排、安全、恢复等能力的需求，这些能力在 UI 之下，不容易被绕过。
 
 AI 不一定 kill software，但会 kill 掉“只靠人类点击 UI + seat 扩张 + 弱系统地位”的旧 SaaS 估值宪法。
 
