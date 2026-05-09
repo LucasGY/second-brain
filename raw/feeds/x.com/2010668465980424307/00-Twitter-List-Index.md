@@ -1,10 +1,12 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668465980424307
-Retrieved: 2026-05-09T15:52:52.105Z
+Retrieved: 2026-05-09T16:52:52.328Z
 
-## Tweets (1130)
+## Tweets (1132)
 
+- [2026-05-09-Sam Altman-2053154960473506101](2026-05-09-Sam Altman-2053154960473506101.md) — @Sam Altman, 2026-05-09 16:47
+- [2026-05-09-Sam Altman-2053151542916894775](2026-05-09-Sam Altman-2053151542916894775.md) — @Sam Altman, 2026-05-09 16:34
 - [2026-05-09-Peter Steinberger 🦞-2053114837698249190](2026-05-09-Peter Steinberger 🦞-2053114837698249190.md) — @Peter Steinberger 🦞, 2026-05-09 14:08
 - [2026-05-09-Peter Steinberger 🦞-2053082660562497616](2026-05-09-Peter Steinberger 🦞-2053082660562497616.md) — @Peter Steinberger 🦞, 2026-05-09 12:00
 - [2026-05-09-Mahmoud Ashraf-2053066856504668605](2026-05-09-Mahmoud Ashraf-2053066856504668605.md) — @Mahmoud Ashraf, 2026-05-09 10:57
