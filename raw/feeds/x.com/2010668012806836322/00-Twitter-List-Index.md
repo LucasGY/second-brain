@@ -1,10 +1,11 @@
 # Twitter List
 
 Source: http://localhost:1200/twitter/list/2010668012806836322
-Retrieved: 2026-05-16T21:54:19.874Z
+Retrieved: 2026-05-16T22:54:37.256Z
 
-## Tweets (2129)
+## Tweets (2130)
 
+- [2026-05-16-The Kobeissi Letter-2055771298056294639](2026-05-16-The Kobeissi Letter-2055771298056294639.md) — @The Kobeissi Letter, 2026-05-16 22:04
 - [2026-05-16-SemiAnalysis-2055746972523336120](2026-05-16-SemiAnalysis-2055746972523336120.md) — @SemiAnalysis, 2026-05-16 20:27
 - [2026-05-16-The Kobeissi Letter-2055742824813830277](2026-05-16-The Kobeissi Letter-2055742824813830277.md) — @The Kobeissi Letter, 2026-05-16 20:10
 - [2026-05-16-The Kobeissi Letter-2055737142551199886](2026-05-16-The Kobeissi Letter-2055737142551199886.md) — @The Kobeissi Letter, 2026-05-16 19:48
