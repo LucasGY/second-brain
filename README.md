@@ -67,6 +67,14 @@ Search wiki pages:
 /root/.openclaw/.venv/bin/python scripts/wiki_tools.py search "your query"
 ```
 
+Run the Second Brain MCP server for Claude Desktop, ChatGPT Developer Mode, or other MCP clients:
+
+```bash
+/root/.openclaw/.venv/bin/python scripts/second_brain_mcp.py --transport streamable-http --host 0.0.0.0 --port 8765
+```
+
+See [docs/second-brain-mcp.md](docs/second-brain-mcp.md) for local stdio and remote HTTP connection examples.
+
 Append a log entry:
 
 ```bash
