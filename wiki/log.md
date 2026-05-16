@@ -89,3 +89,8 @@
 
 * **Action:** Rewrote [[20260505_manual_decoding-agentic-economy|Decoding the Agentic Economy]] source body into concise bullet-point analysis with bolded key data, arrow-based causal logic, plain-language explanations, risk assessment, and embedded chart evidence.
 * **Touched:** [[20260505_manual_decoding-agentic-economy|Decoding the Agentic Economy]]
+
+## [2026-05-16] UPDATE | ChatGPT App MCP Connector for Capturing Conversations into Obsidian
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260516_mcp_chatgpt-app-mcp-connector-for-capturing-conversations-into-obsidian]]

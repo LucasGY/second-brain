@@ -191,6 +191,8 @@ def save_knowledge_note(
     ensure_bilingual_pair(summary_en, summary_zh, "summary")
     ensure_bilingual_pair(body_en, body_zh, "body")
 
+    ANALYSES_DIR.mkdir(parents=True, exist_ok=True)
+
     today = dt.date.today().isoformat()
     slug = f"{today.replace('-', '')}_mcp_{slugify(title_en)}"
     path = ANALYSES_DIR / f"{slug}.md"
