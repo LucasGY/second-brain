@@ -121,6 +121,9 @@ _分析_
 - [Markdown With Embedded HTML Blocks](analyses/20260517_mcp_markdown-with-embedded-html-blocks.md)
   A second-brain note can keep Markdown as the durable source while embedding
   Second Brain 笔记可以保留 Markdown 作为长期知识源，同时嵌入 HTML 阅读卡片，用于快速浏览、视觉层级和更丰富的呈现。
+- [New Zealand RV PRV Citizenship Flowchart HTML Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-flowchart-html-note.md)
+  A structured HTML-style flowchart note for New Zealand Resident Visa,
+  一版结构化 HTML 风格的流程图笔记，用决策节点、天数规则、倒推检查表和示例时间线重新组织新西兰 RV、PRV 与入籍时间节点，替代原先散文式笔记。
 - [New Zealand RV to PRV and Citizenship Timing Notes](analyses/20260517_mcp_new-zealand-rv-to-prv-and-citizenship-timing-notes.md)
   A reusable reference note for New Zealand Resident Visa to Permanent Resident
   一份可复用的新西兰 Resident Visa 到 Permanent Resident Visa、以及后续申请国籍的时间节点笔记，整理了关键天数、起算点、申请时点和示例。依据新西兰移民局与政府官方页面，核对日期为
