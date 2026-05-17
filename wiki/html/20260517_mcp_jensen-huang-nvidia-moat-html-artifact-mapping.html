@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jensen Huang：Nvidia 护城河会持续吗？HTML Artifact</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a2f;
+      --panel-2: #18223d;
+      --text: #edf2ff;
+      --muted: #aab6d3;
+      --line: #293653;
+      --accent: #76b900;
+      --accent-2: #93d96c;
+      --warn: #ffd166;
+      --danger: #ff7b7b;
+      --blue: #7db7ff;
+      --purple: #c49cff;
+      --radius: 18px;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, rgba(118,185,0,.22), transparent 34%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent-2); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 20px 72px; }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+    .eyebrow {
+      color: var(--accent-2);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 12px;
+      font-weight: 750;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.05; margin: 0 0 16px; letter-spacing: -.04em; }
+    h2 { font-size: 26px; margin: 0 0 14px; letter-spacing: -.02em; }
+    h3 { font-size: 18px; margin: 0 0 8px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    .thesis {
+      font-size: 18px;
+      color: var(--text);
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+      margin-top: 18px;
+    }
+    .pillrow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .pill {
+      border: 1px solid rgba(118,185,0,.35);
+      background: rgba(118,185,0,.1);
+      color: #dfffcd;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .scorecard { display: grid; gap: 12px; }
+    .metric {
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      padding: 14px;
+    }
+    .metric b { display: block; font-size: 24px; color: var(--text); }
+    .metric span { color: var(--muted); font-size: 13px; }
+    .section { margin-top: 26px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .mini {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .mini h3 { color: var(--accent-2); }
+    .mini ul, .compare ul { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
+    .mini li, .compare li { margin: 6px 0; }
+    .flow {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .node {
+      position: relative;
+      min-height: 128px;
+      padding: 18px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--line);
+      cursor: pointer;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    .node:hover { transform: translateY(-2px); border-color: rgba(118,185,0,.65); }
+    .node.active { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(118,185,0,.18); }
+    .node .num { color: var(--accent-2); font-weight: 800; font-size: 12px; letter-spacing: .1em; }
+    .node strong { display: block; margin: 8px 0 6px; font-size: 17px; }
+    .node small { color: var(--muted); }
+    .detail {
+      margin-top: 14px;
+      background: rgba(118,185,0,.08);
+      border: 1px solid rgba(118,185,0,.25);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .detail h3 { color: #dfffcd; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    th { color: var(--text); background: rgba(255,255,255,.05); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+    tr:last-child td { border-bottom: 0; }
+    td:first-child { color: var(--text); font-weight: 700; }
+    .compare { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .compare .col {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .tag { display: inline-block; border-radius: 999px; padding: 4px 9px; font-size: 12px; font-weight: 800; margin-bottom: 10px; }
+    .green { background: rgba(118,185,0,.16); color: #dfffcd; }
+    .yellow { background: rgba(255,209,102,.16); color: #ffe7a3; }
+    .blue { background: rgba(125,183,255,.16); color: #cfe6ff; }
+    details {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin: 10px 0;
+    }
+    summary { cursor: pointer; font-weight: 800; color: var(--text); }
+    .recommend {
+      background: linear-gradient(135deg, rgba(118,185,0,.18), rgba(125,183,255,.12));
+      border: 1px solid rgba(118,185,0,.35);
+    }
+    .footer { color: var(--muted); font-size: 13px; margin-top: 28px; }
+    @media (max-width: 860px) {
+      .hero, .grid-3, .grid-2, .flow, .compare { grid-template-columns: 1fr; }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="card">
+        <div class="eyebrow">Second Brain Artifact · Nvidia Moat</div>
+        <h1>Jensen Huang：Nvidia 的护城河会持续吗？</h1>
+        <p>基于 Dwarkesh Patel 采访 Jensen Huang 的 raw transcript，整理成一个可复用的 HTML 知识 artifact。</p>
+        <p class="thesis"><strong>核心判断：</strong>Nvidia 的护城河不是单点 CUDA、GPU 或短期缺货，而是一个把供应链、系统架构、软件生态、云客户、AI labs 和资本支持连接起来的产业飞轮。</p>
+        <div class="pillrow">
+          <span class="pill">Concept Explainer</span>
+          <span class="pill">Annotated Flywheel</span>
+          <span class="pill">TPU / GPU / ASIC Matrix</span>
+          <span class="pill">Second-Brain Ready</span>
+        </div>
+      </div>
+      <div class="card scorecard">
+        <div class="metric"><b>1</b><span>首选 HTML：Concept explainer，用于解释 Nvidia moat。</span></div>
+        <div class="metric"><b>2</b><span>第二选择：Annotated flowchart，用于表达护城河飞轮。</span></div>
+        <div class="metric"><b>3</b><span>第三选择：Side-by-side comparison，用于 TPU/GPU/ASIC 横向比较。</span></div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>1. 概念解释器：Nvidia moat 到底是什么？</h2>
+      <div class="grid-3">
+        <div class="mini">
+          <h3>不是单点 CUDA</h3>
+          <p>CUDA 重要，但它更像生态入口：框架、kernel、libraries、安装基数、云端可用性共同形成开发者默认选择。</p>
+        </div>
+        <div class="mini">
+          <h3>不是单纯锁供应链</h3>
+          <p>供应链 commitment 重要，但更关键的是 Nvidia 能给上游一个可信需求信号，让 TSMC、HBM、封装、光通信等环节愿意提前扩产。</p>
+        </div>
+        <div class="mini">
+          <h3>不是只靠硬件规格</h3>
+          <p>Jensen 的核心防线是系统 co-design：GPU、NVLink、Spectrum-X、CUDA、算法、AI lab 工程支持一起优化 TCO 和 tokens/watt。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>2. Annotated flowchart：Nvidia 护城河飞轮</h2>
+      <p>点击每个节点查看它在 Jensen 叙事中的作用。</p>
+      <div class="flow" id="flow">
+        <div class="node active" data-key="supply"><span class="num">01</span><strong>上游供应链承诺</strong><small>foundry / HBM / packaging / photonics</small></div>
+        <div class="node" data-key="signal"><span class="num">02</span><strong>可信需求信号</strong><small>巨大下游需求让上游敢扩产</small></div>
+        <div class="node" data-key="system"><span class="num">03</span><strong>系统级 co-design</strong><small>芯片、网络、库、算法协同</small></div>
+        <div class="node" data-key="cuda"><span class="num">04</span><strong>CUDA 生态</strong><small>框架、kernel、libraries、开发者信任</small></div>
+        <div class="node" data-key="install"><span class="num">05</span><strong>安装基数与每云可用</strong><small>几亿 GPU、所有主流云、on-prem、edge</small></div>
+        <div class="node" data-key="customers"><span class="num">06</span><strong>客户与资本飞轮</strong><small>AI labs、hyperscalers、neoclouds 互相强化</small></div>
+      </div>
+      <div class="detail" id="detail">
+        <h3>上游供应链承诺</h3>
+        <p>Nvidia 的 purchase commitments 和长期合作，让先进制程、HBM、CoWoS、光通信、封装测试等环节愿意为未来 AI demand 提前投资。这不是简单抢货，而是产业协调能力。</p>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>3. TPU / ASIC vs Nvidia GPU / CUDA</h2>
+      <div class="compare">
+        <div class="col">
+          <span class="tag green">Nvidia GPU / CUDA</span>
+          <h3>通用加速计算平台</h3>
+          <ul>
+            <li>适合快速变化的 AI 架构和新算法。</li>
+            <li>生态成熟：CUDA、Triton backend、vLLM、SGLang、NCCL、CUDA-X。</li>
+            <li>部署面广：所有主流云、on-prem、机器人、科研、药物发现。</li>
+            <li>Jensen 主张：tokens per watt / TCO 是核心优势。</li>
+          </ul>
+        </div>
+        <div class="col">
+          <span class="tag yellow">Google TPU</span>
+          <h3>面向特定 AI workload 的专用架构</h3>
+          <ul>
+            <li>对矩阵乘法等稳定 workload 有优势叙事。</li>
+            <li>Google 内部和 Anthropic 等大客户可承担软件栈适配。</li>
+            <li>弱点是通用性、外部客户生态和部署面不如 Nvidia。</li>
+            <li>Jensen 把 Anthropic 解释成“特例，不是趋势”。</li>
+          </ul>
+        </div>
+        <div class="col">
+          <span class="tag blue">ASIC / Trainium / Custom</span>
+          <h3>大客户自研或半定制路线</h3>
+          <ul>
+            <li>适合少数资本强、工程强、负载稳定的大客户。</li>
+            <li>潜在收益是成本控制和供应链谈判力。</li>
+            <li>挑战是年度迭代速度、软件栈、TCO、良率、供应链规模。</li>
+            <li>Jensen 认为 ASIC 供应商也有高 margin，未必真省很多。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>4. 内容单元 → HTML 表达方式映射</h2>
+      <table>
+        <thead><tr><th>内容</th><th>最合适 HTML</th><th>理由</th></tr></thead>
+        <tbody>
+          <tr><td>整篇访谈总览</td><td>15-research-concept-explainer.html</td><td>适合解释 Nvidia moat 这个复杂概念。</td></tr>
+          <tr><td>一句话主旨 + 9 点摘要</td><td>14-research-feature-explainer.html</td><td>适合用问题驱动的折叠章节解释系统如何工作。</td></tr>
+          <tr><td>护城河飞轮</td><td>13-flowchart-diagram.html</td><td>适合展示供应链、生态、客户、资本之间的循环关系。</td></tr>
+          <tr><td>TPU / ASIC 竞争分析</td><td>01-exploration-code-approaches.html</td><td>适合三列横向比较不同架构路线。</td></tr>
+          <tr><td>供应链瓶颈</td><td>13-flowchart-diagram.html 或 12-incident-report.html</td><td>流程图解释瓶颈解除机制，时间线解释瓶颈演化。</td></tr>
+          <tr><td>CUDA 生态</td><td>15-research-concept-explainer.html</td><td>适合把 CUDA 从 API 升级解释为生态和安装基数。</td></tr>
+          <tr><td>公司哲学</td><td>14-research-feature-explainer.html</td><td>适合解释“do as much as needed, as little as possible”。</td></tr>
+          <tr><td>为什么不做 hyperscaler</td><td>01-exploration-code-approaches.html</td><td>适合比较只卖平台、做云、扶持 neocloud 三种战略。</td></tr>
+          <tr><td>GPU 分配规则</td><td>13-flowchart-diagram.html</td><td>适合表达 forecast、PO、readiness、交付排队规则。</td></tr>
+          <tr><td>对外讲解</td><td>09-slide-deck.html</td><td>适合做 8–10 页投资 memo / presentation。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section card recommend">
+      <h2>5. 最终推荐</h2>
+      <details open>
+        <summary>只做一个 HTML</summary>
+        <p>选择 <strong>15-research-concept-explainer.html</strong>。原因：这篇最重要的不是逐字稿，而是理解“Nvidia moat 是什么”。</p>
+      </details>
+      <details>
+        <summary>做完整 second-brain artifact</summary>
+        <p>组合 <strong>Concept explainer + Annotated flowchart + TPU/GPU/ASIC comparison matrix</strong>。概念解释器负责读懂，流程图负责记住结构，对比矩阵负责判断竞争格局。</p>
+      </details>
+      <details>
+        <summary>做成对外汇报</summary>
+        <p>选择 <strong>09-slide-deck.html</strong>，建议 8 页：主旨、护城河飞轮、供应链、CUDA、TPU/ASIC、hyperscaler/neocloud、资本生态、结论。</p>
+      </details>
+    </section>
+
+    <p class="footer">Generated for second-brain use. Based on raw transcript: “Jensen Huang – Will Nvidia’s moat persist?”</p>
+  </main>
+
+  <script>
+    const details = {
+      supply: ['上游供应链承诺', 'Nvidia 的 purchase commitments 和长期合作，让先进制程、HBM、CoWoS、光通信、封装测试等环节愿意为未来 AI demand 提前投资。这不是简单抢货，而是产业协调能力。'],
+      signal: ['可信需求信号', 'Jensen 的关键论点是：上游愿意为 Nvidia 扩产，是因为 Nvidia 有足够强的下游需求、云渠道和客户生态，能把新增产能消化掉。'],
+      system: ['系统级 co-design', 'Nvidia 不只是卖 GPU，而是在 processor、fabric、network、libraries、kernel、algorithm 层共同优化。NVLink、Spectrum-X、CUDA 和 AI lab 工程支持共同形成 TCO 优势。'],
+      cuda: ['CUDA 生态', 'CUDA 的护城河不是一个 API，而是框架、库、开发者信任、debuggability、install base 和工具链共同形成的默认平台。'],
+      install: ['安装基数与每云可用', 'Jensen 强调 Nvidia 在每个 cloud、on-prem、edge、robotics 和科研场景里都有部署。开发者写出的软件可以跑在更多地方，这是平台网络效应。'],
+      customers: ['客户与资本飞轮', 'Nvidia 支持 OpenAI、Anthropic、CoreWeave、Nebius 等生态节点，但不想自己做 hyperscaler。它的哲学是：做必要但别人不会做的部分，其他部分扶持生态完成。']
+    };
+    const nodes = document.querySelectorAll('.node');
+    const detail = document.getElementById('detail');
+    nodes.forEach(node => {
+      node.addEventListener('click', () => {
+        nodes.forEach(n => n.classList.remove('active'));
+        node.classList.add('active');
+        const [title, text] = details[node.dataset.key];
+        detail.innerHTML = `<h3>${title}</h3><p>${text}</p>`;
+      });
+    });
+  </script>
+</body>
+</html>

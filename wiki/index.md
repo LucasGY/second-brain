@@ -115,6 +115,9 @@ _概念_
 
 _分析_
 
+- [Jensen Huang Nvidia Moat HTML Artifact Mapping](analyses/20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping.md)
+  A second-brain note that maps each content unit from the Jensen Huang
+  一条第二大脑笔记：把 Jensen Huang 关于 Nvidia 护城河访谈的各类内容，逐一映射到最合适的 HTML 表达方式，并保存一个最终独立
 - [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2.md)
   A complete ChatGPT-generated interactive HTML artifact for reasoning through
   一份由 ChatGPT 生成的完整交互式 HTML artifact，用于判断新西兰 RV、PRV 与入籍时间规则。

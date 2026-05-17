@@ -189,3 +189,8 @@
 * **Action:** Disabled OpenClaw cron job `second-brain-x-rss-sync`; deleted regenerated Markdown files under `raw/feeds/x.com/`; rebuilt `wiki/index.md`.
 * **Source Created:** N/A
 * **Touched:** `raw/feeds/x.com/`, [[index]]
+
+## [2026-05-17] UPDATE | Jensen Huang Nvidia Moat HTML Artifact Mapping
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping]]
