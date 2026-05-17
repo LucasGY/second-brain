@@ -16,6 +16,38 @@ This repository includes a small MCP server that lets ChatGPT, Claude, and other
 - `get_wiki_operating_rules`: return the key write rules.
 > `get_wiki_operating_rules`：返回关键写入规则。
 
+## Obsidian Custom Frames
+
+MCP-created notes now use a two-file pattern: the Markdown note remains the durable editable record, and a standalone HTML artifact is generated for rich reading in Obsidian Custom Frames.
+> MCP 创建的笔记现在使用双文件模式：Markdown 笔记仍然是长期可编辑记录，同时生成独立 HTML artifact，用于在 Obsidian Custom Frames 中进行富阅读。
+
+Generated files:
+> 生成文件：
+
+```text
+wiki/analyses/YYYYMMDD_mcp_<slug>.md
+wiki/html/YYYYMMDD_mcp_<slug>.html
+```
+
+The Markdown note includes this Custom Frames block:
+> Markdown 笔记会包含这个 Custom Frames 代码块：
+
+```custom-frames
+frame: Second Brain HTML
+style: height: 760px;
+urlSuffix: /YYYYMMDD_mcp_<slug>.html
+```
+
+In Obsidian Custom Frames settings, create a frame named `Second Brain HTML` with this base URL:
+> 在 Obsidian Custom Frames 设置中，创建一个名为 `Second Brain HTML` 的 frame，基础 URL 填：
+
+```text
+https://www.lucasgou.cloud/second-brain-html
+```
+
+The server publishes the HTML artifacts from `/var/www/second-brain-html/`, while the Git-tracked copy remains under `wiki/html/`.
+> 服务器会从 `/var/www/second-brain-html/` 发布 HTML artifact，同时 Git 跟踪版本保留在 `wiki/html/`。
+
 ## Run Locally For Claude Desktop
 
 Use stdio transport in `claude_desktop_config.json`:
