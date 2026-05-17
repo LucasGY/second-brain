@@ -149,3 +149,8 @@
 * **Action:** Updated an MCP-created knowledge note through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture edit)
 * **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-mermaid-note]]
+
+## [2026-05-17] UPDATE | Delete analysis notes and x.com feed articles
+* **Action:** Deleted all Markdown article files under `wiki/analyses/` and `raw/feeds/x.com/`; rebuilt `wiki/index.md`.
+* **Source Created:** N/A
+* **Touched:** `wiki/analyses/`, `raw/feeds/x.com/`, [[index]]

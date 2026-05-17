@@ -115,30 +115,8 @@ _概念_
 
 _分析_
 
-- [ChatGPT App MCP Connector for Capturing Conversations into Obsidian](analyses/20260516_mcp_chatgpt-app-mcp-connector-for-capturing-conversations-into-obsidian.md)
-  A practical architecture for turning selected ChatGPT conversation content
-  一个将 ChatGPT 对话中选定内容沉淀为 Obsidian 笔记的实用架构：ChatGPT 调用自定义 MCP 工具，MCP Server
-- [Corrected New Zealand RV PRV Citizenship Custom Frames Note](analyses/20260517_mcp_corrected-new-zealand-rv-prv-citizenship-custom-frames-note.md)
-  Corrected replacement for the earlier Custom Frames note. The content
-  对上一版 Custom Frames 笔记的修正版。内容只保留已确认的新西兰 RV 到 PRV 再到国籍时间规则，包括 PRV、入籍、倒推算法和
-- [Custom Frames HTML Artifact Writing Rule](analyses/20260517_mcp_custom-frames-html-artifact-writing-rule.md)
-  MCP notes now keep Markdown as the durable knowledge layer while generating
-  MCP 笔记现在保留 Markdown 作为长期知识层，同时生成独立 HTML artifact，供 Obsidian 通过 Custom
-- [Markdown With Embedded HTML Blocks](analyses/20260517_mcp_markdown-with-embedded-html-blocks.md)
-  A second-brain note can keep Markdown as the durable source while embedding
-  Second Brain 笔记可以保留 Markdown 作为长期知识源，同时嵌入 HTML 阅读卡片，用于快速浏览、视觉层级和更丰富的呈现。
-- [New Zealand RV PRV Citizenship Flowchart HTML Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-flowchart-html-note.md)
-  A structured HTML-style flowchart note for New Zealand Resident Visa,
-  一版结构化 HTML 风格的流程图笔记，用决策节点、天数规则、倒推检查表和示例时间线重新组织新西兰 RV、PRV 与入籍时间节点，替代原先散文式笔记。
-- [New Zealand RV PRV Citizenship Obsidian Mermaid Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-mermaid-note.md)
-  An Obsidian-friendly Markdown note using Mermaid flowcharts, callouts,
-  一版适合 Obsidian 打开的 Markdown + Mermaid 流程图笔记，用流程图、callout、表格和时间线整理新西兰 RV、PRV
-- [New Zealand RV PRV Citizenship Obsidian Note with Custom Frames Embed](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed.md)
-  An Obsidian-friendly note that embeds a generated standalone HTML artifact
-  一版适合 Obsidian 的 Custom Frames 笔记：通过 Second Brain HTML frame 嵌入生成的独立 HTML
-- [New Zealand RV to PRV and Citizenship Timing Notes](analyses/20260517_mcp_new-zealand-rv-to-prv-and-citizenship-timing-notes.md)
-  A reusable reference note for New Zealand Resident Visa to Permanent Resident
-  一份可复用的新西兰 Resident Visa 到 Permanent Resident Visa、以及后续申请国籍的时间节点笔记，整理了关键天数、起算点、申请时点和示例。依据新西兰移民局与政府官方页面，核对日期为
+_No pages yet._
+_暂无页面。_
 
 ## Syntheses
 
