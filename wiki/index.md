@@ -118,6 +118,9 @@ _分析_
 - [ChatGPT App MCP Connector for Capturing Conversations into Obsidian](analyses/20260516_mcp_chatgpt-app-mcp-connector-for-capturing-conversations-into-obsidian.md)
   A practical architecture for turning selected ChatGPT conversation content
   一个将 ChatGPT 对话中选定内容沉淀为 Obsidian 笔记的实用架构：ChatGPT 调用自定义 MCP 工具，MCP Server
+- [Custom Frames HTML Artifact Writing Rule](analyses/20260517_mcp_custom-frames-html-artifact-writing-rule.md)
+  MCP notes now keep Markdown as the durable knowledge layer while generating
+  MCP 笔记现在保留 Markdown 作为长期知识层，同时生成独立 HTML artifact，供 Obsidian 通过 Custom
 - [Markdown With Embedded HTML Blocks](analyses/20260517_mcp_markdown-with-embedded-html-blocks.md)
   A second-brain note can keep Markdown as the durable source while embedding
   Second Brain 笔记可以保留 Markdown 作为长期知识源，同时嵌入 HTML 阅读卡片，用于快速浏览、视觉层级和更丰富的呈现。

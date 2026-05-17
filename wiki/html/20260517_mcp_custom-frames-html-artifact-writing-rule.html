@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Frames HTML Artifact Writing Rule</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --text: #111827;
+      --muted: #64748b;
+      --line: #d0d7de;
+      --soft: #eef2f7;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --panel: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --line: #334155;
+        --soft: #1e293b;
+        --accent: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 22px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+    header, section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .kicker {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 8px 0;
+      font-size: clamp(24px, 4vw, 40px);
+      line-height: 1.12;
+    }
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    blockquote {
+      margin: 10px 0 0;
+      padding-left: 12px;
+      border-left: 3px solid var(--line);
+      color: var(--muted);
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 9px;
+      background: var(--soft);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .body-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 760px) {
+      body { padding: 12px; }
+      .body-grid { grid-template-columns: 1fr; }
+    }
+    .related {
+      color: var(--accent);
+      word-break: break-word;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Second Brain HTML Artifact</div>
+      <h1>Custom Frames HTML Artifact Writing Rule</h1>
+      <blockquote>Custom Frames HTML Artifact 写入规则</blockquote>
+      <div class="tags"><span class="tag">custom-frames</span><span class="tag">html-artifact</span><span class="tag">obsidian</span><span class="tag">second-brain</span></div>
+    </header>
+    <section class="grid">
+      <article class="card">
+        <h2>Summary</h2>
+        <p>MCP notes now keep Markdown as the durable knowledge layer while generating a standalone HTML artifact that Obsidian can render through Custom Frames.</p>
+        <blockquote>MCP 笔记现在保留 Markdown 作为长期知识层，同时生成独立 HTML artifact，供 Obsidian 通过 Custom Frames 渲染。</blockquote>
+      </article>
+      <article class="card">
+        <h2>Related</h2>
+        <p class="related">[[20260517-mcp-markdown-with-embedded-html-blocks]]</p>
+        <blockquote>相关页面：[[20260517-mcp-markdown-with-embedded-html-blocks]]</blockquote>
+      </article>
+    </section>
+    <section>
+      <h2>Knowledge Body / 知识正文</h2>
+      <div class="body-grid">
+        <article><p style="margin:0 0 10px;line-height:1.65;">The note should not depend on raw inline HTML alone. A standalone HTML artifact is closer to the HTML effectiveness pattern because it can carry layout, responsive CSS, and future JavaScript without fighting Markdown sanitization. The Markdown page remains the canonical editable record, while Custom Frames turns the HTML artifact into an embedded reading surface inside Obsidian.</p></article>
+        <article><blockquote><p style="margin:0 0 10px;line-height:1.65;">笔记不应只依赖原始内嵌 HTML。独立 HTML artifact 更接近 HTML effectiveness 的模式，因为它可以承载布局、响应式 CSS 和未来的 JavaScript，而不用和 Markdown 的安全过滤机制对抗。Markdown 页面仍然是可编辑的规范记录，Custom Frames 则把 HTML artifact 变成 Obsidian 内部的嵌入式阅读界面。</p></blockquote></article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

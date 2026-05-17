@@ -119,3 +119,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed]]
+
+## [2026-05-17] UPDATE | Custom Frames HTML Artifact Writing Rule
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_custom-frames-html-artifact-writing-rule]]

@@ -20,8 +20,14 @@ import wiki_tools
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
 ANALYSES_DIR = WIKI_DIR / "analyses"
+HTML_DIR = WIKI_DIR / "html"
 SYNC_SCRIPT = ROOT / "scripts" / "hourly_git_sync.sh"
 SYNC_LOG = pathlib.Path("/tmp/second-brain-mcp-sync.log")
+PUBLIC_HTML_BASE_URL = os.environ.get(
+    "SECOND_BRAIN_HTML_BASE_URL",
+    "https://www.lucasgou.cloud/second-brain-html",
+).rstrip("/")
+CUSTOM_FRAMES_NAME = os.environ.get("SECOND_BRAIN_CUSTOM_FRAMES_NAME", "Second Brain HTML")
 ALLOWED_PAGE_DIRS = {
     "sources": WIKI_DIR / "sources",
     "entities": WIKI_DIR / "entities",
@@ -106,6 +112,158 @@ def render_html_note_block(
   </details>
 </section>
 """.strip()
+
+
+def render_standalone_html_artifact(
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    body_en: str,
+    body_zh: str,
+    related_links: str,
+    tags: list[str],
+) -> str:
+    tag_html = "".join(
+        f"<span class=\"tag\">{html.escape(tag)}</span>"
+        for tag in tags[:12]
+    )
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(title_en)}</title>
+  <style>
+    :root {{
+      color-scheme: light dark;
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --text: #111827;
+      --muted: #64748b;
+      --line: #d0d7de;
+      --soft: #eef2f7;
+      --accent: #2563eb;
+    }}
+    @media (prefers-color-scheme: dark) {{
+      :root {{
+        --bg: #0f172a;
+        --panel: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --line: #334155;
+        --soft: #1e293b;
+        --accent: #60a5fa;
+      }}
+    }}
+    * {{ box-sizing: border-box; }}
+    body {{
+      margin: 0;
+      padding: 22px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }}
+    main {{
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }}
+    header, section {{
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }}
+    .kicker {{
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }}
+    h1 {{
+      margin: 8px 0;
+      font-size: clamp(24px, 4vw, 40px);
+      line-height: 1.12;
+    }}
+    h2 {{ margin: 0 0 10px; font-size: 18px; }}
+    blockquote {{
+      margin: 10px 0 0;
+      padding-left: 12px;
+      border-left: 3px solid var(--line);
+      color: var(--muted);
+    }}
+    .tags {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }}
+    .tag {{
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 9px;
+      background: var(--soft);
+      color: var(--muted);
+      font-size: 12px;
+    }}
+    .grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }}
+    .card {{
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }}
+    .body-grid {{
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }}
+    @media (max-width: 760px) {{
+      body {{ padding: 12px; }}
+      .body-grid {{ grid-template-columns: 1fr; }}
+    }}
+    .related {{
+      color: var(--accent);
+      word-break: break-word;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+    }}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Second Brain HTML Artifact</div>
+      <h1>{html.escape(title_en)}</h1>
+      <blockquote>{html.escape(title_zh)}</blockquote>
+      <div class="tags">{tag_html}</div>
+    </header>
+    <section class="grid">
+      <article class="card">
+        <h2>Summary</h2>
+        <p>{html.escape(summary_en)}</p>
+        <blockquote>{html.escape(summary_zh)}</blockquote>
+      </article>
+      <article class="card">
+        <h2>Related</h2>
+        <p class="related">{html.escape(related_links)}</p>
+        <blockquote>相关页面：{html.escape(related_links)}</blockquote>
+      </article>
+    </section>
+    <section>
+      <h2>Knowledge Body / 知识正文</h2>
+      <div class="body-grid">
+        <article>{html_paragraphs(body_en)}</article>
+        <article><blockquote>{html_paragraphs(body_zh)}</blockquote></article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+"""
 
 
 def safe_page_path(slug: str) -> pathlib.Path:
@@ -208,6 +366,8 @@ def compose_knowledge_note(
     related_links: str,
     tags: list[str],
     date_created: str,
+    artifact_rel_path: str,
+    artifact_url: str,
     date_updated: str | None = None,
 ) -> str:
     frontmatter_data = {
@@ -227,16 +387,6 @@ def compose_knowledge_note(
         allow_unicode=True,
         sort_keys=False,
     ).strip()
-    html_note_block = render_html_note_block(
-        title_en,
-        title_zh,
-        summary_en,
-        summary_zh,
-        body_en,
-        body_zh,
-        related_links,
-        tags,
-    )
     return f"""---
 {frontmatter}
 ---
@@ -244,7 +394,18 @@ def compose_knowledge_note(
 # {title_en}
 {zh_blockquote(title_zh)}
 
-{html_note_block}
+## HTML Artifact
+Open the interactive HTML artifact in Obsidian through Custom Frames.
+> 通过 Custom Frames 在 Obsidian 中打开交互式 HTML artifact。
+
+```custom-frames
+frame: {CUSTOM_FRAMES_NAME}
+style: height: 760px;
+urlSuffix: /{pathlib.Path(artifact_rel_path).name}
+```
+
+Direct artifact URL: {artifact_url}
+> 直接访问 artifact：{artifact_url}
 
 ## Summary
 {summary_en.strip()}
@@ -370,6 +531,7 @@ def save_knowledge_note(
     ensure_bilingual_pair(body_en, body_zh, "body")
 
     ANALYSES_DIR.mkdir(parents=True, exist_ok=True)
+    HTML_DIR.mkdir(parents=True, exist_ok=True)
 
     today = dt.date.today().isoformat()
     slug = f"{today.replace('-', '')}_mcp_{slugify(title_en)}"
@@ -381,6 +543,22 @@ def save_knowledge_note(
 
     clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
     related_links = resolve_related_links(related_slugs)
+    artifact_path = HTML_DIR / f"{path.stem}.html"
+    artifact_rel_path = artifact_path.relative_to(ROOT).as_posix()
+    artifact_url = f"{PUBLIC_HTML_BASE_URL}/{artifact_path.name}"
+    artifact_path.write_text(
+        render_standalone_html_artifact(
+            title_en,
+            title_zh,
+            summary_en,
+            summary_zh,
+            body_en,
+            body_zh,
+            related_links,
+            clean_tags,
+        ),
+        encoding="utf-8",
+    )
     content = compose_knowledge_note(
         title_en,
         title_zh,
@@ -391,6 +569,8 @@ def save_knowledge_note(
         related_links,
         clean_tags,
         today,
+        artifact_rel_path,
+        artifact_url,
     )
     path.write_text(content, encoding="utf-8")
     rebuild_index()
@@ -400,6 +580,8 @@ def save_knowledge_note(
         "status": "created",
         "slug": path.stem,
         "path": path.relative_to(ROOT).as_posix(),
+        "artifact_path": artifact_rel_path,
+        "artifact_url": artifact_url,
         "sync": sync_status,
     }
 
@@ -434,6 +616,23 @@ def update_knowledge_note(
     today = dt.date.today().isoformat()
     clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
     related_links = resolve_related_links(related_slugs)
+    HTML_DIR.mkdir(parents=True, exist_ok=True)
+    artifact_path = HTML_DIR / f"{path.stem}.html"
+    artifact_rel_path = artifact_path.relative_to(ROOT).as_posix()
+    artifact_url = f"{PUBLIC_HTML_BASE_URL}/{artifact_path.name}"
+    artifact_path.write_text(
+        render_standalone_html_artifact(
+            title_en,
+            title_zh,
+            summary_en,
+            summary_zh,
+            body_en,
+            body_zh,
+            related_links,
+            clean_tags,
+        ),
+        encoding="utf-8",
+    )
     content = compose_knowledge_note(
         title_en,
         title_zh,
@@ -444,6 +643,8 @@ def update_knowledge_note(
         related_links,
         clean_tags,
         date_created,
+        artifact_rel_path,
+        artifact_url,
         today,
     )
     path.write_text(content, encoding="utf-8")
@@ -454,6 +655,8 @@ def update_knowledge_note(
         "status": "updated",
         "slug": path.stem,
         "path": path.relative_to(ROOT).as_posix(),
+        "artifact_path": artifact_rel_path,
+        "artifact_url": artifact_url,
         "sync": sync_status,
     }
 
@@ -466,6 +669,7 @@ def get_wiki_operating_rules() -> dict[str, str]:
         "bilingual": "Generated wiki content must be English first, then Simplified Chinese in a blockquote on the next line.",
         "slugs": "Use lowercase canonical slugs for filenames and wikilink targets.",
         "writes": "Conversation captures are saved under wiki/analyses/ and logged as UPDATE entries.",
+        "html_artifacts": f"Each note also writes a standalone HTML artifact under wiki/html/ for the Custom Frames frame named '{CUSTOM_FRAMES_NAME}'.",
     }
 
 
