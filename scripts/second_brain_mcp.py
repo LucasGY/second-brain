@@ -151,17 +151,17 @@ def trigger_git_sync() -> str:
     if not SYNC_SCRIPT.exists():
         return "missing_sync_script"
 
-    log_handle = SYNC_LOG.open("ab")
     env = os.environ.copy()
     env.setdefault("SECOND_BRAIN_SYNC_COMMIT_PREFIX", "mcp sync")
-    subprocess.Popen(
-        [str(SYNC_SCRIPT)],
-        cwd=ROOT,
-        env=env,
-        stdout=log_handle,
-        stderr=subprocess.STDOUT,
-        start_new_session=True,
-    )
+    with SYNC_LOG.open("ab") as log_handle:
+        subprocess.Popen(
+            [str(SYNC_SCRIPT)],
+            cwd=ROOT,
+            env=env,
+            stdout=log_handle,
+            stderr=subprocess.STDOUT,
+            start_new_session=True,
+        )
     return "triggered"
 
 
