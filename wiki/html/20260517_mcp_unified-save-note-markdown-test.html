@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unified Save Note Markdown Test</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --text: #111827;
+      --muted: #64748b;
+      --line: #d0d7de;
+      --soft: #eef2f7;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --panel: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --line: #334155;
+        --soft: #1e293b;
+        --accent: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 22px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+    header, section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .kicker {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 8px 0;
+      font-size: clamp(24px, 4vw, 40px);
+      line-height: 1.12;
+    }
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    blockquote {
+      margin: 10px 0 0;
+      padding-left: 12px;
+      border-left: 3px solid var(--line);
+      color: var(--muted);
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 9px;
+      background: var(--soft);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .body-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 760px) {
+      body { padding: 12px; }
+      .body-grid { grid-template-columns: 1fr; }
+    }
+    .related {
+      color: var(--accent);
+      word-break: break-word;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Second Brain HTML Artifact</div>
+      <h1>Unified Save Note Markdown Test</h1>
+      <blockquote>统一 Save Note Markdown 测试</blockquote>
+      <div class="tags"><span class="tag">mcp-test</span><span class="tag">save-note</span><span class="tag">markdown</span></div>
+    </header>
+    <section class="grid">
+      <article class="card">
+        <h2>Summary</h2>
+        <p>The unified save_note tool can save normal bilingual Markdown knowledge notes.</p>
+        <blockquote>统一的 save_note 工具可以保存普通双语 Markdown 知识笔记。</blockquote>
+      </article>
+      <article class="card">
+        <h2>Related</h2>
+        <p class="related">N/A</p>
+        <blockquote>相关页面：N/A</blockquote>
+      </article>
+    </section>
+    <section>
+      <h2>Knowledge Body / 知识正文</h2>
+      <div class="body-grid">
+        <article><p style="margin:0 0 10px;line-height:1.65;">## Result</p>
+<p style="margin:0 0 10px;line-height:1.65;">The markdown mode generated a Markdown note, a templated HTML artifact, an index update, a log entry, and a git sync trigger.</p></article>
+        <article><blockquote><p style="margin:0 0 10px;line-height:1.65;">## 结果</p>
+<p style="margin:0 0 10px;line-height:1.65;">Markdown 模式生成了 Markdown 笔记、模板化 HTML artifact、索引更新、日志记录和 Git 同步触发。</p></blockquote></article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

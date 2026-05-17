@@ -174,3 +174,13 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2]]
+
+## [2026-05-17] UPDATE | Unified Save Note Markdown Test
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_unified-save-note-markdown-test]]
+
+## [2026-05-17] UPDATE | Unified Save Note HTML Artifact Test
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_unified-save-note-html-artifact-test]]

@@ -127,6 +127,12 @@ _分析_
 - [New Zealand RV to PRV to Citizenship Complete Guide](analyses/20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide.md)
   A structured complete guide for planning the New Zealand pathway from
   一份用于规划新西兰 Resident Visa 到 Permanent Resident Visa 再到 citizenship by grant
+- [Unified Save Note HTML Artifact Test](analyses/20260517_mcp_unified-save-note-html-artifact-test.md)
+  The unified save_note tool can preserve a complete HTML document as-is.
+  统一的 save_note 工具可以原样保存完整 HTML 文档。
+- [Unified Save Note Markdown Test](analyses/20260517_mcp_unified-save-note-markdown-test.md)
+  The unified save_note tool can save normal bilingual Markdown knowledge
+  统一的 save_note 工具可以保存普通双语 Markdown 知识笔记。
 
 ## Syntheses
 
