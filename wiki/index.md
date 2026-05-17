@@ -115,6 +115,9 @@ _概念_
 
 _分析_
 
+- [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html.md)
+  A redesigned HTML artifact concept for the New Zealand RV to PRV to citizenship
+  一版重新设计的新西兰 RV 到 PRV 再到入籍 HTML artifact 概念，参考 annotated flowchart 模式：可点击决策流程、右侧详情面板、TL;DR
 - [New Zealand RV to PRV to Citizenship Complete Guide](analyses/20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide.md)
   A structured complete guide for planning the New Zealand pathway from
   一份用于规划新西兰 Resident Visa 到 Permanent Resident Visa 再到 citizenship by grant

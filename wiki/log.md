@@ -159,3 +159,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide]]
+
+## [2026-05-17] UPDATE | New Zealand RV PRV Citizenship Annotated Flowchart HTML
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html]]
