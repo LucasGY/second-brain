@@ -115,6 +115,9 @@ _概念_
 
 _分析_
 
+- [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2.md)
+  A complete ChatGPT-generated interactive HTML artifact for reasoning through
+  一份由 ChatGPT 生成的完整交互式 HTML artifact，用于判断新西兰 RV、PRV 与入籍时间规则。
 - [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html.md)
   A redesigned HTML artifact concept for the New Zealand RV to PRV to citizenship
   一版重新设计的新西兰 RV 到 PRV 再到入籍 HTML artifact 概念，参考 annotated flowchart 模式：可点击决策流程、右侧详情面板、TL;DR

@@ -38,6 +38,7 @@ ALLOWED_PAGE_DIRS = {
     "analyses": WIKI_DIR / "analyses",
 }
 MAX_READ_CHARS = 50000
+MAX_HTML_ARTIFACT_CHARS = 500000
 
 
 def slugify(value: str) -> str:
@@ -52,6 +53,14 @@ def slugify(value: str) -> str:
 def ensure_bilingual_pair(english: str, chinese: str, field: str) -> None:
     if not english.strip() or not chinese.strip():
         raise ValueError(f"{field} requires both English and Simplified Chinese text.")
+
+
+def ensure_html_document(html_content: str) -> None:
+    stripped = html_content.lstrip().lower()
+    if len(html_content) > MAX_HTML_ARTIFACT_CHARS:
+        raise ValueError(f"HTML artifact is too large; max {MAX_HTML_ARTIFACT_CHARS} characters.")
+    if "<html" not in stripped[:1000] and "<!doctype html" not in stripped[:1000]:
+        raise ValueError("html_content must be a complete HTML document.")
 
 
 def zh_blockquote(text: str) -> str:
@@ -503,6 +512,69 @@ Direct artifact URL: {artifact_url}
 """
 
 
+def compose_html_artifact_note(
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    body_en: str,
+    body_zh: str,
+    related_links: str,
+    tags: list[str],
+    date_created: str,
+    artifact_rel_path: str,
+    artifact_url: str,
+) -> str:
+    frontmatter = yaml.safe_dump(
+        {
+            "type": "analysis",
+            "title": title_en,
+            "aliases": [title_zh],
+            "date_created": date_created,
+            "source": "MCP HTML artifact capture",
+            "tags": tags,
+            "summary_en": summary_en,
+            "summary_zh": summary_zh,
+        },
+        allow_unicode=True,
+        sort_keys=False,
+    ).strip()
+    return f"""---
+{frontmatter}
+---
+
+# {title_en}
+{zh_blockquote(title_zh)}
+
+## HTML Artifact
+This note preserves a complete HTML artifact generated in conversation.
+> 这篇笔记保存了一份对话中生成的完整 HTML artifact。
+
+<iframe src="{artifact_url}" style="width:100%;height:820px;border:1px solid #d0d7de;border-radius:8px;background:#fff;" loading="lazy"></iframe>
+
+```custom-frames
+frame: {CUSTOM_FRAMES_NAME}
+style: height: 820px;
+urlSuffix: /{pathlib.Path(artifact_rel_path).name}
+```
+
+Direct artifact URL: {artifact_url}
+> 直接访问 artifact：{artifact_url}
+
+## Summary
+{summary_en.strip()}
+{zh_blockquote(summary_zh)}
+
+## Context
+{body_en.strip() or "Captured as a standalone HTML artifact."}
+{zh_blockquote(body_zh.strip() or "已作为独立 HTML artifact 保存。")}
+
+## Related
+{related_links}
+> 相关页面：{related_links}
+"""
+
+
 INSTRUCTIONS = """
 Use this server when the user explicitly wants to search, read, or save durable
 knowledge in the local Second Brain wiki at /root/.openclaw/second-brain.
@@ -738,6 +810,68 @@ def update_knowledge_note(
 
 
 @mcp.tool()
+def save_html_artifact_note(
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    html_content: str,
+    body_en: str = "",
+    body_zh: str = "",
+    related_slugs: list[str] | None = None,
+    tags: list[str] | None = None,
+) -> dict[str, str]:
+    """Save a complete ChatGPT-generated HTML artifact into the second-brain.
+
+    This tool is for full HTML documents that should be preserved as-is. It writes
+    the HTML to wiki/html/ and the public HTML directory, then creates a bilingual
+    analysis note that embeds the artifact with an iframe and Custom Frames block.
+    """
+    ensure_bilingual_pair(title_en, title_zh, "title")
+    ensure_bilingual_pair(summary_en, summary_zh, "summary")
+    ensure_html_document(html_content)
+
+    ANALYSES_DIR.mkdir(parents=True, exist_ok=True)
+    today = dt.date.today().isoformat()
+    slug = f"{today.replace('-', '')}_mcp_{slugify(title_en)}"
+    path = ANALYSES_DIR / f"{slug}.md"
+    counter = 2
+    while path.exists():
+        path = ANALYSES_DIR / f"{slug}-{counter}.md"
+        counter += 1
+
+    clean_tags = [slugify(tag) for tag in tags or ["html-artifact"]]
+    related_links = resolve_related_links(related_slugs)
+    artifact_path = HTML_DIR / f"{path.stem}.html"
+    artifact_rel_path, artifact_url = write_html_artifact(artifact_path, html_content)
+    note = compose_html_artifact_note(
+        title_en,
+        title_zh,
+        summary_en,
+        summary_zh,
+        body_en,
+        body_zh,
+        related_links,
+        clean_tags,
+        today,
+        artifact_rel_path,
+        artifact_url,
+    )
+    path.write_text(note, encoding="utf-8")
+    rebuild_index()
+    append_log_update(title_en, [path.stem])
+    sync_status = trigger_git_sync()
+    return {
+        "status": "created",
+        "slug": path.stem,
+        "path": path.relative_to(ROOT).as_posix(),
+        "artifact_path": artifact_rel_path,
+        "artifact_url": artifact_url,
+        "sync": sync_status,
+    }
+
+
+@mcp.tool()
 def get_wiki_operating_rules() -> dict[str, str]:
     """Return the key write rules this MCP server follows for the wiki."""
     return {
@@ -746,6 +880,7 @@ def get_wiki_operating_rules() -> dict[str, str]:
         "slugs": "Use lowercase canonical slugs for filenames and wikilink targets.",
         "writes": "Conversation captures are saved under wiki/analyses/ and logged as UPDATE entries.",
         "html_artifacts": f"Each note also writes a standalone HTML artifact under wiki/html/ for the Custom Frames frame named '{CUSTOM_FRAMES_NAME}'.",
+        "raw_html": "Complete HTML documents must use save_html_artifact_note; save_knowledge_note does not accept arbitrary HTML.",
     }
 
 
