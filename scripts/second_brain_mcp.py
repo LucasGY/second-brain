@@ -119,6 +119,17 @@ def safe_page_path(slug: str) -> pathlib.Path:
     raise FileNotFoundError(f"No wiki page found for slug '{clean_slug}'.")
 
 
+def safe_mcp_analysis_path(slug: str) -> pathlib.Path:
+    path = ANALYSES_DIR / f"{slugify(slug)}.md"
+    if not path.exists():
+        raise FileNotFoundError(f"No MCP analysis note found for slug '{slug}'.")
+    text = path.read_text(encoding="utf-8")
+    frontmatter = wiki_tools.parse_frontmatter(text)
+    if frontmatter.get("source") != "MCP conversation capture" and "_mcp_" not in path.stem:
+        raise PermissionError("Only MCP-created analysis notes can be updated.")
+    return path
+
+
 def append_log_update(title: str, touched: list[str]) -> None:
     today = dt.date.today().isoformat()
     touched_links = ", ".join(f"[[{slug}]]" for slug in touched) if touched else "N/A"
@@ -126,6 +137,18 @@ def append_log_update(title: str, touched: list[str]) -> None:
         f"\n## [{today}] UPDATE | {title}\n"
         f"* **Action:** Saved durable knowledge through the Second Brain MCP server.\n"
         f"* **Source Created:** N/A (MCP conversation capture)\n"
+        f"* **Touched:** {touched_links}\n"
+    )
+    wiki_tools.LOG_PATH.open("a", encoding="utf-8").write(entry)
+
+
+def append_log_edit(title: str, touched: list[str]) -> None:
+    today = dt.date.today().isoformat()
+    touched_links = ", ".join(f"[[{slug}]]" for slug in touched) if touched else "N/A"
+    entry = (
+        f"\n## [{today}] UPDATE | {title}\n"
+        f"* **Action:** Updated an MCP-created knowledge note through the Second Brain MCP server.\n"
+        f"* **Source Created:** N/A (MCP conversation capture edit)\n"
         f"* **Touched:** {touched_links}\n"
     )
     wiki_tools.LOG_PATH.open("a", encoding="utf-8").write(entry)
@@ -163,6 +186,78 @@ def trigger_git_sync() -> str:
             start_new_session=True,
         )
     return "triggered"
+
+
+def resolve_related_links(related_slugs: list[str] | None) -> str:
+    related = []
+    for item in related_slugs or []:
+        try:
+            related.append(safe_page_path(item).stem)
+        except FileNotFoundError:
+            related.append(slugify(item))
+    return ", ".join(f"[[{item}]]" for item in related) if related else "N/A"
+
+
+def compose_knowledge_note(
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    body_en: str,
+    body_zh: str,
+    related_links: str,
+    tags: list[str],
+    date_created: str,
+    date_updated: str | None = None,
+) -> str:
+    frontmatter_data = {
+        "type": "analysis",
+        "title": title_en,
+        "aliases": [title_zh],
+        "date_created": date_created,
+        "source": "MCP conversation capture",
+        "tags": tags,
+        "summary_en": summary_en,
+        "summary_zh": summary_zh,
+    }
+    if date_updated:
+        frontmatter_data["date_updated"] = date_updated
+    frontmatter = yaml.safe_dump(
+        frontmatter_data,
+        allow_unicode=True,
+        sort_keys=False,
+    ).strip()
+    html_note_block = render_html_note_block(
+        title_en,
+        title_zh,
+        summary_en,
+        summary_zh,
+        body_en,
+        body_zh,
+        related_links,
+        tags,
+    )
+    return f"""---
+{frontmatter}
+---
+
+# {title_en}
+{zh_blockquote(title_zh)}
+
+{html_note_block}
+
+## Summary
+{summary_en.strip()}
+{zh_blockquote(summary_zh)}
+
+## Knowledge
+{body_en.strip()}
+{zh_blockquote(body_zh)}
+
+## Related
+{related_links}
+> 相关页面：{related_links}
+"""
 
 
 INSTRUCTIONS = """
@@ -285,29 +380,8 @@ def save_knowledge_note(
         counter += 1
 
     clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
-    related = []
-    for item in related_slugs or []:
-        try:
-            related.append(safe_page_path(item).stem)
-        except FileNotFoundError:
-            related.append(slugify(item))
-
-    related_links = ", ".join(f"[[{item}]]" for item in related) if related else "N/A"
-    frontmatter = yaml.safe_dump(
-        {
-            "type": "analysis",
-            "title": title_en,
-            "aliases": [title_zh],
-            "date_created": today,
-            "source": "MCP conversation capture",
-            "tags": clean_tags,
-            "summary_en": summary_en,
-            "summary_zh": summary_zh,
-        },
-        allow_unicode=True,
-        sort_keys=False,
-    ).strip()
-    html_note_block = render_html_note_block(
+    related_links = resolve_related_links(related_slugs)
+    content = compose_knowledge_note(
         title_en,
         title_zh,
         summary_en,
@@ -316,34 +390,68 @@ def save_knowledge_note(
         body_zh,
         related_links,
         clean_tags,
+        today,
     )
-    content = f"""---
-{frontmatter}
----
-
-# {title_en}
-{zh_blockquote(title_zh)}
-
-{html_note_block}
-
-## Summary
-{summary_en.strip()}
-{zh_blockquote(summary_zh)}
-
-## Knowledge
-{body_en.strip()}
-{zh_blockquote(body_zh)}
-
-## Related
-{related_links}
-> 相关页面：{related_links}
-"""
     path.write_text(content, encoding="utf-8")
     rebuild_index()
     append_log_update(title_en, [path.stem])
     sync_status = trigger_git_sync()
     return {
         "status": "created",
+        "slug": path.stem,
+        "path": path.relative_to(ROOT).as_posix(),
+        "sync": sync_status,
+    }
+
+
+@mcp.tool()
+def update_knowledge_note(
+    slug: str,
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    body_en: str,
+    body_zh: str,
+    related_slugs: list[str] | None = None,
+    tags: list[str] | None = None,
+) -> dict[str, str]:
+    """Replace an MCP-created analysis note with updated bilingual content.
+
+    This is intentionally scoped to notes created by save_knowledge_note under
+    wiki/analyses/. It regenerates the embedded HTML block, preserves the
+    original date_created, sets date_updated, rebuilds the index, appends a log
+    entry, and triggers git sync.
+    """
+    ensure_bilingual_pair(title_en, title_zh, "title")
+    ensure_bilingual_pair(summary_en, summary_zh, "summary")
+    ensure_bilingual_pair(body_en, body_zh, "body")
+
+    path = safe_mcp_analysis_path(slug)
+    existing_text = path.read_text(encoding="utf-8")
+    existing_frontmatter = wiki_tools.parse_frontmatter(existing_text)
+    date_created = existing_frontmatter.get("date_created") or dt.date.today().isoformat()
+    today = dt.date.today().isoformat()
+    clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
+    related_links = resolve_related_links(related_slugs)
+    content = compose_knowledge_note(
+        title_en,
+        title_zh,
+        summary_en,
+        summary_zh,
+        body_en,
+        body_zh,
+        related_links,
+        clean_tags,
+        date_created,
+        today,
+    )
+    path.write_text(content, encoding="utf-8")
+    rebuild_index()
+    append_log_edit(title_en, [path.stem])
+    sync_status = trigger_git_sync()
+    return {
+        "status": "updated",
         "slug": path.stem,
         "path": path.relative_to(ROOT).as_posix(),
         "sync": sync_status,
