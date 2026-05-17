@@ -11,8 +11,8 @@ This repository includes a small MCP server that lets ChatGPT, Claude, and other
 > `read_wiki_page`：通过规范 slug 读取页面。
 - `list_recent_sources`: list recently modified source notes.
 > `list_recent_sources`：列出最近修改的来源笔记。
-- `save_knowledge_note`: create a bilingual analysis page from durable conversation knowledge, rebuild the index, and append an `UPDATE` log entry.
-> `save_knowledge_note`：将对话中值得长期保存的知识写成双语分析页面，重建索引，并追加 `UPDATE` 日志。
+- `save_note`: create either a bilingual Markdown knowledge note with a generated HTML artifact (`mode: markdown`) or preserve a complete HTML document as-is (`mode: html_artifact`).
+> `save_note`：创建双语 Markdown 知识笔记并生成 HTML artifact（`mode: markdown`），或原样保存完整 HTML 文档（`mode: html_artifact`）。
 - `get_wiki_operating_rules`: return the key write rules.
 > `get_wiki_operating_rules`：返回关键写入规则。
 

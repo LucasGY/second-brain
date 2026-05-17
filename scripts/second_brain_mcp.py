@@ -855,7 +855,7 @@ def update_knowledge_note(
 ) -> dict[str, str]:
     """Replace an MCP-created analysis note with updated bilingual content.
 
-    This is intentionally scoped to notes created by save_knowledge_note under
+    This is intentionally scoped to notes created by save_note under
     wiki/analyses/. It regenerates the embedded HTML block, preserves the
     original date_created, sets date_updated, rebuilds the index, appends a log
     entry, and triggers git sync.
