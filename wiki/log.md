@@ -124,3 +124,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_custom-frames-html-artifact-writing-rule]]
+
+## [2026-05-17] UPDATE | Custom Frames HTML Artifact Writing Rule
+* **Action:** Updated an MCP-created knowledge note through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture edit)
+* **Touched:** [[20260517_mcp_custom-frames-html-artifact-writing-rule]]

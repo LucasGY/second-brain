@@ -21,6 +21,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
 ANALYSES_DIR = WIKI_DIR / "analyses"
 HTML_DIR = WIKI_DIR / "html"
+PUBLIC_HTML_DIR = pathlib.Path(
+    os.environ.get("SECOND_BRAIN_PUBLIC_HTML_DIR", "/var/www/second-brain-html")
+)
 SYNC_SCRIPT = ROOT / "scripts" / "hourly_git_sync.sh"
 SYNC_LOG = pathlib.Path("/tmp/second-brain-mcp-sync.log")
 PUBLIC_HTML_BASE_URL = os.environ.get(
@@ -267,10 +270,16 @@ def render_standalone_html_artifact(
 
 
 def safe_page_path(slug: str) -> pathlib.Path:
-    clean_slug = slugify(slug)
-    candidates = [
-        directory / f"{clean_slug}.md" for directory in ALLOWED_PAGE_DIRS.values()
-    ]
+    raw_slug = slug.strip().removesuffix(".md")
+    clean_slug = slugify(raw_slug)
+    candidate_stems = [raw_slug]
+    if clean_slug != raw_slug:
+        candidate_stems.append(clean_slug)
+    candidates = []
+    for directory in ALLOWED_PAGE_DIRS.values():
+        for stem in candidate_stems:
+            if "/" not in stem and "\\" not in stem and stem not in {"", ".", ".."}:
+                candidates.append(directory / f"{stem}.md")
     for path in candidates:
         if path.exists():
             return path
@@ -278,8 +287,20 @@ def safe_page_path(slug: str) -> pathlib.Path:
 
 
 def safe_mcp_analysis_path(slug: str) -> pathlib.Path:
-    path = ANALYSES_DIR / f"{slugify(slug)}.md"
-    if not path.exists():
+    raw_slug = slug.strip().removesuffix(".md")
+    clean_slug = slugify(raw_slug)
+    candidate_stems = [raw_slug]
+    if clean_slug != raw_slug:
+        candidate_stems.append(clean_slug)
+    path = None
+    for stem in candidate_stems:
+        if "/" in stem or "\\" in stem or stem in {"", ".", ".."}:
+            continue
+        candidate = ANALYSES_DIR / f"{stem}.md"
+        if candidate.exists():
+            path = candidate
+            break
+    if path is None:
         raise FileNotFoundError(f"No MCP analysis note found for slug '{slug}'.")
     text = path.read_text(encoding="utf-8")
     frontmatter = wiki_tools.parse_frontmatter(text)
@@ -344,6 +365,18 @@ def trigger_git_sync() -> str:
             start_new_session=True,
         )
     return "triggered"
+
+
+def write_html_artifact(path: pathlib.Path, content: str) -> tuple[str, str]:
+    HTML_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_HTML_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
+    public_path = PUBLIC_HTML_DIR / path.name
+    public_path.write_text(content, encoding="utf-8")
+    public_path.chmod(0o644)
+    artifact_rel_path = path.relative_to(ROOT).as_posix()
+    artifact_url = f"{PUBLIC_HTML_BASE_URL}/{path.name}"
+    return artifact_rel_path, artifact_url
 
 
 def resolve_related_links(related_slugs: list[str] | None) -> str:
@@ -531,7 +564,6 @@ def save_knowledge_note(
     ensure_bilingual_pair(body_en, body_zh, "body")
 
     ANALYSES_DIR.mkdir(parents=True, exist_ok=True)
-    HTML_DIR.mkdir(parents=True, exist_ok=True)
 
     today = dt.date.today().isoformat()
     slug = f"{today.replace('-', '')}_mcp_{slugify(title_en)}"
@@ -544,9 +576,8 @@ def save_knowledge_note(
     clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
     related_links = resolve_related_links(related_slugs)
     artifact_path = HTML_DIR / f"{path.stem}.html"
-    artifact_rel_path = artifact_path.relative_to(ROOT).as_posix()
-    artifact_url = f"{PUBLIC_HTML_BASE_URL}/{artifact_path.name}"
-    artifact_path.write_text(
+    artifact_rel_path, artifact_url = write_html_artifact(
+        artifact_path,
         render_standalone_html_artifact(
             title_en,
             title_zh,
@@ -557,7 +588,6 @@ def save_knowledge_note(
             related_links,
             clean_tags,
         ),
-        encoding="utf-8",
     )
     content = compose_knowledge_note(
         title_en,
@@ -616,11 +646,9 @@ def update_knowledge_note(
     today = dt.date.today().isoformat()
     clean_tags = [slugify(tag) for tag in tags or ["synthesis"]]
     related_links = resolve_related_links(related_slugs)
-    HTML_DIR.mkdir(parents=True, exist_ok=True)
     artifact_path = HTML_DIR / f"{path.stem}.html"
-    artifact_rel_path = artifact_path.relative_to(ROOT).as_posix()
-    artifact_url = f"{PUBLIC_HTML_BASE_URL}/{artifact_path.name}"
-    artifact_path.write_text(
+    artifact_rel_path, artifact_url = write_html_artifact(
+        artifact_path,
         render_standalone_html_artifact(
             title_en,
             title_zh,
@@ -631,7 +659,6 @@ def update_knowledge_note(
             related_links,
             clean_tags,
         ),
-        encoding="utf-8",
     )
     content = compose_knowledge_note(
         title_en,

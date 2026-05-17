@@ -14,6 +14,7 @@ summary_en: MCP notes now keep Markdown as the durable knowledge layer while gen
   a standalone HTML artifact that Obsidian can render through Custom Frames.
 summary_zh: MCP 笔记现在保留 Markdown 作为长期知识层，同时生成独立 HTML artifact，供 Obsidian 通过 Custom
   Frames 渲染。
+date_updated: '2026-05-17'
 ---
 
 # Custom Frames HTML Artifact Writing Rule
@@ -41,5 +42,5 @@ The note should not depend on raw inline HTML alone. A standalone HTML artifact 
 > 笔记不应只依赖原始内嵌 HTML。独立 HTML artifact 更接近 HTML effectiveness 的模式，因为它可以承载布局、响应式 CSS 和未来的 JavaScript，而不用和 Markdown 的安全过滤机制对抗。Markdown 页面仍然是可编辑的规范记录，Custom Frames 则把 HTML artifact 变成 Obsidian 内部的嵌入式阅读界面。
 
 ## Related
-[[20260517-mcp-markdown-with-embedded-html-blocks]]
-> 相关页面：[[20260517-mcp-markdown-with-embedded-html-blocks]]
+[[20260517_mcp_markdown-with-embedded-html-blocks]]
+> 相关页面：[[20260517_mcp_markdown-with-embedded-html-blocks]]
