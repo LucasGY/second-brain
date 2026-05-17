@@ -184,3 +184,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_unified-save-note-html-artifact-test]]
+
+## [2026-05-17] UPDATE | Disable x.com feed sync and clear regenerated x.com articles
+* **Action:** Disabled OpenClaw cron job `second-brain-x-rss-sync`; deleted regenerated Markdown files under `raw/feeds/x.com/`; rebuilt `wiki/index.md`.
+* **Source Created:** N/A
+* **Touched:** `raw/feeds/x.com/`, [[index]]
