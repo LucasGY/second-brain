@@ -58,6 +58,51 @@ def zh_blockquote(text: str) -> str:
     return "\n".join(f"> {line}" if line else ">" for line in text.strip().splitlines())
 
 
+def split_markdown_blocks(text: str) -> list[str]:
+    lines = text.strip().splitlines()
+    blocks: list[str] = []
+    current: list[str] = []
+    in_fence = False
+
+    for line in lines:
+        if line.startswith("```"):
+            current.append(line)
+            in_fence = not in_fence
+            if not in_fence:
+                blocks.append("\n".join(current).strip())
+                current = []
+            continue
+
+        if in_fence:
+            current.append(line)
+            continue
+
+        if not line.strip():
+            if current:
+                blocks.append("\n".join(current).strip())
+                current = []
+            continue
+
+        current.append(line)
+
+    if current:
+        blocks.append("\n".join(current).strip())
+    return blocks
+
+
+def bilingual_markdown_body(body_en: str, body_zh: str) -> str:
+    en_blocks = split_markdown_blocks(body_en)
+    zh_blocks = split_markdown_blocks(body_zh)
+    if not en_blocks or not zh_blocks or len(en_blocks) != len(zh_blocks):
+        return f"{body_en.strip()}\n{zh_blockquote(body_zh)}"
+
+    paired: list[str] = []
+    for en_block, zh_block in zip(en_blocks, zh_blocks):
+        paired.append(en_block)
+        paired.append(zh_blockquote(zh_block))
+    return "\n\n".join(paired)
+
+
 def html_paragraphs(text: str) -> str:
     paragraphs = [part.strip() for part in re.split(r"\n\s*\n", text.strip()) if part.strip()]
     if not paragraphs:
@@ -450,8 +495,7 @@ Direct artifact URL: {artifact_url}
 {zh_blockquote(summary_zh)}
 
 ## Knowledge
-{body_en.strip()}
-{zh_blockquote(body_zh)}
+{bilingual_markdown_body(body_en, body_zh)}
 
 ## Related
 {related_links}
