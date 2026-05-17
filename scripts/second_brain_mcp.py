@@ -19,6 +19,7 @@ import wiki_tools
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
+RAW_DIR = ROOT / "raw"
 ANALYSES_DIR = WIKI_DIR / "analyses"
 HTML_DIR = WIKI_DIR / "html"
 PUBLIC_HTML_DIR = pathlib.Path(
@@ -340,6 +341,18 @@ def safe_page_path(slug: str) -> pathlib.Path:
     raise FileNotFoundError(f"No wiki page found for slug '{clean_slug}'.")
 
 
+def safe_raw_path(path: str) -> pathlib.Path:
+    candidate = pathlib.Path(path.strip())
+    if not candidate.is_absolute():
+        candidate = ROOT / candidate
+    resolved = candidate.resolve()
+    if RAW_DIR.resolve() not in resolved.parents and resolved != RAW_DIR.resolve():
+        raise PermissionError("Only files under raw/ can be read with read_raw_file.")
+    if not resolved.exists() or not resolved.is_file():
+        raise FileNotFoundError(f"Raw file not found: {path}")
+    return resolved
+
+
 def safe_mcp_analysis_path(slug: str) -> pathlib.Path:
     raw_slug = slug.strip().removesuffix(".md")
     clean_slug = slugify(raw_slug)
@@ -629,6 +642,34 @@ def search_wiki(query: str, limit: int = 10) -> list[dict[str, str]]:
 
 
 @mcp.tool()
+def search_raw(query: str, limit: int = 10) -> list[dict[str, str]]:
+    """Search raw source files that may not have been ingested into wiki pages yet."""
+    if not query.strip():
+        raise ValueError("query cannot be empty")
+    terms = [term.lower() for term in re.findall(r"\w+", query)]
+    scored: list[tuple[int, pathlib.Path, str]] = []
+    for path in RAW_DIR.rglob("*.md"):
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        haystack = f"{path.name}\n{text[:200000]}".lower()
+        score = sum(haystack.count(term) for term in terms)
+        if score:
+            first_line = next((line.strip() for line in text.splitlines() if line.strip()), "")
+            scored.append((score, path, first_line[:240]))
+    scored.sort(key=lambda item: (-item[0], item[1].as_posix().lower()))
+    return [
+        {
+            "score": str(score),
+            "path": path.relative_to(ROOT).as_posix(),
+            "title_or_first_line": first_line,
+        }
+        for score, path, first_line in scored[: max(1, min(limit, 25))]
+    ]
+
+
+@mcp.tool()
 def read_wiki_page(slug: str) -> dict[str, str]:
     """Read a wiki page by canonical slug, such as openai, ai-agents, or a source slug."""
     path = safe_page_path(slug)
@@ -639,6 +680,21 @@ def read_wiki_page(slug: str) -> dict[str, str]:
     return {
         "slug": path.stem,
         "path": path.relative_to(ROOT).as_posix(),
+        "truncated": str(truncated).lower(),
+        "content": text,
+    }
+
+
+@mcp.tool()
+def read_raw_file(path: str) -> dict[str, str]:
+    """Read a raw source file by repository-relative path, such as raw/manual/web/example.md."""
+    raw_path = safe_raw_path(path)
+    text = raw_path.read_text(encoding="utf-8", errors="ignore")
+    truncated = len(text) > MAX_READ_CHARS
+    if truncated:
+        text = text[:MAX_READ_CHARS] + "\n\n[TRUNCATED]\n"
+    return {
+        "path": raw_path.relative_to(ROOT).as_posix(),
         "truncated": str(truncated).lower(),
         "content": text,
     }
@@ -918,6 +974,7 @@ def get_wiki_operating_rules() -> dict[str, str]:
     """Return the key write rules this MCP server follows for the wiki."""
     return {
         "raw": "Never modify raw/. Raw files are immutable source documents.",
+        "search_scope": "search_wiki searches compiled wiki pages; search_raw searches un-ingested raw source files.",
         "bilingual": "Generated wiki content must be English first, then Simplified Chinese in a blockquote on the next line.",
         "slugs": "Use lowercase canonical slugs for filenames and wikilink targets.",
         "writes": "save_note captures are saved under wiki/analyses/ and logged as UPDATE entries.",
