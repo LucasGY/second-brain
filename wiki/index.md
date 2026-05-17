@@ -118,6 +118,9 @@ _分析_
 - [ChatGPT App MCP Connector for Capturing Conversations into Obsidian](analyses/20260516_mcp_chatgpt-app-mcp-connector-for-capturing-conversations-into-obsidian.md)
   A practical architecture for turning selected ChatGPT conversation content
   一个将 ChatGPT 对话中选定内容沉淀为 Obsidian 笔记的实用架构：ChatGPT 调用自定义 MCP 工具，MCP Server
+- [Corrected New Zealand RV PRV Citizenship Custom Frames Note](analyses/20260517_mcp_corrected-new-zealand-rv-prv-citizenship-custom-frames-note.md)
+  Corrected replacement for the earlier Custom Frames note. The content
+  对上一版 Custom Frames 笔记的修正版。内容只保留已确认的新西兰 RV 到 PRV 再到国籍时间规则，包括 PRV、入籍、倒推算法和
 - [Custom Frames HTML Artifact Writing Rule](analyses/20260517_mcp_custom-frames-html-artifact-writing-rule.md)
   MCP notes now keep Markdown as the durable knowledge layer while generating
   MCP 笔记现在保留 Markdown 作为长期知识层，同时生成独立 HTML artifact，供 Obsidian 通过 Custom
