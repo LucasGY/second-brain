@@ -154,3 +154,8 @@
 * **Action:** Deleted all Markdown article files under `wiki/analyses/` and `raw/feeds/x.com/`; rebuilt `wiki/index.md`.
 * **Source Created:** N/A
 * **Touched:** `wiki/analyses/`, `raw/feeds/x.com/`, [[index]]
+
+## [2026-05-17] UPDATE | New Zealand RV to PRV to Citizenship Complete Guide
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide]]

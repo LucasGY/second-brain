@@ -115,8 +115,9 @@ _概念_
 
 _分析_
 
-_No pages yet._
-_暂无页面。_
+- [New Zealand RV to PRV to Citizenship Complete Guide](analyses/20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide.md)
+  A structured complete guide for planning the New Zealand pathway from
+  一份用于规划新西兰 Resident Visa 到 Permanent Resident Visa 再到 citizenship by grant
 
 ## Syntheses
 
