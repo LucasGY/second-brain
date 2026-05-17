@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import html
 import pathlib
 import re
 import subprocess
@@ -43,6 +44,65 @@ def ensure_bilingual_pair(english: str, chinese: str, field: str) -> None:
 
 def zh_blockquote(text: str) -> str:
     return "\n".join(f"> {line}" if line else ">" for line in text.strip().splitlines())
+
+
+def html_paragraphs(text: str) -> str:
+    paragraphs = [part.strip() for part in re.split(r"\n\s*\n", text.strip()) if part.strip()]
+    if not paragraphs:
+        return "<p>No content provided.</p>"
+    return "\n".join(
+        f"<p style=\"margin:0 0 10px;line-height:1.65;\">{html.escape(part)}</p>"
+        for part in paragraphs[:6]
+    )
+
+
+def render_html_note_block(
+    title_en: str,
+    title_zh: str,
+    summary_en: str,
+    summary_zh: str,
+    body_en: str,
+    body_zh: str,
+    related_links: str,
+    tags: list[str],
+) -> str:
+    tag_html = "".join(
+        "<span style=\"display:inline-flex;align-items:center;padding:3px 8px;"
+        "border:1px solid #cbd5e1;border-radius:999px;background:#f8fafc;"
+        f"font-size:12px;color:#334155;\">{html.escape(tag)}</span>"
+        for tag in tags[:8]
+    )
+    return f"""
+<section class="second-brain-html-note" style="border:1px solid #d0d7de;border-radius:8px;margin:18px 0;padding:18px;background:#ffffff;color:#111827;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <header style="display:grid;gap:8px;border-bottom:1px solid #e5e7eb;padding-bottom:14px;margin-bottom:14px;">
+    <div style="font-size:12px;font-weight:700;letter-spacing:0;text-transform:uppercase;color:#64748b;">Second Brain Note</div>
+    <h2 style="margin:0;font-size:24px;line-height:1.2;color:#0f172a;">{html.escape(title_en)}</h2>
+    <blockquote style="margin:0;padding-left:12px;border-left:3px solid #94a3b8;color:#475569;">{html.escape(title_zh)}</blockquote>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;">{tag_html}</div>
+  </header>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:14px;">
+    <article style="border:1px solid #e5e7eb;border-radius:8px;padding:12px;background:#f8fafc;">
+      <h3 style="margin:0 0 8px;font-size:13px;color:#475569;">Summary</h3>
+      <p style="margin:0;line-height:1.6;">{html.escape(summary_en)}</p>
+      <blockquote style="margin:8px 0 0;padding-left:10px;border-left:3px solid #cbd5e1;color:#475569;">{html.escape(summary_zh)}</blockquote>
+    </article>
+    <article style="border:1px solid #e5e7eb;border-radius:8px;padding:12px;background:#f8fafc;">
+      <h3 style="margin:0 0 8px;font-size:13px;color:#475569;">Related</h3>
+      <p style="margin:0;line-height:1.6;">{html.escape(related_links)}</p>
+      <blockquote style="margin:8px 0 0;padding-left:10px;border-left:3px solid #cbd5e1;color:#475569;">相关页面：{html.escape(related_links)}</blockquote>
+    </article>
+  </div>
+  <details open style="border:1px solid #e5e7eb;border-radius:8px;padding:12px;background:#fff;">
+    <summary style="cursor:pointer;font-weight:700;color:#0f172a;">Knowledge Body / 知识正文</summary>
+    <div style="margin-top:12px;">
+      {html_paragraphs(body_en)}
+      <blockquote style="margin:12px 0 0;padding-left:12px;border-left:3px solid #94a3b8;color:#475569;">
+        {html_paragraphs(body_zh)}
+      </blockquote>
+    </div>
+  </details>
+</section>
+""".strip()
 
 
 def safe_page_path(slug: str) -> pathlib.Path:
@@ -224,12 +284,24 @@ def save_knowledge_note(
         allow_unicode=True,
         sort_keys=False,
     ).strip()
+    html_note_block = render_html_note_block(
+        title_en,
+        title_zh,
+        summary_en,
+        summary_zh,
+        body_en,
+        body_zh,
+        related_links,
+        clean_tags,
+    )
     content = f"""---
 {frontmatter}
 ---
 
 # {title_en}
 {zh_blockquote(title_zh)}
+
+{html_note_block}
 
 ## Summary
 {summary_en.strip()}

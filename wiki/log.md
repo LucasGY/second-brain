@@ -94,3 +94,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260516_mcp_chatgpt-app-mcp-connector-for-capturing-conversations-into-obsidian]]
+
+## [2026-05-17] UPDATE | Markdown With Embedded HTML Blocks
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_markdown-with-embedded-html-blocks]]
