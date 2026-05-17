@@ -428,8 +428,13 @@ def compose_knowledge_note(
 {zh_blockquote(title_zh)}
 
 ## HTML Artifact
-Open the interactive HTML artifact in Obsidian through Custom Frames.
-> 通过 Custom Frames 在 Obsidian 中打开交互式 HTML artifact。
+Open the HTML artifact below. The iframe works as a direct fallback; the Custom Frames block is kept for desktop setups where the plugin transforms `custom-frames` code blocks.
+> 在下方打开 HTML artifact。`iframe` 是直接备用方案；Custom Frames 代码块保留给桌面端插件能转换 `custom-frames` 代码块的场景。
+
+<iframe src="{artifact_url}" style="width:100%;height:760px;border:1px solid #d0d7de;border-radius:8px;background:#fff;" loading="lazy"></iframe>
+
+If the iframe is hidden by your Obsidian client, open the direct artifact URL.
+> 如果你的 Obsidian 客户端隐藏了 iframe，请打开直接 artifact 链接。
 
 ```custom-frames
 frame: {CUSTOM_FRAMES_NAME}

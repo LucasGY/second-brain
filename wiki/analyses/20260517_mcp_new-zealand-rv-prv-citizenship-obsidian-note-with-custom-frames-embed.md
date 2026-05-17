@@ -28,8 +28,13 @@ date_updated: '2026-05-17'
 > 新西兰 RV、PRV 与入籍 Obsidian Custom Frames 嵌入版笔记
 
 ## HTML Artifact
-Open the interactive HTML artifact in Obsidian through Custom Frames.
-> 通过 Custom Frames 在 Obsidian 中打开交互式 HTML artifact。
+Open the HTML artifact below. The iframe works as a direct fallback; the Custom Frames block is kept for desktop setups where the plugin transforms `custom-frames` code blocks.
+> 在下方打开 HTML artifact。`iframe` 是直接备用方案；Custom Frames 代码块保留给桌面端插件能转换 `custom-frames` 代码块的场景。
+
+<iframe src="https://www.lucasgou.cloud/second-brain-html/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed.html" style="width:100%;height:760px;border:1px solid #d0d7de;border-radius:8px;background:#fff;" loading="lazy"></iframe>
+
+If the iframe is hidden by your Obsidian client, open the direct artifact URL.
+> 如果你的 Obsidian 客户端隐藏了 iframe，请打开直接 artifact 链接。
 
 ```custom-frames
 frame: Second Brain HTML
@@ -95,20 +100,19 @@ Assumption: RV was granted while already in New Zealand, so the resident clock s
 ## If the Custom Frames embed does not show
 
 Confirm that the Obsidian Custom Frames plugin is enabled. Confirm that a frame named `Second Brain HTML` exists and uses `https://www.lucasgou.cloud/second-brain-html` as its base URL. The note appends the generated HTML filename through `urlSuffix`, so no local `file://` setup is needed.
-> ## 目的
->
+> >
 > 这篇笔记是“新西兰 RV 到 PRV 再到入籍时间判断”的 Obsidian Custom Frames 版本。它适合作为个人规划辅助，不构成法律建议。移民规则可能变化，实际行动前应以 Immigration New Zealand 和 Department of Internal Affairs 的最新规则为准。
->
+> >
 > ## 如何阅读嵌入 artifact
->
+> >
 > Markdown 笔记保留可编辑、可搜索的规则版本。配套 HTML artifact 会把同一套逻辑渲染成可视化阅读界面，并通过 `Second Brain HTML` 这个 Custom Frames frame 在 Obsidian 中显示。笔记顶部附近的 Custom Frames 代码块会直接从 second-brain 服务器加载托管的 HTML artifact。
->
+> >
 > ## 一句话速记
->
+> >
 > PRV 通常取决于 resident 身份满 2 年，并且在申请日前倒推的两个 12 个月区间中各满足 184 天居住要求。Citizenship by grant 通常取决于 5 年合格 resident 身份、每个 12 个月区间至少 240 天、5 年合计至少 1,350 天。PRV 通常不会重置入籍 5 年计时；RV/resident 时间可以计入。
->
+> >
 > ## Mermaid 备用流程图
->
+> >
 > ```mermaid
 > flowchart TD
 >     A[起点：拿到 Resident Visa / 开始 resident 身份] --> B{resident 身份是否已满 2 年？}
@@ -121,18 +125,18 @@ Confirm that the Obsidian Custom Frames plugin is enabled. Confirm that a frame 
 >     F -- 否 --> F1[继续累计天数；长期离境可能推迟申请时间]
 >     F -- 是 --> G[可能达到 citizenship by grant 申请时间点]
 > ```
->
+> >
 > ## 关键天数速查表
->
+> >
 > | 阶段 | 观察窗口 | 天数规则 | 常见误区 |
 > |---|---|---|---|
 > | RV 到 PRV | 通常先看 resident 身份是否满 2 年；再从 PRV 申请日往前倒推 24 个月 | 两个 12 个月区间各 184+ 天 | 以为第二年住满第 184 天就一定能在两周年前申请 |
 > | RV/PRV 到入籍 | 从入籍申请日往前倒推 5 年 | 每个 12 个月区间 240+ 天，并且 5 年总计 1,350+ 天 | 以为入籍 5 年只从 PRV 开始算 |
->
+> >
 > ## 示例时间线
->
+> >
 > 假设：人在新西兰境内获批 RV，因此 resident 计时从 RV 批签日开始。
->
+> >
 > | 日期 / 区间 | 发生什么 | 需要满足什么 |
 > |---|---|---|
 > | 2024-07-01 | RV 获批，resident 身份计时开始 | 开始累计 resident 时间 |
@@ -141,9 +145,9 @@ Confirm that the Obsidian Custom Frames plugin is enabled. Confirm that a frame 
 > | 2026-07-01 | 最早常见 PRV 申请点 | 前两个 12 个月区间都满足 184+ 天才稳 |
 > | 2024-07-01 到 2029-06-30 | 入籍 5 年观察窗口 | 每个 12 个月区间 240+ 天，且总计 1,350+ 天 |
 > | 约 2029-07-01 | 可能达到最早入籍申请点 | 还要满足其他入籍条件 |
->
+> >
 > ## 如果 Custom Frames 嵌入没有显示
->
+> >
 > 确认 Obsidian 的 Custom Frames 插件已启用。确认存在名为 `Second Brain HTML` 的 frame，并且基础 URL 是 `https://www.lucasgou.cloud/second-brain-html`。这篇笔记会通过 `urlSuffix` 自动追加生成的 HTML 文件名，所以不再需要本地 `file://` 配置。
 
 ## Related

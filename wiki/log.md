@@ -134,3 +134,8 @@
 * **Action:** Updated an MCP-created knowledge note through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture edit)
 * **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed]]
+
+## [2026-05-17] UPDATE | New Zealand RV PRV Citizenship Obsidian Note with Custom Frames Embed
+* **Action:** Updated an MCP-created knowledge note through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture edit)
+* **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed]]
