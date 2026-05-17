@@ -109,3 +109,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-flowchart-html-note]]
+
+## [2026-05-17] UPDATE | New Zealand RV PRV Citizenship Obsidian Mermaid Note
+* **Action:** Saved durable knowledge through the Second Brain MCP server.
+* **Source Created:** N/A (MCP conversation capture)
+* **Touched:** [[20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-mermaid-note]]

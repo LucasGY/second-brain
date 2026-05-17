@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html
+import os
 import pathlib
 import re
 import subprocess
@@ -19,6 +20,8 @@ import wiki_tools
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
 ANALYSES_DIR = WIKI_DIR / "analyses"
+SYNC_SCRIPT = ROOT / "scripts" / "hourly_git_sync.sh"
+SYNC_LOG = pathlib.Path("/tmp/second-brain-mcp-sync.log")
 ALLOWED_PAGE_DIRS = {
     "sources": WIKI_DIR / "sources",
     "entities": WIKI_DIR / "entities",
@@ -140,6 +143,26 @@ def rebuild_index() -> None:
         capture_output=True,
         text=True,
     )
+
+
+def trigger_git_sync() -> str:
+    if os.environ.get("SECOND_BRAIN_MCP_AUTO_SYNC", "1") != "1":
+        return "disabled"
+    if not SYNC_SCRIPT.exists():
+        return "missing_sync_script"
+
+    log_handle = SYNC_LOG.open("ab")
+    env = os.environ.copy()
+    env.setdefault("SECOND_BRAIN_SYNC_COMMIT_PREFIX", "mcp sync")
+    subprocess.Popen(
+        [str(SYNC_SCRIPT)],
+        cwd=ROOT,
+        env=env,
+        stdout=log_handle,
+        stderr=subprocess.STDOUT,
+        start_new_session=True,
+    )
+    return "triggered"
 
 
 INSTRUCTIONS = """
@@ -318,10 +341,12 @@ def save_knowledge_note(
     path.write_text(content, encoding="utf-8")
     rebuild_index()
     append_log_update(title_en, [path.stem])
+    sync_status = trigger_git_sync()
     return {
         "status": "created",
         "slug": path.stem,
         "path": path.relative_to(ROOT).as_posix(),
+        "sync": sync_status,
     }
 
 

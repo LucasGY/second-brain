@@ -124,6 +124,9 @@ _分析_
 - [New Zealand RV PRV Citizenship Flowchart HTML Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-flowchart-html-note.md)
   A structured HTML-style flowchart note for New Zealand Resident Visa,
   一版结构化 HTML 风格的流程图笔记，用决策节点、天数规则、倒推检查表和示例时间线重新组织新西兰 RV、PRV 与入籍时间节点，替代原先散文式笔记。
+- [New Zealand RV PRV Citizenship Obsidian Mermaid Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-mermaid-note.md)
+  An Obsidian-friendly Markdown note using Mermaid flowcharts, callouts,
+  一版适合 Obsidian 打开的 Markdown + Mermaid 流程图笔记，用流程图、callout、表格和时间线整理新西兰 RV、PRV
 - [New Zealand RV to PRV and Citizenship Timing Notes](analyses/20260517_mcp_new-zealand-rv-to-prv-and-citizenship-timing-notes.md)
   A reusable reference note for New Zealand Resident Visa to Permanent Resident
   一份可复用的新西兰 Resident Visa 到 Permanent Resident Visa、以及后续申请国籍的时间节点笔记，整理了关键天数、起算点、申请时点和示例。依据新西兰移民局与政府官方页面，核对日期为
