@@ -127,6 +127,9 @@ _分析_
 - [New Zealand RV PRV Citizenship Obsidian Mermaid Note](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-mermaid-note.md)
   An Obsidian-friendly Markdown note using Mermaid flowcharts, callouts,
   一版适合 Obsidian 打开的 Markdown + Mermaid 流程图笔记，用流程图、callout、表格和时间线整理新西兰 RV、PRV
+- [New Zealand RV PRV Citizenship Obsidian Note with Custom Frames Embed](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-obsidian-note-with-custom-frames-embed.md)
+  An Obsidian-friendly note that embeds the generated standalone HTML flowchart
+  一版适合 Obsidian 的 Custom Frames 嵌入版笔记：顶部嵌入刚生成的 HTML 流程图，同时保留 Mermaid/Markdown
 - [New Zealand RV to PRV and Citizenship Timing Notes](analyses/20260517_mcp_new-zealand-rv-to-prv-and-citizenship-timing-notes.md)
   A reusable reference note for New Zealand Resident Visa to Permanent Resident
   一份可复用的新西兰 Resident Visa 到 Permanent Resident Visa、以及后续申请国籍的时间节点笔记，整理了关键天数、起算点、申请时点和示例。依据新西兰移民局与政府官方页面，核对日期为
