@@ -137,6 +137,10 @@ _分析_
   The unified save_note tool can save normal bilingual Markdown knowledge
   统一的 save_note 工具可以保存普通双语 Markdown 知识笔记。
 
+- [Amazon 2025 Shareholder Letter Strategic Map](analyses/20260616_manual_amazon-2025-shareholder-letter-strategic-map.md)
+  A bilingual interactive HTML artifact mapping Andy Jassy's 2025 Amazon shareholder letter into nonlinear growth, AI capex, AWS capacity, custom silicon, logistics, robotics, and culture.
+  一份双语交互式 HTML artifact，将 Andy Jassy 的 2025 年 Amazon 股东信映射为非线性增长、AI 资本开支、AWS 产能、定制芯片、物流、机器人和组织文化。
+
 ## Syntheses
 
 _综合_

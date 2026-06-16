@@ -194,3 +194,8 @@
 * **Action:** Saved durable knowledge through the Second Brain MCP server.
 * **Source Created:** N/A (MCP conversation capture)
 * **Touched:** [[20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping]]
+
+## [2026-06-16] SYNTHESIZE | Amazon 2025 Shareholder Letter Strategic Map
+* **Action:** Generated a bilingual standalone interactive HTML artifact and analysis wrapper from the raw Amazon shareholder letter.
+* **Source Created:** N/A (HTML artifact synthesis from raw manual source)
+* **Touched:** [[20260616_manual_amazon-2025-shareholder-letter-strategic-map]], `wiki/html/20260616_manual_amazon-2025-shareholder-letter-strategic-map.html`, [[index]]
