@@ -19,7 +19,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
@@ -35,7 +35,7 @@
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -50,14 +50,19 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus"
+    "claude": "opus",
+    "codex": "gpt-5.4"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "high",
+    "codex": "medium"
   },
-  "savedProviderServiceTier": {},
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
   "savedProviderThinkingBudget": {
-    "claude": "medium"
+    "claude": "medium",
+    "codex": "medium"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
