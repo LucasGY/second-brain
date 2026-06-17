@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: New Zealand RV to PRV to Citizenship Complete Guide
+slug: "20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide"
+title_en: "New Zealand RV to PRV to Citizenship Complete Guide"
+title_zh: "新西兰 RV 到 PRV 再到入籍完整指南"
 aliases:
 - 新西兰 RV 到 PRV 再到入籍完整指南
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP conversation capture
 tags:
 - immigration
@@ -23,6 +27,7 @@ summary_en: A structured complete guide for planning the New Zealand pathway fro
 summary_zh: 一份用于规划新西兰 Resident Visa 到 Permanent Resident Visa 再到 citizenship by grant
   的结构化完整指南，涵盖起算点、PRV 两年与 184 天规则、其他 PRV commitment 路径、travel conditions、入籍 240 天与
   1,350 天规则、示例时间线、倒推算法和常见误区。
+artifact_html: "20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide.html"
 ---
 
 # New Zealand RV to PRV to Citizenship Complete Guide

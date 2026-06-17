@@ -1,11 +1,14 @@
 ---
 type: analysis
 title: Amazon 2025 Shareholder Letter Strategic Map
-slug: 20260616_manual_amazon-2025-shareholder-letter-strategic-map
+slug: "20260616_manual_amazon-2025-shareholder-letter-strategic-map"
+title_en: "Amazon 2025 Shareholder Letter Strategic Map"
+title_zh: "Amazon 2025 股东信战略地图"
 aliases:
 - Amazon 2025 股东信战略地图
 - Andy Jassy 2025 Letter HTML Artifact
 date_created: '2026-06-16'
+last_updated: '2026-06-16'
 source: raw/manual/web/amazon-ceo-andy-jassy-2025-letter-to-shareholders.md
 tags:
 - amazon
@@ -14,6 +17,7 @@ tags:
 - html-artifact
 summary_en: A bilingual interactive HTML artifact that maps Andy Jassy's 2025 Amazon shareholder letter into a strategic framework covering nonlinear growth, AI capex, AWS capacity, custom silicon, logistics, robotics, and culture.
 summary_zh: 一份双语交互式 HTML artifact，将 Andy Jassy 的 2025 年 Amazon 股东信整理为战略框架，覆盖非线性增长、AI 资本开支、AWS 产能、定制芯片、物流、机器人和组织文化。
+artifact_html: "20260616_manual_amazon-2025-shareholder-letter-strategic-map.html"
 ---
 
 # Amazon 2025 Shareholder Letter Strategic Map

@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: New Zealand RV PRV Citizenship Annotated Flowchart HTML
+slug: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2"
+title_en: "New Zealand RV PRV Citizenship Annotated Flowchart HTML"
+title_zh: "新西兰 RV、PRV 与入籍交互式流程图 HTML"
 aliases:
 - 新西兰 RV、PRV 与入籍交互式流程图 HTML
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP HTML artifact capture
 tags:
 - html-artifact
@@ -15,6 +19,7 @@ tags:
 summary_en: A complete ChatGPT-generated interactive HTML artifact for reasoning through
   New Zealand RV, PRV, and citizenship timing rules.
 summary_zh: 一份由 ChatGPT 生成的完整交互式 HTML artifact，用于判断新西兰 RV、PRV 与入籍时间规则。
+artifact_html: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2.html"
 ---
 
 # New Zealand RV PRV Citizenship Annotated Flowchart HTML

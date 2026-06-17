@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: New Zealand RV PRV Citizenship Annotated Flowchart HTML
+slug: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html"
+title_en: "New Zealand RV PRV Citizenship Annotated Flowchart HTML"
+title_zh: "新西兰 RV、PRV 与入籍 Annotated Flowchart HTML 版"
 aliases:
 - 新西兰 RV、PRV 与入籍 Annotated Flowchart HTML 版
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP conversation capture
 tags:
 - immigration
@@ -23,6 +27,7 @@ summary_en: 'A redesigned HTML artifact concept for the New Zealand RV to PRV to
   of the Markdown body.'
 summary_zh: 一版重新设计的新西兰 RV 到 PRV 再到入籍 HTML artifact 概念，参考 annotated flowchart 模式：可点击决策流程、右侧详情面板、TL;DR
   指标、规则卡片、时间线、倒推表格、FAQ 和官方依据区。HTML 展示层刻意不再镜像 Markdown 正文。
+artifact_html: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html.html"
 ---
 
 # New Zealand RV PRV Citizenship Annotated Flowchart HTML

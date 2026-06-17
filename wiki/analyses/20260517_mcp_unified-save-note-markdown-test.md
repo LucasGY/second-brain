@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: Unified Save Note Markdown Test
+slug: "20260517_mcp_unified-save-note-markdown-test"
+title_en: "Unified Save Note Markdown Test"
+title_zh: "统一 Save Note Markdown 测试"
 aliases:
 - 统一 Save Note Markdown 测试
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP conversation capture
 tags:
 - mcp-test
@@ -12,6 +16,7 @@ tags:
 summary_en: The unified save_note tool can save normal bilingual Markdown knowledge
   notes.
 summary_zh: 统一的 save_note 工具可以保存普通双语 Markdown 知识笔记。
+artifact_html: "20260517_mcp_unified-save-note-markdown-test.html"
 ---
 
 # Unified Save Note Markdown Test

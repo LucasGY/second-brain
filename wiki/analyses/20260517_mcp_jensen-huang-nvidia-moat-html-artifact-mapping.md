@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: Jensen Huang Nvidia Moat HTML Artifact Mapping
+slug: "20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping"
+title_en: "Jensen Huang Nvidia Moat HTML Artifact Mapping"
+title_zh: "Jensen Huang Nvidia 护城河访谈：HTML 表达方式映射与最终 Artifact"
 aliases:
 - Jensen Huang Nvidia 护城河访谈：HTML 表达方式映射与最终 Artifact
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP HTML artifact capture
 tags:
 - nvidia
@@ -18,6 +22,7 @@ summary_en: A second-brain note that maps each content unit from the Jensen Huan
   TPU/GPU/ASIC comparison, and presentation/deep-dive recommendations.
 summary_zh: 一条第二大脑笔记：把 Jensen Huang 关于 Nvidia 护城河访谈的各类内容，逐一映射到最合适的 HTML 表达方式，并保存一个最终独立
   HTML artifact，组合了概念解释器、护城河飞轮、TPU/GPU/ASIC 对比和推荐呈现方案。
+artifact_html: "20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping.html"
 ---
 
 # Jensen Huang Nvidia Moat HTML Artifact Mapping

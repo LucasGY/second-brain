@@ -199,3 +199,9 @@
 * **Action:** Generated a bilingual standalone interactive HTML artifact and analysis wrapper from the raw Amazon shareholder letter.
 * **Source Created:** N/A (HTML artifact synthesis from raw manual source)
 * **Touched:** [[20260616_manual_amazon-2025-shareholder-letter-strategic-map]], `wiki/html/20260616_manual_amazon-2025-shareholder-letter-strategic-map.html`, [[index]]
+
+
+## [2026-06-17] UPDATE | Analysis Frontmatter and Artifact Schema
+* **Action:** Added `wiki/schema/ANALYSIS_STANDARDS.md`, updated `AGENTS.md` to require it for `wiki/analyses/`, and normalized existing analysis frontmatter with `title_en`, `title_zh`, `slug`, `last_updated`, and explicit `artifact_html` fields.
+* **Source Created:** N/A
+* **Touched:** [[AGENTS]], [[ANALYSIS_STANDARDS]], `wiki/analyses/`

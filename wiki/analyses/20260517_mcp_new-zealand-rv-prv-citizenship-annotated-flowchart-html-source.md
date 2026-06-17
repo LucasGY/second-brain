@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: New Zealand RV PRV Citizenship Annotated Flowchart HTML Source
+slug: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-source"
+title_en: "New Zealand RV PRV Citizenship Annotated Flowchart HTML Source"
+title_zh: "新西兰 RV、PRV 与入籍 Annotated Flowchart HTML 源码版"
 aliases:
 - 新西兰 RV、PRV 与入籍 Annotated Flowchart HTML 源码版
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP conversation capture
 tags:
 - immigration
@@ -21,6 +25,7 @@ summary_en: The actual standalone HTML source for the New Zealand RV to PRV to c
   only the design/specification, not the HTML source itself.
 summary_zh: 新西兰 RV 到 PRV 再到入籍 annotated flowchart 的独立 HTML 源码版。创建本页是因为上一版 second-brain
   页面只保存了设计说明，没有把 HTML 源码本身放入第二大脑。
+artifact_html: "20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-source.html"
 ---
 
 # New Zealand RV PRV Citizenship Annotated Flowchart HTML Source

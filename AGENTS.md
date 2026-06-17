@@ -10,7 +10,7 @@ Your goal is to transform raw, immutable source documents into a highly structur
 - `wiki/sources/`: Markdown summaries of the raw files.
 - `wiki/entities/`: Pages for concrete things (e.g., OpenAI, Claude, Obsidian, specific algorithms).
 - `wiki/concepts/`: Pages for abstract ideas (e.g., RAG, Reinforcement Learning, Vibe Coding).
-- `wiki/analyses/`: Cross-source synthesis documents (buy-side analysis, comparative research, etc.).
+- `wiki/analyses/`: Cross-source synthesis documents (buy-side analysis, comparative research, dashboards, and HTML artifact wrappers). **READ `wiki/schema/ANALYSIS_STANDARDS.md` before creating or updating any analysis page.**
 - `wiki/index.md`: The global table of contents.
 - `wiki/log.md`: The chronological append-only ledger of your actions.
 
@@ -35,6 +35,13 @@ Your goal is to transform raw, immutable source documents into a highly structur
   - `[[llm-wiki|LLM Wiki]]`
 - Do NOT rely on plain `[[Readable Name]]` links unless the readable name exactly matches the filename stem.
 - Use `aliases` in YAML for alternate spellings, abbreviations, and prior names, but do not use aliases as the canonical target when writing new links.
+
+## 3.2 Analysis Page Contract (`wiki/analyses/`)
+- Before creating or updating any page under `wiki/analyses/`, **READ `wiki/schema/ANALYSIS_STANDARDS.md`**.
+- Analysis frontmatter MUST include bilingual titles: `title_en` and `title_zh`. Keep `title` for backward compatibility, normally equal to `title_en`.
+- Analysis frontmatter MUST include a stable `slug` matching the Markdown filename stem.
+- If an analysis has a standalone HTML artifact, frontmatter MUST explicitly include `artifact_html: filename.html`. Do not rely on loaders inferring artifacts from slugs, iframes, or Custom Frames blocks.
+- `artifact_html` stores only the artifact filename under `wiki/html/`, not a full URL.
 
 ---
 

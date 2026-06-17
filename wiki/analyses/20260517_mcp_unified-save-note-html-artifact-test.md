@@ -1,9 +1,13 @@
 ---
 type: analysis
 title: Unified Save Note HTML Artifact Test
+slug: "20260517_mcp_unified-save-note-html-artifact-test"
+title_en: "Unified Save Note HTML Artifact Test"
+title_zh: "统一 Save Note HTML Artifact 测试"
 aliases:
 - 统一 Save Note HTML Artifact 测试
 date_created: '2026-05-17'
+last_updated: '2026-05-17'
 source: MCP HTML artifact capture
 tags:
 - mcp-test
@@ -11,6 +15,7 @@ tags:
 - html-artifact
 summary_en: The unified save_note tool can preserve a complete HTML document as-is.
 summary_zh: 统一的 save_note 工具可以原样保存完整 HTML 文档。
+artifact_html: "20260517_mcp_unified-save-note-html-artifact-test.html"
 ---
 
 # Unified Save Note HTML Artifact Test
