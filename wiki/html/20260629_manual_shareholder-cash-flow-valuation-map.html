@@ -47,25 +47,60 @@
 
     <section class="section panel">
       <h2>Cash-flow relationship diagram｜现金流关系图</h2>
-      <div class="flow">
-        <svg width="1040" height="430" viewBox="0 0 1040 430" role="img" aria-label="cash flow relationship diagram">
-          <path class="link" stroke-width="36" d="M150 105 C260 105 260 105 370 105"/>
-          <path class="link" stroke-width="36" d="M505 105 C605 105 610 105 710 105"/>
-          <path class="link amber" stroke-width="28" d="M505 172 C600 205 615 235 710 265"/>
-          <path class="link green" stroke-width="18" d="M835 75 C910 60 925 60 990 70"/>
-          <path class="link green" stroke-width="22" d="M835 135 C910 145 925 150 990 160"/>
-          <path class="link red" stroke-width="20" d="M835 195 C910 225 925 235 990 250"/>
-          <rect class="node" x="30" y="62" width="120" height="86" rx="14"/><text class="label" x="90" y="96" text-anchor="middle">Net Income</text><text class="small" x="90" y="121" text-anchor="middle">净利润</text>
-          <rect class="node2" x="370" y="62" width="135" height="86" rx="14"/><text class="label" x="437" y="96" text-anchor="middle">Operating CF</text><text class="small" x="437" y="121" text-anchor="middle">经营性现金流</text>
-          <rect class="node4" x="370" y="172" width="135" height="70" rx="14"/><text class="label" x="437" y="201" text-anchor="middle">CapEx</text><text class="small" x="437" y="224" text-anchor="middle">资本开支</text>
-          <rect class="node2" x="710" y="62" width="125" height="86" rx="14"/><text class="label" x="772" y="96" text-anchor="middle">FCF</text><text class="small" x="772" y="121" text-anchor="middle">自由现金流</text>
-          <rect class="node3" x="990" y="38" width="20" height="64" rx="8"/><text class="label" x="930" y="58" text-anchor="middle">Dividends</text><text class="small" x="930" y="82" text-anchor="middle">分红</text>
-          <rect class="node3" x="990" y="128" width="20" height="64" rx="8"/><text class="label" x="930" y="148" text-anchor="middle">Buybacks</text><text class="small" x="930" y="172" text-anchor="middle">回购</text>
-          <rect class="node4" x="990" y="218" width="20" height="64" rx="8"/><text class="label" x="928" y="238" text-anchor="middle">Retained</text><text class="small" x="928" y="262" text-anchor="middle">留存</text>
-          <rect class="node3" x="710" y="292" width="230" height="82" rx="16"/><text class="label" x="825" y="325" text-anchor="middle">Shareholder Cash Flow</text><text class="small" x="825" y="350" text-anchor="middle">股东现金流 = 分红 + 有意义回购</text>
-          <path class="link green" stroke-width="18" d="M1000 70 C975 320 950 333 940 333"/><path class="link green" stroke-width="22" d="M1000 160 C980 310 955 333 940 333"/>
-          <text class="small" x="244" y="86" text-anchor="middle">+ D&A, SBC; ± working capital</text><text class="small" x="244" y="124" text-anchor="middle">+ 折旧摊销、股权激励；± 营运资本</text>
-          <text class="small" x="608" y="84" text-anchor="middle">CFO - CapEx</text><text class="small" x="604" y="202" text-anchor="middle">maintenance / growth spending</text>
+      <p style="margin-top:-6px;color:var(--muted)">A cleaner reading: convert accounting profit into CFO, subtract CapEx to get FCF, then split FCF into shareholder cash flow and retained or reinvested cash.</p>
+      <p class="zh" style="color:#d8e0ff">更清晰的读法：先把会计利润转成 CFO，扣除 CapEx 得到 FCF，再把 FCF 分成股东现金流与留存或再投资现金。</p>
+      <div class="flow" style="padding:22px;overflow-x:auto">
+        <svg width="1080" height="430" viewBox="0 0 1080 430" role="img" aria-label="single CFO shareholder cash flow relationship diagram">
+          <defs>
+            <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#73a7ff"/></marker>
+            <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#85e89d"/></marker>
+            <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ffd166"/></marker>
+            <filter id="softShadow2" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".24"/></filter>
+            <style>
+              .box{rx:18;filter:url(#softShadow2)} .t{font:700 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#eef3ff}.s{font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#aeb8d6}.tiny{font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#cbd5f5}.mono{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#dff7ff}.lineBlue{stroke:#73a7ff;stroke-width:3;fill:none;marker-end:url(#arrow-blue)}.lineGreen{stroke:#85e89d;stroke-width:3;fill:none;marker-end:url(#arrow-green)}.lineAmber{stroke:#ffd166;stroke-width:3;fill:none;marker-end:url(#arrow-amber)}.dash{stroke:#aeb8d6;stroke-width:2;stroke-dasharray:6 6;fill:none}
+            </style>
+          </defs>
+
+          <text x="36" y="36" class="t">Single calculation chain｜单一计算链条</text>
+
+          <rect x="40" y="88" width="150" height="88" class="box" fill="#17265c" stroke="#7da2ff" stroke-width="1.6"/>
+          <text x="115" y="123" text-anchor="middle" class="t">Net Income</text><text x="115" y="151" text-anchor="middle" class="s">净利润</text>
+
+          <rect x="252" y="78" width="210" height="108" class="box" fill="#182b4f" stroke="#6ee7f9" stroke-width="1.6"/>
+          <text x="357" y="109" text-anchor="middle" class="t">Cash Adjustments</text><text x="357" y="134" text-anchor="middle" class="s">现金流调整</text><text x="357" y="159" text-anchor="middle" class="mono">+ D&A / SBC</text><text x="357" y="177" text-anchor="middle" class="mono">± Working Capital</text>
+
+          <rect x="525" y="88" width="150" height="88" class="box" fill="#17365c" stroke="#6ee7f9" stroke-width="1.6"/>
+          <text x="600" y="123" text-anchor="middle" class="t">CFO</text><text x="600" y="151" text-anchor="middle" class="s">经营性现金流</text>
+
+          <rect x="525" y="267" width="150" height="64" class="box" fill="#4a2c15" stroke="#ffd166" stroke-width="1.5"/>
+          <text x="600" y="293" text-anchor="middle" class="t">CapEx</text><text x="600" y="317" text-anchor="middle" class="s">资本开支</text>
+
+          <rect x="755" y="88" width="150" height="88" class="box" fill="#193d2f" stroke="#85e89d" stroke-width="1.6"/>
+          <text x="830" y="123" text-anchor="middle" class="t">FCF</text><text x="830" y="151" text-anchor="middle" class="s">自由现金流</text>
+
+          <path d="M190 132 H252" class="lineBlue"/><path d="M462 132 H525" class="lineBlue"/>
+          <path d="M675 132 H755" class="lineGreen"/><text x="716" y="116" text-anchor="middle" class="tiny">minus CapEx</text><text x="716" y="155" text-anchor="middle" class="tiny">扣除 CapEx</text>
+          <path d="M600 176 V267" class="lineAmber"/><text x="625" y="224" class="tiny">cash outflow</text><text x="625" y="244" class="tiny">现金流出</text>
+
+          <text x="36" y="232" class="mono">CFO = Net income + non-cash items ± working capital</text><text x="36" y="254" class="mono">经营性现金流 = 净利润 + 非现金项目 ± 营运资本变化</text><text x="36" y="286" class="mono">FCF = CFO - CapEx</text><text x="36" y="308" class="mono">自由现金流 = 经营性现金流 - 资本开支</text>
+
+          <text x="740" y="232" class="t">FCF allocation｜FCF 分配</text>
+
+          <rect x="940" y="40" width="112" height="52" class="box" fill="#214d37" stroke="#85e89d" stroke-width="1.4"/>
+          <text x="996" y="61" text-anchor="middle" class="t">Dividends</text><text x="996" y="82" text-anchor="middle" class="s">分红</text>
+          <rect x="940" y="112" width="112" height="52" class="box" fill="#214d37" stroke="#85e89d" stroke-width="1.4"/>
+          <text x="996" y="133" text-anchor="middle" class="t">Buybacks</text><text x="996" y="154" text-anchor="middle" class="s">净回购</text>
+          <rect x="940" y="205" width="112" height="58" class="box" fill="#4a2c15" stroke="#ffd166" stroke-width="1.4"/>
+          <text x="996" y="229" text-anchor="middle" class="t">Retained</text><text x="996" y="251" text-anchor="middle" class="s">留存/再投资</text>
+
+          <rect x="755" y="283" width="150" height="70" class="box" fill="#214d37" stroke="#85e89d" stroke-width="1.7"/>
+          <text x="830" y="311" text-anchor="middle" class="t">Shareholder CF</text><text x="830" y="337" text-anchor="middle" class="s">股东现金流</text>
+
+          <path d="M905 116 C922 78 922 66 940 66" class="lineGreen"/><path d="M905 135 C922 135 922 138 940 138" class="lineGreen"/><path d="M905 154 C922 184 922 216 940 234" class="lineAmber"/>
+          <path d="M940 66 C886 78 852 215 835 283" class="lineGreen"/><path d="M940 138 C890 145 858 225 840 283" class="lineGreen"/><path d="M940 234 C922 235 914 235 905 235" class="dash"/>
+          <text x="978" y="188" text-anchor="middle" class="s">not immediate SCF</text><text x="978" y="286" text-anchor="middle" class="s">不立即兑现</text>
+
+          <text x="720" y="388" class="mono">SCF = Dividends + meaningful buybacks</text><text x="720" y="410" class="mono">股东现金流 = 分红 + 有意义回购</text>
         </svg>
       </div>
     </section>
@@ -73,14 +108,14 @@
     <section class="section panel">
       <h2>Calculation sheet｜计算表</h2>
       <table class="table">
-        <thead><tr><th>Question｜问题</th><th>Formula｜公式</th><th>Use｜用途</th></tr></thead>
+        <thead><tr><th>Question｜问题</th><th>Formula｜公式</th><th>Abbreviations｜缩写含义</th><th>Use｜用途</th></tr></thead>
         <tbody>
-          <tr><td>How much cash did operations produce?<br/>经营产生多少现金？</td><td>CFO = Net income + non-cash items ± working capital</td><td>Convert accounting profit into cash quality.<br/>把会计利润转换为现金质量。</td></tr>
-          <tr><td>How much cash is left after CapEx?<br/>扣除 CapEx 后剩多少？</td><td>FCF = CFO - CapEx</td><td>Estimate corporate free cash generation.<br/>估算企业自由现金创造。</td></tr>
-          <tr><td>How much reaches shareholders?<br/>多少到达股东？</td><td>SCF = Dividends + Net meaningful buybacks</td><td>Measure actual shareholder return cash flow.<br/>衡量真实股东回报现金流。</td></tr>
-          <tr><td>How efficient is conversion?<br/>兑现效率多高？</td><td>Efficiency = SCF / FCF</td><td>Identify trapped or low-return cash.<br/>识别受困或低回报现金。</td></tr>
-          <tr><td>Why can PE be low but dividend multiple high?<br/>为什么 PE 低但股息倍数高？</td><td>P/Dividend = PE / payout ratio = 1 / dividend yield</td><td>Bridge PE and dividend yield logic.<br/>打通 PE 与股息率逻辑。</td></tr>
-          <tr><td>How to value growing SCF?<br/>如何估值增长型股东现金流？</td><td>Value = SCF × (1+g) / (r-g)</td><td>Make growth and required return explicit.<br/>显式化增长率与要求回报率。</td></tr>
+          <tr><td>How much cash did operations produce?<br/>经营产生多少现金？</td><td>CFO = Net income + non-cash items ± working capital</td><td><strong>CFO</strong> = Cash Flow from Operations / Operating Cash Flow<br/>经营性现金流<br/><strong>D&A</strong> = Depreciation & Amortization<br/>折旧与摊销<br/><strong>SBC</strong> = Stock-Based Compensation<br/>股权激励费用</td><td>Convert accounting profit into cash quality.<br/>把会计利润转换为现金质量。</td></tr>
+          <tr><td>How much cash is left after CapEx?<br/>扣除 CapEx 后剩多少？</td><td>FCF = CFO - CapEx</td><td><strong>FCF</strong> = Free Cash Flow<br/>自由现金流<br/><strong>CapEx</strong> = Capital Expenditure<br/>资本开支<br/><strong>CFO</strong> = Operating Cash Flow<br/>经营性现金流</td><td>Estimate corporate free cash generation.<br/>估算企业自由现金创造。</td></tr>
+          <tr><td>How much reaches shareholders?<br/>多少到达股东？</td><td>SCF = Dividends + Net meaningful buybacks</td><td><strong>SCF</strong> = Shareholder Cash Flow<br/>股东现金流<br/><strong>Net buybacks</strong> = repurchases minus dilution or issuance<br/>扣除稀释或增发后的净回购</td><td>Measure actual shareholder return cash flow.<br/>衡量真实股东回报现金流。</td></tr>
+          <tr><td>How efficient is conversion?<br/>兑现效率多高？</td><td>Efficiency = SCF / FCF</td><td><strong>Efficiency</strong> = shareholder cash-flow conversion efficiency<br/>股东现金流兑现效率<br/><strong>SCF</strong> = shareholder cash flow<br/>股东现金流<br/><strong>FCF</strong> = free cash flow<br/>自由现金流</td><td>Identify trapped or low-return cash.<br/>识别受困或低回报现金。</td></tr>
+          <tr><td>Why can PE be low but dividend multiple high?<br/>为什么 PE 低但股息倍数高？</td><td>P/Dividend = PE / payout ratio = 1 / dividend yield</td><td><strong>P</strong> = Price or Market Capitalization<br/>价格或市值<br/><strong>PE</strong> = Price / Earnings<br/>市盈率<br/><strong>Payout ratio</strong> = Dividends / Net income<br/>股利支付率</td><td>Bridge PE and dividend yield logic.<br/>打通 PE 与股息率逻辑。</td></tr>
+          <tr><td>How to value growing SCF?<br/>如何估值增长型股东现金流？</td><td>Value = SCF × (1+g) / (r-g)</td><td><strong>g</strong> = long-term growth rate of SCF<br/>股东现金流长期增长率<br/><strong>r</strong> = required return / discount rate<br/>要求回报率或折现率<br/><strong>SCF</strong> = shareholder cash flow<br/>股东现金流</td><td>Make growth and required return explicit.<br/>显式化增长率与要求回报率。</td></tr>
         </tbody>
       </table>
     </section>

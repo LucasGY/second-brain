@@ -212,3 +212,22 @@
 * **Concepts Created:** [[shareholder-free-cash-flow|Shareholder Free Cash Flow]], [[shareholder-cash-flow-conversion-efficiency|Shareholder Cash Flow Conversion Efficiency]], [[cash-flow-based-valuation|Cash-Flow-Based Valuation]].
 * **Entities Created:** [[coca-cola|Coca-Cola]], [[kweichow-moutai|Kweichow Moutai]], [[wuliangye|Wuliangye]], [[yum-china|Yum China]], [[hong-kong-exchanges-and-clearing|Hong Kong Exchanges and Clearing]], [[industrial-and-commercial-bank-of-china|Industrial and Commercial Bank of China]], [[bank-of-america|Bank of America]], [[wells-fargo|Wells Fargo]], [[sp-500|S&P 500]], [[csi-300|CSI 300]], [[a-share-market|A-share Market]].
 * **Touched:** Rebuilt [[index|Wiki Index]] and preserved source claims about shareholder cash-flow conversion, payout ratios, dividend multiples, and growing-perpetuity valuation.
+
+## [2026-06-29] UPDATE | Local HTML Artifact Link for Shareholder Cash Flow Map
+* **Action:** Added a local vault artifact link and local iframe fallback because the public `/var/www/second-brain-html/` publish directory is not present in this environment.
+* **Touched:** [[20260629_manual_shareholder-cash-flow-valuation-map|Shareholder Cash Flow Valuation Map]], `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`.
+
+## [2026-06-29] UPDATE | Redesign Shareholder Cash Flow Diagram
+* **Action:** Replaced the confusing pseudo-Sankey SVG with a cleaner calculation-chain and FCF-allocation diagram; moved long formulas into separate cards below the diagram.
+* **Verification:** Parsed HTML successfully and rendered screenshot `output/playwright/shareholder-cash-flow-map-updated-clean.png` with Chrome headless.
+* **Touched:** [[20260629_manual_shareholder-cash-flow-valuation-map|Shareholder Cash Flow Valuation Map]], `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`.
+
+## [2026-06-29] UPDATE | Merge Duplicate CFO Nodes in Shareholder Cash Flow Diagram
+* **Action:** Merged the two CFO boxes into one CFO node, with CapEx shown as the deduction from the same CFO node and FCF shown as the resulting cash pool.
+* **Verification:** Parsed HTML successfully, verified only one `CFO` label remains in the SVG, and rendered screenshot `output/playwright/shareholder-cash-flow-map-single-cfo-final.png` with Chrome headless.
+* **Touched:** [[20260629_manual_shareholder-cash-flow-valuation-map|Shareholder Cash Flow Valuation Map]], `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`.
+
+## [2026-06-29] UPDATE | Add Abbreviation Column to Shareholder Cash Flow Calculation Table
+* **Action:** Added an `Abbreviations｜缩写含义` column explaining CFO, FCF, SCF, CapEx, D&A, SBC, PE, payout ratio, g, and r in the HTML calculation table.
+* **Verification:** Parsed HTML successfully, verified abbreviation-column content, and rendered screenshot `output/playwright/shareholder-cash-flow-map-table-abbrev.png` with Chrome headless.
+* **Touched:** [[20260629_manual_shareholder-cash-flow-valuation-map|Shareholder Cash Flow Valuation Map]], `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`.

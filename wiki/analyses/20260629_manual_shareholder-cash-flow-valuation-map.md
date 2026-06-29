@@ -32,6 +32,14 @@ urlSuffix: /20260629_manual_shareholder-cash-flow-valuation-map.html
 Direct artifact URL: https://www.lucasgou.cloud/second-brain-html/20260629_manual_shareholder-cash-flow-valuation-map.html
 > 直接访问 artifact：https://www.lucasgou.cloud/second-brain-html/20260629_manual_shareholder-cash-flow-valuation-map.html
 
+Local vault artifact: [Open `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`](../html/20260629_manual_shareholder-cash-flow-valuation-map.html)
+> 本地 vault artifact：[打开 `wiki/html/20260629_manual_shareholder-cash-flow-valuation-map.html`](../html/20260629_manual_shareholder-cash-flow-valuation-map.html)
+
+Local iframe fallback for Obsidian preview:
+> Obsidian 预览用本地 iframe fallback：
+
+<iframe src="../html/20260629_manual_shareholder-cash-flow-valuation-map.html" style="width:100%;height:860px;border:1px solid #d0d7de;border-radius:8px;background:#fff;" loading="lazy"></iframe>
+
 ## Summary
 The artifact turns the source article into a reusable valuation map: net income must be translated into operating cash flow, free cash flow, and finally shareholder cash flow before it can be valued as a durable cash-return stream.
 > 该 artifact 将原文转化为可复用的估值地图：净利润必须先被翻译为经营性现金流、自由现金流，最终再转化为股东现金流，之后才适合作为可持续现金回报流来估值。
