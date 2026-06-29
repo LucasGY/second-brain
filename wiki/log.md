@@ -205,3 +205,10 @@
 * **Action:** Added `wiki/schema/ANALYSIS_STANDARDS.md`, updated `AGENTS.md` to require it for `wiki/analyses/`, and normalized existing analysis frontmatter with `title_en`, `title_zh`, `slug`, `last_updated`, and explicit `artifact_html` fields.
 * **Source Created:** N/A
 * **Touched:** [[AGENTS]], [[ANALYSIS_STANDARDS]], `wiki/analyses/`
+
+## [2026-06-29] INGEST | Re-examining “All cash is equal” through Shareholder Free Cash Flow
+* **Source Created:** [[20260629_manual_shareholder-free-cash-flow-all-cash-is-equal|Re-examining “All cash is equal” through Shareholder Free Cash Flow]]
+* **Analysis Created:** [[20260629_manual_shareholder-cash-flow-valuation-map|Shareholder Cash Flow Valuation Map]] with HTML artifact `20260629_manual_shareholder-cash-flow-valuation-map.html`.
+* **Concepts Created:** [[shareholder-free-cash-flow|Shareholder Free Cash Flow]], [[shareholder-cash-flow-conversion-efficiency|Shareholder Cash Flow Conversion Efficiency]], [[cash-flow-based-valuation|Cash-Flow-Based Valuation]].
+* **Entities Created:** [[coca-cola|Coca-Cola]], [[kweichow-moutai|Kweichow Moutai]], [[wuliangye|Wuliangye]], [[yum-china|Yum China]], [[hong-kong-exchanges-and-clearing|Hong Kong Exchanges and Clearing]], [[industrial-and-commercial-bank-of-china|Industrial and Commercial Bank of China]], [[bank-of-america|Bank of America]], [[wells-fargo|Wells Fargo]], [[sp-500|S&P 500]], [[csi-300|CSI 300]], [[a-share-market|A-share Market]].
+* **Touched:** Rebuilt [[index|Wiki Index]] and preserved source claims about shareholder cash-flow conversion, payout ratios, dividend multiples, and growing-perpetuity valuation.

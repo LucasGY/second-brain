@@ -30,6 +30,8 @@ _来源_
   OpenClaw发布v2026.5.2，集成xAI Grok 4.3，修复npm安装的依赖问题，大幅精简包体积，插件系统迁移到extensions架构。 > OpenClaw released v2026.5.2, integrating xAI Grok 4.3, fixing dependency/slowness issues from npm install, significantly reducing package size, migrating plugin system to extensions architecture.
 - [PEK机场照片流出：Xi-Trump会晤即将发生？](sources/20260503_feeds_pek-airport-observation.md)
   交易员观察北京首都国际机场，预期Xi-Trump会晤即将发生，并据此判断在会晤前不会出现针对伊朗的重大军事行动。 > A trader observed Beijing Capital Airport, expecting an imminent Xi-Trump meeting and据此判断在会晤前不会出现针对伊朗的重大军事行动。
+- [Re-examining “All cash is equal” through Shareholder Free Cash Flow](sources/20260629_manual_shareholder-free-cash-flow-all-cash-is-equal.md)
+  > 从股东自由现金流角度，重新审视「All cash is equal」
 - [SemiAnalysis推广：Jane Street新毕业生用Agentic AI获得$220K-$600K薪资](sources/20260503_feeds_semianalysis-course-promo.md)
   SemiAnalysis推广一门课程，声称一位Jane Street初级毕业生使用agentic AI系统（JAX + Mesh-TF处理万亿级数据点）获得$220K-$600K职位。 > SemiAnalysis promoted a course claiming a Jane Street junior new grad used an agentic AI system (JAX + Mesh-TF to process trillions of data points) to secure a $220K-$600K role.
 - [台积电技术研讨会2026：AI算力时代的工业结构定义](sources/20260503_feeds_tsmc-2026-tech-seminar.md)
@@ -39,6 +41,9 @@ _来源_
 
 _实体_
 
+- [A-share Market](entities/a-share-market.md)
+  The A-share Market is referenced as a market structure where headline dividends may be higher than U.S. levels but buyback quality and total shareholder payout can be lower.
+  A 股市场被引用为一种市场结构：表观分红可能高于美国，但回购质量和股东总回报可能较低。
 - [Accenture](entities/accenture.md)
   Accenture is an IT services and consulting company positioned as a beneficiary of enterprise AI integration, workflow redesign, governance, and change management. > Accenture 是一家 IT 服务和咨询公司，被定位为企业 AI 集成、工作流重构、治理和变革管理的受益者。
 - [Ajit Jain](entities/ajit-jain.md)
@@ -49,6 +54,9 @@ _实体_
   Amazon is a global technology and commerce company whose AWS cloud platform and custom silicon strategy make it a major AI infrastructure provider. > Amazon 是一家全球科技与电商公司，其 AWS 云平台和定制芯片战略使其成为重要 AI 基础设施提供商。
 - [AMD](entities/amd.md)
   AMD is a semiconductor company with data-center CPUs and GPUs that can participate in enterprise AI and inference workloads. > AMD 是一家拥有数据中心 CPU 和 GPU 产品线的半导体公司，可参与企业 AI 与推理工作负载。
+- [Bank of America](entities/bank-of-america.md)
+  Bank of America is referenced as a U.S. large-bank case with dividends plus buybacks exceeding reported earnings in the source’s comparison.
+  美国银行被引用为美国大型银行案例，在原文对比中其分红加回购超过当年利润。
 - [Berkshire Hathaway](entities/berkshire-hathaway.md)
   Berkshire Hathaway is a diversified holding company whose 2026 annual meeting marked a leadership transition from Warren Buffett's CEO-led era to Greg Abel's operating-management era. > [[berkshire-hathaway|Berkshire Hathaway]] 是一家多元化控股公司；其 2026 年股东大会标志着公司从 Warren Buffett 的 CEO 主导时代进入 Greg Abel 的运营管理时代。
 - [BNSF](entities/bnsf.md)
@@ -59,6 +67,12 @@ _实体_
   The People's Republic of China (PRC) is involved in ongoing trade and technology negotiations with the United States. A potential Xi-Trump meeting was observed from airport activity in Beijing in early May 2026. > 中华人民共和国正在与美国进行持续的贸易和技术谈判。2026年5月初，从北京机场活动观察到习近平和特朗普之间可能举行会晤。
 - [Cloudflare](entities/cloudflare.md)
   Cloudflare is an edge network and software infrastructure company positioned as a potential beneficiary of distributed AI inference workloads. > Cloudflare 是一家边缘网络和软件基础设施公司，被定位为分布式 AI 推理工作负载的潜在受益者。
+- [Coca-Cola](entities/coca-cola.md)
+  Coca-Cola is used in this wiki as a mature cash-return case where dividends and buybacks can support valuation despite limited growth.
+  可口可乐在本 wiki 中被用作成熟现金回报案例，说明即使增长有限，分红与回购也能支撑估值。
+- [CSI 300](entities/csi-300.md)
+  The CSI 300 is referenced as the Chinese large-cap benchmark whose PE is compared with the S&P 500 in the source.
+  沪深 300 被引用为中国大盘股基准，其 PE 在原文中与标普 500 对比。
 - [FinTech](entities/fintech.md)
   FinTech refers to the intersection of finance and technology, including quantitative trading systems, AI-driven investment strategies, and algorithmic trading platforms. AI systems in finance exhibit systematic cognitive biases when facing exponential growth scenarios. > 金融科技指金融与技术的交汇，包括量化交易系统、AI驱动的投资策略和算法交易平台。金融领域的AI系统在面对指数级增长场景时表现出系统性认知偏见。
 - [GEICO](entities/geico.md)
@@ -69,6 +83,15 @@ _实体_
   Greg Abel is Berkshire Hathaway's CEO after Warren Buffett, positioned as the operator responsible for preserving Berkshire's decentralized culture while improving business execution. > [[greg-abel|Greg Abel]] 是 Warren Buffett 之后的 Berkshire Hathaway CEO，被定位为在保留 Berkshire 分权文化的同时提升业务执行力的运营型领导者。
 - [Groq](entities/groq.md)
   Groq is an AI chip company specializing in deterministic, SRAM-based LPU (Language Processing Unit) architecture. Acquired by Nvidia in 2026. Its compiler-first philosophy is fundamentally incompatible with DRAM-based systems due to the non-deterministic nature of DRAM refresh operations and memory controller optimizations. > Groq是一家AI芯片公司，专注于基于SRAM的确定性LPU（语言处理单元）架构。2026年被Nvidia收购。其编译器优先哲学与DRAM系统根本不兼容，因为DRAM刷新操作和内存控制器优化的非确定性特性。
+- [Hong Kong Exchanges and Clearing](entities/hong-kong-exchanges-and-clearing.md)
+  Hong Kong Exchanges and Clearing is referenced as a high-payout financial-market infrastructure business with resilient valuation.
+  港交所被引用为高派现金融市场基础设施企业，其估值具有韧性。
+- [Industrial and Commercial Bank of China](entities/industrial-and-commercial-bank-of-china.md)
+  ICBC is used to explain the difference between low PE and high dividend multiple under partial payout.
+  工商银行被用来解释在部分派现条件下，低 PE 与较高股息倍数如何同时存在。
+- [Kweichow Moutai](entities/kweichow-moutai.md)
+  Kweichow Moutai is referenced as a high-quality growth-to-maturity thought experiment for cash-flow distribution choices.
+  贵州茅台被作为从成长到成熟阶段的高质量企业思想实验，用来讨论现金流分配选择。
 - [Meta](entities/meta.md)
   Meta is a social, advertising, AI, and spatial-computing company whose AI infrastructure spending supports engagement, ads monetization, and model development. > Meta 是一家覆盖社交、广告、AI 和空间计算的公司，其 AI 基础设施支出服务于用户参与度、广告变现和模型研发。
 - [Microsoft](entities/microsoft.md)
@@ -77,6 +100,9 @@ _实体_
   Nvidia is the dominant GPU manufacturer and AI infrastructure leader, known for CUDA ecosystem and HBM-based compute accelerators. Acquired Groq in 2026, but faces fundamental architectural incompatibility between its SIMT approach and Groq's deterministic compiler. > Nvidia是领先的GPU制造商和AI基础设施巨头，以CUDA生态系统和基于HBM的计算加速器闻名。2026年收购Groq，但面临SIMT架构与Groq确定性编译器之间的根本性架构不兼容问题。
 - [OpenClaw](entities/openclaw.md)
   OpenClaw is an AI-driven CLI toolchain with plugin-based architecture. Released v2026.5.2 with xAI Grok 4.3 integration and refactored plugin system (now called "extensions"). > OpenClaw是一款AI驱动的CLI工具链，采用基于插件的架构。发布v2026.5.2，集成xAI Grok 4.3，重构插件系统（现称"extensions"）。
+- [S&P 500](entities/sp-500.md)
+  The S&P 500 is referenced as a market-level example of high shareholder cash-return conversion through dividends and buybacks.
+  标普 500 被引用为市场层面案例，说明通过分红与回购实现较高股东现金回报转化。
 - [Tokyo Marine](entities/tokyo-marine.md)
   Tokyo Marine is an insurance company referenced in Berkshire Hathaway's 2026 annual meeting as a strategic relationship rather than merely a financial exposure. > [[tokyo-marine|Tokyo Marine]] 是一家保险公司；在 Berkshire Hathaway 2026 年股东大会中，它被描述为战略关系，而不仅是财务敞口。
 - [TSMC](entities/tsmc.md)
@@ -85,8 +111,17 @@ _实体_
   The United States (USA) is engaged in high-level diplomatic negotiations with China under the Trump administration. Potential Xi-Trump meeting observed in early May 2026. US policy significantly impacts global technology and semiconductor markets. > 美国在特朗普政府领导下正与中国进行高层外交谈判。2026年5月初观察到可能举行的习近平和特朗普会晤。美国政策显著影响全球技术和半导体市场。
 - [Warren Buffett](entities/warren-buffett.md)
   Warren Buffett is Berkshire Hathaway's long-time leader and chairman, whose 2026 annual meeting role shifted from primary public answerer to symbolic steward and interviewer guest. > [[warren-buffett|Warren Buffett]] 是 Berkshire Hathaway 的长期领导者和 chairman；在 2026 年股东大会中，他的角色从主要公开回答者转为象征性守护者和访谈嘉宾。
+- [Wells Fargo](entities/wells-fargo.md)
+  Wells Fargo is referenced as a Buffett-associated U.S. bank case with meaningful dividends and buybacks.
+  富国银行被引用为与巴菲特相关的美国银行案例，具有较明显的分红与回购。
+- [Wuliangye](entities/wuliangye.md)
+  Wuliangye is used as a case for why low-yield balance-sheet cash may not deserve full face-value credit if it cannot become shareholder cash flow.
+  五粮液被用作案例，说明如果低收益账面现金无法转化为股东现金流，就未必应按面值充分计入估值。
 - [XAI](entities/xai.md)
   xAI is Elon Musk's AI company developing Grok, a family of large language models. Grok 4.3 is integrated into OpenClaw as of May 2026. > xAI是埃隆·马斯克的AI公司，开发Grok系列大语言模型。Grok 4.3已于2026年5月集成到OpenClaw中。
+- [Yum China](entities/yum-china.md)
+  Yum China is referenced as a mature company whose near-full shareholder return ratio can support a higher PE despite weak growth.
+  百胜中国被引用为成熟企业案例，说明接近 100% 的股东回馈率可以在增长乏力时支撑较高 PE。
 
 ## Concepts
 
@@ -98,6 +133,9 @@ _概念_
   AI CapEx is capital spending on data centers, accelerators, networking, power, cooling, and custom silicon required to train and serve AI workloads. > AI 资本开支是为训练和服务 AI 工作负载而投入的数据中心、加速器、网络、电力、冷却和定制芯片资本支出。
 - [AI Inference Economics](concepts/ai-inference-economics.md)
   AI inference economics describes the relationship between token demand, token pricing, compute cost per token, infrastructure utilization, and gross margin for model providers, cloud platforms, and downstream software vendors. > AI 推理经济学描述 token 需求、token 定价、每 token 算力成本、基础设施利用率和毛利率之间的关系，适用于模型提供商、云平台和下游软件厂商。
+- [Cash-Flow-Based Valuation](concepts/cash-flow-based-valuation.md)
+  Cash-Flow-Based Valuation values shareholder-deliverable cash flows with explicit assumptions for payout, growth, and required return instead of mechanically applying PE multiples.
+  现金流估值通过显式假设派现、增长和要求回报率来给可兑现给股东的现金流估值，而不是机械套用 PE 倍数。
 - [CoWoS](concepts/cowos.md)
   CoWoS (Chip on Wafer on Substrate) is TSMC's advanced packaging technology that integrates multiple chips and High Bandwidth Memory (HBM) on a silicon interposer. It enables massive die-to-die bandwidth and is critical for AI accelerator scaling beyond reticle limits. > CoWoS（基板上晶圆上芯片）是台积电的先进封装技术，在硅中介层上集成多个芯片和高带宽内存（HBM）。它实现大规模芯片间带宽，对AI加速器超越光罩限制的扩展至关重要。
 - [HBM](concepts/hbm.md)
@@ -106,6 +144,12 @@ _概念_
   Heterogeneous inference refers to the architectural approach of using different processing units for different inference tasks based on their specific requirements. Different hardware architectures excel at different operations: SRAM-based designs (like Groq's LPU) for low-latency decode, HBM-based GPUs for high-throughput batch processing. > 异构推理指根据不同推理任务的具体需求使用不同处理单元的架构方法。不同硬件架构擅长不同操作：基于SRAM的设计（如Groq的LPU）适合低延迟decode，基于HBM的GPU适合高吞吐量批处理。
 - [Physical AI](concepts/physical-ai.md)
   Physical AI refers to AI systems that interact with the physical world—autonomous vehicles, robots, and manufacturing systems. These applications require real-time processing, deterministic latency, and extreme reliability, creating fundamentally different requirements than cloud-based AI. > 物理AI指与物理世界交互的AI系统——自动驾驶汽车、机器人和制造系统。这些应用需要实时处理、确定性延迟和极高可靠性，产生与云端AI根本不同的需求。
+- [Shareholder Cash Flow Conversion Efficiency](concepts/shareholder-cash-flow-conversion-efficiency.md)
+  Shareholder Cash Flow Conversion Efficiency measures how much corporate free cash flow is converted into dividends and economically meaningful buybacks.
+  股东现金流兑现效率衡量企业自由现金流中有多少被转化为分红和具备经济意义的回购。
+- [Shareholder Free Cash Flow](concepts/shareholder-free-cash-flow.md)
+  Shareholder Free Cash Flow is the portion of corporate cash generation that actually reaches shareholders through dividends, economically meaningful buybacks, or liquidation.
+  股东自由现金流是企业现金创造中真正通过分红、具备经济意义的回购或清算到达股东手中的部分。
 - [SIMT](concepts/simt.md)
   SIMT (Single Instruction Multiple Thread) is the fundamental execution model used in modern GPUs, where groups of threads (warps) execute the same instruction on different data. Hardware warp schedulers dynamically switch between warps to hide memory latency, making it incompatible with deterministic compiler approaches. > SIMT（单指令多线程）是现代GPU使用的基本执行模型，其中线程组（warps）在不同数据上执行相同指令。硬件warp调度器动态切换warps以隐藏内存延迟，使其与确定性编译器方案不兼容。
 - [VLIW](concepts/vliw.md)
@@ -115,31 +159,18 @@ _概念_
 
 _分析_
 
+- [Amazon 2025 Shareholder Letter Strategic Map](analyses/20260616_manual_amazon-2025-shareholder-letter-strategic-map.md)
+  A bilingual interactive HTML artifact that maps Andy Jassy's 2025 Amazon shareholder letter into a strategic framework covering nonlinear growth, AI capex, AWS capacity, custom silicon, logistics, robotics, and culture.
+  一份双语交互式 HTML artifact，将 Andy Jassy 的 2025 年 Amazon 股东信整理为战略框架，覆盖非线性增长、AI 资本开支、AWS 产能、定制芯片、物流、机器人和组织文化。
 - [Jensen Huang Nvidia Moat HTML Artifact Mapping](analyses/20260517_mcp_jensen-huang-nvidia-moat-html-artifact-mapping.md)
   A second-brain note that maps each content unit from the Jensen Huang
   一条第二大脑笔记：把 Jensen Huang 关于 Nvidia 护城河访谈的各类内容，逐一映射到最合适的 HTML 表达方式，并保存一个最终独立
-- [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-2.md)
-  A complete ChatGPT-generated interactive HTML artifact for reasoning through
-  一份由 ChatGPT 生成的完整交互式 HTML artifact，用于判断新西兰 RV、PRV 与入籍时间规则。
-- [New Zealand RV PRV Citizenship Annotated Flowchart HTML](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html.md)
-  A redesigned HTML artifact concept for the New Zealand RV to PRV to citizenship
-  一版重新设计的新西兰 RV 到 PRV 再到入籍 HTML artifact 概念，参考 annotated flowchart 模式：可点击决策流程、右侧详情面板、TL;DR
-- [New Zealand RV PRV Citizenship Annotated Flowchart HTML Source](analyses/20260517_mcp_new-zealand-rv-prv-citizenship-annotated-flowchart-html-source.md)
-  The actual standalone HTML source for the New Zealand RV to PRV to citizenship
-  新西兰 RV 到 PRV 再到入籍 annotated flowchart 的独立 HTML 源码版。创建本页是因为上一版 second-brain
-- [New Zealand RV to PRV to Citizenship Complete Guide](analyses/20260517_mcp_new-zealand-rv-to-prv-to-citizenship-complete-guide.md)
-  A structured complete guide for planning the New Zealand pathway from
-  一份用于规划新西兰 Resident Visa 到 Permanent Resident Visa 再到 citizenship by grant
-- [Unified Save Note HTML Artifact Test](analyses/20260517_mcp_unified-save-note-html-artifact-test.md)
-  The unified save_note tool can preserve a complete HTML document as-is.
-  统一的 save_note 工具可以原样保存完整 HTML 文档。
-- [Unified Save Note Markdown Test](analyses/20260517_mcp_unified-save-note-markdown-test.md)
-  The unified save_note tool can save normal bilingual Markdown knowledge
-  统一的 save_note 工具可以保存普通双语 Markdown 知识笔记。
-
-- [Amazon 2025 Shareholder Letter Strategic Map](analyses/20260616_manual_amazon-2025-shareholder-letter-strategic-map.md)
-  A bilingual interactive HTML artifact mapping Andy Jassy's 2025 Amazon shareholder letter into nonlinear growth, AI capex, AWS capacity, custom silicon, logistics, robotics, and culture.
-  一份双语交互式 HTML artifact，将 Andy Jassy 的 2025 年 Amazon 股东信映射为非线性增长、AI 资本开支、AWS 产能、定制芯片、物流、机器人和组织文化。
+- [Mock Mermaid Markdown Analysis](analyses/20260618_mock_mermaid_markdown_analysis.md)
+  A temporary Markdown-only Deep Dive card used to verify Mermaid rendering without an HTML artifact.
+  一个临时的纯 Markdown Deep Dive 卡片，用于验证没有 HTML 制品时的 Mermaid 渲染。
+- [Shareholder Cash Flow Valuation Map](analyses/20260629_manual_shareholder-cash-flow-valuation-map.md)
+  A bilingual interactive HTML artifact mapping net income, operating cash flow, CapEx, FCF, dividends, buybacks, shareholder cash-flow conversion efficiency, and valuation formulas.
+  一份双语交互式 HTML artifact，映射净利润、经营性现金流、CapEx、FCF、分红、回购、股东现金流兑现效率和估值公式。
 
 ## Syntheses
 
